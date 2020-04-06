@@ -1,4 +1,4 @@
-[ISARIC-4C Coronavirus Clinical Characterisation Consortium](#isaric-4c-coronavirus-clinical-characterisation-consortium) | 
+__Navigation:__ [ISARIC-4C Coronavirus Clinical Characterisation Consortium](#isaric-4c-coronavirus-clinical-characterisation-consortium) | 
 [Data and materials access](#data-and-materials-access) | 
 [Summary](#summary)
 
