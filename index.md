@@ -1,6 +1,6 @@
-__Navigation:__ [ISARIC-4C Coronavirus Clinical Characterisation Consortium](#isaric-4c-coronavirus-clinical-characterisation-consortium) | 
-[Data and materials access](#data-and-materials-access) | 
-[Summary](#summary)
+__Navigation:__ 
+* [Data and materials access](#data-and-materials-access) | 
+* [Summary](#summary)
 
 
 # ISARIC-4C Coronavirus Clinical Characterisation Consortium
@@ -12,7 +12,7 @@ Click here for <a href="info">updates on outputs from the consortium</a>
 Click here if you would like access to <a href="sample_access">materials, data or the diagnostics and antibody therapeutics evaluation platform.</a>
 
 
-# Summary 
+## Summary 
 
 In 2019 new virus emerged(SARS-CoV-2) that causes a disease termed COVID-19. This may be mild but can also be severe, leading to viral pneumonia; about one in 100 infected people are expected to die of it.  There are many urgent questions that need answering to help control the outbreak and treat patients in the UK:
 
