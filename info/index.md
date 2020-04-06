@@ -1,7 +1,7 @@
 __Navigation:__ 
-[The ISARIC Coronavirus Clinical Characterisation Consortium (4C) study](#the-isaric-coronavirus-clinical-characterisation consortium-4C-study)
-[Governance](#governance)
-[Funding and Support](#funding-and-support)
+* [The ISARIC Coronavirus Clinical Characterisation Consortium (4C) study](#the-isaric-coronavirus-clinical-characterisation consortium-4C-study)
+* [Governance](#governance)
+* [Funding and Support](#funding-and-support)
 
 ---
 Title: Information for participants
