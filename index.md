@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# ISARIC-4C Coronavirus Clinical Characterisation Consortium
 
-You can use the [editor on GitHub](https://github.com/isaric4c/isaric4c.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Click here for <a href="info">updates on outputs from the consortium</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Data and materials access 
 
-### Markdown
+Click here if you would like access to <a href="sample_access">materials, data or the diagnostics and antibody therapeutics evaluation platform.</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# Summary 
 
-# Header 1
-## Header 2
-### Header 3
+In 2019 new virus emerged(SARS-CoV-2) that causes a disease termed COVID-19. This may be mild but can also be severe, leading to viral pneumonia; about one in 100 infected people are expected to die of it.  There are many urgent questions that need answering to help control the outbreak and treat patients in the UK:
 
-- Bulleted
-- List
+- how long are people infectious, and what body fluids are infectious?
+- what puts people at higher risk of severe illness?
+- what is the best way to diagnose the disease?
+- who should we treat early with drugs, and which drugs cause harm?
+- does the immune system in some patients do more harm than good?
+- what other infections(such as pneumonia or flu) happen at the same time?
 
-1. Numbered
-2. List
+The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak; our team deployed immediately and has been started collecting data and samples since the first cases were reported in the UK.
 
-**Bold** and _Italic_ and `Code` text
+The ISARIC-4C study will provide a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isaric4c/isaric4c.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We will provide real-time information about the course of COVID-19 while studying and the underlying biology that explains illness severity with the goal of controlling spread and better treating those who contract it.
