@@ -1,8 +1,10 @@
----
-Title: ISARIC4C
-canonical_url: isaric.net/4c
-disable_toc: false
----
+__Navigation:__ 
+[ISARIC-4C Virtual Site Visit](#isaric-4c-virtual-site-visit)
+[Site set-up](#site-set-up)
+[Documentation](#documentation)
+[Recruitment procedure](#recruitment-procedure)
+[Sample processing in site laboratories](#sample-processing-in-site-laboratories)
+[Contact details for questions](#contact-details-for-questions)
 
 # ISARIC-4C Virtual Site Visit
 
