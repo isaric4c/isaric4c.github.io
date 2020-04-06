@@ -1,5 +1,5 @@
 __Navigation:__ 
-* [Data and materials access](#data-and-materials-access) | 
+* [Data and materials access](#data-and-materials-access) 
 * [Summary](#summary)
 
 
