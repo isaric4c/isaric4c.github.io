@@ -1,14 +1,26 @@
-# *ISARIC4C* Sample access
+# SAMPLE REQUESTS
 
-We are recruiting using the ISARIC clinical characterisation protocol (https://isaric.net/ccp) TIER 2, PRIORITY 4. If you would like access to these samples, please email Fiona Griffiths (IDAMAC administrator; isaric4c-samples@roslin.ed.ac.uk) with brief answers to the following questions:
+ISARIC-4C is recruiting using the ISARIC clinical characterisation protocol. 
 
-* What samples (type & volume) do you need?
-* What will you do with the samples?
-* What is your previous track record of delivering similar work?
-* When will you complete the proposed work?
-* How will you fund the proposed work?
-* How do you plan to share data, results, and products from these samples?
-* Why will this help the global response to COVID19?
+Materials from **TIER 2, PRIORITY 4** can be made available at request. 
+
+Please see the study protocol (LINK) for further information to ensure your sample request falls within the protocol remit. 
+
+This will be convalescent samples and the following materials are available:
+* Plasma (EDTA tubes)
+* Serum (Clotted)
+* Blood in blood RNA tube
+* Combined nose and throat swab, otherwise a throat swab or nasopharyngeal swab alone 
+* Nasopharyngeal aspirate (NPA) 
+* Urine 
+* Rectal swab or stool specimen 
+* Samples/swabs from infected sites or sores
+
+If you are interested in requesting samples please complete and send the form below (LINK) to isaric4c-samples@roslin.ed.ac.uk
+
+A member of the IDAMAC administration team will contact you within 48 hours. 
+
+Your request will then be submitted to the IDAMAC for review and approval.
 
 
 
