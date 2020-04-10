@@ -18,7 +18,7 @@ This will be convalescent samples and the following materials are available:
 
 If you are interested in requesting samples please complete and send the form below (LINK) to isaric4c-samples@roslin.ed.ac.uk
 
-A member of the IDAMAC administration team will contact you within 48 hours. 
+A member of the IDAMAC administration team will contact you shortly. 
 
 Your request will then be submitted to the IDAMAC for review and approval.
 
