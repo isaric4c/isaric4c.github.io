@@ -1,8 +1,3 @@
-__Navigation:__ 
-* [Data and materials access](#data-and-materials-access) 
-* [Summary](#summary)
-
-
 # ISARIC-4C Coronavirus Clinical Characterisation Consortium
 
 Click here for <a href="info">updates on outputs from the consortium</a>
