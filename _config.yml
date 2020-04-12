@@ -1,1 +1,22 @@
+# top
 theme: jekyll-theme-minimal
+#theme: jekyll-theme-modernist
+#theme: jekyll-theme-dinky
+#theme: jekyll-theme-time-machine
+
+# ok
+#theme: minima
+#theme: jekyll-theme-hacker
+#theme: jekyll-theme-Midnight
+
+# reject
+#theme: jekyll-theme-Tactile
+#theme: jekyll-theme-Merlot
+#theme: jekyll-theme-leap-day
+#theme: jekyll-theme-architect
+#theme: jekyll-theme-cayman
+
+
+
+
+destination: /tmp/isaric4c_site

@@ -91,6 +91,5 @@ Further details are provided in the logistics guidance document (separate Scotti
 
 Site registration and recruitment packs: Hayley Hardwick [ccp@liverpool.ac.uk](mailto:ccp@liverpool.ac.uk)
 
-REDCap date entry: [ncov@isaric.org](ncov@isaric.org)
+REDCap date entry: [ncov@isaric.org](mailto:ncov@isaric.org)
 
-Operationalising recruitment: Clark Russell [clark.russell@ed.ac.uk](mailto:clark.russell@ed.ac.uk)

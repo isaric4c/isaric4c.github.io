@@ -1,15 +1,6 @@
-# ISARIC-4C Coronavirus Clinical Characterisation Consortium
+# ISARIC 4C (Coronavirus Clinical Characterisation Consortium)
 
-Click here for <a href="info">updates on outputs from the consortium</a>
-
-## Data and materials access 
-
-Click here if you would like access to <a href="sample_access">materials, data or the diagnostics and antibody therapeutics evaluation platform.</a>
-
-
-## Summary 
-
-In 2019 new virus emerged(SARS-CoV-2) that causes a disease termed COVID-19. This may be mild but can also be severe, leading to viral pneumonia; about one in 100 infected people are expected to die of it.  There are many urgent questions that need answering to help control the outbreak and treat patients in the UK:
+We are a UK-wide consortium of doctors and scientists committed to answering urgent questions about COVID-19 quickly, openly, and for the benefit of all.
 
 - how long are people infectious, and what body fluids are infectious?
 - what puts people at higher risk of severe illness?
@@ -18,8 +9,20 @@ In 2019 new virus emerged(SARS-CoV-2) that causes a disease termed COVID-19. Thi
 - does the immune system in some patients do more harm than good?
 - what other infections(such as pneumonia or flu) happen at the same time?
 
-The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak; our team deployed immediately and has been started collecting data and samples since the first cases were reported in the UK.
+The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp); our team deployed immediately and has been collecting data and samples since the first cases were reported in the UK.
 
-The ISARIC-4C study will provide a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
+## Funding
 
-We will provide real-time information about the course of COVID-19 while studying and the underlying biology that explains illness severity with the goal of controlling spread and better treating those who contract it.
+ISARIC 4C is funded by a grant from UKRI (MRC) with a total value of £5.9M to JK Baillie (PI), University of Edinburgh; MG Semple, University of Liverpool; and P Openshaw, Imperial College London (co-leads). Full list of [investigators and specific deliverables](about/structure).
+
+## Plan
+
+We are funded to obtain serial samples from 300 cases and single samples for a further 1000. A full list of samples can be found in the [UK clinical characterisation protocol](protocols). This is a generic, sleeping protocol that is designed to give fast responses with global harmonisation during outbreaks.
+
+We will share samples to get answers as fast as possible. We will not end this outbreak sitting on a biobank; our intention is to use every drop of every sample, now, to have the biggest possible impact on the COVID-19 crisis. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC-4C study will provide a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
+
+
+
+
+
+
