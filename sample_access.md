@@ -1,12 +1,12 @@
-# SAMPLE REQUESTS
+# DATA and SAMPLE ACCESS REQUESTS
 
-Any investigator with the resources and capability can apply to access finite materials and protected data using the form below. Detailed, anonymised data will be openly available so no application is needed.
+Any investigator with the resources and capability can apply to access finite materials or protected data using the form below. Detailed, anonymised data will be openly available so no application is needed.
 
 ## What do we have?
 
 Please carefully read [the clinical characterisation protocol here](protocols) to see what samples we will be obtaining before you submit a request. We will post regular [updates on recruitment](/info).
 
-Briefly, e are recruiting at TIER2 Priority level 4 of the [CCP](protocols), which means we obtain the following samples at days 1,3,9 nd 28:
+Briefly, we are recruiting at TIER2 Priority level 4 of the [CCP](protocols), which means we obtain the following samples at days 1,3,9 nd 28:
 
 * Serum (Clotted)
 * Plasma (EDTA tubes)
