@@ -26,11 +26,11 @@ ISARIC 4C is one the UK-wide NIHR Urgent Public Health Priority studies for hosp
 
 **R**andomised **E**valuation of **COV**ID-19 Th**er**ap**y** (MRC/DHSC-funded). Trial of widely available, high-priority interventions, among confirmed COVID19 cases requiring hospital admission, to determine effect on death or requirement for invasive ventilation. Interventions will be added and removed over time as needed. Given the unprecedented impact COVID 19 will have on the health of the population, even small clinical benefits may be of significant benefit. Designed to give individual patients the best chance of getting an effective therapy. To do this we need GCP-trained research nurses to support front-line clinical staff recruiting patients.
 
-#### [RECOVERY Supportive Care Trial]()
+#### [RECOVERY-RS trial](https://warwick.ac.uk/fac/sci/med/research/ctu/trials/recovery-rs/)
 
 > *Adaptive platform trial of supportive care interventions, consent waived*
 
-An adaptive platform trial randomising deterioriating hospitalised patients to supportive care interventions: initially CPAP and HFNO.
+RECOVERY-RS is a multi-centre, pragmatic clinical trial evaluating the use of CPAP and / or high flow nasal oxygenation to prevent intubation and reduce mortality.  Uncertainty about the effectiveness of CPAP / HFNO in COVID-19 have led to conflicting guidance on the use of these interventions. Recruits patients with acute respiratory impairment (FiO2 >0.4 and SpO2 < 94%). Sites may choose to enrol in one or both arms of the trial (CPAP versus standard care, HFNO versus standard care or CPAP versus HFNO versus standard care). Sites are encouraged to contact the co-ordinating centre at RECOVERY-RS@warwick.ac.uk to log their interest in participation.
 
 <hr>
 
