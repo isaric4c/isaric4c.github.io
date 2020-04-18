@@ -19,7 +19,7 @@ Welcome to the ISARIC-4C study virtual site visit. Thank you very much for suppo
     - Tier 1 - data + single biological sample on recruitment day (day 1)
     - Tier 2 - data + serial biological samples (days 1, 3, 9 and 3-months)
 1. *If recruiting to Tier 1 or 2*, provide contact person and postal address that sample kits can be sent to.
-1. Request access to REDCap for data entry by e-mailing [ncov@isaric.org](ncov@isaric.org) - separate sites within same institution should request separate access.
+1. Request access to [REDCap](https://ncov.medsci.ox.ac.uk ) for data entry by e-mailing [ccp.REDCap@liverpool.ac.uk](ccp.REDCap@liverpool.ac.uk) - separate sites within same institution should request separate access.
 1. Create GCP-compliant site file stored in a secure location
 
 ## Documentation

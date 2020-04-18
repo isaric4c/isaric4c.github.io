@@ -1,20 +1,20 @@
-# How to edit this website? 
+# How to edit this website?
 
 ## How to create a new file?
 * Log into Github with your github account
-* On this page, navigate to any of the files that you want to change (some are in subfolders). 
-* Editable files have an '.md' ending. 
+* On this page, navigate to any of the files that you want to change (some are in subfolders).
+* Editable files have an '.md' ending.
 * Click on the file
-* On the top right, there is small pencil-icon. 
-* Click that icon and edit the page. 
+* On the top right, there is small pencil-icon.
+* Click that icon and edit the page.
 * The page uses [Markdown], to create e.g., headings and make text __bold__ or _italic_.
 
 
 ## How to create a new file?
-* Navigate to the folder you want a new file to be placed. 
-* On the top right, there is a button 'Create new File'. 
+* Navigate to the folder you want a new file to be placed.
+* On the top right, there is a button 'Create new File'.
 * give the file a name with the ending '.md'.
-* Edit the content of the page. 
+* Edit the content of the page.
 * Voila!
 
 ## How can I link to that new file?
