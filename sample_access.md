@@ -6,7 +6,7 @@ Any investigator with the resources and capability can apply to access finite ma
 
 Please carefully read [the clinical characterisation protocol here](protocols) to see what samples we will be obtaining and [the case report form here] (protocols) before you submit a request. We will post regular [updates on recruitment](/info).
 
-Briefly, we are recruiting at TIER2 Priority level 4 of the [CCP](protocols), which means we obtain the following samples at days 1,3,9 nd 28:
+Briefly, we are recruiting at TIER2 Priority level 4 of the [CCP](protocols), which means we obtain the following samples at days 1,3,9 nd 28 (day 1 is day of recruitment):
 
 * Serum (Clotted)
 * Plasma (EDTA tubes)
