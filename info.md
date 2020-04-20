@@ -4,7 +4,7 @@ This page is intended to provide updates for participants on the work that has b
 
 ## Key achievements
 
-- **Predicting risk** We have produced the largest study anywhere in the world of COVID-19 cases (16,554 cases so far), enabling us to produce the most accurate [risk prediction](/risk) models for the UK population. These will continue to improve. The first one shows that obesity is an important risk factor. This finding will help to protect people at high risk of death from COVID-19.
+- **Predicting risk** We have produced the largest study anywhere in the world of COVID-19 cases (16,554 cases so far), enabling us to produce the most accurate [risk prediction]() models for the UK population. These will continue to improve. The first one shows that obesity is an important risk factor. This finding will help to protect people at high risk of death from COVID-19.
 
 
 - **Testing the tests** We proposed and established a Diagnostic Evaluation Platform at the University of Oxford (led by Dr Alex Mentzer) which is already being used to provide evidence to the UK government about the performance of new diagnostic and antibody tests. This work is essential because if tests work well they can save lives; if they don't, they can cause enormous damage.
