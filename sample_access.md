@@ -41,7 +41,7 @@ We will then provide independent confirmation that your test works.
 
 We have already supplied the first material anywhere in the world for use as a biological reference standard (see [isaric4c.net/info](/info)). We now refer all requests for biological standards to NIBSC.
 
-## Sample access
+## Sample and Data access
 
 Access to all data and samples collected in the ISARIC 4C study are controlled by an **independent data and materials access committee (IDAMAC)**, composed of representatives of research funders, academia, clincal medicine, public health and industry. Their job is to ensure that all samples are used to generate the greatest possible benefit to humanity, in the shortest possible time.
 
