@@ -59,6 +59,6 @@ If you are interested in requesting samples or data please *briefly* answer the 
 
 ## Current Requests
 
-[Current Requests](https://docs.google.com/spreadsheets/d/1EFmp9HEKyZiaJXb1YbW4lXvsuu8wQe9F7_CzUK12eA4/edit?usp=sharing)a
+[Current Requests](https://docs.google.com/spreadsheets/d/1EFmp9HEKyZiaJXb1YbW4lXvsuu8wQe9F7_CzUK12eA4/edit?usp=sharing)
 
 
