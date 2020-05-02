@@ -57,4 +57,8 @@ If you are interested in requesting samples or data please *briefly* answer the 
 - Why will this help the global response to COVID19?
 - What assurance can you give with regards to your safe handling and secure storage of samples and data?
 
+## Current Requests
+
+[Current Requests](https://docs.google.com/spreadsheets/d/1EFmp9HEKyZiaJXb1YbW4lXvsuu8wQe9F7_CzUK12eA4/edit?usp=sharing)a
+
 
