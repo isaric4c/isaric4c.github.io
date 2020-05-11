@@ -45,7 +45,7 @@ We have already supplied the first material anywhere in the world for use as a b
 
 Access to all data and samples collected by ISARIC4C are controlled by an **Independent Data and Materials Access Committee (IDAMAC)**, composed of representatives of research funders, academia, clinical medicine, public health and industry. Their job is to ensure that all data and samples are used to generate the greatest possible benefit to humanity, in the shortest possible time.
 
-If you are interested in requesting samples or data please *briefly* answer the questions below and send to **isaric4c-samples@roslin.ed.ac.uk**, including this statment in your email:
+If you are interested in requesting samples or data please *briefly* answer the questions below and send to **isaric4c-samples@roslin.ed.ac.uk**, including this statement in your email:
 > "I agree for the contents of my application to be shared publicly on the internet and other media by the ISARIC 4C consortium."
 
 - What samples (type & volume) or data do you need?
