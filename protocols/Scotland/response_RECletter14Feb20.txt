@@ -1,0 +1,27 @@
+Conditions
+
+1. "The Committee would like written clarification in a cover letter onheaded paper as to whether research staff will be members of theclinical team or not."
+==> for cover letter
+
+2. "The Committee would like written confirmation in the aforementionedcover letter on headed paper, that the use of deferred consent inScotland will be removed and that any reference to deferred consentwill also be removed from the paperwork for Adults With Incapacity(AWI)."
+==> amended in protocol
+
+3. "The Committee would like written confirmation in the aforementionedcover letter on headed paper, that the PIS & Consent Form forParent/Guardians of 16-18 year olds will not be used in Scotland andthat the Guardian/Welfare Attorney/Closest Relative PIS will be usedfor this age group."
+==> not mentioned directly in protocol; for cover letter
+
+4. "The Committee would like written confirmation in the aforementionedcover letter on headed paper, that there will be no use ofProfessional Legal Representatives in Scotland and that anyreference to a Professional Legal Representative, will be removedfrom the AWI paperwork."
+==> not mentioned in protocol/PIS; for cover letter
+
+5. "As per the AWI (Scotland) Act 2000, those seeking consent mustensure that they put aside their own feelings and wishes andconsider what the past and present, feelings and wishes of theperson they are consenting on behalf of, would have been, had theybeen able to consent for themselves."
+==> amended in relevant PIS
+
+6. "The PIS refers to patients being re-consented should they regaincapacity whilst in the study, but no Recovered Capacity PIS orConsent Form were submitted for review."
+==> new PIS and consent form created (regainedcapacity_consent and regainedcapacity_pis)
+
+Recommendations
+
+1. "It is the opinion of the Committee that it is always beneficial andreassuring for participants, to know that they can contact someone totalk to, who is not connected to the study should they wish to do so.At present there are no details provided of an Independent Person(someone who is independent from the study)."
+==> included field for this in PIS/consent forms - to be populated.
+
+2. "In Scotland, Children over the age of 12 who are deemed to havecapacity can consent on their own behalf, but the Committee notedthat there is a Signature line on the Assent form for under 12’s. TheCommittee would like to suggest that the researchers considerchanging this to a name line, for the child to write their name ratherthan have a signature line."
+==> amended in 12to16_assent_2.0.docx

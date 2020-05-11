@@ -1,0 +1,33 @@
+Date changed to 28th February 2020.
+
+Version changed to 2.0 reflecting new protocol.
+
+Footer remains to be updated.
+
+IRAS ref changed to 279826.
+
+REC ref changed to "Scotland A Research Ethics Committee (Ref 20/SS/0028)".
+
+Inclusion of SAM strip and crevicular fluid in biological samples.
+
+Inclusion of optional sub-studies (pharmacokinetics, cellular immunology, environmental transmission, large volume convalescent sampling): Table 5.
+
+Details of large volume convalescent sampling: section 4.8.1.
+
+Added Section 8.2 Informed Consent: "In Scotland, proxy consent will be obtained from the patient’s guardian, welfare attorney or closest family member in accordance with the 2010 Adults with Incapacity (Scotland) Act 2000."
+
+Per *Condition 2* of Scottish REC letter, reference to deferred consent has been removed.
+
+8.12 Revision History updated to include relevant points from above AND differences between approved Scottish version (1.0) and approved English version (8.2) used as base for this new protocol.
+
+
+For 12-16 year old assent form, signature line for patient removed per *Recommendation 2* from Scottish REC letter.
+
+Per *Condition 5* of Scottish REC letter, the following statement was added to nok_pis and nok_consent: "When deciding, please put aside your own feelings and wishes and consider what the past and present feelings and wishes of the person you are consenting on behalf of would have been, had they been able to consent for themselves."
+
+New form for convalescent large volume sampling: convalescent_pisconsent_1.0
+
+Per *Recommendation 1* of Scottish REC letter, the following statement was added to all pis/consent/assent forms:
+"If you would like to discuss this study with someone independent of the study team please contact: [**independent_contact_name**] on: [**independent_contact_phone**] or email: [**independent_contact_email**]." -- NEEDS POPULATED
+
+Creation of new PIS and consent form for adults with regained capacity, per *Condition 6* of Scottish REC letter.
