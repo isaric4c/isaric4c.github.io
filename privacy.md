@@ -167,4 +167,4 @@ details below. Alternatively, you can contact the study sponsor on 01865
 with the Information Commissioner's Office (0303 123 1113 or
 [www.ico.org.uk](http://www.ico.org.uk).
 
-**Email: ccp\@liverpool.ac.uk**
+**Email: ccp@liverpool.ac.uk**
