@@ -113,7 +113,7 @@ COPI covers data from participants recruited in England and Wales only.
 
 ### Participants in Scotland:
 
-We will send your unique study number, NHS number, date of birth,
+We will send your unique study number, CHI number, date of birth,
 postcode and gender to NHS Scotland. This allows them to retrieve data
 from routine records (held by NHS Scotland, Public Health Scotland, GPs
 and National Records of Scotland) about your hospital visits and care,
