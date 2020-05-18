@@ -15,7 +15,7 @@ This page is intended to provide updates for participants on the work that has b
 We have recruited:
 - 650 patients at Tier 2 (serial sampling)
 - 173 at Tier 1 (single sample)
-- 25,000 at Tier Zero (data only)
+- 40,303 at Tier Zero (case report forms - source data for the COVID-19 Clinical Information Network (CO-CIN))
 - Critically-ill patients can also be recruited to a sister study, the [ISARIC GenOMICC study](https://genomicc.org)
 
 
