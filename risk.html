@@ -482,9 +482,8 @@
     const circleRadius = 7;
 
     const x = d3.scaleLinear().domain([0, numColumns]).range([0, subplotWidth]);
-    // const y = d3.scaleLinear().domain([0, numRows]).range([height, 0]);
 
-    const y = i => circleRadius * 3 * i; // TODO: refine
+    const y = i => circleRadius * 3 * i;
 
     const svg = d3.select("#waffle-static")
       .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
