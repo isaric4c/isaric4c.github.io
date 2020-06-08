@@ -11,7 +11,7 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 
 The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp); our team deployed immediately and has been collecting data and samples since the first cases were reported in the UK.
 
-![ISARIC 4C Overview](https://baillielab.net/img/isaric4c/ISARIC_UKmap.png){#fig:map}
+![ISARIC 4C Overview](https://baillielab.net/img/isaric4c/ISARIC_UKmap.png)
 
 ## Funding
 
