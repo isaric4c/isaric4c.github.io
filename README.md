@@ -20,6 +20,11 @@
 ## How can I link to that new file?
 * Ask Benjamin in slack
 
-
 ## How can I upload a picture / video?
 * Ask Benjamin in slack
+
+## How can I view the website offline?
+
+* install jekyll
+* Download all files, open a terminal window, navigate to the directory and enter:
+bundle exec jekyll serve

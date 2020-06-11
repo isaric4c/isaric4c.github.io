@@ -1,0 +1,31 @@
+# Tasks to double check in each form
+
+- Check Version numbers are in one of two formats:
+Version 8.1
+v8.1
+
+- Check all dates are in one of two formats:
+8th February 2020
+08FEB2020
+
+- Check all replaceable text is highlighted in red and is an *exact* string from this list:
+
+Local:
+[***hospital***]
+[***hospital_logo***]
+[***local_investigator_name***]
+[***local_contact_details***]
+[***local_research_office_phone_number***]
+[***study_coordinator_contact_details***]
+
+- check participant ID is at the top of the first signature page on consent form *only*
+
+- remove "SARI Study" from everything
+
+- add IDAMAC to protocol and consent documentation
+
+- double check formatting on consent forms - sorry!! This was a necessary change but it does create some work. Please do not use complex formatting such as sections etc.
+
+- double check bold highlighting in all consent forms
+
+- footers - please DO NOT remove the linebreak between the document label and the page number! Double check the footer matches the document type
