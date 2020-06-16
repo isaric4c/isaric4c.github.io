@@ -20,8 +20,32 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+    {% if page.url contains '/info' %}
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+
+        <script>
+            function updatePatientCounts(){
+                d3.csv("https://raw.githubusercontent.com/SurgicalInformatics/ccp_recruitment_flat_file/master/ccp_recruit_daily.csv")
+                .then(data => {
+                    if (!data){ return; }
+                    document.getElementById("date").innerText = "As of " + data[0]["date_last_run"].split("T")[0] + ", we";
+                    document.getElementById("num-tier-0").innerText = data[0]["n_tier0"];
+                    document.getElementById("num-tier-1").innerText = data[0]["n_tier1"];
+                    document.getElementById("num-tier-2").innerText = data[0]["n_tier2"];
+                })
+            }
+        </script>
+    {% endif %}
+
   </head>
-  <body>
+
+    {% if page.url contains '/info' %}
+      <body onload="updatePatientCounts()">
+    {% else %}
+      <body>
+    {% endif %}
+
     <div class="wrapper">
       <header>
         <table>
