@@ -136,11 +136,11 @@
     - DELIVERABLE: Upscaling of neutralization assay for high throughput. Pollakis.[WEEKS 20-34]
     - DELIVERABLE: High throughput neutralization measurement on all samples. Pollakis.[WEEKS 35-48]
 
-**WP8. Facilitating translation to local clinical guidelines** (*Symington(lead), Bach(deputy), Grover, Baillie, Russell*)
+**WP8. Facilitating translation to local clinical guidelines** (*Alex(lead), Bach(deputy), Grover, Baillie, Russell*)
 
-- AI-driven guideline/protocol sharing system for local clinicians.(*Symington, Bach*)[WEEKS 0-30]
+- AI-driven guideline/protocol sharing system for local clinicians.(*Alex, Bach*)[WEEKS 0-30]
     - DELIVERABLE: Collate, compare and present local clinical guidelines. Russell.[WEEKS 0-10]
-    - DELIVERABLE: Create AI engine. Symington.[WEEKS 0-30].
+    - DELIVERABLE: Create AI engine. Alex.[WEEKS 0-30].
     - DELIVERABLE: Create web interface. Bach.[WEEKS 0-20].
 
 **WP9. Long-term follow-up (unfunded)** (*Lone(lead), Semple(deputy), Jenkins, Turtle, Docherty, Baillie, Russell, many others...*)

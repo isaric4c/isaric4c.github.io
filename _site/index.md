@@ -11,6 +11,8 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 
 The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp); our team deployed immediately and has been collecting data and samples since the first cases were reported in the UK.
 
+![ISARIC 4C Overview](https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg)
+
 ## Funding
 
 ISARIC 4C is funded by a grant from UKRI (MRC) with a total value of £5.9M to JK Baillie (PI), University of Edinburgh; MG Semple, University of Liverpool; and P Openshaw, Imperial College London (co-leads). Full list of [investigators and specific deliverables](about/structure).
