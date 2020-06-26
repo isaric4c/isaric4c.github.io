@@ -10,15 +10,7 @@ This page is intended to provide updates for participants on the work that has b
 
 - **Testing the tests** We proposed and established a Diagnostic Evaluation Platform at the University of Oxford (led by Dr Alex Mentzer) which is already being used to provide evidence to the UK government about the performance of new diagnostic and antibody tests. This work is essential because if tests work well they can save lives; if they don't, they can cause enormous damage. [See the paper here.](https://www.medrxiv.org/content/10.1101/2020.04.15.20066407v1)
 
-- **Defining the international reference standard for COVID-19 serology** ISARIC 4C provided the first 11 samples to the National Institute for Biological Standards and Control (NIBSC) from COVID-19 cases. These samples will be used to make an international standard, which will be used all over the world to compare results from blood tests for COVID-19.
-
-## Recruitment
-
-<span id="date">We</span> have recruited:
-- <span id="num-tier-2">650</span> patients at Tier 2 (serial sampling)
-- <span id="num-tier-1">173</span> at Tier 1 (single sample)
-- <span id="num-tier-0">40,303</span> patients at Tier Zero (case report forms - source data for the COVID-19 Clinical Information Network (CO-CIN))
-- Critically-ill patients can also be recruited to a sister study, the [ISARIC GenOMICC study](https://genomicc.org)
+- **Defining the international reference standard for SARS-CoV-2 serology** ISARIC 4C provided the first samples to the National Institute for Biological Standards and Control (NIBSC) from COVID-19 cases. These were used to make the WHO International Standard for SARS-CoV-2 serology, which will be used all over the world to compare results from blood tests for COVID-19. 7 of the 11 patients who contributed to the standard were recruited by ISARIC 4C.
 
 
 
