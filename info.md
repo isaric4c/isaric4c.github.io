@@ -4,7 +4,7 @@ This page is intended to provide updates for participants on the work that has b
 
 ## Key achievements
 
-- During its first 3 months, the ISARIC 4C consortium expanded from the initial 34 co-investigators to more than 150 active contributors.
+- During its first 3 months, the ISARIC 4C consortium expanded from the initial 34 co-investigators to more than 150 active contributors, and provides a data and sampling infrastructure for follow-up of COVID cases in the P-HOSP consortium.
 
 - **Supporting autopsy work** ISARIC 4C resources and consortium partners supported the COVID-19 post-mortem case series reported here: [https://www.medrxiv.org/content/10.1101/2020.07.02.20145003v1](https://www.medrxiv.org/content/10.1101/2020.07.02.20145003v1). This is one of several pieces of evidence that changes the model of COVID pathogenesis, supporting a primary role for the host immune system in causing fatal disease.
 
