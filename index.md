@@ -1,3 +1,12 @@
+---
+layout: home
+title: Jekyll Serif Theme
+description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+intro_image: "images/illustrations/pointing.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
+---
+
 # ISARIC 4C (Coronavirus Clinical Characterisation Consortium)
 
 We are a UK-wide consortium of doctors and scientists committed to answering urgent questions about COVID-19 quickly, openly, and for the benefit of all.
@@ -23,5 +32,3 @@ We are funded to obtain serial samples from 300 cases and single samples for a f
 
 We will share samples to get answers as fast as possible. We will not end this outbreak sitting on a biobank; our intention is to use every drop of every sample, now, to have the biggest possible impact on the COVID-19 crisis. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC-4C study will provide a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
 
-
-{% include_relative landscape.md %}

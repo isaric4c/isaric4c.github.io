@@ -1,27 +1,57 @@
-# top
-#theme: jekyll-theme-minimal
-theme: jekyll-theme-modernist
-#theme: jekyll-theme-dinky
-#theme: jekyll-theme-time-machine
-#remote-theme: jekyll-serif-theme
-#remote-theme: startbootstrap-clean-blog-jekyll
-#remote-theme: freelancer-theme
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'ISARIC 4C consortium'
 
-# ok
-#theme: minima
-#theme: jekyll-theme-hacker
-#theme: jekyll-theme-Midnight
-#theme: jekyll-theme-slate
+google_analytics_id: 'UA-177150860-1'
+homepage:
+  show_call_box: true
+logo:
+  mobile: "images/logo/isaric4c-logo.png"
+  desktop: "images/logo/isaric4c-logo.png"
+  desktop_height: "36px"
+footer:
+  copyright_text: 'ISARIC 4C consortium'
 
-# reject
-#theme: jekyll-theme-Tactile
-#theme: jekyll-theme-Merlot
-#theme: jekyll-theme-leap-day
-#theme: jekyll-theme-architect
-#theme: jekyll-theme-cayman
+seo:
+  meta_og_title: "ISARIC 4C consortium"
+  meta_og_type: "website"
+  meta_og_url: "https://isaric4c.net"
+  meta_og_image: "https://isaric4c.net/images/logo/isaric4c-logo.png"
+  meta_og_description: "ISARIC 4C consortium."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@CCPUKstudy"
+  meta_twitter_creator: "@CCPUKstudy"
 
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
 
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
 
 destination: /tmp/isaric4c_site
-#destination: _site
+
+
+
+
+
 
