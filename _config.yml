@@ -4,8 +4,6 @@ permalink: pretty
 title: 'ISARIC 4C consortium'
 
 google_analytics_id: 'UA-177150860-1'
-homepage:
-  show_call_box: true
 logo:
   mobile: "img/logo/logo_mini.svg"
   desktop: "img/logo/logo_mini.svg"
