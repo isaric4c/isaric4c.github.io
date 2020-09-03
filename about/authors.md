@@ -7,13 +7,15 @@ layout: 'page'
 ISARIC4C Consortium Authors
 =======
 
-The ISARIC4C Author list aims to respect contributions to the
+The ISARIC4C author list aims to respect contributions to the
 Protocol, MRC and DHSC grant applications and those who since have made
 a substantive academic contribution to delivering the CCP-UK, which
 includes CO-CIN related activity (described in the protocol as CCP-UK
 Tier Zero activity).
 
 This document is managed by the co-leads of the ISARIC 4C.
+We hope we have done everthing we can to recognise your contribution.
+Please email ccp@liverpool.ac.uk if there you spot any omission.
 
 The **Protocol Authors** are: J Kenneth Baillie, Malcolm (Calum) G Semple,
 Gail Carson, Peter Openshaw, Jake Dunning, Laura Merson, Clark D
