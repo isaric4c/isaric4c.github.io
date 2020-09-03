@@ -3,8 +3,8 @@ layout: home
 title: ISARIC 4C consortium
 description: The UK ISARIC Coronavirus Clinical Characterisation Consortium.
 intro_image: "https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+intro_image_absolute: false
+intro_image_hide_on_mobile: false
 ---
 
 # ISARIC 4C (Coronavirus Clinical Characterisation Consortium)
@@ -18,7 +18,7 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 - does the immune system in some patients do more harm than good?
 - what other infections(such as pneumonia or flu) happen at the same time?
 
-The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp); our team deployed immediately and has been collecting data and samples since the first cases were reported in the UK.
+Over the last 8 years we have been preparing for such a major outbreak worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp); our team deployed immediately and has been collecting data and samples since the first cases were reported in the UK.
 
 <!--![ISARIC 4C Overview](https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg)-->
 
@@ -26,9 +26,5 @@ The UK needs a coordinated response to answer these questions as quickly as poss
 
 ISARIC 4C is funded by a grant from UKRI (MRC) with a total value of £5.9M to JK Baillie (PI), University of Edinburgh; MG Semple, University of Liverpool; and P Openshaw, Imperial College London (co-leads). Full list of [investigators and specific deliverables](about/structure).
 
-## Plan
-
-We are funded to obtain serial samples from 300 cases and single samples for a further 1000. A full list of samples can be found in the [UK clinical characterisation protocol](protocols). This is a generic, sleeping protocol that is designed to give fast responses with global harmonisation during outbreaks.
-
-We will share samples to get answers as fast as possible. We will not end this outbreak sitting on a biobank; our intention is to use every drop of every sample, now, to have the biggest possible impact on the COVID-19 crisis. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC-4C study will provide a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
+We share samples to get answers as fast as possible. We will not end this outbreak sitting on a biobank; our intention is to use every drop of every sample, now, to have the biggest possible impact on the COVID-19 crisis. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC-4C study provides a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
 

@@ -1,7 +1,7 @@
 ---
 title: Outputs
 layout: outputs
-intro_image: "img/illustrations/reading.svg"
+intro_image: "img/figures/outputs_chosen.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---

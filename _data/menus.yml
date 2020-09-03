@@ -5,14 +5,17 @@ main:
   - name: "About"
     url: "/about/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
+  - name: "Access requests"
+    url: "/sample_access/"
+    weight: 4
+  - name: "Site set-up"
+    url: "/setup/"
+    weight: 4
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Privacy"
+    url: "/privacy/"
     weight: 2

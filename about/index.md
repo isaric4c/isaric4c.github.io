@@ -15,4 +15,5 @@ This is a new disease. There is a high chance that clinical trials will fail to 
 
 Our response has been planned and tested over the past 8 years within the International Severe Acute Respiratory Infection Consortium (ISARIC).
 
-Click on the links in the menu above to learn more about our work.
+* [Project deliverables](structure)
+* [Contributors](authors)

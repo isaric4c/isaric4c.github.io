@@ -1,7 +1,7 @@
 ---
 title: "Characterisation of hospitalised cases of COVID-19"
 featured: true
-weight: 100
+weight: 1
 ---
 
 # Quantifying the problem
