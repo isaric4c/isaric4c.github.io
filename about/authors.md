@@ -1,3 +1,9 @@
+---
+title: 'About'
+layout: 'page'
+---
+
+
 ISARIC4C Consortium Authors
 ===========================
 

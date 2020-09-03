@@ -1,12 +1,12 @@
 [
   {
     "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "image": "images/social/github.svg"
+    "link": "https://github.com/baillielab/",
+    "image": "img/social/github.svg"
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
-    "image": "images/social/twitter.svg"
+    "link": "https://twitter.com/ccpukstudy",
+    "image": "img/social/twitter.svg"
   }
 ]

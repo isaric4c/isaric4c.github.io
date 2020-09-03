@@ -1,3 +1,9 @@
+---
+title: 'About'
+layout: 'page'
+---
+
+
 # Consortium leadership
 
 - Kenneth Baillie (j.k.baillie@ed.ac.uk)

@@ -1,3 +1,9 @@
+---
+title: 'About'
+layout: 'page'
+---
+
+
 # DATA and SAMPLE ACCESS REQUESTS
 
 Any investigator with the resources and capability can apply to access finite materials or protected data using the form below.

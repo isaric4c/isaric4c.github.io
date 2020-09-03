@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Jekyll Serif Theme
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
+title: ISARIC 4C consortium
+description: The UK ISARIC Coronavirus Clinical Characterisation Consortium.
+intro_image: "https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
@@ -20,7 +20,7 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 
 The UK needs a coordinated response to answer these questions as quickly as possible. Over the last 8 years we have been preparing for such a major outbreak worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp); our team deployed immediately and has been collecting data and samples since the first cases were reported in the UK.
 
-![ISARIC 4C Overview](https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg)
+<!--![ISARIC 4C Overview](https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg)-->
 
 ## Funding
 

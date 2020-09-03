@@ -256,10 +256,10 @@ models:
             value: main
           - label: Footer Menu
             value: footer
-  service:
+  output:
     type: page
-    label: Service
-    folder: services
+    label: output
+    folder: outputs
     exclude: _index.md
     fields:
       - type: string
@@ -277,10 +277,10 @@ models:
       - type: number
         name: weight
         label: Weight
-  services:
+  outputs:
     type: page
-    label: Services Overview
-    file: services/_index.md
+    label: Outputs Overview
+    file: outputs/_index.md
     singleInstance: true
     fields:
       - type: string

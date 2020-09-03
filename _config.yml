@@ -7,8 +7,8 @@ google_analytics_id: 'UA-177150860-1'
 homepage:
   show_call_box: true
 logo:
-  mobile: "images/logo/isaric4c-logo.png"
-  desktop: "images/logo/isaric4c-logo.png"
+  mobile: "img/logo/logo_mini.svg"
+  desktop: "img/logo/logo_mini.svg"
   desktop_height: "36px"
 footer:
   copyright_text: 'ISARIC 4C consortium'
@@ -17,28 +17,28 @@ seo:
   meta_og_title: "ISARIC 4C consortium"
   meta_og_type: "website"
   meta_og_url: "https://isaric4c.net"
-  meta_og_image: "https://isaric4c.net/images/logo/isaric4c-logo.png"
+  meta_og_image: "https://isaric4c.net/img/logo/isaric4c-logo.png"
   meta_og_description: "ISARIC 4C consortium."
   meta_twitter_card: "summary"
   meta_twitter_site: "@CCPUKstudy"
   meta_twitter_creator: "@CCPUKstudy"
 
 collections:
-  services:
+  outputs:
     output: true
-    permalink: /services/:path/
+    permalink: /outputs/:path/
   team:
     output: true
     permalink: /team/:path/
 
 defaults:
   - scope:
-      type: services
+      type: outputs
     values:
-      layout: service
-      bodyClass: page-services-single
+      layout: output
+      bodyClass: page-outputs-single
   - scope:
-      path: 'images'
+      path: 'img'
     values:
       image: true
 

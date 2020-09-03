@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: page-services-list
+bodyClass: page-outputs-list
 ---
 
 <div class="intro">
@@ -20,14 +20,14 @@ bodyClass: page-services-list
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% for service in site.services %}
+    {% for output in site.outputs %}
     <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+      <div class="output output-summary">
+        <div class="output-content">
+          <h2 class="output-title">
+            <a href="{{site.baseurl}}{{ output.url }}">{{ output.title }}</a>
           </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          <p>{{ output.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>
       </div>
     </div>

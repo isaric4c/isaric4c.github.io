@@ -1,3 +1,8 @@
+---
+title: 'Privacy'
+layout: 'page'
+---
+
 # CCP-UK Privacy Notice
 
 ## What is CCP-UK?

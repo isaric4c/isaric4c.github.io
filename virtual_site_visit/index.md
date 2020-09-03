@@ -1,3 +1,8 @@
+---
+title: 'About'
+layout: 'page'
+---
+
 __Navigation:__ 
 * [ISARIC-4C Virtual Site Visit](#isaric-4c-virtual-site-visit)
 * [Site set-up](#site-set-up)
