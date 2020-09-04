@@ -45,7 +45,7 @@ If your test meets these criteria, apply through the IDAMAC process (see below) 
 
 We will then provide independent confirmation that your test works.
 
-We have already supplied the first material anywhere in the world for use as a biological reference standard (see [isaric4c.net/outputs/standards](/outputs/standards)). We now refer all requests for biological standards to NIBSC.
+We have already supplied the first material anywhere in the world for use as a biological reference standard (see [isaric4c.net/outputs/standards](/outputs/standards)). We now refer all requests for biological standards to [NIBSC](https://www.nibsc.org/).
 
 ## Sample and Data access
 
