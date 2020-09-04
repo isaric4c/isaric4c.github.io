@@ -30,7 +30,7 @@
     color: $black;
     font-family: $font-family-base;
   }
-  p {
+  p,ul {
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
@@ -38,6 +38,9 @@
     @include media-breakpoint-up(md) {
       width: 80%;
     }
+  }
+  ul {
+    padding-bottom: 1em;
   }
 }
 
