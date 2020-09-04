@@ -13,12 +13,7 @@ special_command: "onload='draw_static(); setup(); calculateBMI();'"
   
   <section>
 
-    <p> This is an old version of the ISARIC 4C risk calculator.</p>
-
-    <p>This calculator will be updated as new information becomes available. It was last updated on <b>21st May 2020</b>.
-      Please always come to this page <a href="http://isaric4c.net/risk">isaric4c.net/risk</a> directly to get the most
-      up-to-date information.</p>
-
+    <p> This is an old version of the ISARIC 4C risk calculator, showing data that was last updated on <b>21st May 2020</b>.</p>
 
     <p>
       The ISARIC4C consortium has studied one third of all patients who have been admitted to hospital in the England, 
