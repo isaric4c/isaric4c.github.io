@@ -1,5 +1,5 @@
 ---
-title: "Standards"
+title: "Serology Standards"
 featured: true
 weight: 3
 ---
