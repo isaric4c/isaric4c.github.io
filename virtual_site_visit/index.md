@@ -57,7 +57,7 @@ Further details are provided in the logistics guidance document (separate Scotti
     - biohazard sticker
 
 5. Obtain required biological samples whilst wearing appropriate PPE
-    - see [this video](https://www.jove.com/video/56413/absorption-nasal-bronchial-fluids-precision-sampling-human) for correct use of SAM strip
+    - see [this video](https://www.jove.com/t/56413/absorption-nasal-bronchial-fluids-precision-sampling-human) for correct use of SAM strip
     - note the Oracol swab should be swabbed around the gum-line for 1-2 minutes
     - specific sampling requirements and timepoints are detailed in the logistics guidance document
 
