@@ -39,7 +39,7 @@ David L Robertson, Clark D Russell, Vanessa Sancho-Shimizu, Janet T Scott, Louis
 Tom Solomon, Shiranee Sriskandan, David Stuart, Charlotte Summers, Richard S Tedder,
 Emma C Thomson, Ryan S Thwaites, Lance CW Turtle, Maria Zambon. 
 
-Project Managers Hayley Hardwick, Chloe Donohue, Ruth Lyons, Wilna Oosthuyzen, Fiona Griffiths. 
+Project Managers Hayley Hardwick, Chloe Donohue, Ruth Lyons, Fiona Griffiths, Wilna Oosthuyzen. 
 
 Data Analysts: Lisa Norman, Riinu Pius, Tom M Drake, Cameron J Fairfield, Stephen Knight, 
 Kenneth A Mclean, Derek Murphy, Catherine A Shaw. 
@@ -47,7 +47,7 @@ Kenneth A Mclean, Derek Murphy, Catherine A Shaw.
 Data and Information System Manager: Jo Dalton, Michelle Girvan, Egle Saviciute, Stephanie
 Roberts, Janet Harrison, Laura Marsh, Marie Connor, Sophie Halpin, Clare Jackson, Carrol Gamble.
 
-Data integration and presentation: Gary Leeming, Andrew Law, Ross Hendry, James Scott-Brown.
+Data integration and presentation: Gary Leeming, Andrew Law, Murray Wham, Sara Clohisey, Ross Hendry, James Scott-Brown.
 
 Material Management: William Greenhalf, Victoria Shaw, Sarah McDonald.
 
