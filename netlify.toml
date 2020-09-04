@@ -1,5 +1,6 @@
 [build]
   command = "jekyll build"
+  publish = "/tmp/isaric4c_site"
 
 [build.environment]
   JEKYLL_ENV = "production"
