@@ -48,7 +48,7 @@ sass:
 plugins:
   - jekyll-environment-variables
 
-destination: /tmp/isaric4c_site
+destination: _site
 
 
 
