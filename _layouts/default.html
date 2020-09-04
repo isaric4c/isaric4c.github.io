@@ -26,7 +26,7 @@
   <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />
   <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />
 </head>
-<body class='page {{page.bodyClass}}'>
+<body class='page {{page.bodyClass}}' {{ page.special_command }}>
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}
