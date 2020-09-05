@@ -1,7 +1,7 @@
 ---
 title: "Symptom clusters"
 featured: true
-weight: 20
+weight: 1
 ---
 
 [MedRxiv August 16th 2020.](https://doi.org/10.1101/2020.08.14.20168088)

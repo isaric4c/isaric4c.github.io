@@ -1,9 +1,15 @@
 main:
+  - name: "Home"
+    url: "/"
+    weight: 1
   - name: "Outputs"
     url: "/outputs/"
     weight: 2
   - name: "About"
     url: "/about/"
+    weight: 4
+  - name: "Jobs"
+    url: "/jobs/"
     weight: 4
   - name: "Access requests"
     url: "/sample_access/"
