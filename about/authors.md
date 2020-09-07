@@ -120,6 +120,9 @@ William Greenhalf,
 Victoria Shaw,
 Sarah McDonald.
 
+Patient engagement: 
+Sean Keating
+
 Outbreak Laboratory Volunteers: 
 Katie A. Ahmed,
 Jane A Armstrong,
@@ -192,7 +195,8 @@ Libby van Tonder,
 Eve Wilcock,
 J. Eunice Zhang.
 
-Local Principal Investigators: Kayode Adeniji,
+Local Principal Investigators:
+Kayode Adeniji,
 Daniel Agranoff,
 Ken Agwuh,
 Dhiraj Ail,
@@ -328,6 +332,7 @@ Prad Shanmuga,
 Anil Sharma,
 Anna Shawcross,
 Jeremy Sizer,
+Manu Shankar-Hari,
 Richard Smith,
 Catherine Snelson,
 Nick Spittle,
