@@ -63,6 +63,13 @@ html, body {
 }
 
 
+button {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -179,4 +186,4 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
 }
 
-/*# sourceMappingURL=ssr-bundle.f4678.css.map*/
+/*# sourceMappingURL=ssr-bundle.5db12.css.map*/
