@@ -121,7 +121,7 @@ Victoria Shaw,
 Sarah McDonald.
 
 Patient engagement: 
-Sean Keating
+Seán Keating
 
 Outbreak Laboratory Volunteers: 
 Katie A. Ahmed,
