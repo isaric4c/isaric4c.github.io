@@ -4,10 +4,10 @@ layout: 'page'
 ---
 
 
-ISARIC4C Consortium Authors
+ISARIC 4C Consortium Authors
 =======
 
-The ISARIC4C author list aims to respect contributions to the
+The ISARIC 4C author list aims to respect contributions to the
 Protocol, MRC and DHSC grant applications and those who since have made
 a substantive academic contribution to delivering the CCP-UK, which
 includes CO-CIN related activity (described in the protocol as CCP-UK
