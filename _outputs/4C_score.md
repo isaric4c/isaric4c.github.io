@@ -4,7 +4,7 @@ featured: true
 weight: 20
 ---
 
-[BMJ 2020; 370](https://www.bmj.com/content/370/bmj.m3339)
+[BMJ 2020; 370:m3339](https://www.bmj.com/content/370/bmj.m3339)
 
 # The ISARIC 4C prognostic score
 
