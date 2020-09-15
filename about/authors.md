@@ -4,10 +4,10 @@ layout: 'page'
 ---
 
 
-ISARIC4C Consortium Authors
+ISARIC 4C Consortium Authors
 =======
 
-The ISARIC4C author list aims to respect contributions to the
+The ISARIC 4C author list aims to respect contributions to the
 Protocol, MRC and DHSC grant applications and those who since have made
 a substantive academic contribution to delivering the CCP-UK, which
 includes CO-CIN related activity (described in the protocol as CCP-UK
@@ -50,8 +50,7 @@ Saye Khoo,
 Paul Klenerman,
 Andrew Law,
 Wei Shen Lim,
-Alexander,
-J Mentzer,
+Alexander J Mentzer,
 Laura Merson,
 Alison M Meynert,
 Mahdad Noursadeghi,
@@ -240,7 +239,7 @@ Sam Douthwaite,
 Ingrid DuRand,
 Ahilanadan Dushianthan,
 Tristan Dyer,
-Cariad Evans ,
+Cariad Evans,
 Chi Eziefula,
 Chrisopher Fegan,
 Adam Finn,
@@ -248,6 +247,7 @@ Duncan Fullerton,
 Sanjeev Garg,
 Sanjeev Garg,
 Atul Garg,
+Effrossyni Gkrania-Klotsas,
 Jo Godden,
 Arthur Goldsmith,
 Clive Graham,
@@ -272,8 +272,9 @@ Caroline Kerrison,
 Ian Kerslake,
 Oliver Koch,
 Gouri Koduri,
-George Koshy ,
+George Koshy,
 Shondipon Laha,
+Steven Laird,
 Susan Larkin,
 Tamas Leiner,
 Patrick Lillie,
@@ -283,12 +284,12 @@ Jeff Little,
 Michael MacMahon,
 Emily MacNaughton,
 Ravish Mankregod,
-Huw Masson ,
+Huw Masson,
 Elijah Matovu,
 Katherine McCullough,
-Ruth McEwen ,
+Ruth McEwen,
 Manjula Meda,
-Gary Mills ,
+Gary Mills,
 Jane Minton,
 Mariyam Mirfenderesky,
 Kavya Mohandas,
@@ -352,7 +353,7 @@ Mary Twagira,
 Andrew Ustianowski,
 Nick Vallotton,
 Lisa Vincent-Smith,
-Shico Visuvanathan ,
+Shico Visuvanathan,
 Alan Vuylsteke,
 Sam Waddy,
 Rachel Wake,
@@ -371,7 +372,7 @@ Adam Wolverson,
 Daniel G Wooton,
 Andrew Workman,
 Bryan Yates,
-Peter Young.
+and Peter Young.
 
 
 Acknowledgements 
