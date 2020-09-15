@@ -23,13 +23,13 @@ Russell, Maria Zambon, Meera Chand, Richard Tedder, Saye Khoo, Peter
 Horby, Lance CW Turtle, Tom Solomon, Samreen Ijaz, Tom Fletcher, Massimo
 Palmarini, Antonia Ho, Nicholas Price.
 
-ISARIC4C
+ISARIC4C Investigators
 --------
 
-Consortium Lead Investigator: J Kenneth Baillie, Chief Investigator Malcolm G Semple,
-Co-Lead Investigator Peter JM Openshaw. ISARIC Clinical Coordinator Gail Carson.
+*Consortium Lead Investigator*: J Kenneth Baillie, *Chief Investigator:* Malcolm G Semple,
+*Co-Lead Investigator:* Peter JM Openshaw. *ISARIC Clinical Coordinator:* Gail Carson.
 
-Co-Investigators: 
+*Co-Investigators*:
 Beatrice Alex,
 Benjamin Bach,
 Wendy S Barclay,
@@ -73,18 +73,19 @@ David Stuart,
 Charlotte Summers,
 Richard S Tedder,
 Emma C Thomson,
+AA Roger Thompson,
 Ryan S Thwaites,
 Lance CW Turtle,
 Maria Zambon.
 
-Project Managers:
+*Project Managers*:
 Hayley Hardwick,
 Chloe Donohue,
 Ruth Lyons,
 Fiona Griffiths,
 Wilna Oosthuyzen.
 
-Data Analysts:
+*Data Analysts*:
 Lisa Norman,
 Riinu Pius,
 Tom M Drake,
@@ -94,7 +95,7 @@ Kenneth A Mclean,
 Derek Murphy,
 Catherine A Shaw. 
 
-Data and Information System Manager:
+*Data and Information System Manager*:
 Jo Dalton,
 Michelle Girvan,
 Egle Saviciute,
@@ -107,7 +108,7 @@ Sophie Halpin,
 Clare Jackson,
 Carrol Gamble.
 
-Data integration and presentation:
+*Data integration and presentation*:
 Gary Leeming,
 Andrew Law,
 Murray Wham,
@@ -115,15 +116,15 @@ Sara Clohisey,
 Ross Hendry,
 James Scott-Brown.
 
-Material Management: 
+*Material Management:* 
 William Greenhalf,
 Victoria Shaw,
 Sarah McDonald.
 
-Patient engagement: 
+*Patient engagement:* 
 Seán Keating
 
-Outbreak Laboratory Volunteers: 
+*Outbreak Laboratory Volunteers:* 
 Katie A. Ahmed,
 Jane A Armstrong,
 Milton Ashworth,
@@ -195,7 +196,7 @@ Libby van Tonder,
 Eve Wilcock,
 J. Eunice Zhang.
 
-Local Principal Investigators:
+*Local Principal Investigators*:
 Kayode Adeniji,
 Daniel Agranoff,
 Ken Agwuh,
