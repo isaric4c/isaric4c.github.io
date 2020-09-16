@@ -123,7 +123,7 @@ Sarah McDonald.
 *Patient engagement:* 
 Seán Keating
 
-*Outbreak Laboratory Volunteers:* 
+*Outbreak Laboratory Staff and Volunteers:* 
 Katie A. Ahmed,
 Jane A Armstrong,
 Milton Ashworth,
@@ -145,6 +145,7 @@ Chris Dunn,
 Philip Dyer,
 Angela Elliott,
 Anthony Evans,
+Lorna Finch,
 Lewis WS Fisher,
 Terry Foster,
 Isabel Garcia-Dorival,
