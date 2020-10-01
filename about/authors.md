@@ -94,12 +94,13 @@ Kenneth A Mclean,
 Derek Murphy,
 Catherine A Shaw. 
 
-*Data and Information System Manager*:
+*Data and Information System Managers*:
 Jo Dalton,
+James Lee,
+Daniel Plotkin,
 Michelle Girvan,
 Egle Saviciute,
-Stephanie
-Roberts,
+Stephanie Roberts,
 Janet Harrison,
 Laura Marsh,
 Marie Connor,
