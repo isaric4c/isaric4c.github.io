@@ -1,10 +1,11 @@
 ---
-title: 'About'
+title: 'Site set-up'
 layout: 'page'
 ---
 
+Selected hospital sites in the UK are established to recruit cases to ISARIC 4C. To set up your site, contact the study team at [CCP@liverpool.ac.uk](mailto:CCP@liverpool.ac.uk)
 
-# ISARIC 4C Protocols
+If you are set up and ready to go, please have a look at the [virtual site visit](/virtual_site_visit/).
 
 These are the UK versions of the ISARIC Clinical Characterisation Protocol (CCP). Click here for [global versions and harmonisation tools](https://isaric.net/ccp).
 
