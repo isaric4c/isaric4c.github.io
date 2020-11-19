@@ -27,4 +27,11 @@
 
 * install jekyll
 * Download all files, open a terminal window, navigate to the directory and enter:
-bundle exec jekyll serve
+
+
+     bundle exec jekyll serve
+
+
+Alternatively, you can run Jekyll inside docker using:
+
+    docker run -v $(pwd):/srv/jekyll -it jekyll/builder jekyll build
