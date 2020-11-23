@@ -106,7 +106,9 @@ Laura Marsh,
 Marie Connor,
 Sophie Halpin,
 Clare Jackson,
-Carrol Gamble.
+Carrol Gamble,
+Claire Petersen,
+Scott Mullaney.
 
 *Data integration and presentation*:
 Gary Leeming,
@@ -386,7 +388,4 @@ of their care and support #DataSavesLives. We are extremely grateful to the
 students, who collected this data in challenging circumstances; and the 
 generosity of the participants and their families for their individual 
 contributions in these difficult times. We also acknowledge the support of 
-Jeremy J Farrar, Nahoko Shindo, Devika Dixit, Nipunie Rajapakse, Lyndsey Castle, 
-Martha Buckley, Debbie Malden, Katherine Newell, Kwame O’Neill, Emmanuelle Denis, 
-Claire Petersen, Scott Mullaney, Sue MacFarlane, Nicole Maziere, Julien Martinez, 
-Oslem Dincarslan, and Annette Lake.
+Jeremy J Farrar and Nahoko Shindo, 
