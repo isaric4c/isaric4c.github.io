@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ISARIC 4C consortium
+title: ISARIC4C consortium
 description: The UK ISARIC Coronavirus Clinical Characterisation Consortium.
 intro_image: "https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg"
 intro_image_absolute: false
@@ -9,7 +9,7 @@ special_command: "onload='updatePatientCounts();'"
 
 ---
 
-# ISARIC 4C (Coronavirus Clinical Characterisation Consortium)
+# ISARIC4C (Coronavirus Clinical Characterisation Consortium)
 
 We are a UK-wide consortium of doctors and scientists committed to answering urgent questions about COVID-19 quickly, openly, and for the benefit of all.
 
@@ -25,7 +25,7 @@ Over the last 8 years we have been preparing for such a major outbreak worldwide
 
 ## Funding
 
-ISARIC 4C is funded by two major awards from UK Reasearch and Inovation (UKRI) and The National Institute For Health Research (NIHR).
+ISARIC4C is funded by two major awards from UK Reasearch and Inovation (UKRI) and The National Institute For Health Research (NIHR).
 A grant from UKRI Medical Research Council with a total value of £5.9M to JK Baillie (PI), University of Edinburgh; MG Semple, University of Liverpool; and P Openshaw, Imperial College London (co-leads). Full list of [investigators and specific deliverables](about/structure).
 A grant from NIHR with a current value of £4.9M to MG Semple (CI), University of Liverpool; AD Docherty, University of Edinburgh, and CA Green, University of Birmingham.
 We share data and samples to get answers as fast as possible. We will not end this outbreak sitting on a biobank; our intention is to use every drop of every sample, now, to have the biggest possible impact on the COVID-19 crisis. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC-4C study provides a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.

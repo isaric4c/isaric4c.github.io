@@ -4,7 +4,7 @@ layout: 'page'
 ---
 
 
-# ISARIC 4C
+# ISARIC4C
 
 The **ISARIC Coronavirus Clinical Characterisation Consortium** is a UK-wide consortium of leading experts in outbreak medicine with
 a proficient, coordinated, and agile research response to COVID-19.

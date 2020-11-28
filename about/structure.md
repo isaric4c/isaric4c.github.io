@@ -4,7 +4,7 @@ layout: 'page'
 ---
 
 
-# Consortium leadership
+# ISARIC4C Consortium leadership
 
 - Kenneth Baillie (j.k.baillie@ed.ac.uk)
 - Calum Semple (M.G.Semple@liverpool.ac.uk)

@@ -3,16 +3,16 @@ title: 'About'
 layout: 'page'
 ---
 
-* [ISARIC-4C Virtual Site Visit](#isaric-4c-virtual-site-visit)
+* [ISARIC4C Virtual Site Visit](#isaric4c-virtual-site-visit)
 * [Site set-up](#site-set-up)
 * [Documentation](#documentation)
 * [Recruitment procedure](#recruitment-procedure)
 * [Sample processing in site laboratories](#sample-processing-in-site-laboratories)
 * [Contact details for questions](#contact-details-for-questions)
 
-# ISARIC-4C Virtual Site Visit
+# ISARIC4C Virtual Site Visit
 
-Welcome to the ISARIC-4C study virtual site visit. Thank you very much for supporting recruitment to this study.
+Welcome to the ISARIC4C study virtual site visit. Thank you very much for supporting recruitment to this study.
 
 ## Site set-up
 

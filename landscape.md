@@ -6,13 +6,13 @@ layout: 'page'
 
 ## Landscape of urgent UK-wide research in COVID-19.
 
-ISARIC 4C is one the UK-wide NIHR Urgent Public Health Priority studies for hospitalised patients with COVID-19:
+ISARIC4C is one the UK-wide NIHR Urgent Public Health Priority studies for hospitalised patients with COVID-19:
 
 <hr>
 
 ### Any hospitalised patient
 
-#### [ISARIC 4C](./)
+#### [ISARIC4C](./)
 
 - ISARIC Clinical Characterisation Protocol (CCP) Tier 0 (CO-CIN)
 
