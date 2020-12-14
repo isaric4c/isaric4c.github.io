@@ -1,0 +1,155 @@
+<head>
+	<link rel="icon" href="data:;base64,="><!-- block favicon request-->
+    <script src="//unpkg.com/3d-force-graph@1"></script>
+    <script src="//unpkg.com/d3-dsv"></script>
+<!--
+
+python -m http.server
+localhost://8000/path-to-this-directory/view_xyz.html?jsonsource=full/path/to/your/json
+
+-->
+<script>
+	/* GET URL ARGUMENTS */
+	function getUrlVars() {
+		var vars = {};
+		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+			vars[key] = value;
+		});
+		return vars;
+	}
+
+	function getUrlParam(parameter, defaultvalue){
+		var urlparameter = defaultvalue;
+		if(window.location.href.indexOf(parameter) > -1){
+			urlparameter = getUrlVars()[parameter];
+			}
+        console.log(urlparameter)
+		return urlparameter;
+	}
+
+	var jsonsource = getUrlParam('jsonsource','demo_files/miserables.json');
+	var colorby = getUrlParam('colorby','group');
+    var ctrl = getUrlParam('control','trackball'); // 'trackball' or 'fly'
+    var ndim = getUrlParam('ndim',2);
+    var nsize = getUrlParam('nsize',8);
+</script>
+
+<script>
+function getGraphDataSets() {
+
+    const loadData = function(Graph) {
+        Graph
+          .nodeLabel('id')
+          .nodeAutoColorBy(colorby)
+          .nodeRelSize(nsize)
+          .jsonUrl(jsonsource);
+    };
+    loadData.description = jsonsource;
+    //
+    return [loadData];
+}
+</script>
+
+<style>
+body {
+    text-align: center;
+    font-family: Sans-serif;
+    margin: 0;
+}
+
+.dimensions-selector, .graph-data {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    color: slategrey;
+}
+
+.dimensions-selector {
+    left: 0;
+}
+
+.graph-data {
+    right: 0;
+}
+
+.toggle-data-btn {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.toggle-data-btn:hover {
+    opacity: 1;
+}
+
+#graph-data-description {
+    font-size: 12px;
+    color: slategrey;
+}
+</style>
+
+</head>
+
+<body>
+    <div id="3d-graph"></div>
+
+    <div class="dimensions-selector">
+        Dimensions:
+        <input type="radio" name="num-dimensions" onChange="toggleDimensions(1)"> 1D
+        <input type="radio" name="num-dimensions" onChange="toggleDimensions(2)"> 2D
+        <input type="radio" name="num-dimensions" onChange="toggleDimensions(3)"> 3D
+    </div>
+    <div class="graph-data">
+        <span id="graph-data-description"></span>
+        <button class="toggle-data-btn" onClick="toggleData()"></button>
+    </div>
+
+    <script>
+    const Graph = ForceGraph3D({ controlType: ctrl })
+    	(document.getElementById("3d-graph"));
+
+    let curDataSetIdx,
+    	numDim = ndim;
+
+    const dataSets = getGraphDataSets();
+
+    let toggleData;
+    (toggleData = function() {
+    	curDataSetIdx = curDataSetIdx === undefined ? 0 : (curDataSetIdx+1)%dataSets.length;
+
+    	const dataSet = dataSets[curDataSetIdx];
+    	document.getElementById('graph-data-description').innerHTML = dataSet.description ? `Viewing ${dataSet.description}` : '';
+
+    	dataSet(Graph
+    		.resetProps()
+    		.enableNodeDrag(false)
+    		.numDimensions(numDim)
+    	);
+    })(); // IIFE init
+
+    const toggleDimensions = function(numDimensions) {
+    	numDim = numDimensions;
+    	Graph.numDimensions(numDim);
+    };
+
+
+
+
+
+
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

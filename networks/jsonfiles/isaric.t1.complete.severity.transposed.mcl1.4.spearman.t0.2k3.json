@@ -1,0 +1,519 @@
+{
+    "directed": false,
+    "graph": {},
+    "links": [
+        {
+            "source": "Angiopoietin-1<br>cluster1",
+            "target": "CCL5<br>cluster1",
+            "weight": 0.6603074396964955
+        },
+        {
+            "source": "Angiopoietin-1<br>cluster1",
+            "target": "Coagulation Factor XIV<br>cluster1",
+            "weight": 0.4375588794953604
+        },
+        {
+            "source": "Angiopoietin-1<br>cluster1",
+            "target": "CCL2<br>cluster2",
+            "weight": 0.3271606460710674
+        },
+        {
+            "source": "Angiopoietin-1<br>cluster1",
+            "target": "Tie-2<br>cluster1",
+            "weight": 0.27030336725818793
+        },
+        {
+            "source": "CCL5<br>cluster1",
+            "target": "Coagulation Factor XIV<br>cluster1",
+            "weight": 0.33438973651870424
+        },
+        {
+            "source": "CCL5<br>cluster1",
+            "target": "CCL2<br>cluster2",
+            "weight": 0.2462446362251639
+        },
+        {
+            "source": "Coagulation Factor XIV<br>cluster1",
+            "target": "Tie-2<br>cluster1",
+            "weight": 0.31468352242865366
+        },
+        {
+            "source": "CCL2<br>cluster2",
+            "target": "GDF-15<br>cluster4",
+            "weight": 0.5545820603615771
+        },
+        {
+            "source": "CCL2<br>cluster2",
+            "target": "IL-6<br>cluster2",
+            "weight": 0.5445239233597033
+        },
+        {
+            "source": "CCL2<br>cluster2",
+            "target": "IL-8<br>cluster2",
+            "weight": 0.5199330198327594
+        },
+        {
+            "source": "CCL2<br>cluster2",
+            "target": "EN-RAGE<br>cluster4",
+            "weight": 0.49159375467900973
+        },
+        {
+            "source": "CCL2<br>cluster2",
+            "target": "IL-12p70<br>cluster2",
+            "weight": 0.3127694196552602
+        },
+        {
+            "source": "CCL2<br>cluster2",
+            "target": "IL-18<br>cluster2",
+            "weight": 0.4306416706572232
+        },
+        {
+            "source": "Angiopoietin-2<br>cluster3",
+            "target": "GDF-15<br>cluster4",
+            "weight": 0.37493506614869543
+        },
+        {
+            "source": "Angiopoietin-2<br>cluster3",
+            "target": "D-dimer<br>cluster2",
+            "weight": 0.35152396121286744
+        },
+        {
+            "source": "Angiopoietin-2<br>cluster3",
+            "target": "VEGF-D<br>cluster3",
+            "weight": 0.3504322128923492
+        },
+        {
+            "source": "Angiopoietin-2<br>cluster3",
+            "target": "Endothelin 1<br>cluster3",
+            "weight": 0.20092487103437703
+        },
+        {
+            "source": "Angiopoietin-2<br>cluster3",
+            "target": "Tie-2<br>cluster1",
+            "weight": 0.28070167284285846
+        },
+        {
+            "source": "GDF-15<br>cluster4",
+            "target": "D-dimer<br>cluster2",
+            "weight": 0.45263090551031904
+        },
+        {
+            "source": "GDF-15<br>cluster4",
+            "target": "EN-RAGE<br>cluster4",
+            "weight": 0.4334899450750554
+        },
+        {
+            "source": "GDF-15<br>cluster4",
+            "target": "Thrombomodulin<br>cluster4",
+            "weight": 0.6416350456533516
+        },
+        {
+            "source": "GDF-15<br>cluster4",
+            "target": "Tissue Factor<br>cluster4",
+            "weight": 0.5592308964206212
+        },
+        {
+            "source": "GDF-15<br>cluster4",
+            "target": "Lipocalin-2<br>cluster4",
+            "weight": 0.4258374651041986
+        },
+        {
+            "source": "GDF-15<br>cluster4",
+            "target": "vWBF-A2<br>cluster2",
+            "weight": 0.48085866416928613
+        },
+        {
+            "source": "D-dimer<br>cluster2",
+            "target": "IL-6<br>cluster2",
+            "weight": 0.5129011288429184
+        },
+        {
+            "source": "D-dimer<br>cluster2",
+            "target": "vWBF-A2<br>cluster2",
+            "weight": 0.47981700204348815
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "G-CSF<br>cluster2",
+            "weight": 0.32200097439388786
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "GM-CSF<br>cluster2",
+            "weight": 0.6170874981843189
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "IL-10<br>cluster2",
+            "weight": 0.6464202098244011
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "IL-12p70<br>cluster2",
+            "weight": 0.275143519981825
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "IL-17<br>cluster2",
+            "weight": 0.2076766591944583
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "IL-2<br>cluster2",
+            "weight": 0.527861344903858
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "IL-4<br>cluster2",
+            "weight": 0.5180205162925747
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "IL-8<br>cluster2",
+            "weight": 0.6150547915097815
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "TNF-a<br>cluster2",
+            "weight": 0.5356872504420941
+        },
+        {
+            "source": "IL-6<br>cluster2",
+            "target": "vWBF-A2<br>cluster2",
+            "weight": 0.5343263608081548
+        },
+        {
+            "source": "IL-8<br>cluster2",
+            "target": "IL-13<br>cluster2",
+            "weight": 0.25919861374882264
+        },
+        {
+            "source": "IL-8<br>cluster2",
+            "target": "IL-17<br>cluster2",
+            "weight": 0.201349422308858
+        },
+        {
+            "source": "IL-8<br>cluster2",
+            "target": "IL-1b<br>cluster2",
+            "weight": 0.4690667906671446
+        },
+        {
+            "source": "IL-8<br>cluster2",
+            "target": "IL-4<br>cluster2",
+            "weight": 0.4111755743195701
+        },
+        {
+            "source": "IL-8<br>cluster2",
+            "target": "TNF-a<br>cluster2",
+            "weight": 0.5802300632820254
+        },
+        {
+            "source": "IL-8<br>cluster2",
+            "target": "IL-10<br>cluster2",
+            "weight": 0.5205245615876684
+        },
+        {
+            "source": "CCL4<br>cluster2",
+            "target": "IL-1a<br>cluster2",
+            "weight": 0.5190834154300482
+        },
+        {
+            "source": "CCL4<br>cluster2",
+            "target": "GM-CSF<br>cluster2",
+            "weight": 0.49248107370899336
+        },
+        {
+            "source": "CCL4<br>cluster2",
+            "target": "TNF-a<br>cluster2",
+            "weight": 0.427059845607692
+        },
+        {
+            "source": "IL-1a<br>cluster2",
+            "target": "GM-CSF<br>cluster2",
+            "weight": 0.5840091165019828
+        },
+        {
+            "source": "IL-1a<br>cluster2",
+            "target": "TNF-a<br>cluster2",
+            "weight": 0.444342471216725
+        },
+        {
+            "source": "GM-CSF<br>cluster2",
+            "target": "CXCL10<br>cluster2",
+            "weight": 0.8587754301882274
+        },
+        {
+            "source": "GM-CSF<br>cluster2",
+            "target": "IL-10<br>cluster2",
+            "weight": 0.6152377052651098
+        },
+        {
+            "source": "GM-CSF<br>cluster2",
+            "target": "IFNg<br>cluster2",
+            "weight": 0.5668829205253111
+        },
+        {
+            "source": "GM-CSF<br>cluster2",
+            "target": "IL-18<br>cluster2",
+            "weight": 0.45309460781215977
+        },
+        {
+            "source": "TNF-a<br>cluster2",
+            "target": "IL-1b<br>cluster2",
+            "weight": 0.4030603909667193
+        },
+        {
+            "source": "TNF-a<br>cluster2",
+            "target": "IL-2<br>cluster2",
+            "weight": 0.4874074212421336
+        },
+        {
+            "source": "CXCL10<br>cluster2",
+            "target": "IL-10<br>cluster2",
+            "weight": 0.6279920303233468
+        },
+        {
+            "source": "CXCL10<br>cluster2",
+            "target": "IFNg<br>cluster2",
+            "weight": 0.6075977720743364
+        },
+        {
+            "source": "CXCL10<br>cluster2",
+            "target": "G-CSF<br>cluster2",
+            "weight": 0.34131070700494526
+        },
+        {
+            "source": "CXCL10<br>cluster2",
+            "target": "IL-18<br>cluster2",
+            "weight": 0.4992508351421173
+        },
+        {
+            "source": "CXCL10<br>cluster2",
+            "target": "Tissue Factor<br>cluster4",
+            "weight": 0.4945111589908066
+        },
+        {
+            "source": "IL-10<br>cluster2",
+            "target": "G-CSF<br>cluster2",
+            "weight": 0.33491149560371314
+        },
+        {
+            "source": "IL-10<br>cluster2",
+            "target": "IFNg<br>cluster2",
+            "weight": 0.6084055976832254
+        },
+        {
+            "source": "IL-10<br>cluster2",
+            "target": "IL-2<br>cluster2",
+            "weight": 0.49286150419590835
+        },
+        {
+            "source": "vWBF-A2<br>cluster2",
+            "target": "IL-17<br>cluster2",
+            "weight": 0.2145959880795324
+        },
+        {
+            "source": "EN-RAGE<br>cluster4",
+            "target": "Lipocalin-2<br>cluster4",
+            "weight": 0.46203673283104635
+        },
+        {
+            "source": "Lipocalin-2<br>cluster4",
+            "target": "Thrombomodulin<br>cluster4",
+            "weight": 0.5256479915729636
+        },
+        {
+            "source": "G-CSF<br>cluster2",
+            "target": "IL-12p70<br>cluster2",
+            "weight": 0.2899958330583098
+        },
+        {
+            "source": "Thrombomodulin<br>cluster4",
+            "target": "IL-6Ra<br>cluster4",
+            "weight": 0.21310897456891995
+        },
+        {
+            "source": "Thrombomodulin<br>cluster4",
+            "target": "Tissue Factor<br>cluster4",
+            "weight": 0.6464395591236506
+        },
+        {
+            "source": "IL-13<br>cluster2",
+            "target": "IL-1b<br>cluster2",
+            "weight": 0.2210235353541037
+        },
+        {
+            "source": "IL-1b<br>cluster2",
+            "target": "IL-4<br>cluster2",
+            "weight": 0.45157231850777074
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "MCL1.4": "cluster1",
+            "Unnamed: 0": "Angiopoietin-1",
+            "id": "Angiopoietin-1<br>cluster1"
+        },
+        {
+            "MCL1.4": "cluster1",
+            "Unnamed: 0": "CCL5",
+            "id": "CCL5<br>cluster1"
+        },
+        {
+            "MCL1.4": "cluster1",
+            "Unnamed: 0": "Coagulation Factor XIV",
+            "id": "Coagulation Factor XIV<br>cluster1"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "CCL2",
+            "id": "CCL2<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster3",
+            "Unnamed: 0": "Angiopoietin-2",
+            "id": "Angiopoietin-2<br>cluster3"
+        },
+        {
+            "MCL1.4": "cluster4",
+            "Unnamed: 0": "GDF-15",
+            "id": "GDF-15<br>cluster4"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "D-dimer",
+            "id": "D-dimer<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster3",
+            "Unnamed: 0": "VEGF-D",
+            "id": "VEGF-D<br>cluster3"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-6",
+            "id": "IL-6<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-8",
+            "id": "IL-8<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "CCL4",
+            "id": "CCL4<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-1a",
+            "id": "IL-1a<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "GM-CSF",
+            "id": "GM-CSF<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "TNF-a",
+            "id": "TNF-a<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster1",
+            "Unnamed: 0": "Tie-2",
+            "id": "Tie-2<br>cluster1"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "CXCL10",
+            "id": "CXCL10<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-10",
+            "id": "IL-10<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IFNg",
+            "id": "IFNg<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "vWBF-A2",
+            "id": "vWBF-A2<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster4",
+            "Unnamed: 0": "EN-RAGE",
+            "id": "EN-RAGE<br>cluster4"
+        },
+        {
+            "MCL1.4": "cluster4",
+            "Unnamed: 0": "Lipocalin-2",
+            "id": "Lipocalin-2<br>cluster4"
+        },
+        {
+            "MCL1.4": "cluster3",
+            "Unnamed: 0": "Endothelin 1",
+            "id": "Endothelin 1<br>cluster3"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "G-CSF",
+            "id": "G-CSF<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster4",
+            "Unnamed: 0": "Thrombomodulin",
+            "id": "Thrombomodulin<br>cluster4"
+        },
+        {
+            "MCL1.4": "cluster4",
+            "Unnamed: 0": "Tissue Factor",
+            "id": "Tissue Factor<br>cluster4"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-12p70",
+            "id": "IL-12p70<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-13",
+            "id": "IL-13<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-1b",
+            "id": "IL-1b<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-17",
+            "id": "IL-17<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-18",
+            "id": "IL-18<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-4",
+            "id": "IL-4<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster2",
+            "Unnamed: 0": "IL-2",
+            "id": "IL-2<br>cluster2"
+        },
+        {
+            "MCL1.4": "cluster4",
+            "Unnamed: 0": "IL-6Ra",
+            "id": "IL-6Ra<br>cluster4"
+        }
+    ]
+}
