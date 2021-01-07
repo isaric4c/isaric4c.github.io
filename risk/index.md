@@ -4,5 +4,7 @@ intro_image_absolute: false
 intro_image_hide_on_mobile: false
 
 ---
- 
-<iframe src="https://jamesscottbrown.github.io/4c-mortality-calculator/" width="100%" height="4140" frameBorder="0" scrolling="no"></iframe>
+
+The calculator for the 4C Mortality Score only is still <a href="./v2">available here</a>. 
+
+<iframe src="https://jamesscottbrown.github.io/deterioration-calculator/" width="100%" height="5500" frameBorder="0" scrolling="no"></iframe>
