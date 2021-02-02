@@ -1,7 +1,7 @@
 ---
 title: Outputs
 layout: outputs
-intro_image: "https://argoshare.is.ed.ac.uk/cocin_public_temporary/00_public_figures_files/figure-html/pyramid_plot-1.png"
+intro_image: "img/figures/highlighted.svg"
 image_target_url: "../reports"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
