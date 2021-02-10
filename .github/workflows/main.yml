@@ -22,7 +22,7 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          pip3 install openpyxl pandas
+          pip3 install setuptools openpyxl pandas
           python3 process_authors_from_dropbox.py
 
       - name: Commit author page if changed
