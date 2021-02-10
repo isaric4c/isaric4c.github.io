@@ -5,10 +5,11 @@ import pandas as pd
 try:
     url = "https://www.dropbox.com/s/t70kmn9lri6jl47/master_author_list.xlsx?dl=1"
     df = pd.read_excel(url)
-except:
+except Exception as e:
     sys.exit()
 
 with open("./about/authors.md", "w") as fp:
+    print(e)
     sys.stdout = fp
 
     print("""
