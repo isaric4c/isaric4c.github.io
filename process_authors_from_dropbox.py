@@ -7,6 +7,8 @@ try:
     df = pd.read_excel(url)
 except Exception as e:
     sys.exit()
+    
+print("Successfully loaded from Dropbox into Pandas dataframe")
 
 with open("./about/authors.md", "w") as fp:
     print(e)
