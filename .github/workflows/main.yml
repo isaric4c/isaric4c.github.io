@@ -24,7 +24,7 @@ jobs:
         run: |
           pip3 install setuptools
           pip3 install wheel
-          pip3 install openpyxl pandas && status=0 || status=1
+          pip3 install openpyxl pandas
           python3 process_authors_from_dropbox.py
 
       - name: Commit author page if changed
