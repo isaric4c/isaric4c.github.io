@@ -12,7 +12,6 @@ except Exception as e:
 print("Successfully loaded from Dropbox into Pandas dataframe")
 
 with open("./about/authors.md", "w") as fp:
-    print(e)
     sys.stdout = fp
 
     print("""
