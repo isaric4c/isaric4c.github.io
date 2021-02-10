@@ -28,7 +28,6 @@ jobs:
           python3 process_authors_from_dropbox.py
 
       - name: Commit author page if changed
-        if: ${{ github.event_name == 'push' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
