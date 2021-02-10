@@ -6,6 +6,7 @@ try:
     url = "https://www.dropbox.com/s/t70kmn9lri6jl47/master_author_list.xlsx?dl=1"
     df = pd.read_excel(url)
 except Exception as e:
+    print(e)
     sys.exit()
     
 print("Successfully loaded from Dropbox into Pandas dataframe")
