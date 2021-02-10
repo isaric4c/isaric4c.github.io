@@ -22,8 +22,8 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          pip install openpyxl pandas
-          python process_authors_from_dropbox.py
+          pip3 install openpyxl pandas
+          python3 process_authors_from_dropbox.py
 
       - name: Commit author page if changed
         if: ${{ github.event_name == 'push' }}
