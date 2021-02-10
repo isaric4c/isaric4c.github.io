@@ -26,12 +26,12 @@ jobs:
 
       - name: Isntall dependencies
         run: |
-          pip3 install setuptools
-          pip3 install wheel
-          pip3 install xlrd==2.0.1 openpyxl==3.06 pandas==1.2.2
+          pip install setuptools
+          pip install wheel
+          pip install xlrd==2.0.1 openpyxl==3.06 pandas==1.2.2
           
       - name: Regenerate author page
-        run: python3 process_authors_from_dropbox.py
+        run: python process_authors_from_dropbox.py
 
       - name: Commit author page if changed
         run: |
