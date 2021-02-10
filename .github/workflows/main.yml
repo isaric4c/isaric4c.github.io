@@ -24,7 +24,7 @@ jobs:
         run: |
           pip3 install setuptools
           pip3 install wheel
-          pip3 install openpyxl pandas
+          pip3 install xlrd openpyxl pandas
           
       - name: Regenerate author page
         run: python3 process_authors_from_dropbox.py
