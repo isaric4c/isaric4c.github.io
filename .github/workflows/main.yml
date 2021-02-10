@@ -28,7 +28,7 @@ jobs:
         run: |
           pip install setuptools
           pip install wheel
-          pip install xlrd==2.0.1 openpyxl==3.06 pandas==1.2.2
+          pip install xlrd==2.0.1 openpyxl==3.0.6 pandas==1.2.2
           
       - name: Regenerate author page
         run: python process_authors_from_dropbox.py
