@@ -14,8 +14,7 @@ print("Successfully loaded from Dropbox into Pandas dataframe")
 with open("./about/authors.md", "w") as fp:
     sys.stdout = fp
 
-    print("""
----
+    print("""---
 title: 'About'
 layout: 'page'
 ---
