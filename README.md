@@ -28,7 +28,6 @@
 * install jekyll
 * Download all files, open a terminal window, navigate to the directory and enter:
 
-
      bundle exec jekyll serve
 
 
