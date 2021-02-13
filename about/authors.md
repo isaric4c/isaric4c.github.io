@@ -80,6 +80,7 @@ AA Roger Thompson,
 Ryan S Thwaites,
 Lance CW Turtle,
 Rishi K Gupta,
+Carlo Palmieri,
 Maria Zambon.
 
 *Project Manager*:
