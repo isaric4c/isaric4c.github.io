@@ -1,0 +1,46 @@
+name: protocol_files
+
+# Controls when the action will run.
+on:
+  #schedule:
+  #  - cron: '0 * * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+
+  author_list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          cd .scripts/protocols
+          pip install setuptools
+          pip install wheel
+          pip install -r requirements.txt
+
+      - name: Update protocols
+        run:
+          cd .scripts/protocols
+          python download.py && python makelist.py --location isaric4c
+
+      - name: Commit protocols directory if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add protocols/
+          git diff-index --quiet HEAD || git commit -m "Automatically re-generate protocols directory"
+
+      - name: Push protocols directory
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

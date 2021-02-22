@@ -1,0 +1,36 @@
+{
+    "isaric4c": {
+        "basedir": [ "scriptpath", "../../protocols"],
+        "sourcedir": [ "scriptpath",  "../../protocols"],
+        "outputfile": [ "scriptpath", "../../protocols/list.html"],
+        "indexfile": [  "scriptpath",  "../../protocols/searchindex.json"],
+        "choices": {
+            "makesearch": false,
+            "use_viewerjs": false,
+            "excluded": [
+                "Icon",
+                "__AUTOCOPIED__",
+                ".+\\.html",
+                ".+\\.md"
+            ],
+            "pin_to_top": [
+                "Global"
+            ]
+        },
+        "download_dir": "../../protocols",
+        "sources": [
+            [
+                "Scotland",
+                "https://www.dropbox.com/sh/m1vxrq13j52lbr2/AACnlqroG8LQA4QO3Hklhe5ga?dl=0"
+            ],
+            [
+                "Common_across_UK",
+                "https://www.dropbox.com/sh/9f20vc1utefvuz9/AACKqFXijN4RrPPRMKCOYlIda?dl=0"
+            ],
+            [
+                "England",
+                "https://www.dropbox.com/sh/c3g4phfn2yp5i7s/AAByI-ali_Rf-3YGUCbYQVTCa?dl=0"
+            ]
+        ]
+    }
+}
