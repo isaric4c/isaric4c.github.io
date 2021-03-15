@@ -1,0 +1,43 @@
+name: author_list
+
+# Controls when the action will run. 
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+
+  author_list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install setuptools
+          pip install wheel
+          pip install xlrd==2.0.1 openpyxl==3.0.6 pandas==1.2.2
+          
+      - name: Regenerate author page
+        run: python process_authors_from_dropbox.py
+
+      - name: Commit author page if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add about/authors.md
+          git diff-index --quiet HEAD || git commit -m "Automatically re-generate author page"
+          
+      - name: Push author page
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

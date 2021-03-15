@@ -14,7 +14,7 @@ includes CO-CIN related activity (described in the protocol as CCP-UK
 Tier Zero activity).
 
 This document is managed by the co-leads of the ISARIC4C.
-We hope we have done everthing we can to recognise your contribution.
+We hope we have done everything we can to recognise your contribution.
 Please email ccp@liverpool.ac.uk if there you spot any omission.
 
 The **Protocol Authors** are: J Kenneth Baillie, Malcolm (Calum) G Semple,
@@ -26,11 +26,15 @@ Palmarini, Antonia Ho, Nicholas Price.
 ISARIC4C Investigators
 --------
 
-*Consortium Lead Investigator*: J Kenneth Baillie, *Chief Investigator:* Malcolm G Semple,
-*Co-Lead Investigator:* Peter JM Openshaw. *ISARIC Clinical Coordinator:* Gail Carson.
+*Consortium Lead Investigator*: J Kenneth Baillie.
 
-*Co-Investigators*:
-Beatrice Alex,
+*Chief Investigator*: Malcolm G Semple.
+
+*Co-Lead Investigator*: Peter JM Openshaw.
+
+*ISARIC Clinical Coordinator*: Gail Carson.
+
+*Co-Investigator*:
 Benjamin Bach,
 Wendy S Barclay,
 Debby Bogaert,
@@ -40,7 +44,7 @@ Annemarie B Docherty,
 Jake Dunning,
 Ana da Silva Filipe,
 Tom Fletcher,
-Christopher A Green,
+Christoper A Green,
 Ewen M Harrison,
 Julian A Hiscox,
 Antonia Ying Wai Ho,
@@ -55,7 +59,7 @@ Laura Merson,
 Alison M Meynert,
 Mahdad Noursadeghi,
 Shona C Moore,
-Massimo Palmarini,
+Massimo Palmarini ,
 William A Paxton,
 Georgios Pollakis,
 Nicholas Price,
@@ -75,29 +79,26 @@ Emma C Thomson,
 AA Roger Thompson,
 Ryan S Thwaites,
 Lance CW Turtle,
+Rishi K Gupta,
+Carlo Palmieri,
 Maria Zambon.
 
-*Project Managers*:
-Hayley Hardwick,
+*Project Manager*:
 Chloe Donohue,
 Ruth Lyons,
 Fiona Griffiths,
 Wilna Oosthuyzen.
 
-*Data Analysts*:
-Lisa Norman,
+*Data Analyst*:
 Riinu Pius,
-Tom M Drake,
+Thomas M Drake,
 Cameron J Fairfield,
-Stephen Knight,
+Stephen R Knight,
 Kenneth A Mclean,
 Derek Murphy,
-Catherine A Shaw. 
+Catherine A Shaw.
 
-*Data and Information System Managers*:
-Jo Dalton,
-James Lee,
-Daniel Plotkin,
+*Data and Information System Manager*:
 Michelle Girvan,
 Egle Saviciute,
 Stephanie Roberts,
@@ -106,28 +107,20 @@ Laura Marsh,
 Marie Connor,
 Sophie Halpin,
 Clare Jackson,
-Carrol Gamble,
-Claire Petersen,
-Scott Mullaney.
+Carrol Gamble.
 
-*Data integration and presentation*:
-Gary Leeming,
+*Data Integration and Presentation*:
 Andrew Law,
 Murray Wham,
 Sara Clohisey,
 Ross Hendry,
 James Scott-Brown.
 
-*Material Management:* 
-William Greenhalf,
+*Material Management*:
 Victoria Shaw,
-Sarah McDonald.
+Sara McDonald.
 
-*Patient engagement:* 
-Seán Keating
-
-*Outbreak Laboratory Staff and Volunteers:* 
-Katie A. Ahmed,
+*Outbreak Laboratory Staff and Volunteers*:
 Jane A Armstrong,
 Milton Ashworth,
 Innocent G Asiimwe,
@@ -152,10 +145,9 @@ Lorna Finch,
 Lewis WS Fisher,
 Terry Foster,
 Isabel Garcia-Dorival,
-Willliam Greenhalf,
+William Greenhalf,
 Philip Gunning,
 Catherine Hartley,
-Antonia Ho,
 Rebecca L Jensen,
 Christopher B Jones,
 Trevor R Jones,
@@ -166,7 +158,7 @@ Chrysa Koukorava,
 Annette Lake,
 Suzannah Lant,
 Diane Latawiec,
-L Lavelle-Langham,
+Lara Lavelle-Langham,
 Daniella Lefteri,
 Lauren Lett,
 Lucia A Livoti,
@@ -197,13 +189,26 @@ Jordan Thomas,
 Erwan Trochu,
 Libby van Tonder,
 Eve Wilcock,
-J. Eunice Zhang.
+J. Eunice Zhang,
+Lisa Flaherty,
+Nicole Maziere,
+Emily Cass,
+Alejandra Doce Carracedo,
+Nicola Carlucci ,
+Anthony Holmes,
+Hannah Massey.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Nicola Wrobel,
+Sarah McCafferty,
+Kirstie Morrice,
+Alan MacLean.
 
 *Local Principal Investigators*:
-Kayode Adeniji,
 Daniel Agranoff,
 Ken Agwuh,
 Dhiraj Ail,
+Erin L. Aldera,
 Ana Alegria,
 Brian Angus,
 Abdul Ashish,
@@ -213,13 +218,14 @@ Gavin Barlow,
 Stella Barnass,
 Nicholas Barrett,
 Christopher Bassford,
+Sneha Basude,
 David Baxter,
 Michael Beadsworth,
 Jolanta Bernatoniene,
 John Berridge,
 Nicola Best,
 Pieter Bothma,
-David Brealey,
+David Chadwick,
 Robin Brittain-Long,
 Naomi Bulteel,
 Tom Burden,
@@ -284,6 +290,7 @@ Patrick Lillie,
 James Limb,
 Vanessa Linnett,
 Jeff Little,
+Mark Lyttle,
 Michael MacMahon,
 Emily MacNaughton,
 Ravish Mankregod,
@@ -309,9 +316,12 @@ Michael Murphy,
 Megan Nagel,
 Thapas Nagarajan,
 Mark Nelson,
+Matthew K. O'Shea,
 Igor Otahal,
+Marlies Ostermann,
 Mark Pais,
 Selva Panchatsharam,
+Danai Papakonstantinou,
 Hassan Paraiso,
 Brij Patel,
 Natalie Pattison,
@@ -366,26 +376,18 @@ Ingeborg Welters,
 Tony Whitehouse,
 Paul Whittaker,
 Ashley Whittington,
+Padmasayee Papineni,
 Meme Wijesinghe,
 Martin Williams,
 Lawrence Wilson,
-Sarah Wilson,
+Sarah Cole,
 Stephen Winchester,
 Martin Wiselka,
 Adam Wolverson,
 Daniel G Wooton,
 Andrew Workman,
 Bryan Yates,
-and Peter Young.
+Peter Young.
 
-
-Acknowledgements 
-=================
-
-This work uses data provided by patients and collected by the NHS as part 
-of their care and support #DataSavesLives. We are extremely grateful to the 
-2,648 frontline NHS clinical and research staff and volunteer medical 
-students, who collected this data in challenging circumstances; and the 
-generosity of the participants and their families for their individual 
-contributions in these difficult times. We also acknowledge the support of 
-Jeremy J Farrar and Nahoko Shindo, 
+## Acknowledgements
+This work uses data provided by patients and collected by the NHS as part of their care and support #DataSavesLives. We are extremely grateful to the 2,648 frontline NHS clinical and research staff and volunteer medical students, who collected this data in challenging circumstances; and the generosity of the participants and their families for their individual contributions in these difficult times. We also acknowledge the support of Jeremy J Farrar and Nahoko Shindo.
