@@ -118,7 +118,7 @@ James Scott-Brown.
 
 *Material Management*:
 Victoria Shaw,
-Sara McDonald.
+Sarah E McDonald.
 
 *Outbreak Laboratory Staff and Volunteers*:
 Jane A Armstrong,
