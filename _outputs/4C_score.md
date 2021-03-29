@@ -11,7 +11,7 @@ DOI: [10.1136/bmj.m3339](https://doi.org/10.1136/bmj.m3339)
 
 Using data from 57, 824 hospital admissions, we developed and validated an easy-to-use risk stratification score based on commonly available parameters at hospital presentation. The 4C Mortality Score outperformed existing scores, showed utility to directly inform clinical decision making, and can be used to stratify patients admitted to hospital with covid-19 into different management groups. 
 
-The 4C mortality score can be found here: [isaric4c.net/risk](/risk)
+The 4C Mortality Score can be found here: [isaric4c.net/risk](/risk)
 
 The 4C Mortality Score has been extensively validated in independent studies across the world. Validation of the 4C score showed similar discrimination in the following countries:
 * [France](https://doi.org/10.1038/s41467-020-20657-4)
