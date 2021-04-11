@@ -81,6 +81,7 @@ Ryan S Thwaites,
 Lance CW Turtle,
 Rishi K Gupta,
 Carlo Palmieri,
+Olivia V Swann,
 Maria Zambon.
 
 *Project Manager*:
@@ -384,7 +385,7 @@ Sarah Cole,
 Stephen Winchester,
 Martin Wiselka,
 Adam Wolverson,
-Daniel G Wooton,
+Daniel G Wootton,
 Andrew Workman,
 Bryan Yates,
 Peter Young.
