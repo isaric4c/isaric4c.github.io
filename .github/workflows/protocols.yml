@@ -30,8 +30,7 @@ jobs:
 
       - name: Update protocols
         run:
-          cd .scripts/protocols
-          python download.py && python makelist.py --location isaric4c
+          cd .scripts/protocols && python download.py && python makelist.py --location isaric4c
 
       - name: Commit protocols directory if changed
         run: |
