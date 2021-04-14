@@ -86,7 +86,6 @@ Maria Zambon.
 
 *Project Manager*:
 Chloe Donohue,
-Ruth Lyons,
 Fiona Griffiths,
 Wilna Oosthuyzen.
 
