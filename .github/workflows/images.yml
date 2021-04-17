@@ -25,9 +25,10 @@ jobs:
 
       - name: Install required packages from apt
         run: |
-          sudo apt-get update
-          sudo apt-get install inkscape 
-
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt update
+          sudo apt install inkscape
+          
       - name: Install dependencies
         run: |
           pip install setuptools
@@ -40,6 +41,7 @@ jobs:
       
       - name: convert images
         run: |
+         inkscape -V
          inkscape --export-type="pdf" img/ap/*.svg
          inkscape --export-type="png" img/ap/*.svg
 
