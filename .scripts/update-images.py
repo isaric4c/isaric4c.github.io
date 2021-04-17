@@ -24,7 +24,7 @@ g = os.path.join(numdir, "genomicc_count.txt")
 c = os.path.join(numdir, "cog_count.txt")
 #-----------------------------
 imgdir = "img/ap/"
-sourcefiles = [os.path.join(outdir, x) for x in [
+sourcefiles = [os.path.join(imgdir, x) for x in [
         "i4c-map-source.svg",
         "i4c-analysis-platform-source.svg"
     ]
@@ -44,15 +44,21 @@ with open(g,"w") as o:
     o.write("{}".format(gdic["total"]))
 with open(c,"w") as o:
     o.write("{}".format(21234))
+#-----------------------------
+
+replacedict = {
+    "151,123": "{:,}".format(int(get_text(t1))),
+    "2,526": "{:,}".format(int(get_text(m))),
+    "8,213": "{:,}".format(int(get_text(g))),
+    "cogcogcog": "{:,}".format(int(get_text(c))),
+}
 
 for sourcefile in sourcefiles:
     outputfile = sourcefile.replace("-source.svg", ".svg")
     with open(sourcefile) as f:
         svgtext = f.read()
-    svgtext = svgtext.replace("151,123", "{:,}".format(int(get_text(t1))))
-    svgtext = svgtext.replace("2,526", "{:,}".format(int(get_text(m))))
-    svgtext = svgtext.replace("8,213", "{:,}".format(int(get_text(g))))
-    svgtext = svgtext.replace("cogcogcog", "{:,}".format(int(get_text(c))))
+    for x in replacedict:
+        svgtext = svgtext.replace(x,replacedict[x])
     with open(outputfile,"w") as o:
         o.write(svgtext)
 
