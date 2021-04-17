@@ -58,7 +58,7 @@ replacedict = {
 }
 
 for sourcefile in sourcefiles:
-    outputfile = sourcefile.replace("-source.svg", ".svg")
+    outputfile = sourcefile.replace("-source.svg", "-updated.svg")
     with open(sourcefile) as f:
         svgtext = f.read()
     for x in replacedict:
