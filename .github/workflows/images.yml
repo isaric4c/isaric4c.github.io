@@ -27,7 +27,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install inkscape 
-          inkscape -v
 
       - name: Install dependencies
         run: |
@@ -38,6 +37,11 @@ jobs:
           
       - name: update numbers in images
         run: python .scripts/update-images.py
+      
+      - name: convert images
+        run: |
+         inkscape --export-type="pdf" img/ap/*.svg
+         inkscape --export-type="png" img/ap/*.svg
 
       - name: Commit if changed
         run: |
