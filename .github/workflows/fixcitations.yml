@@ -19,7 +19,7 @@ jobs:
         with:
           repository: baillielab/citeswitcher
           ref: develop
-          path: citeswitcher
+          path: _includes/ap/citeswitcher
 
       - name: Setup python
         uses: actions/setup-python@v2
@@ -39,7 +39,7 @@ jobs:
 
       - name: fix citations
         run: |
-          python citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
+          python _includes/ap/citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
 
       - name: runtest
         run: |
