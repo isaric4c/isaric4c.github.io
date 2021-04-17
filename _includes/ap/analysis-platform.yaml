@@ -2,7 +2,7 @@
 bibliography: cs.bib
 citecolor: blue
 cref: true
-csl: /Users/jkb/Dropbox/3_scripts_and_programs/citeswitcher/sup-files/csl/nature.csl
+csl: nature.csl
 figPrefix: Figure
 figureTitle: Figure
 geometry: margin=2.5cm
