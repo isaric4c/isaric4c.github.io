@@ -41,12 +41,6 @@ jobs:
         run: |
           python citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l 
 
-      - name: runtest
-        run: |
-          head -500 _includes/ap/analysis-platform.yaml
-          head -40 /home/runner/work/isaric4c.github.io/isaric4c.github.io/_includes/ap/analysis-platform.md
-          head -200 /home/runner/work/isaric4c.github.io/isaric4c.github.io/citeswitcher/sup-files/csl/nature.csl
-
       - name: run_pandoc_html
         uses: docker://pandoc/latex
         with:
