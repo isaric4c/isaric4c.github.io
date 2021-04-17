@@ -17,13 +17,13 @@ def get_text(filepath):
 i4c_source_url = "https://raw.githubusercontent.com/SurgicalInformatics/ccp_recruitment_flat_file/master/ccp_recruit_daily.csv"
 g_source_url = "https://genomicc.roslin.ed.ac.uk/GCC/json-summary"
 #-----------------------------
-numdir = "_includes/numbers"
+numdir = "../_includes/numbers"
 t1 = os.path.join(numdir, "crf_count.txt")
 m = os.path.join(numdir, "multiomics_count.txt")
 g = os.path.join(numdir, "genomicc_count.txt")
 c = os.path.join(numdir, "cog_count.txt")
 #-----------------------------
-imgdir = "img/ap/"
+imgdir = "../img/ap/"
 sourcefiles = [os.path.join(imgdir, x) for x in [
         "i4c-map-source.svg",
         "i4c-analysis-platform-source.svg"
