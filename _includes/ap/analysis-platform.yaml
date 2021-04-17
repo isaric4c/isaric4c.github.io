@@ -2,7 +2,7 @@
 bibliography: cs.bib
 citecolor: blue
 cref: true
-csl: https://github.com/baillielab/citeswitcher/blob/master/sup-files/csl/nature.csl
+csl: nature.csl
 figPrefix: Figure
 figureTitle: Figure
 geometry: margin=2.5cm
