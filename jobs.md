@@ -1,7 +1,7 @@
 ---
 title: 'Jobs'
 layout: 'picpage'
-intro_image: '/img/analysis_platform.svg'
+intro_image: '/img/ap/i4c-analysis-platform-updated.png'
 ---
 
 # Work with us
@@ -24,7 +24,6 @@ We are putting together a data management and architecture team to curate, link 
 
 See [previous outputs from ISARIC 4C](/outputs/)
 
-[Click here for full details and to submit an application](https://www.vacancies.ed.ac.uk/pls/corehrrecruit/erq_jobspec_version_4.jobspec?p_id=052959)
 
 
 

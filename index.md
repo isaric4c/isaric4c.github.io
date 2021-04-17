@@ -2,7 +2,7 @@
 layout: home
 title: ISARIC4C consortium
 description: The UK ISARIC Coronavirus Clinical Characterisation Consortium.
-intro_image: "https://baillielab.net/img/isaric4c/ISARIC_UKmap.svg"
+intro_image: "img/ap/i4c-map-updated.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
 ---
@@ -20,7 +20,7 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 
 ## Analysis Platform
 
-The ISARIC4C study has created an open-access [integrated analysis platform](/analysis-platform) for linked clincal data from across the NHS for a range of studies, including ISARIC4C, GenOMICC, PHOSP, COG-UK and UK-CIC.
+The ISARIC4C study has created an open-access [integrated analysis platform](analysis-platform) for linked clincal data from across the NHS for a range of studies, including ISARIC4C, GenOMICC, PHOSP, COG-UK and UK-CIC.
 
 ## Funding
 

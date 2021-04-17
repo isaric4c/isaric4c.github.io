@@ -1,6 +1,6 @@
 main:
-  - name: "Home"
-    url: "/"
+  - name: "Analysis Platform"
+    url: "/analysis-platform"
     weight: 1
   - name: "Outputs"
     url: "/outputs/"

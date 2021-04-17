@@ -53,6 +53,18 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --filter pandoc-crossref
             --citeproc
+            --resource-path=_includes/ap
+            --output=_includes/ap/analysis-platform.citemd.html
+            _includes/ap/analysis-platform.yaml
+            _includes/ap/analysis-platform.citemd.md
+
+      - name: run_pandoc_pdf
+        uses: docker://pandoc/latex
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --filter pandoc-crossref
+            --citeproc
             --pdf-engine=xelatex
             --resource-path=_includes/ap
             --output=_includes/ap/analysis-platform.citemd.html

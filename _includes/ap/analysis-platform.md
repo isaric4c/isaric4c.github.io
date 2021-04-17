@@ -27,17 +27,19 @@ The ISARIC4C analysis platform exists to *encourgage and facilitate research* by
 ## Linkage to clinical data
 
 Research data within the analysis platform is already linked to:
+
 - NHS Scotland primary, secondary care and death records
 - NHS Digital health records data
 
 In future, plans are in place to transfer data to link with:
+
 - ICNARC and SICSAG critical care audit databases
 - NIMS National Immunisation Dataset
 - Pillar 1 testing
 - Pillar 2 testing
 - ONS
 
-![ISARIC4C study and data analysis platform](../../img/ap/i4c-map-updated.svg){#fig:map width=60%}
+![ISARIC4C study and data analysis platform](https://isaric4c.net/img/ap/i4c-map-updated.svg){#fig:map width=60%}
 
 ## Research outputs
 
@@ -56,7 +58,7 @@ Within both of these environments there is an additional division in the data:
 
 This design is intended to build trust in order to encourage immediate contributions of research data from academic collaborators.
 
-![Structure of the ISARIC4C Analysis Platform](../../img/ap/i4c-analysis-platform-updated.svg){#fig:structure width=60%}
+![Structure of the ISARIC4C Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.svg){#fig:structure width=60%}
 
 ## Future plans
 
@@ -89,8 +91,6 @@ The success of ISARIC4C is largely due to the following foundational principles:
 ## Open analysis platform for deidentified data
 
 The analysis platform is being used to provide itegrated analyses of genetic associations with multiple phenotypes,[@canela-xandriAtlasGeneticAssociations2018] functional genomics,[PMID: 24670764] and multi-omics critical illness trajectories,[@neytonMolecularPatternsAcute2020] within the largest clinical study of COVID-19 anywhere in the world.[https://doi.org/10.1136/bmj.m1985]
-
-![Overlapping data for surviving members of the ISARIC4C cohort.](https://baillielab.net/img/isaric4c/analysis_platform.pdf){#fig:dataplatform width=80%}
 
 The platform hosts overlapping datasets from across the UK. Individual patient consent enables sharing of linked whole-genome sequence data, whole-blood transcriptomics, proteomics, cytokine measurements, viral load and sequence, and clinical data. This will enable a range of discovery science with direct therapeutic applications, including subphenotype classification and extended causal inference using Mendelian randomisation and related approaches.
 
@@ -137,10 +137,6 @@ This will enable detailed, rich clinical analyses with corrections for confoundi
 ## Use cases
 
 Genomics person docker containers
-
-# List of data acquisitions:
-
-https://hackmd.io/@baillielab/datalinkage
 
 -->
 
