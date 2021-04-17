@@ -67,7 +67,20 @@ jobs:
             --citeproc
             --pdf-engine=xelatex
             --resource-path=_includes/ap
-            --output=_includes/ap/analysis-platform.citemd.html
+            --output=_includes/ap/analysis-platform.citemd.pdf
+            _includes/ap/analysis-platform.yaml
+            _includes/ap/analysis-platform.citemd.md
+
+      - name: run_pandoc_docx
+        uses: docker://pandoc/latex
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --filter pandoc-crossref
+            --citeproc
+            --pdf-engine=xelatex
+            --resource-path=_includes/ap
+            --output=_includes/ap/analysis-platform.citemd.docx
             _includes/ap/analysis-platform.yaml
             _includes/ap/analysis-platform.citemd.md
 
