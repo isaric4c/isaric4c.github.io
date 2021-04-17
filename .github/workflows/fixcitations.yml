@@ -26,6 +26,13 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Install required packages from apt
+        run: |
+          sudo apt update
+          sudo apt-get install texlive-full 
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt install inkscape
+
       - name: Install dependencies
         run: |
           pip install setuptools
