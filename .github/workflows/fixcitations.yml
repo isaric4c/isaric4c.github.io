@@ -56,7 +56,7 @@ jobs:
             --citeproc
             --pdf-engine=xelatex
             --output=_includes/ap/analysis-platform.citemd.html
-            _includes/ap/analysis-platform.citemd.yaml
+            _includes/ap/analysis-platform.yaml
             _includes/ap/analysis-platform.citemd.md
 
       - name: Commit if changed
