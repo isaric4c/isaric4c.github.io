@@ -39,7 +39,12 @@ jobs:
 
       - name: fix citations
         run: |
-          python citeswitcher/fixcitations.py -f _includes/ap/analysisplatform.md -l
+          python citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
+
+      - name: runtest
+        run: |
+          head -500 _includes/ap/analysis-platform.yaml
+
 
       - name: run_pandoc_latex
         uses: docker://pandoc/latex
@@ -49,9 +54,9 @@ jobs:
             --filter pandoc-crossref
             --citeproc
             --pdf-engine=xelatex
-            --output=_includes/ap/analysisplatform.citemd.pdf
-            _includes/ap/analysisplatform.yaml
-            _includes/ap/analysisplatform.citemd.md
+            --output=_includes/ap/analysis-platform.citemd.pdf
+            _includes/ap/analysis-platform.yaml
+            _includes/ap/analysis-platform.citemd.md
 
       - name: run_pandoc_html
         uses: docker://pandoc/core:2.9
@@ -61,9 +66,9 @@ jobs:
             --filter pandoc-crossref
             --citeproc
             --pdf-engine=xelatex
-            --output=_includes/ap/analysisplatform.citemd.html
-            _includes/ap/analysisplatform.yaml
-            _includes/ap/analysisplatform.citemd.md
+            --output=_includes/ap/analysis-platform.citemd.html
+            _includes/ap/analysis-platform.yaml
+            _includes/ap/analysis-platform.citemd.md
 
       - name: run_pandoc_docx
         uses: docker://pandoc/core:2.9
@@ -73,9 +78,9 @@ jobs:
             --filter pandoc-crossref
             --citeproc
             --pdf-engine=xelatex
-            --output=_includes/ap/analysisplatform.citemd.docx
-            _includes/ap/analysisplatform.yaml
-            _includes/ap/analysisplatform.citemd.md
+            --output=_includes/ap/analysis-platform.citemd.docx
+            _includes/ap/analysis-platform.yaml
+            _includes/ap/analysis-platform.citemd.md
 
       - name: Commit if changed
         run: |
