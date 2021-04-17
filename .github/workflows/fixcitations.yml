@@ -48,7 +48,7 @@ jobs:
           head -200 /home/runner/work/isaric4c.github.io/isaric4c.github.io/citeswitcher/sup-files/csl/nature.csl
 
       - name: run_pandoc_html
-        uses: docker://pandoc/core:2.13
+        uses: docker://pandoc/latex
         with:
           args: >-  # allows you to break string into multiple lines
             --standalone
