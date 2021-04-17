@@ -51,7 +51,6 @@ jobs:
         uses: docker://pandoc/latex
         with:
           args: >-  # allows you to break string into multiple lines
-            --standalone
             --filter pandoc-crossref
             --citeproc
             --pdf-engine=xelatex
