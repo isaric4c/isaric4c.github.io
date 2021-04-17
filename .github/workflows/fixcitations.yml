@@ -37,7 +37,7 @@ jobs:
 
       - name: fix citations
         run: |
-          python citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
+          python citeswitcher/fixcitations.py -f _includes/ap/analysisplatform.md -l
 
       - name: runls
         run: |
@@ -57,9 +57,9 @@ jobs:
             --filter pandoc-crossref
             --citeproc
             --pdf-engine=xelatex
-            --output=_includes/ap/analysis-platform.citemd.pdf
-            _includes/ap/analysis-platform.yaml
-            _includes/ap/analysis-platform.citemd.md
+            --output=_includes/ap/analysisplatform.citemd.pdf
+            _includes/ap/analysisplatform.yaml
+            _includes/ap/analysisplatform.citemd.md
 
       - name: Commit if changed
         run: |
