@@ -38,6 +38,9 @@ jobs:
 
       - name: runls
         run: |
+          echo "-----"
+          pwd -P
+          echo "-----"
           ls
           echo "-----"
           ls citeswitcher
