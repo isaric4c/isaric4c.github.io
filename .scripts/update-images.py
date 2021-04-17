@@ -22,6 +22,7 @@ t1 = os.path.join(numdir, "crf_count.txt")
 m = os.path.join(numdir, "multiomics_count.txt")
 g = os.path.join(numdir, "genomicc_count.txt")
 c = os.path.join(numdir, "cog_count.txt")
+p = os.path.join(numdir, "phosp_count.txt")
 #-----------------------------
 imgdir = "img/ap/"
 sourcefiles = [os.path.join(imgdir, x) for x in [
@@ -51,6 +52,7 @@ replacedict = {
     "2,526": "{:,}".format(int(get_text(m))),
     "8,213": "{:,}".format(int(get_text(g))),
     "cogcogcog": "{:,}".format(int(get_text(c))),
+    "phospphospphosp": "{:,}".format(int(get_text(p))),
 }
 
 for sourcefile in sourcefiles:
