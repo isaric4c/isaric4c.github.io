@@ -640,7 +640,7 @@
      sodipodi:role="line"
      id="tspan9165"
      x="313.62015"
-     y="2367.7158">COG-UK Viral variant data (21,234)</tspan></text><rect
+     y="2367.7158">COG-UK Viral variant data (21,230)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9171"
    width="921.65045"
@@ -672,7 +672,7 @@
      sodipodi:role="line"
      id="tspan9181"
      x="313.62006"
-     y="2203.1313">PHOSP clinical follow-up (21,234)</tspan></text><rect
+     y="2203.1313">PHOSP clinical follow-up (1,075)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9187"
    width="921.65045"
@@ -1171,7 +1171,7 @@
      sodipodi:role="line"
      id="tspan9181-3"
      x="316.98773"
-     y="932.69641">PHOSP clinical follow-up (21,234): </tspan></text><text
+     y="932.69641">PHOSP clinical follow-up (1,075): </tspan></text><text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;clip-rule:evenodd;fill:#3186c2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    x="292.96747"
