@@ -37,7 +37,7 @@ In future, plans are in place to transfer data to link with:
 - Pillar 2 testing
 - ONS
 
-![ISARIC4C study and data analysis platform](../../img/ap/i4c-map.svg){#fig:map width=60%}
+![ISARIC4C study and data analysis platform](../../img/ap/i4c-map-updated.svg){#fig:map width=60%}
 
 ## Research outputs
 
@@ -56,7 +56,7 @@ Within both of these environments there is an additional division in the data:
 
 This design is intended to build trust in order to encourage immediate contributions of research data from academic collaborators.
 
-![Structure of the ISARIC4C Analysis Platform](../../img/ap/i4c-analysis-platform.svg){#fig:structure width=60%}
+![Structure of the ISARIC4C Analysis Platform](../../img/ap/i4c-analysis-platform-updated.svg){#fig:structure width=60%}
 
 ## Future plans
 
