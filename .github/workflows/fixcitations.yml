@@ -26,13 +26,6 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install required packages from apt
-        run: |
-          sudo apt update
-          sudo apt-get install texlive-full 
-          sudo add-apt-repository ppa:inkscape.dev/stable
-          sudo apt install inkscape
-
       - name: Install dependencies
         run: |
           pip install setuptools
@@ -56,32 +49,6 @@ jobs:
             --citeproc
             --resource-path=_includes/ap
             --output=_includes/ap/analysis-platform.citemd.html
-            _includes/ap/analysis-platform.yaml
-            _includes/ap/analysis-platform.citemd.md
-
-      - name: run_pandoc_pdf
-        uses: docker://pandoc/latex
-        with:
-          args: >-  # allows you to break string into multiple lines
-            --standalone
-            --filter pandoc-crossref
-            --citeproc
-            --pdf-engine=xelatex
-            --resource-path=_includes/ap
-            --output=_includes/ap/analysis-platform.citemd.pdf
-            _includes/ap/analysis-platform.yaml
-            _includes/ap/analysis-platform.citemd.md
-
-      - name: run_pandoc_docx
-        uses: docker://pandoc/latex
-        with:
-          args: >-  # allows you to break string into multiple lines
-            --standalone
-            --filter pandoc-crossref
-            --citeproc
-            --pdf-engine=xelatex
-            --resource-path=_includes/ap
-            --output=_includes/ap/analysis-platform.citemd.docx
             _includes/ap/analysis-platform.yaml
             _includes/ap/analysis-platform.citemd.md
 
