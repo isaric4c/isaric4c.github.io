@@ -51,8 +51,8 @@ replacedict = {
     "151,123": "{:,}".format(int(get_text(t1))),
     "2,526": "{:,}".format(int(get_text(m))),
     "8,213": "{:,}".format(int(get_text(g))),
-    "cogcogcog": "{:,}".format(int(get_text(c))),
-    "phospphospphosp": "{:,}".format(int(get_text(p))),
+    "21,234": "{:,}".format(int(get_text(c))),
+    "1,077": "{:,}".format(int(get_text(p))),
 }
 
 for sourcefile in sourcefiles:
