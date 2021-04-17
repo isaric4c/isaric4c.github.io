@@ -41,7 +41,7 @@ jobs:
         run: |
           python citeswitcher/fixcitations.py -f _includes/ap/analysisplatform.md -l
 
-      - name: run_pandoc
+      - name: run_pandoc_latex
         uses: docker://pandoc/latex
         with:
           args: >-  # allows you to break string into multiple lines
@@ -53,12 +53,35 @@ jobs:
             _includes/ap/analysisplatform.yaml
             _includes/ap/analysisplatform.citemd.md
 
+      - name: run_pandoc_html
+        uses: docker://pandoc/core:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --filter pandoc-crossref
+            --citeproc
+            --pdf-engine=xelatex
+            --output=_includes/ap/analysisplatform.citemd.html
+            _includes/ap/analysisplatform.yaml
+            _includes/ap/analysisplatform.citemd.md
+
+      - name: run_pandoc_docx
+        uses: docker://pandoc/core:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --filter pandoc-crossref
+            --citeproc
+            --pdf-engine=xelatex
+            --output=_includes/ap/analysisplatform.citemd.docx
+            _includes/ap/analysisplatform.yaml
+            _includes/ap/analysisplatform.citemd.md
+
       - name: Commit if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add cs.bib
-          git add _includes/ap/*
           git add _includes/ap/*
           git diff-index --quiet HEAD || git commit -m "Automatically re-generate citation files"
 
