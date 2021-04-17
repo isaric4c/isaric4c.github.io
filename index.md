@@ -22,6 +22,11 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 
 The ISARIC4C study has created an open-access [integrated analysis platform](analysis-platform) for linked clincal data from across the NHS for a range of studies, including ISARIC4C, GenOMICC, PHOSP, COG-UK and UK-CIC.
 
+## Consortium details
+
+* [Project deliverables](structure)
+* [Consortium Authors and Acknowledgements](authors)
+
 ## Funding
 
 ISARIC4C is funded by two major awards from UK Reasearch and Inovation (UKRI) and The National Institute For Health Research (NIHR).
