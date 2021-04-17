@@ -44,7 +44,7 @@ jobs:
       - name: runtest
         run: |
           head -500 _includes/ap/analysis-platform.yaml
-
+          head -40 /home/runner/work/isaric4c.github.io/isaric4c.github.io/_includes/ap/analysis-platform.md
 
       - name: run_pandoc_latex
         uses: docker://pandoc/latex
