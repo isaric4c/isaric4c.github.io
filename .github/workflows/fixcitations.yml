@@ -47,18 +47,6 @@ jobs:
           head -40 /home/runner/work/isaric4c.github.io/isaric4c.github.io/_includes/ap/analysis-platform.md
           head -200 /home/runner/work/isaric4c.github.io/isaric4c.github.io/citeswitcher/sup-files/csl/nature.csl
 
-      - name: run_pandoc_latex
-        uses: docker://pandoc/latex
-        with:
-          args: >-  # allows you to break string into multiple lines
-            --standalone
-            --filter pandoc-crossref
-            --citeproc
-            --pdf-engine=xelatex
-            --output=_includes/ap/analysis-platform.citemd.pdf
-            _includes/ap/analysis-platform.yaml
-            _includes/ap/analysis-platform.citemd.md
-
       - name: run_pandoc_html
         uses: docker://pandoc/core:2.9
         with:
@@ -68,19 +56,6 @@ jobs:
             --citeproc
             --pdf-engine=xelatex
             --output=_includes/ap/analysis-platform.citemd.html
-            _includes/ap/analysis-platform.yaml
-            _includes/ap/analysis-platform.citemd.md
-
-      - name: run_pandoc_docx
-        uses: docker://pandoc/core:2.9
-        with:
-          args: >-  # allows you to break string into multiple lines
-            --standalone
-            --filter pandoc-crossref
-            --citeproc
-            --pdf-engine=xelatex
-            --output=_includes/ap/analysis-platform.citemd.docx
-            _includes/ap/analysis-platform.yaml
             _includes/ap/analysis-platform.citemd.md
 
       - name: Commit if changed
