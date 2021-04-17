@@ -44,7 +44,9 @@ with open(m,"w") as o:
 with open(g,"w") as o:
     o.write("{}".format(gdic["total"]))
 with open(c,"w") as o:
-    o.write("{}".format(21234))
+    o.write("{}".format(21230))
+with open(p,"w") as o:
+    o.write("{}".format(1075))
 #-----------------------------
 
 replacedict = {

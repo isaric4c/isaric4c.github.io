@@ -41,11 +41,7 @@ jobs:
           echo "-----"
           pwd -P
           echo "-----"
-          ls
-          echo "-----"
-          ls citeswitcher
-          echo "-----"
-          ls citeswitcher/sup-files
+          head -70 "/home/runner/work/isaric4c.github.io/isaric4c.github.io/citeswitcher/sup-files/csl/nature.csl"
           echo "-----"
           ls citeswitcher/sup-files/csl
           echo "-----"
