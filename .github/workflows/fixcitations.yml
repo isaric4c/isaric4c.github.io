@@ -36,6 +36,17 @@ jobs:
         run: |
           python citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
 
+      - name: runls
+        run: |
+          ls
+          echo "-----"
+          ls citeswitcher
+          echo "-----"
+          ls citeswitcher/sup-files
+          echo "-----"
+          ls citeswitcher/sup-files/csl
+          echo "-----"
+
       - name: run_pandoc
         uses: docker://pandoc/latex
         with:
