@@ -14,7 +14,7 @@ jobs:
         with:
           repository: baillielab/citeswitcher
           ref: develop
-          path: _includes/ap/citeswitcher
+          path: citeswitcher
 
       - name: Setup python
         uses: actions/setup-python@v2
@@ -34,16 +34,16 @@ jobs:
 
       - name: fix citations
         run: |
-          python _includes/ap/citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
+          python citeswitcher/fixcitations.py -f _includes/ap/analysis-platform.md -l
 
       - name: runls
         run: |
           echo "-----"
           pwd -P
           echo "-----"
-          head -70 "/home/runner/work/isaric4c.github.io/isaric4c.github.io/_includes/ap/citeswitcher/sup-files/csl/nature.csl"
+          head -70 "/home/runner/work/isaric4c.github.io/isaric4c.github.io/citeswitcher/sup-files/csl/nature.csl"
           echo "-----"
-          ls _includes/ap/citeswitcher/sup-files/csl
+          ls citeswitcher/sup-files/csl
           echo "-----"
 
       - name: run_pandoc
