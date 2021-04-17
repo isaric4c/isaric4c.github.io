@@ -2,6 +2,9 @@ name: make_pdf
 
 on: push
 
+  schedule:
+    - cron: '15 * * * *'
+
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
