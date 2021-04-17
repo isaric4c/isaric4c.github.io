@@ -1,6 +1,8 @@
 name: make_pdf
 
-on: push
+on: 
+
+  push:
 
   schedule:
     - cron: '15 * * * *'
@@ -38,16 +40,6 @@ jobs:
       - name: fix citations
         run: |
           python citeswitcher/fixcitations.py -f _includes/ap/analysisplatform.md -l
-
-      - name: runls
-        run: |
-          echo "-----"
-          pwd -P
-          echo "-----"
-          head -70 "/home/runner/work/isaric4c.github.io/isaric4c.github.io/citeswitcher/sup-files/csl/nature.csl"
-          echo "-----"
-          ls citeswitcher/sup-files/csl
-          echo "-----"
 
       - name: run_pandoc
         uses: docker://pandoc/latex
