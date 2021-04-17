@@ -64,7 +64,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add cs.bib
           git add _includes/ap/*
           git diff-index --quiet HEAD || git commit -m "Automatically re-generate citation files"
 
