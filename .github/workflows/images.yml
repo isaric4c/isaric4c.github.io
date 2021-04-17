@@ -23,6 +23,12 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Install required packages from apt
+        run: |
+          sudo apt-get update
+          sudo apt-get install inkscape 
+          inkscape -v
+
       - name: Install dependencies
         run: |
           pip install setuptools
