@@ -8,7 +8,7 @@ The outbreak analysis platform was developed by ISARIC4C to *encourgage and faci
 
 It provides a clinical and research data integration platform to facilitate integrative analyses of multi-omic, serial disease profiling, stratified by viral variant, clinical phenotype and outcome. The platform is hosted on nationally-leading, exabyte-scale computational infrastructure including state-of-the-art security systems for protection of identifiable data, and high-performance CPU/GPU computing (EPCC, and ARCHER/ARCHER2).
 
-![Structure of the ISARIC4C Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png){#fig:structure width=60%}
+![Structure of the ISARIC4C Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png){#fig:structure width=80%}
 
 This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
 
