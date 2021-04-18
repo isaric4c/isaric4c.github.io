@@ -10,7 +10,7 @@ ISARIC4C has developed a clinical and research data integration platform to faci
 
 The ISARIC4C analysis platform exists to *encourgage and facilitate research* by collating, linking and presenting data together with high-performance computational capacity. This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
 
-- ISARIC4C tier 0: (unconsented) prospective clinical data from 204333 cases
+- ISARIC4C tier 0: (unconsented) prospective clinical data from 204477 cases
 - ISARIC4C tiers 1 and 2: serial multiomic assays from research samples of blood, respiratory secretions, urine, and stool from 2306 cases
 - COG-UK: (unconsented) summary variant data from COG-UK viral sequencing study is already included for matched patients
 - [GenOMICC study](https://genomicc.org/uk) complete data: microarray and whole genome sequence data from 12454 cases
@@ -73,7 +73,7 @@ A critical determinant of success is building sufficient trust among contributor
 
 ## Principles
 
-ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningOpenSourceClinical2014] and harmonised across the world.[@akhvledianiGlobalOutbreakResearch2020a] It is an open-access national resource: we have already shared data on 204333 participants and 4273 samples with 26 external groups.
+ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningOpenSourceClinical2014] and harmonised across the world.[@akhvledianiGlobalOutbreakResearch2020a] It is an open-access national resource: we have already shared data on 204477 participants and 4273 samples with 26 external groups.
 
 The success of ISARIC4C is largely due to the following foundational principles:
 
