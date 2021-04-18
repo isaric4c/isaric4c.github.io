@@ -13,9 +13,13 @@ Outbreak data analysis platform
 
 ## Data held
 
-ISARIC4C has developed a clinical and research data integration platform to facilitate integrative analyses of multi-omic, serial disease profiling, stratified by viral variant, clinical phenotype and outcome. This is hosted on nationally-leading, exabyte-scale computational infrastructure including state-of-the-art security systems for protection of identifiable data, and high-performance CPU/GPU computing (the Edinburgh Parallel Compute Centre, EPCC, and ARCHER/ARCHER2).
+The outbreak analysis platform was developed by ISARIC4C to *encourgage and facilitate research* by collating, linking and presenting data together with high-performance computational capacity. 
 
-The ISARIC4C analysis platform exists to *encourgage and facilitate research* by collating, linking and presenting data together with high-performance computational capacity. This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
+It provides a clinical and research data integration platform to facilitate integrative analyses of multi-omic, serial disease profiling, stratified by viral variant, clinical phenotype and outcome. The platform is hosted on nationally-leading, exabyte-scale computational infrastructure including state-of-the-art security systems for protection of identifiable data, and high-performance CPU/GPU computing (EPCC, and ARCHER/ARCHER2).
+
+![Structure of the ISARIC4C Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.pdf){#fig:structure width=60%}
+
+This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
 
 - ISARIC4C tier 0: (unconsented) prospective clinical data from num_crf cases
 - ISARIC4C tiers 1 and 2: serial multiomic assays from research samples of blood, respiratory secretions, urine, and stool from num_multiomics cases
@@ -39,16 +43,13 @@ In future, plans are in place to transfer data to link with:
 - Pillar 2 testing
 - ONS
 
-![ISARIC4C study and data analysis platform](https://isaric4c.net/img/ap/i4c-map-updated.svg){#fig:map width=60%}
-
 ## Research outputs
 
-The [ISARIC Coronavirus Clinical Characterisation Consortium (4C)](https://isaric4c.net) is the largest observational study of hospitalised patients with COVID-19 anyhwere in the world. Through acquisition, integration and analysis of clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals, ISARIC4C has provided essential weekly updates to SAGE that guide the public health response, and enabled understanding of the clinical features,[@dochertyFeatures201332020] prognostication,[https://doi.org/10.1136/bmj.m3339] disease biology[@thwaitesElevatedAntiviralMyeloid2020] and host genetics.[doi:10.1038/s41586-020-03065-y]
-
+The [ISARIC Coronavirus Clinical Characterisation Consortium (4C)](https://isaric4c.net) is the largest observational study of hospitalised patients with COVID-19 anyhwere in the world. By generating, integrating and analysing clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals (@fig:map), ISARIC4C has provided essential weekly updates to SAGE that guide the public health response, and enabled understanding of the clinical features,[@dochertyFeatures201332020] prognostication,[https://doi.org/10.1136/bmj.m3339] disease biology[@thwaitesElevatedAntiviralMyeloid2020] and host genetics.[doi:10.1038/s41586-020-03065-y]
 
 ## Analysis platform structure
 
-There are two routes of access to the analysis platform:
+There are two routes of access to the analysis platform (@fig:structure):
 1. NHS Trusted Research Environment (Safe Haven) for access to personal clinical data and data collected without explicit consent.
 2. Rapid-access flexible compute for access to non-disclosive research data collected with explicit consent.
 
@@ -58,7 +59,7 @@ Within both of these environments there is an additional division in the data:
 
 This design is intended to build trust in order to encourage immediate contributions of research data from academic collaborators.
 
-![Structure of the ISARIC4C Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.svg){#fig:structure width=60%}
+![ISARIC4C study and data analysis platform](https://isaric4c.net/img/ap/i4c-map-updated.pdf){#fig:map width=60%}
 
 ## Future plans
 
@@ -140,6 +141,7 @@ Genomics person docker containers
 
 -->
 
+\newpage
 
 # References
 
