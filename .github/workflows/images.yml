@@ -3,7 +3,7 @@ name: images
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '0 2 * * *'
   
   #push:
 
