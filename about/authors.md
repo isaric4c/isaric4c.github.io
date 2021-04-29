@@ -82,7 +82,20 @@ Lance CW Turtle,
 Rishi K Gupta,
 Carlo Palmieri,
 Olivia V Swann,
-Maria Zambon.
+Maria Zambon,
+Marc-Emmanuel Dumas,
+Julian L Griffin,
+Zoltan Takats,
+Kanta Chechi,
+Petros Andrikopoulos,
+Anthonia Osagie,
+Michael Olanipekun,
+Sonia Liggi,
+Matthew R Lewis,
+Gonçalo dos Santos Correia,
+Caroline J Sands,
+Panteleimon Takis,
+Lynn Maslen.
 
 *Project Manager*:
 Chloe Donohue,
