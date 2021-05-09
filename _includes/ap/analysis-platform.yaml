@@ -2,7 +2,7 @@
 bibliography: cs.bib
 citecolor: blue
 cref: true
-csl: nature.csl
+csl: citeswitcher/sup-files/csl/nature.csl
 figPrefix: Figure
 figureTitle: Figure
 geometry: margin=2.5cm
@@ -12,8 +12,8 @@ link-citations: true
 linkcolor: blue
 numbersections: false
 replace:
-  num_crf: 206543
-  num_genomicc: 12531
+  num_crf: 207094
+  num_genomicc: 12591
   num_multiomics: 2309
   num_phosp: 1075
 tableTitle: Table
