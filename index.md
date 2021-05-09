@@ -14,9 +14,9 @@ We are a UK-wide consortium of doctors and scientists committed to answering urg
 ## Recruitment
 
 <span id="date">We</span> have recruited:
-- <span id="num-tier-0">{% include numbers/crf_count.txt %}</span> patients at Tier Zero case report forms(CO-CIN)
-- <span id="num-tier-2">{% include numbers/multiomics_count.txt %}</span> patients at Tier 1/2 (host/viral multiomics)
-- <span id="num-tier-0">{% include numbers/genomicc_count.txt %}</span> critically-ill patients can also be recruited to a sister study, the [ISARIC GenOMICC study](https://genomicc.org) 
+- <span id="num-tier-0">{% include_relative numbers/crf_count.txt %}</span> patients at Tier Zero case report forms(CO-CIN)
+- <span id="num-tier-2">{% include_relative numbers/multiomics_count.txt %}</span> patients at Tier 1/2 (host/viral multiomics)
+- <span id="num-tier-0">{% include_relative numbers/genomicc_count.txt %}</span> critically-ill patients can also be recruited to a sister study, the [ISARIC GenOMICC study](https://genomicc.org) 
 
 ## Analysis Platform
 
