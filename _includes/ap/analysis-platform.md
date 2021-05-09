@@ -13,7 +13,7 @@ Outbreak data analysis platform
 
 ## Outbreak data analysis platform 
 
-Created for Covid-19 research, the ISARIC4C data analysis platform combines the data safeguards of an NHS trusted research environment, with >£100M of  exabyte-scale computational capacity on the UK national supercomputer. This creates a unique opportunity to combine clinical and genomics research to identify the right treatments, for the right patients.
+The data analysis platform provides a unique combination of linked, curated data from UK sovereign data assets, together with a flexible high performance compute space. Created for Covid-19 research, the ISARIC4C data analysis platform combines the data safeguards of an NHS trusted research environment, with >£100M of  exabyte-scale computational capacity on the UK national supercomputer. This creates a unique opportunity to combine clinical, biological, genomics and virology research in as secure, openly-accessible framework. 
 
 ### Data held
 
@@ -45,7 +45,19 @@ In future, plans are in place to transfer data to link with:
 
 ### Research outputs
 
-The [ISARIC Coronavirus Clinical Characterisation Consortium (4C)](https://isaric4c.net) is the largest observational study of hospitalised patients with COVID-19 anyhwere in the world. By generating, integrating and analysing clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals (@fig:map), ISARIC4C has provided essential weekly updates to SAGE that guide the public health response, and enabled understanding of the clinical features,[@dochertyFeatures201332020] prognostication,[https://doi.org/10.1136/bmj.m3339] disease biology[DOI:10.1126/sciimmunol.abg9873] and host genetics.[doi:10.1038/s41586-020-03065-y]
+The [ISARIC Coronavirus Clinical Characterisation Consortium (4C)](https://isaric4c.net) is the largest observational study of hospitalised patients with COVID-19 anyhwere in the world. By generating, integrating and analysing clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals, ISARIC4C has:  
+
+- provided essential weekly updates to SAGE that guide the public health response [isaric4c.net/reports/](https://isaric4c.net/reports/), 
+- quantified the role of age, comorbid illness and obesity in disease severity,[@dochertyfeatures201332020] 
+- identified the substantial effect of nosocomial transmission of Covid-19 within hospitals [SPI-M/SAGE report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/961210/S1056_Contribution_of_nosocomial_infections_to_the_first_wave.pdf),
+- created the global standard ISARIC4C score for prognostication [isaric4c.net/risk](isaric4c.net/risk),[@knightriskstratificationpatients2020] 
+- elucidated cytokine patterns underlying disease mechanisms,[@thwaitesinflammatoryprofilesspectrum2021]
+- identified host genetic mechanisms of disease, [@pairocastineirageneticmechanismscritical2021]
+- provided key evidence underlying the choice of therapeutic agents for clinical trials[@thwaitesinflammatoryprofilesspectrum2021, @pairocastineirageneticmechanismscritical2021]
+- provided data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)
+- provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al,  Egan et al.) 
+
+Because of these and other achievements (see [isaric4c.net/outputs](https://isaric4c.net/outputs)), ISARIC4C was used as exemplar by the National Institte of Healthcare Research for pandemic preparedness research resulting in real patient benefit.
 
 ## Analysis platform structure
 
