@@ -17,7 +17,7 @@ def get_text(filepath):
 i4c_source_url = "https://raw.githubusercontent.com/SurgicalInformatics/ccp_recruitment_flat_file/master/ccp_recruit_daily.csv"
 g_source_url = "https://genomicc.roslin.ed.ac.uk/GCC/json-summary"
 #-----------------------------
-numdir = "_includes/numbers"
+numdir = "numbers"
 t1 = os.path.join(numdir, "crf_count.txt")
 m = os.path.join(numdir, "multiomics_count.txt")
 g = os.path.join(numdir, "genomicc_count.txt")

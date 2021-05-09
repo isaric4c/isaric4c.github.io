@@ -1,10 +1,10 @@
 ---
 title: Outbreak data analysis platform
 replace:
-    num_genomicc: {!../numbers/genomicc_count.txt!}
-    num_multiomics: {!../numbers/multiomics_count.txt!}
-    num_crf: {!../numbers/crf_count.txt!}
-    num_phosp: {!../numbers/phosp_count.txt!}
+    num_genomicc: {!../../numbers/genomicc_count.txt!}
+    num_multiomics: {!../../numbers/multiomics_count.txt!}
+    num_crf: {!../../numbers/crf_count.txt!}
+    num_phosp: {!../../numbers/phosp_count.txt!}
 ---
 
 <!--
