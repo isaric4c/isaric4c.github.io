@@ -23,6 +23,8 @@ m = os.path.join(numdir, "multiomics_count.txt")
 g = os.path.join(numdir, "genomicc_count.txt")
 c = os.path.join(numdir, "cog_count.txt")
 p = os.path.join(numdir, "phosp_count.txt")
+h0 = os.path.join(numdir, "hospitals_tier0.txt")
+h2 = os.path.join(numdir, "hospitals_tier2.txt")
 #-----------------------------
 imgdir = "img/ap/"
 sourcefiles = [os.path.join(imgdir, x) for x in [
@@ -38,23 +40,29 @@ isource=requests.get(i4c_source_url).content
 df=pd.read_csv(io.StringIO(isource.decode('utf-8')))
 
 with open(t1,"w") as o:
-    o.write("{}".format(df["n_in_all_tiers"][0]))
+    o.write("{:,d}".format(int(df["n_in_all_tiers"][0])))
 with open(m,"w") as o:
-    o.write("{}".format(df["n_tier1"][0]+df["n_tier2"][0]))
+    o.write("{:,d}".format(int(df["n_tier1"][0]+df["n_tier2"][0])))
 with open(g,"w") as o:
-    o.write("{}".format(gdic["total"]))
+    o.write("{:,d}".format(int(gdic["total"])))
 with open(c,"w") as o:
-    o.write("{}".format(21230))
+    o.write("{:,d}".format(int(21230)))
 with open(p,"w") as o:
-    o.write("{}".format(1075))
+    o.write("{:,d}".format(int(1075)))
+with open(h0,"w") as o:
+    o.write("{:,d}".format(int(253)))
+with open(h2,"w") as o:
+    o.write("{:,d}".format(int(53)))
 #-----------------------------
 
 replacedict = {
-    "151,123": "{:,}".format(int(get_text(t1))),
-    "2,526": "{:,}".format(int(get_text(m))),
-    "8,213": "{:,}".format(int(get_text(g))),
-    "21,234": "{:,}".format(int(get_text(c))),
-    "1,077": "{:,}".format(int(get_text(p))),
+    "151,123": "{}".format(get_text(t1)),
+    "2,526": "{}".format(get_text(m)),
+    "8,213": "{}".format(get_text(g)),
+    "21,234": "{}".format(get_text(c)),
+    "1,077": "{}".format(get_text(p)),
+    "253": "{}".format(get_text(h0)),
+    "53": "{}".format(get_text(h2)),
 }
 
 for sourcefile in sourcefiles:
