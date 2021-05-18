@@ -71,6 +71,22 @@ This design is intended to build trust in order to encourage immediate contribut
 Rapid addition of viral sequence data from the COG-UK platform will enable real-time detection of the clinical impact of new viral strains, in-depth biological study of reinfection, and host:pathogen interactions at a genetic and mechanistic level.
 
 <!--
+
+Rules for the embargoed area:
+
+The "under embargo" area contains raw, unpublished data shared by hospitals, investigators and research labs across the country. It exists to accelerate discovery in a global crisis. 
+
+1. involve people early
+The first rule of shared analysis is never to present data contributors with a *fait accompli* - that is, don't rush ahead and finish an analysis, or even worse, a manuscript, without letting the people who made it possible know what you're doing, and giving them an opportunity to contribute meaningfully to the design and write up. That means people at every stage in the procedure, from recruitment and management to laboratory and data analysis.
+2. share your plans
+All users in the embargo area will also have access to the ISARIC4C consortium-wide slack group and weekly meetings. When you come up with new ideas, post about them and discuss them with the rest of the consortium. 
+3. primacy of data generation. For most analyses inside the embargo area, the novelty is in the samples and data themselves, rather than in the laboratory or computational analyses that finished the job. For each piece of work, ask yourself, why has no-one else done this yet? Did you make the cake, or just put icing on one? When you come to publish, share academic credit accordingly.
+
+-->
+
+
+
+<!--
 # Background
 
 
