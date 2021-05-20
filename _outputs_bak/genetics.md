@@ -1,11 +1,14 @@
 ---
-title: "Genetic mechanisms of severe Covid-19"
+title: "Genetics"
 featured: true
 weight: 100
-doi: https://doi.org/10.1038/s41586-020-03065-y
 ---
 
-[MedRxiv September 2020; Nature online December 2020]({{page.doi}})
+[MedRxiv September 2020; Nature online December 2020](https://www.nature.com/articles/s41586-020-03065-y)
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="95831149"></div>
+
+# Genetic mechanisms of severe Covid-19
 
 In collaboration with the [ISARIC GenOMICC study](https://genomicc.org) we discovered multiple genes that underlie critical illness in Covid-19, including several that led directly to potential therapeutic targets. 
 

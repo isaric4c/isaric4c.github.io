@@ -2,10 +2,12 @@
 title: "Risk prediction: the 4C Mortality Score"
 featured: true
 weight: 20
-doi: https://doi.org/10.1136/bmj.m3339
 ---
 
-[BMJ 9 Mar 2020]({{page.doi}})
+[BMJ 9 Mar 2020](https://doi.org/10.1136/bmj.m3339)
+
+# The ISARIC 4C Mortality Score
+DOI: [10.1136/bmj.m3339](https://doi.org/10.1136/bmj.m3339)
 
 Using data from 57, 824 hospital admissions, we developed and validated an easy-to-use risk stratification score based on commonly available parameters at hospital presentation. The 4C Mortality Score outperformed existing scores, showed utility to directly inform clinical decision making, and can be used to stratify patients admitted to hospital with covid-19 into different management groups. 
 

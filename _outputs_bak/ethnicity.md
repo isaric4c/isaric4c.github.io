@@ -1,10 +1,11 @@
 ---
-title: "Impact of ethnicity"
+title: "Ethnicity"
 featured: true
 weight: 20
-doi: http://dx.doi.org/10.2139/ssrn.3618215
 ---
 
-[SSRN July 2020]({{page.doi}})
+[SSRN July 2020](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3618215)
+
+# Impact of ethnicity
 
 We have carefully studied the effect of ethnicity on outcomes in hospitalised patients, revealing the effect of comorbidities in mediating part of the increased susceptibility in some ethic groups.

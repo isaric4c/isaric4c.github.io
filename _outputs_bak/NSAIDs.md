@@ -1,11 +1,14 @@
 ---
-title: "Non-steroidal anti-inflammatory drug use and outcomes of COVID-19"
+title: "NSAIDs"
 featured: true
 weight: 20
-doi: https://doi.org/10.1016/S2665-9913(21)00104-1
 ---
 
-[The Lancet: Rheumatology May 07, 2021]({{page.doi}})
+[The Lancet: Rheumatology May 07, 2021](https://doi.org/10.1016/S2665-9913(21)00104-1)
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="105486614"></div>
+
+# Non-steroidal anti-inflammatory drug use and outcomes of COVID-19 in the ISARIC Clinical Characterisation Protocol UK cohort: a matched, prospective cohort study
 
 Early in the pandemic it was suggested that pre-existing use of non-steroidal anti-inflammatory drugs (NSAIDs) could lead to increased disease severity in patients with COVID-19. NSAIDs are an important analgesic, particularly in those with rheumatological disease, and are widely available to the general public without prescription.
 

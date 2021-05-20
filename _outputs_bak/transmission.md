@@ -2,10 +2,9 @@
 title: "Transmission"
 featured: true
 weight: 20
-doi: https://doi.org/10.1093/cid/ciaa905
 ---
 
-[Medrxiv June 2020]({{page.doi}})
+[Medrxiv June 2020](https://www.medrxiv.org/content/10.1101/2020.05.24.20110346v2)
 
 # Transmission dynamics of COVID-19
 

@@ -8,11 +8,13 @@ Include a YAML header like this:
 title: "Risk prediction: the 4C Mortality Score"
 featured: true
 weight: 20
+doi: https://doi.org/10.1016/j.hrtlng.2021.01.006
 ---
 `
 
 Where possible, start with a markdown-style link to the output, using the full DOI address
-[BMJ August 2020](https://doi.org/10.1136/bmj.m3339)
+
+[BMJ August 2020]({{page.doi}}))
 
 Then include as much information as you can about the output, e.g.
 

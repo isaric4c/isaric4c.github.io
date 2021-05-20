@@ -3,6 +3,8 @@ layout: default
 bodyClass: page-outputs-list
 ---
 
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
@@ -28,6 +30,7 @@ bodyClass: page-outputs-list
             <a href="{{site.baseurl}}{{ output.url }}">{{ output.title }}</a>
           </h2>
           <p>{{ output.content | markdownify | strip_html | truncate: 100 }}</p>
+          <div class="altmetric-embed" data-badge-type="donut" data-doi="{{output.doi}}"></div>
         </div>
       </div>
     </div>
