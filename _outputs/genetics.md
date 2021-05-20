@@ -1,7 +1,7 @@
 ---
 title: "Genetic mechanisms of severe Covid-19"
 featured: true
-weight: 100
+weight: 21
 doi: https://doi.org/10.1038/s41586-020-03065-y
 ---
 

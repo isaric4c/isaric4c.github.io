@@ -1,7 +1,7 @@
 ---
 title: "Outcomes of COVID-19 hospitalisation among patients with HIV"
 featured: false
-weight: 1
+weight: 100
 doi: https://doi.org/10.1093/cid/ciaa1605
 ---
 

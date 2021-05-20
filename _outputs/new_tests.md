@@ -1,7 +1,7 @@
 ---
 title: "Testing the tests"
 featured: true
-weight: 2
+weight: 100
 doi: https://doi.org/10.12688/wellcomeopenres.15927.1
 ---
 

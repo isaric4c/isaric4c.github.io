@@ -1,7 +1,7 @@
 ---
 title: "Setting Serology Standards"
 featured: true
-weight: 3
+weight: 26
 ---
 
 # Setting the standard

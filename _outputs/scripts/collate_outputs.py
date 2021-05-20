@@ -3,20 +3,11 @@
 
 import os
 import re
+import yaml
+from pyaltmetric import Altmetric
 
-outputdir = os.path.expanduser("~/Dropbox/6_websites/isaric4c.github.io/_outputs")
-outfile = "outputs.md"
-
-#-------
-def getyaml(y):
-    yml = {}
-    for line in y:
-        line = line.split(": ")
-        if len(line)>1:
-            yml[line[0]]=line[1]
-        else:
-            yml[line[0]]=""
-    return yml
+outputdir = "../"
+outfile = "out.md"
 
 def readheader(filecontents):
     '''
@@ -26,13 +17,12 @@ def readheader(filecontents):
     '''
     t = filecontents.strip()
     t = t.replace('\r','\n')
-    header = []
+    h = ""
     remainder = filecontents
     lines = [x for x in t.split('\n')] # don't strip because indentation matters
     if lines[0]=='---':
         h1 = re.findall( '---[\s\S]+?---',filecontents)
         h2 = re.findall( '---[\s\S]+?\.\.\.',filecontents)
-
         if len(h1)>0 and len(h2)>0:
             #print ("both yaml header formats match! Taking the shorter one")
             if len(h1[0]) < len(h2[0]):
@@ -45,29 +35,91 @@ def readheader(filecontents):
             h = h1[0]
         elif len(h2)>0:
             h = h2[0]
-        if len(h)>0:
-            header = h.split('\n')[1:-1]
         remainder = filecontents.replace(h,'')
-    return header, remainder
-#-------
+    return h, remainder
 
 
-outputfiles = [x for x in os.listdir(outputdir) if not x.startswith(".") and not x.startswith("Icon") and x.endswith(".md")]
+def replace_liquid(thistext, ymldic):
+    '''
+        Replace liquid-style {{page.doi}} tags with the relevant bit from yaml header
+    '''
+    lm = "\{\{ *page\..*?\}\}"
+    for thismatch in re.findall(lm, thistext):
+        key = thismatch.replace("{{","").replace("}}","").replace("page.","").strip()
+        try:
+            ymldic[key]
+        except:
+            continue
+        thistext = thistext.replace(thismatch, ymldic[key])
+    return thistext
 
+def get_altmetric(thisdoi):
+    a = Altmetric()
+    alt = a.doi(thisdoi.split("doi.org/")[1])
+    return int(alt["score"])
+
+def replace_imagepath(thistext, root="../../"):
+    figureformat = '!\[.*?\]\(.*?\).*?\n'
+    figures_found = re.findall(figureformat, thistext)
+    for f in figures_found:
+        path = f.split("(")[1]
+        path = path.split(")")[0]
+        ps = 0
+        if path.startswith("/"):
+            ps = 1
+        g = f.replace(path, os.path.abspath(os.path.join(root, path[ps:])))
+        thistext = thistext.replace(f, g)
+    return thistext
+
+
+outputfiles = [x for x in os.listdir(outputdir) if not x.startswith(".") and not x.startswith("Icon") and x.endswith(".md") and not x.startswith("_")]
+
+weightdict = {}
 outdict = {}
+filedict = {}
 for filename in outputfiles:
+    print (filename)
     thispath = os.path.join(outputdir, filename)
     with open(thispath) as f:
         text = f.read()
-    h, r = readheader(text)
-    y = getyaml(h)
-    w = int(y["weight"])
-    outdict[r]=w
+        y, r = readheader(text)
+        try:
+            gen = yaml.safe_load_all(y)
+            for generator_item in gen:
+                yml = generator_item
+                break
+        except:
+            yml = ""
+            continue
+        altscore = ""
+        ref = ""
+        if "doi" in yml:
+            try:
+                a = get_altmetric(yml["doi"])
+                altscore = "Altmetric score: {}".format(a)
+            except:
+                pass
+            ref = "[{}]".format(yml["doi"])
+            try:
+                filedict[yml["doi"]]
+                print ("***Duplicate doi***\n\t{}\n\t{}\n\t{}\n".format(yml["doi"], filedict[yml["doi"]], filename))
+            except:
+                pass
+            filedict[yml["doi"]] = filename
+        r = replace_liquid(r, yml)
+        r = replace_imagepath(r)
+        weightdict[filename] = yml["weight"]
+        outdict[filename] = "# {}\n\n".format("\n\n".join([
+                yml["title"].strip(),
+                r.strip(),
+                str(altscore) + ref,
+                ])
+            )
+
 
 with open(outfile,"w") as o:
-    for k,v, in [(k, outdict[k]) for k in sorted(outdict, key=outdict.get, reverse=True)]:
-        print (v)
-        o.write("{}\n".format(k))
+    for k,v, in [(k, weightdict[k]) for k in sorted(weightdict, key=weightdict.get, reverse=False)]:
+        o.write("{}\n".format(outdict[k]))
 
 
 

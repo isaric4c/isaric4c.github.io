@@ -1,7 +1,7 @@
 ---
 title: "Outcomes of hospitalised COVID-19 patients with interstitial lung disease"
 featured: false
-weight: 1
+weight: 100
 doi: https://doi.org/10.1164/rccm.202007-2794oc
 ---
 

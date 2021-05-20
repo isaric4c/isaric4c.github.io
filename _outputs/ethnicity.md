@@ -1,7 +1,7 @@
 ---
 title: "Impact of ethnicity"
 featured: true
-weight: 20
+weight: 50
 doi: http://dx.doi.org/10.2139/ssrn.3618215
 ---
 

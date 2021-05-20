@@ -12,6 +12,7 @@ Using data from 57, 824 hospital admissions, we developed and validated an easy-
 The 4C Mortality Score can be found here: [isaric4c.net/risk](/risk)
 
 The 4C Mortality Score has been extensively validated in independent studies across the world. Validation of the 4C score showed similar discrimination in the following countries:
+
 * [France](https://doi.org/10.1038/s41467-020-20657-4)
 * [The Netherlands](https://doi.org/10.1080/07853890.2021.1891453)
 * [Italy](https://doi.org/10.1111/jgs.16956)

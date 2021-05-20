@@ -1,7 +1,7 @@
 ---
 title: "Characterisation of hospitalised cases of COVID-19"
 featured: true
-weight: 1
+weight: 21
 doi: https://doi.org/10.1136/bmj.m1985
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Non-steroidal anti-inflammatory drug use and outcomes of COVID-19"
 featured: true
-weight: 20
+weight: 24
 doi: https://doi.org/10.1016/S2665-9913(21)00104-1
 ---
 

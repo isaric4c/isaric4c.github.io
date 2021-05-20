@@ -1,7 +1,7 @@
 # Instructions for recording outputs
 
 
-Include a YAML header like this:
+Include a YAML header like this (lighter weights float to the top!):
 
 `
 ---

@@ -7,7 +7,8 @@ bodyClass: page-outputs-list
 
 <div class="container">
   <div class="row">
-    {% for output in site.outputs %}
+    {% assign sortedoutputs = site.outputs | sort: "weight" %}
+    {% for output in sortedoutputs %}
     <div class="col-12 col-md-12 mb-12">
       <div class="output output-summary">
         <h2>{{ output.title }}</h2>

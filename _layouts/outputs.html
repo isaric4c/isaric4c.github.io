@@ -22,14 +22,15 @@ bodyClass: page-outputs-list
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% for output in site.outputs %}
+    {% assign sortedoutputs = site.outputs | sort: "weight" %}
+    {% for output in sortedoutputs %}
     <div class="col-12 col-md-6 mb-3">
       <div class="output output-summary">
         <div class="output-content">
           <h2 class="output-title">
             <a href="{{site.baseurl}}{{ output.url }}">{{ output.title }}</a>
           </h2>
-          <p>{{ output.content | markdownify | strip_html | truncate: 100 }}</p>
+          <p>{{ output.content | markdownify | strip_html | truncate: 250 }}</p>
           <div class="altmetric-embed" data-badge-type="donut" data-doi="{{output.doi}}"></div>
         </div>
       </div>

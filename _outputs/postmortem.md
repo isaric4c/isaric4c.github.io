@@ -1,7 +1,7 @@
 ---
 title: "ICECAP autopsy study"
 featured: true
-weight: 1
+weight: 80
 doi: https://doi.org/10.1164/rccm.202008-3265OC
 ---
 
