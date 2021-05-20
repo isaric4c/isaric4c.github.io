@@ -1,0 +1,18 @@
+---
+bibliography: cs.bib
+citecolor: blue
+csl: ../../../../3_scripts_and_programs/citeswitcher/sup-files/csl/nature.csl
+eqnPrefix: Equation
+figPrefix: Figure
+figureTitle: Figure
+geometry: top=2cm, bottom=1.5cm, left=1cm, right=1cm
+header-includes: '\sloppy \usepackage{fancyhdr} \pagestyle{fancy} \fancyhead[LO,LE]{}
+  \fancyhead[CO,CE]{} \fancyfoot[CO,CE]{} \fancyfoot[LE,RO]{\thepage} '
+link-citations: true
+linkcolor: blue
+numbersections: true
+reference-section-title: References
+tableTitle: Table
+tblPrefix: Table
+urlcolor: teal
+---
