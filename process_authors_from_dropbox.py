@@ -11,6 +11,7 @@ except Exception as e:
     
 print("Successfully loaded from Dropbox into Pandas dataframe")
 
+
 with open("./about/authors.md", "w") as fp:
     sys.stdout = fp
 
@@ -59,9 +60,15 @@ ISARIC4C Investigators
                 print(f"*{previous_contribution}*:" + "\n" + ",\n".join(names) + ".\n")
             names = []
             previous_contribution = row["contribution"]
+            names.append(row["Name"])
 
     print(f"*{previous_contribution}*:" + "\n" + ",\n".join(names) + ".\n")
 
     print("## Acknowledgements")
     print(
         "This work uses data provided by patients and collected by the NHS as part of their care and support #DataSavesLives. We are extremely grateful to the 2,648 frontline NHS clinical and research staff and volunteer medical students, who collected this data in challenging circumstances; and the generosity of the participants and their families for their individual contributions in these difficult times. We also acknowledge the support of Jeremy J Farrar and Nahoko Shindo.")
+
+
+
+
+

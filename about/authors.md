@@ -35,6 +35,7 @@ ISARIC4C Investigators
 *ISARIC Clinical Coordinator*: Gail Carson.
 
 *Co-Investigator*:
+Beatrice Alex,
 Benjamin Bach,
 Wendy S Barclay,
 Debby Bogaert,
@@ -98,11 +99,13 @@ Panteleimon Takis,
 Lynn Maslen.
 
 *Project Manager*:
+Hayley Hardwick,
 Chloe Donohue,
 Fiona Griffiths,
 Wilna Oosthuyzen.
 
 *Data Analyst*:
+Lisa Norman ,
 Riinu Pius,
 Thomas M Drake,
 Cameron J Fairfield,
@@ -112,6 +115,7 @@ Derek Murphy,
 Catherine A Shaw.
 
 *Data and Information System Manager*:
+Jo Dalton,
 Michelle Girvan,
 Egle Saviciute,
 Stephanie Roberts,
@@ -123,6 +127,7 @@ Clare Jackson,
 Carrol Gamble.
 
 *Data Integration and Presentation*:
+Gary Leeming,
 Andrew Law,
 Murray Wham,
 Sara Clohisey,
@@ -130,10 +135,15 @@ Ross Hendry,
 James Scott-Brown.
 
 *Material Management*:
+William Greenhalf,
 Victoria Shaw,
 Sarah E McDonald.
 
+*Patient Engagement*:
+Seán Keating.
+
 *Outbreak Laboratory Staff and Volunteers*:
+Katie A. Ahmed,
 Jane A Armstrong,
 Milton Ashworth,
 Innocent G Asiimwe,
@@ -212,12 +222,14 @@ Anthony Holmes,
 Hannah Massey.
 
 *Edinburgh Laboratory Staff and Volunteers*:
+Lee Murphy,
 Nicola Wrobel,
 Sarah McCafferty,
 Kirstie Morrice,
 Alan MacLean.
 
 *Local Principal Investigators*:
+Kayode Adeniji,
 Daniel Agranoff,
 Ken Agwuh,
 Dhiraj Ail,
