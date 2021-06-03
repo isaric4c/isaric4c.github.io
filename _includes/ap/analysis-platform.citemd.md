@@ -46,7 +46,7 @@ The [ISARIC Coronavirus Clinical Characterisation Consortium (4C)](https://isari
 - created the global standard ISARIC4C score for prognostication [isaric4c.net/risk](isaric4c.net/risk),[@knightriskstratificationpatients2020] 
 - elucidated cytokine patterns underlying disease mechanisms,[@thwaitesinflammatoryprofilesspectrum2021]
 - identified host genetic mechanisms of disease, [@pairocastineirageneticmechanismscritical2021]
-- provided key evidence underlying the choice of therapeutic agents for clinical trials[@thwaitesinflammatoryprofilesspectrum2021; @pairocastineirageneticmechanismscritical2021]
+- provided key evidence underlying the choice of therapeutic agents for clinical trials[@pairocastineirageneticmechanismscritical2021; @thwaitesinflammatoryprofilesspectrum2021]
 - provided data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)
 - provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al,  Egan et al.) 
 
