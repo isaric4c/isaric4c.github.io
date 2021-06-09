@@ -124,7 +124,9 @@ Laura Marsh,
 Marie Connor,
 Sophie Halpin,
 Clare Jackson,
-Carrol Gamble.
+Carrol Gamble,
+Daniel Plotkin,
+James Lee.
 
 *Data Integration and Presentation*:
 Gary Leeming,
