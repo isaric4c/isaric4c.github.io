@@ -12,9 +12,9 @@ link-citations: true
 linkcolor: blue
 numbersections: false
 replace:
-  num_crf: 210,075
-  num_genomicc: 13,056
-  num_multiomics: 2,336
+  num_crf: 210,215
+  num_genomicc: 13,077
+  num_multiomics: 2,344
   num_phosp: 1,075
 tableTitle: Table
 tblPrefix: Table
