@@ -4,6 +4,7 @@
 import os
 import re
 import yaml
+from numpy import mean
 from pyaltmetric import Altmetric
 
 outputdir = "../"
@@ -77,6 +78,7 @@ outputfiles = [x for x in os.listdir(outputdir) if not x.startswith(".") and not
 weightdict = {}
 outdict = {}
 filedict = {}
+altdict = {}
 for filename in outputfiles:
     print (filename)
     thispath = os.path.join(outputdir, filename)
@@ -96,6 +98,7 @@ for filename in outputfiles:
         if "doi" in yml:
             try:
                 a = get_altmetric(yml["doi"])
+                altdict[yml["doi"]] = a
                 altscore = "Altmetric score: {}".format(a)
             except:
                 pass
@@ -116,8 +119,8 @@ for filename in outputfiles:
                 ])
             )
 
-
 with open(outfile,"w") as o:
+    o.write("**ISARIC4C has produced {} papers with an average altmetric score of {:.0f}.**\n\n".format(len(altdict), mean(list(altdict.values()))))
     for k,v, in [(k, weightdict[k]) for k in sorted(weightdict, key=weightdict.get, reverse=False)]:
         o.write("{}\n".format(outdict[k]))
 

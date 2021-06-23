@@ -1,3 +1,48 @@
+**ISARIC4C has produced 26 papers with an average altmetric score of 1194.**
+
+# Sharing samples and data
+
+ISARIC4C was designed from the outset as a foundation for the UK outbreak response, supporting researchers across the country.
+
+The 4C consortium has:
+
+-  Responded to clinical 120 data requests, providing data to 100 collaborators
+-  Shipped out a total of 21,000 samples from our hub labs in Liverpool and Glasgow
+-  Provided sample sets to 21 different institutions (Universities, Public Health England, NIBSC, Francis Crick Inst., NIH)
+
+Dynamic data feeds from the [data analysis platform](/ap) are provided via API to Public Health in England & Scotland & SPI-M with independent reports prepared by them for NERVTAG and SAGE.
+
+{% include_relative samples/samples.citemd.html %}
+
+
+
+
+# Impacting Policy
+
+ISARIC4C and CO-CIN (Tier 0) feed data dynamically to Public Health
+Scotland, Public Health England, SPI-M, NERVTAG and SAGE. SPI-M have
+been high productive and published several analysis that informed
+Policy.
+
+Key UK policy documents citing ISARIC4C / CO-CIN data
+
+1.  COVID-19: the green book, chapter 14a.
+
+    a.  cites Docherty AB, et al. Features of 20133 UK patients in
+        hospital with covid-19 using the ISARIC WHO Clinical
+        Characterisation Protocol: prospective observational cohort
+        study <https://doi.org/10.1136/bmj.m1985>
+
+    b.  Swann OV, et al. Clinical Characteristics of children and young
+        people admitted to hospital with COVID-19 in United Kingdom:
+        prospective multicentre observational cohort study
+        <https://doi.org/10.1136/bmj.m3249>
+
+2.  Remdesivir -- national prescribing guidance
+
+
+
+
 # Risk prediction: the 4C Mortality Score
 
 [BMJ 9 Mar 2020](https://doi.org/10.1136/bmj.m3339)
@@ -16,7 +61,7 @@ The 4C Mortality Score has been extensively validated in independent studies acr
 * [Canada, Toronto](https://doi.org/10.1503/cmaj.202795)
 * [Canada, Ontario](https://doi.org/10.21203/rs.3.rs-268410/v1)
 
-Altmetric score: 665[https://doi.org/10.1136/bmj.m3339]
+Altmetric score: 666[https://doi.org/10.1136/bmj.m3339]
 
 
 # Characterisation of hospitalised cases of COVID-19
@@ -25,7 +70,7 @@ Altmetric score: 665[https://doi.org/10.1136/bmj.m3339]
 
 Within weeks of being funded, we produced the largest study anywhere in the world of COVID-19 cases, enabling us to produce the most accurate risk prediction models for the UK population. These will continue to improve. The first one shows that obesity is an important risk factor amongst many. This finding will help to protect people at high risk of death from COVID-19. Our preprint is now online **Features of 16,749 hospitalised UK patients with COVID-19 using the ISARIC WHO Clinical Characterisation Protocol**. We have also produced an [interactive infographic](/risk/v1) to help communicate these findings.
 
-Altmetric score: 1974[https://doi.org/10.1136/bmj.m1985]
+Altmetric score: 1958[https://doi.org/10.1136/bmj.m1985]
 
 
 # Genetic mechanisms of severe Covid-19
@@ -40,7 +85,7 @@ Although we know the DNA associations are real, we can't always be sure exactly 
 
 The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has already influenced the inclusion of new therapies in the RECOVERY trial.
 
-Altmetric score: 2730[https://doi.org/10.1038/s41586-020-03065-y]
+Altmetric score: 2732[https://doi.org/10.1038/s41586-020-03065-y]
 
 
 # Clinical characterisation of Covid-19 in children
@@ -49,7 +94,7 @@ Altmetric score: 2730[https://doi.org/10.1038/s41586-020-03065-y]
 
 We have comprehensively characterised the burden and patterns of disease in children in the UK, demonstrating that life-threatening disease in otherwise healthy children is extremely rare. This had direct impact on public health policy in the UK and abroad.
 
-Altmetric score: 2823[https://doi.org/10.1136/bmj.m3249]
+Altmetric score: 2892[https://doi.org/10.1136/bmj.m3249]
 
 
 # Long Covid in adults discharged from UK hospitals after Covid-19
@@ -63,7 +108,7 @@ Covid-19 symptoms. The symptoms reported include fatigue, followed by
 breathlessness. These findings were present in young, previously healthy
 working age adults, and were most common in younger females.
 
-Altmetric score: 932[https://doi.org/10.1101/2021.03.18.21253888]
+Altmetric score: 927[https://doi.org/10.1101/2021.03.18.21253888]
 
 
 # Non-steroidal anti-inflammatory drug use and outcomes of COVID-19
@@ -74,7 +119,7 @@ Early in the pandemic it was suggested that pre-existing use of non-steroidal an
 
 Using data from 78,674 patients in ISARIC4C, we showed that NSAID use is not associated with higher mortality or increased severity of COVID-19. To our knowledge, our prospective study includes the largest number of patients admitted to hospital with COVID-19 to date, and adds to the literature on the safety of NSAIDs and in-hospital outcomes. NSAIDs do not appear to increase the risk of worse in-hospital outcomes. NSAIDs are an important analgesic modality and have a vital opioid-sparing role in pain management. Patients and clinicians should be reassured by these findings that NSAIDs are safe in the context of the pandemic.
 
-Altmetric score: 2654[https://doi.org/10.1016/S2665-9913(21)00104-1]
+Altmetric score: 2652[https://doi.org/10.1016/S2665-9913(21)00104-1]
 
 
 # Role of blood cytokines IL-6 and GM-CSF in severe COVID-19
@@ -92,7 +137,7 @@ roles. With more research, we can see if GM-CSF could be used as a
 marker in early disease to identify those at risk of going on to develop
 more severe symptoms.
 
-Altmetric score: 1264[https://doi.org/10.1126/sciimmunol.abg9873]
+Altmetric score: 1266[https://doi.org/10.1126/sciimmunol.abg9873]
 
 
 # T cells target many different parts of the virus
@@ -103,7 +148,7 @@ Altmetric score: 1264[https://doi.org/10.1126/sciimmunol.abg9873]
 
 This study by Yanchung Peng, Alex Mentzer, Tao Dong and colleagues reveals that the immune system responds to many different parts of the SARS-CoV-2 virus. This will influence vaccine design, which often focuses only on the most prominent parts of the virus. It also reveals key differences in the way immune cells fight the virus in patients who have mild disease, helping us to better understand how some people are able to fight it off without becoming very sick.
 
-Altmetric score: 579[https://doi.org/10.1038/s41590-020-0782-6]
+Altmetric score: 587[https://doi.org/10.1038/s41590-020-0782-6]
 
 
 # Setting Serology Standards
@@ -127,7 +172,7 @@ persons recovered from infection. Our findings have highlighted how this
 virus can mutate and the need for ongoing molecular surveillance to
 guide development and usage of vaccines and therapeutics.
 
-Altmetric score: 449[https://doi.org/10.1016/j.cell.2021.01.037]
+Altmetric score: 451[https://doi.org/10.1016/j.cell.2021.01.037]
 
 
 # SARS-CoV-2 surface and air contamination in a healthcare setting
@@ -153,13 +198,26 @@ We have carefully studied the effect of ethnicity on outcomes in hospitalised pa
 Altmetric score: 15[http://dx.doi.org/10.2139/ssrn.3618215]
 
 
+# Supporting vaccine development
+
+[The Lancet, 15 August 2020](https://doi.org/10.1016/S0140-6736(20)31604-4)
+
+At the start of the pandemic, ISARIC4C was able to provide convalescent
+samples of PCR-positive hospitalised patients with COVID-19 to
+characterise the immunological properties of COVID-19. This was
+essential to the development of the viral vectored coronavirus vaccine
+developed by the Oxford COVID Vaccine Trial Group.
+
+Altmetric score: 15585[https://doi.org/10.1016/S0140-6736(20)31604-4]
+
+
 # ICECAP autopsy study
 
 [American Journal of Respiratory and Critical Care Medicine 2021](https://doi.org/10.1164/rccm.202008-3265OC)
 
 ISARIC 4C resources and consortium partners supported the COVID-19 post-mortem case series. This is one of several pieces of evidence that changes the model of COVID pathogenesis, supporting a primary role for the host immune system in causing fatal disease.
 
-Altmetric score: 63[https://doi.org/10.1164/rccm.202008-3265OC]
+Altmetric score: 60[https://doi.org/10.1164/rccm.202008-3265OC]
 
 
 # Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies
@@ -217,7 +275,7 @@ symptoms is common and patients with asthma were more likely, and those
 with chronic pulmonary disease less likely, to receive critical care
 than patients without an underlying respiratory condition**.**
 
-Altmetric score: 219[https://doi.org/10.1016/s2213-2600(21)00013-8]
+Altmetric score: 215[https://doi.org/10.1016/s2213-2600(21)00013-8]
 
 
 # Pulmonary Microthrombosis and Vasculitis in Life-Threatening Respiratory Virus Diseases
@@ -263,7 +321,7 @@ study showed that patients with ILD should follow self-isolation
 guidelines for vulnerable individuals and be prioritised for
 vaccinations.
 
-Altmetric score: 104[https://doi.org/10.1164/rccm.202007-2794oc]
+Altmetric score: 105[https://doi.org/10.1164/rccm.202007-2794oc]
 
 
 # Outcomes of COVID-19 hospitalisation among patients with HIV
@@ -300,6 +358,29 @@ concerning, but tractable targets for stewardship interventions exist.
 We proposed and established a Diagnostic Evaluation Platform at the University of Oxford (led by Dr Alex Mentzer) which is already being used to provide evidence to the UK government about the performance of new diagnostic and antibody tests. This work is essential because if tests work well they can save lives; if they don't, they can cause enormous damage.
 
 Altmetric score: 28[https://doi.org/10.12688/wellcomeopenres.15927.1]
+
+
+# COVID-19 and Cancer
+
+[Esmo Open 1 May 2020](http://doi.org/10.1136/esmoopen-2020-000825)
+
+<!--<https://lctc.org.uk/research/ccp-cancer-uk/>-->
+
+The ISARIC4C investigators collaborated with Prof Carlo Palmieri and
+team to characterise the first 1,797 hospitalised patients with cancer
+and COVID-19. From here a new study was launched to assess the impact of
+COVID-19 on people with cancer: The Clinical Characterisation Protocol
+(CCP) CANCER-UK. The project will run over 12 months and will examine
+questions that are important for the care of patients with cancer. With
+almost 7,000 patients with both confirmed cancer and COVID-19 diagnoses
+already enrolled, it will be one of the largest and most detailed
+studies in the world.
+
+The study has received funding from UK Research and Innovation (UKRI)
+and the National Institute for Health Research (NIHR), with additional
+funding from The Clatterbridge Cancer Charity.
+
+Altmetric score: 7[http://doi.org/10.1136/esmoopen-2020-000825]
 
 
 # Detection of antibodies to determine population exposure
@@ -339,7 +420,7 @@ COVID-19 and risk factors for severe disease course are similar to the
 general population, individuals with DS present significantly higher
 rates of medical complications and mortality, especially from age 40.
 
-Altmetric score: 470[https://doi.org/10.1016/j.eclinm.2021.100769]
+Altmetric score: 468[https://doi.org/10.1016/j.eclinm.2021.100769]
 
 
 # Modelling the association of tiered restrictions with COVID-19 deaths and hospital admissions
@@ -351,7 +432,25 @@ mathematical model of transmission to data on hospital admissions.
 Results showed that lockdown measures outperformed less stringent
 restrictions in reducing cumulative deaths.
 
-Altmetric score: 233[https://doi.org/10.1016/s1473-3099(20)30984-1]
+Altmetric score: 243[https://doi.org/10.1016/s1473-3099(20)30984-1]
+
+
+# ISARIC4C within the global ISARIC-network
+
+An alternate weekly data share is made with global ISARIC CCP partners
+in 42 countries and a summary report is posted on medRxiv, the global
+health network (TGHN.org) and WHO. CO-CIN has contributed 82% of global
+data reported.
+
+Selected publications include:
+
+-   COVID-19 symptoms at hospital admission vary with age and sex:
+    ISARIC multinational study
+    [https://doi.org/10.1101/2020.10.26.20219519](https://doi.org/10.1101/2020.10.26.20219519)
+
+-   [ISARIC Global Clinical Data Report(https://doi.org/10.1101/2020.07.17.20155218)
+
+
 
 
 # Multi-model forecasts to inform the response to COVID-19 in the UK
@@ -362,7 +461,7 @@ Groups of multi-model forecasts can inform the policy response to the
 Covid-19 pandemic by assessing future resource needs and expected
 population impact of morbidity and mortality.
 
-Altmetric score: 19[https://doi.org/10.1101/2020.11.11.20220962]
+Altmetric score: 21[https://doi.org/10.1101/2020.11.11.20220962]
 
 
 # Remdesivir Statistical Analysis Plan
