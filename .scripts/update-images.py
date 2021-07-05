@@ -29,6 +29,7 @@ h2 = os.path.join(numdir, "hospitals_tier2.txt")
 imgdir = "img/ap/"
 sourcefiles = [os.path.join(imgdir, x) for x in [
         "i4c-map-source.svg",
+        "i4c-map-data-source.svg",
         "i4c-analysis-platform-source.svg"
     ]
 ]
