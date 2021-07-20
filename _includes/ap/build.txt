@@ -1,2 +1,2 @@
-fix -f analysis-platform.md -l -m -p pdf -p docx 
+fix -f analysis-platform.md -m -p pdf -p docx 
 pandoc analysis-platform.citemd.md -o analysis-platform.citemd.html

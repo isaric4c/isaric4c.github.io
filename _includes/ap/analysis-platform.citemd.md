@@ -1,25 +1,86 @@
 
 
-<!--
-Outbreak data analysis platform
--->
 
-## Outbreak data analysis platform 
 
-The data analysis platform provides a unique combination of linked, curated data from UK sovereign data assets, together with a flexible high performance compute space. Created for Covid-19 research, the ISARIC4C data analysis platform combines the data safeguards of an NHS trusted research environment, with >£100M of  exabyte-scale computational capacity on the UK national supercomputer. This creates a unique opportunity to combine clinical, biological, genomics and virology research in as secure, openly-accessible framework. 
 
-### Data held
+# What it is
 
-The outbreak analysis platform was developed by ISARIC4C to *encourgage and facilitate research* by collating, linking and curating clinical and research data, enabling deep integrative analyses of multi-omic disease profiling, stratified by viral variant, clinical phenotype and outcome. 
+The outbreak data analysis platform exists to provide an accessible, usable data resource by linking and curating data from **clinical records**, **research studies** and **audit data** for UK patients. The platform combines trusted research environment infrastructure with >£100M of exabyte-scale computational capacity on the UK National Supercomputer. The solitary aim of the platform is to accelerate scientific understanding of new outbreaks for the beenfit of patients and the protection of the public.
 
-![Structure of the ISARIC4C Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png){#fig:structure width=80%}
+# What it isn't
+
+- It is not a viral sequence analysis platform. The excellent MRC CLIMB resource provides excellent resources and infrastructure for analysis, presentation and sharing of viral sequences. 
+- It is not a replacement for public health activities. The platform will work closely with public health agencies across the 4 nations and with UK HSA, providing data feeds where useful to augment surveillance capacity, and a tried-and-tested route to engage additional analytic capacity and expertise from the academic sector.
+- It is not a replacement for existing TREs. The analysis platform will provide curated data feeds to TREs across the UK to facilitate and supplement data held elsewhere.
+
+# Design of the platform
+
+## Data held
+
+The platform already contains a unique aggregation of UK sovereign data assets, including the complete data resources of the ISARIC4C/CO-CIN, GenOMICC, PHOSP and UK-CIC studies, together with viral sequence data from COG-UK, and linkage to NHS clinical records and structured clinical audit data. This creates a unique opportunity to combine clinical, biological, genomics and virology research in as secure, openly-accessible framework. Manual curation of these linked datasets, in a single platform, is a key step to maximise data quality and usability.
+
+## Compute power
+
+- processing power
+- 2.5Pb of storage
+- GPU arrays for massively-parallel applications such as genomics and image analysis
+- API structure for real-time data sharing with other trusted research environments across the UK
+- data pipelines to supply surveillance feeds to public health
+
+## Structure
+
+There are two routes of access to the analysis platform (@fig:structure):
+
+1. NHS Trusted Research Environment (Safe Haven) for access to personal clinical data and data collected without explicit consent.
+2. Rapid-access flexible compute for access to non-disclosive research data collected with explicit consent.
+
+Within both of these environments there are two levels of access, governed by the data contributors:
+
+1. Publishable "open access" data which any user can use and report as they wish, according to data protection and privacy rules;
+2. Embargoed active research data, shared by academic investigators and available for linked analysis but not for publication without agreement from all contributors.
+
+This design is intended to build trust in order to encourage immediate contributions of research data from academic collaborators. It makes data available immediately for discovery, whilst protecting the rights of data creators and contributors.
+
+![Structure of the Outbreak Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png){#fig:structure width=80%}
+
+
+# Research outputs
+
+By generating, integrating and analysing clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals, the outbreak analysis platform has facilitated research that:
+
+- provided essential weekly updates to SAGE that guide the public health response [isaric4c.net/reports/](https://isaric4c.net/reports/), 
+- identified host genetic mechanisms of disease, [@pairocastineirageneticmechanismscritical2021]
+- quantified the role of age, comorbid illness and obesity in disease severity,[@dochertyfeatures201332020] 
+- created the global standard ISARIC4C score for prognostication [isaric4c.net/risk](isaric4c.net/risk),[@knightriskstratificationpatients2020] 
+- determined the impact of long Covid following hospitalisation[@groupphysicalcognitivemental2021]
+- identified the substantial effect of nosocomial transmission of Covid-19 within hospitals [SPI-M/SAGE report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/961210/S1056_Contribution_of_nosocomial_infections_to_the_first_wave.pdf),
+- provided key evidence underlying the choice of therapeutic agents for clinical trials[@pairocastineirageneticmechanismscritical2021; @thwaitesinflammatoryprofilesspectrum2021]
+- provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al,  Egan et al.) 
+- observed data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)
+- described the complications of Covid-19 in hospitalised patients.[@drakecharacterisationinhospitalcomplications2021]
+
+# Governance of the platform
+
+## National core studies
+
+The platform is funded by UKRI and the National Core Studies programme (Data and Connectivity).
+
+## Advisory committee
+
+A UK-wide advisory committee, initially convened by HDR UK to solve data linkage problems in Covid research, will provide guidance on all aspects of platform management and delivery. The committee comprises representation from public health agencies in the 4 nations of the UK, representatives of key studies, TREs and data resources, and representatives of government and industry. 
+
+## Executive group
+
+An executive committee will be charged with managing resources and delivering on the goals set by the advisory committee.
+
+# Current data content
 
 This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
 
 - ISARIC4C tier 0: (unconsented) prospective clinical data from 215,825 cases
 - ISARIC4C tiers 1 and 2: serial multiomic assays from research samples of blood, respiratory secretions, urine, and stool from 2,401 cases
 - COG-UK: (unconsented) summary variant data from COG-UK viral sequencing study is already included for matched patients
-- [GenOMICC study](https://genomicc.org/uk) complete data: microarray and whole genome sequence data from 13,866 cases
+- GenOMICC study complete data: microarray and whole genome sequence data from 13,868 cases
 - PHOSP complete data: follow-up clinical and biological data generated by the Post-Hospitalisation for COVID-19 follow-up study (1,075 cases)
 - UK-CIC: deep immunological phenotyping data from across the UK Coronavirus Immunology Consortium, using ISARIC4C samples and local collections.
 
@@ -36,131 +97,18 @@ In future, plans are in place to transfer data to link with:
 - Pillar 2 testing
 - ONS
 
-### Research outputs
-
-The [ISARIC Coronavirus Clinical Characterisation Consortium (4C)](https://isaric4c.net) is the largest observational study of hospitalised patients with COVID-19 anyhwere in the world. By generating, integrating and analysing clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals, ISARIC4C has:  
-
-- provided essential weekly updates to SAGE that guide the public health response [isaric4c.net/reports/](https://isaric4c.net/reports/), 
-- quantified the role of age, comorbid illness and obesity in disease severity,[@dochertyfeatures201332020] 
-- identified the substantial effect of nosocomial transmission of Covid-19 within hospitals [SPI-M/SAGE report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/961210/S1056_Contribution_of_nosocomial_infections_to_the_first_wave.pdf),
-- created the global standard ISARIC4C score for prognostication [isaric4c.net/risk](isaric4c.net/risk),[@knightriskstratificationpatients2020] 
-- elucidated cytokine patterns underlying disease mechanisms,[@thwaitesinflammatoryprofilesspectrum2021]
-- identified host genetic mechanisms of disease, [@pairocastineirageneticmechanismscritical2021]
-- provided key evidence underlying the choice of therapeutic agents for clinical trials[@pairocastineirageneticmechanismscritical2021; @thwaitesinflammatoryprofilesspectrum2021]
-- provided data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)
-- provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al,  Egan et al.) 
-
-Because of these and other achievements (see [isaric4c.net/outputs](https://isaric4c.net/outputs)), ISARIC4C was used as exemplar by the National Institte of Healthcare Research for pandemic preparedness research resulting in real patient benefit.
-
-## Analysis platform structure
-
-There are two routes of access to the analysis platform (@fig:structure):
-1. NHS Trusted Research Environment (Safe Haven) for access to personal clinical data and data collected without explicit consent.
-2. Rapid-access flexible compute for access to non-disclosive research data collected with explicit consent.
-
-Within both of these environments there is an additional division in the data:
-1. Publishable "open access" data which any user can use and report as they wish, according to data protection and privacy rules;
-2. Embargoed active research data, shared by academic investigators and available for linked analysis but not for publication without agreement from all contributors.
-
-This design is intended to build trust in order to encourage immediate contributions of research data from academic collaborators.
-
-![ISARIC4C study and data analysis platform](https://isaric4c.net/img/ap/i4c-map-updated.png){#fig:map width=60%}
-
-## Future plans
-
-Rapid addition of viral sequence data from the COG-UK platform will enable real-time detection of the clinical impact of new viral strains, in-depth biological study of reinfection, and host:pathogen interactions at a genetic and mechanistic level.
-
-<!--
-
-Rules for the embargoed area:
-
-The "under embargo" area contains raw, unpublished data shared by hospitals, investigators and research labs across the country. It exists to accelerate discovery in a global crisis. 
-
-1. involve people early
-The first rule of shared analysis is never to present data contributors with a *fait accompli* - that is, don't rush ahead and finish an analysis, or even worse, a manuscript, without letting the people who made it possible know what you're doing, and giving them an opportunity to contribute meaningfully to the design and write up. That means people at every stage in the procedure, from recruitment and management to laboratory and data analysis.
-2. share your plans
-All users in the embargo area will also have access to the ISARIC4C consortium-wide slack group and weekly meetings. When you come up with new ideas, post about them and discuss them with the rest of the consortium. 
-3. primacy of data generation. For most analyses inside the embargo area, the novelty is in the samples and data themselves, rather than in the laboratory or computational analyses that finished the job. For each piece of work, ask yourself, why has no-one else done this yet? Did you make the cake, or just put icing on one? When you come to publish, share academic credit accordingly.
-
--->
 
 
 
-<!--
-# Background
 
 
-## Earning trust from data contributors
-
-The default position is that data are contributed under embargo, prohibiting publication or general release until authorised by the data contributor. All contributors will agree to abide by this rule in good faith. Embargoed data will be available to other contributors during the embargo period, and will be released into the open analysis platform at or before the time of the first pre-print report.
-
-A critical determinant of success is building sufficient trust among contributors to ensure that data are contributed in an accessible format as early as possible. Data sharing within the ISARIC4C consortium continues to have the support and goodwill of contributors, because:
-- there is a palpable urgency created by the COVID-19 crisis;
-- the platform has earned the trust of contributors and will maintain it by enforcing embargo rules;
-- there is a clear expectation from patients, the public, funders and government;
-- there is primary benefit to data contributors to gain access to other unpublished data and analysis platforms.
-
-## Principles
-
-ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningopensourceclinical2014] and harmonised across the world.[@akhvledianiglobaloutbreakresearch2020] It is an open-access national resource: we have already shared data on 215,825 participants and 4273 samples with 26 external groups.
-
-The success of ISARIC4C is largely due to the following foundational principles:
-
-- no group, funder, collaborator or other party will have exclusive access to data or samples
-- consortium resources (samples, data and funds) will be prioritised according to likelihood of rapid impact on the COVID-19 pandemic
-- all data generated using ISARIC4C resources is shared in a machine-readable format within the Integrated Analysis Platform
-
-## Open analysis platform for deidentified data
-
-The analysis platform is being used to provide itegrated analyses of genetic associations with multiple phenotypes,[@canela-xandriAtlasGeneticAssociations2018] functional genomics,[@forrestpromoterlevelmammalianexpression2014] and multi-omics critical illness trajectories,[@neytonMolecularPatternsAcute2020] within the largest clinical study of COVID-19 anywhere in the world.[@dochertyfeatures20133patients2020]
-
-The platform hosts overlapping datasets from across the UK. Individual patient consent enables sharing of linked whole-genome sequence data, whole-blood transcriptomics, proteomics, cytokine measurements, viral load and sequence, and clinical data. This will enable a range of discovery science with direct therapeutic applications, including subphenotype classification and extended causal inference using Mendelian randomisation and related approaches.
-
-Providing clean, linked, deidentified data in a format that is easily accessible to researchers from a range of backgrounds requires staff with a high level of skill in clinical epidemiology, data science, and software engineering. Data will be systematically cleansed and linked, missing data completed in an iterative process interacting with analysis teams, and presented in curated flat files and through an integrated relational database. This will be presented to users through four interfaces:
-
-1. a user-friendly browsable interface enabling data selection and subgrouping through dropdown menus to subset patient populations by clinical and biological data and run *de novo* GWAS analyses using a GPU platform (GOLEM, Tenesa group), multivariable regression, propensity-matching, unsupervised clustering and other analyses.
-
-2. flexible analysis through bespoke, secure virtual machines operated through a command line interface providing access to R, Python, and other software as required by the user.
-
-3. a well-documented application programming interface (API) enabling external computational queries. This allows all data in the ISARIC4C platform to contribute to federated data analysis frameworks at national and international level. Collaborating groups such as OPENSafely and Genomics England will be able to run queries seamlessly from external platforms.
-
-4. a limited, anonymised, downloadable dataset comprising key variables from all participants.
-
-Deidentified data will be available openly to *bona fide* researchers for unrestricted analyses
-
-## Data safe haven
-
-A linked, secure NHS data safe haven will provide access to identifiable data, and data collected without individual patient consent, for qualified, approved researchers performing research to improve patient care. This incorporates full ISARIC COVID case report forms for 46,000 patients, together with health records linkage (CAG section 251 and PBPP approvals in place).
-
-This will enable detailed, rich clinical analyses with corrections for confounding and bias caused by social factors, comorbid illness and medications, and opens a range of detailed information to characterise acute disease using clinical measurements acquired from electronic health records.
 
 
-| Dataset                           | Governance responsibility | Delegates  |
-| --------------------------------- | ------------------------ | -------------------------------------------- |
-| [ISARIC4C TIERS 0(CO-CIN)/1/2](https://isaric4c.net/analysis-platform)   | Kenneth Baillie (for IDAMAC) | Calum Semple; Gary Leeming; Andy Law;  Wilna Oosthuyzen |
-| COG-UK | Sharon Peacock   | Ewan Harrison |
-| PHOSP  | Chris Brightling | Aarti Parmar  |
-| [GenOMICC](https://genomicc.org/data)   | Kenneth Baillie  | Andy Law; Alison Meynert; Wilna Oosthuyzen  |
-| UK CIC | Paul Moss  |   |
-| [SICSAG](https://www.isdscotland.org/Health-Topics/Scottish-Healthcare-Audits/Scottish-Intensive-Care-Society-Audit-Group/) | Naz Lone (for SICSAG steering committee) |   |
-| [Outpatients (SMR00)](https://www.ndc.scot.nhs.uk/National-Datasets/data.asp?ID=1&SubID=4) |   |   |
-| [GeneralAcute and Inpatient Day Case dataset (SMR01)](https://www.ndc.scot.nhs.uk/National-Datasets/data.asp?ID=1&SubID=5)  |   |   |
-| [Prescribing Information System (PIS)](https://www.isdscotland.org/health-topics/prescribing-and-medicines/_docs/Open_Data_Glossary_of_Terms.pdf?1) |   |   |
-| [NRS Deaths](https://www.ndc.scot.nhs.uk/National-Datasets/data.asp?ID=3&SubID=13)   |   |   |
-| Primary Care | GP committee  |   |
-| NHS England  |   |   |
-| NIMS National Immunisation Dataset   |   |   |
-| Pillar 1 testing   |   |   |
-| Pillar 2 testing   |   |   |
 
--->
 
-<!--
-## Use cases
 
-Genomics person docker containers
 
--->
+
 
 \newpage
 
