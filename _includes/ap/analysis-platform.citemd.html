@@ -1,6 +1,3 @@
-<!--
-Outbreak data analysis platform
--->
 <p><strong>A partnership with the Data and Connectivity National Core Studies Programme.</strong></p>
 <h1 id="what-it-is">What it is</h1>
 <ul>
@@ -21,7 +18,7 @@ Outbreak data analysis platform
 <p>The platform is located at the UK National Supercomputer, and uses a range of capabilities from rom Private Cloud TRE infrastructure to large shared memory systems and massively parallel processing power. There is currently 2.5Pb of storage in use, expandable to many Petabytes as required. GPU servers are in place for massively-parallel applications such as genomics and image analysis</p>
 <p>An API structure has been built for real-time data sharing with other trusted research environments across the UK, and to facilitate efficient data pipelines to supply surveillance feeds to public health.</p>
 <h2 id="structure">Structure</h2>
-<p>There are two routes of access to the analysis platform (Figure 1):</p>
+<p>There are two routes of access to the analysis platform (<span class="citation" data-cites="fig:structure">@fig:structure</span>):</p>
 <ol type="1">
 <li>NHS Trusted Research Environment (Safe Haven) for access to personal clinical data and data collected without explicit consent.</li>
 <li>Rapid-access flexible compute for access to non-disclosive research data collected with explicit consent.</li>
@@ -33,21 +30,21 @@ Outbreak data analysis platform
 </ol>
 <p>This design is intended to demonstrate trust in order to encourage immediate contributions of research data from academic collaborators. It makes data available immediately for discovery, whilst protecting the rights of data creators and contributors.</p>
 <figure>
-<img src="https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png" id="fig:structure" style="width:60.0%" alt="Figure 1: Structure of the Outbreak Analysis Platform" /><figcaption aria-hidden="true">Figure 1: Structure of the Outbreak Analysis Platform</figcaption>
+<img src="https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png" id="fig:structure" style="width:60.0%" alt="Structure of the Outbreak Analysis Platform" /><figcaption aria-hidden="true">Structure of the Outbreak Analysis Platform</figcaption>
 </figure>
 <h1 id="research-outputs">Research outputs</h1>
 <p>The proposal builds upon an established track record of impact. By generating, integrating and analysing clinical, biological, genetic and virological data on patients with Covid-19 in UK hospitals, the outbreak analysis platform has facilitated research that:</p>
 <ul>
 <li>provided essential weekly updates to SAGE that guide the public health response <a href="https://isaric4c.net/reports/">isaric4c.net/reports/</a>,</li>
-<li>identified host genetic mechanisms of disease,<span class="citation" data-cites="pairocastineirageneticmechanismscritical2021"><sup><a href="#ref-pairocastineirageneticmechanismscritical2021" role="doc-biblioref">1</a></sup></span></li>
-<li>quantified the role of age, comorbid illness and obesity in disease severity,<span class="citation" data-cites="dochertyfeatures201332020"><sup><a href="#ref-dochertyfeatures201332020" role="doc-biblioref">2</a></sup></span></li>
-<li>created the global standard ISARIC4C score for prognostication <a href="isaric4c.net/risk">isaric4c.net/risk</a>,<span class="citation" data-cites="knightriskstratificationpatients2020"><sup><a href="#ref-knightriskstratificationpatients2020" role="doc-biblioref">3</a></sup></span></li>
-<li>determined the impact of long Covid following hospitalisation<span class="citation" data-cites="groupphysicalcognitivemental2021"><sup><a href="#ref-groupphysicalcognitivemental2021" role="doc-biblioref">4</a></sup></span></li>
+<li>identified host genetic mechanisms of disease, <span class="citation" data-cites="pairocastineirageneticmechanismscritical2021">[@pairocastineirageneticmechanismscritical2021]</span></li>
+<li>quantified the role of age, comorbid illness and obesity in disease severity,<span class="citation" data-cites="dochertyfeatures201332020">[@dochertyfeatures201332020]</span></li>
+<li>created the global standard ISARIC4C score for prognostication <a href="isaric4c.net/risk">isaric4c.net/risk</a>,<span class="citation" data-cites="knightriskstratificationpatients2020">[@knightriskstratificationpatients2020]</span></li>
+<li>determined the impact of long Covid following hospitalisation<span class="citation" data-cites="groupphysicalcognitivemental2021">[@groupphysicalcognitivemental2021]</span></li>
 <li>identified the substantial effect of transmission of Covid-19 within hospitals <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/961210/S1056_Contribution_of_nosocomial_infections_to_the_first_wave.pdf">SPI-M/SAGE report</a>,</li>
-<li>provided key evidence underlying the choice of therapeutic agents for clinical trials<span class="citation" data-cites="thwaitesinflammatoryprofilesspectrum2021 pairocastineirageneticmechanismscritical2021"><sup><a href="#ref-pairocastineirageneticmechanismscritical2021" role="doc-biblioref">1</a>,<a href="#ref-thwaitesinflammatoryprofilesspectrum2021" role="doc-biblioref">5</a></sup></span></li>
+<li>provided key evidence underlying the choice of therapeutic agents for clinical trials<span class="citation" data-cites="pairocastineirageneticmechanismscritical2021 thwaitesinflammatoryprofilesspectrum2021">[@pairocastineirageneticmechanismscritical2021; @thwaitesinflammatoryprofilesspectrum2021]</span></li>
 <li>provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al, Egan et al.)</li>
 <li>observed data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)</li>
-<li>described the complications of Covid-19 in hospitalised patients.<span class="citation" data-cites="drakecharacterisationinhospitalcomplications2021"><sup><a href="#ref-drakecharacterisationinhospitalcomplications2021" role="doc-biblioref">6</a></sup></span></li>
+<li>described the complications of Covid-19 in hospitalised patients.<span class="citation" data-cites="drakecharacterisationinhospitalcomplications2021">[@drakecharacterisationinhospitalcomplications2021]</span></li>
 </ul>
 <h1 id="governance-of-the-platform">Governance of the platform</h1>
 <h2 id="national-core-studies">National core studies</h2>
@@ -72,10 +69,10 @@ Outbreak data analysis platform
 <h1 id="current-data-content">Current data content</h1>
 <p>This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:</p>
 <ul>
-<li>ISARIC4C tier 0: (unconsented) prospective clinical data from 215,876 cases</li>
+<li>ISARIC4C tier 0: (unconsented) prospective clinical data from 216,244 cases</li>
 <li>ISARIC4C tiers 1 and 2: serial multiomic assays from research samples of blood, respiratory secretions, urine, and stool from 2,401 cases</li>
 <li>COG-UK: (unconsented) summary variant data from COG-UK viral sequencing study is already included for matched patients</li>
-<li>GenOMICC study complete data: microarray and whole genome sequence data from 13,920 cases</li>
+<li>GenOMICC study complete data: microarray and whole genome sequence data from 13,939 cases</li>
 <li>PHOSP complete data: follow-up clinical and biological data generated by the Post-Hospitalisation for COVID-19 follow-up study (1,075 cases)</li>
 <li>UK-CIC: deep immunological phenotyping data from across the UK Coronavirus Immunology Consortium, using ISARIC4C samples and local collections.</li>
 </ul>
@@ -92,113 +89,4 @@ Outbreak data analysis platform
 <li>Pillar 2 testing</li>
 <li>ONS</li>
 </ul>
-<!--
-
-![ISARIC4C study and data analysis platform](https://isaric4c.net/img/ap/i4c-map-updated.png){#fig:map width=60%}
-
-Rules for the embargoed area:
-
-The "under embargo" area contains raw, unpublished data shared by hospitals, investigators and research labs across the country. It exists to accelerate discovery in a global crisis. 
-
-1. involve people early
-The first rule of shared analysis is never to present data contributors with a *fait accompli* - that is, don't rush ahead and finish an analysis, or even worse, a manuscript, without letting the people who made it possible know what you're doing, and giving them an opportunity to contribute meaningfully to the design and write up. That means people at every stage in the procedure, from recruitment and management to laboratory and data analysis.
-2. share your plans
-All users in the embargo area will also have access to the ISARIC4C consortium-wide slack group and weekly meetings. When you come up with new ideas, post about them and discuss them with the rest of the consortium. 
-3. primacy of data generation. For most analyses inside the embargo area, the novelty is in the samples and data themselves, rather than in the laboratory or computational analyses that finished the job. For each piece of work, ask yourself, why has no-one else done this yet? Did you make the cake, or just put icing on one? When you come to publish, share academic credit accordingly.
-
--->
-<!--
-# Background
-
-
-## Earning trust from data contributors
-
-The default position is that data are contributed under embargo, prohibiting publication or general release until authorised by the data contributor. All contributors will agree to abide by this rule in good faith. Embargoed data will be available to other contributors during the embargo period, and will be released into the open analysis platform at or before the time of the first pre-print report.
-
-A critical determinant of success is building sufficient trust among contributors to ensure that data are contributed in an accessible format as early as possible. Data sharing within the ISARIC4C consortium continues to have the support and goodwill of contributors, because:
-- there is a palpable urgency created by the COVID-19 crisis;
-- the platform has earned the trust of contributors and will maintain it by enforcing embargo rules;
-- there is a clear expectation from patients, the public, funders and government;
-- there is primary benefit to data contributors to gain access to other unpublished data and analysis platforms.
-
-## Principles
-
-ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningopensourceclinical2014] and harmonised across the world.[@akhvledianiglobaloutbreakresearch2020] It is an open-access national resource: we have already shared data on 215,876 participants and 4273 samples with 26 external groups.
-
-The success of ISARIC4C is largely due to the following foundational principles:
-
-- no group, funder, collaborator or other party will have exclusive access to data or samples
-- consortium resources (samples, data and funds) will be prioritised according to likelihood of rapid impact on the COVID-19 pandemic
-- all data generated using ISARIC4C resources is shared in a machine-readable format within the Integrated Analysis Platform
-
-## Open analysis platform for deidentified data
-
-The analysis platform is being used to provide itegrated analyses of genetic associations with multiple phenotypes,[@canela-xandriAtlasGeneticAssociations2018] functional genomics,[@forrestpromoterlevelmammalianexpression2014] and multi-omics critical illness trajectories,[@neytonMolecularPatternsAcute2020] within the largest clinical study of COVID-19 anywhere in the world.[@dochertyfeatures20133patients2020]
-
-The platform hosts overlapping datasets from across the UK. Individual patient consent enables sharing of linked whole-genome sequence data, whole-blood transcriptomics, proteomics, cytokine measurements, viral load and sequence, and clinical data. This will enable a range of discovery science with direct therapeutic applications, including subphenotype classification and extended causal inference using Mendelian randomisation and related approaches.
-
-Providing clean, linked, deidentified data in a format that is easily accessible to researchers from a range of backgrounds requires staff with a high level of skill in clinical epidemiology, data science, and software engineering. Data will be systematically cleansed and linked, missing data completed in an iterative process interacting with analysis teams, and presented in curated flat files and through an integrated relational database. This will be presented to users through four interfaces:
-
-1. a user-friendly browsable interface enabling data selection and subgrouping through dropdown menus to subset patient populations by clinical and biological data and run *de novo* GWAS analyses using a GPU platform (GOLEM, Tenesa group), multivariable regression, propensity-matching, unsupervised clustering and other analyses.
-
-2. flexible analysis through bespoke, secure virtual machines operated through a command line interface providing access to R, Python, and other software as required by the user.
-
-3. a well-documented application programming interface (API) enabling external computational queries. This allows all data in the ISARIC4C platform to contribute to federated data analysis frameworks at national and international level. Collaborating groups such as OPENSafely and Genomics England will be able to run queries seamlessly from external platforms.
-
-4. a limited, anonymised, downloadable dataset comprising key variables from all participants.
-
-Deidentified data will be available openly to *bona fide* researchers for unrestricted analyses
-
-## Data safe haven
-
-A linked, secure NHS data safe haven will provide access to identifiable data, and data collected without individual patient consent, for qualified, approved researchers performing research to improve patient care. This incorporates full ISARIC COVID case report forms for 46,000 patients, together with health records linkage (CAG section 251 and PBPP approvals in place).
-
-This will enable detailed, rich clinical analyses with corrections for confounding and bias caused by social factors, comorbid illness and medications, and opens a range of detailed information to characterise acute disease using clinical measurements acquired from electronic health records.
-
-
-| Dataset                           | Governance responsibility | Delegates  |
-| --------------------------------- | ------------------------ | -------------------------------------------- |
-| [ISARIC4C TIERS 0(CO-CIN)/1/2](https://isaric4c.net/analysis-platform)   | Kenneth Baillie (for IDAMAC) | Calum Semple; Gary Leeming; Andy Law;  Wilna Oosthuyzen |
-| COG-UK | Sharon Peacock   | Ewan Harrison |
-| PHOSP  | Chris Brightling | Aarti Parmar  |
-| [GenOMICC](https://genomicc.org/data)   | Kenneth Baillie  | Andy Law; Alison Meynert; Wilna Oosthuyzen  |
-| UK CIC | Paul Moss  |   |
-| [SICSAG](https://www.isdscotland.org/Health-Topics/Scottish-Healthcare-Audits/Scottish-Intensive-Care-Society-Audit-Group/) | Naz Lone (for SICSAG steering committee) |   |
-| [Outpatients (SMR00)](https://www.ndc.scot.nhs.uk/National-Datasets/data.asp?ID=1&SubID=4) |   |   |
-| [GeneralAcute and Inpatient Day Case dataset (SMR01)](https://www.ndc.scot.nhs.uk/National-Datasets/data.asp?ID=1&SubID=5)  |   |   |
-| [Prescribing Information System (PIS)](https://www.isdscotland.org/health-topics/prescribing-and-medicines/_docs/Open_Data_Glossary_of_Terms.pdf?1) |   |   |
-| [NRS Deaths](https://www.ndc.scot.nhs.uk/National-Datasets/data.asp?ID=3&SubID=13)   |   |   |
-| Primary Care | GP committee  |   |
-| NHS England  |   |   |
-| NIMS National Immunisation Dataset   |   |   |
-| Pillar 1 testing   |   |   |
-| Pillar 2 testing   |   |   |
-
--->
-<!--
-## Use cases
-
-Genomics person docker containers
-
--->
-<h1 class="unnumbered" id="references">References</h1>
-<div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-pairocastineirageneticmechanismscritical2021" class="csl-entry" role="doc-biblioentry">
-1. Pairo-Castineira, E., Clohisey, S., Klaric, L., Bretherick, A.D., Rawlik, K., Pasko, D., Walker, S., Parkinson, N., Fourman, M.H., Russell, C.D., Furniss, J., Richmond, A., Gountouna, E., Wrobel, N., Harrison, D., Wang, B., Wu, Y., Meynert, A., Griffiths, F., Oosthuyzen, W., Kousathanas, A., Moutsianas, L., Yang, Z., Zhai, R., Zheng, C., Grimes, G., Beale, R., Millar, J., Shih, B., Keating, S., Zechner, M., Haley, C., Porteous, D.J., Hayward, C., Yang, J., Knight, J., Summers, C., Shankar-Hari, M., Klenerman, P., Turtle, L., Ho, A., Moore, S.C., Hinds, C., Horby, P., Nichol, A., Maslove, D., Ling, L., McAuley, D., Montgomery, H., Walsh, T., Pereira, A.C., Renieri, A., Shen, X., Ponting, C.P., Fawkes, A., Tenesa, A., Caulfield, M., Scott, R., Rowan, K., Murphy, L., Openshaw, P.J.M., Semple, M.G., Law, A., Vitart, V., Wilson, J.F. &amp; Baillie, J.K. Genetic mechanisms of critical illness in COVID-19. <em>Nature</em> <strong>591</strong>, 92–98(2021).
-</div>
-<div id="ref-dochertyfeatures201332020" class="csl-entry" role="doc-biblioentry">
-2. Docherty, A.B., Harrison, E.M., Green, C.A., Hardwick, H.E., Pius, R., Norman, L., Holden, K.A., Read, J.M., Dondelinger, F., Carson, G., Merson, L., Lee, J., Plotkin, D., Sigfrid, L., Halpin, S., Jackson, C., Gamble, C., Horby, P.W., Nguyen-Van-Tam, J.S., Ho, A., Russell, C.D., Dunning, J., Openshaw, P.J., Baillie, J.K. &amp; Semple, M.G. Features of 20 133 <span>UK</span> patients in hospital with covid-19 using the <span>ISARIC WHO Clinical Characterisation Protocol</span>: Prospective observational cohort study. <em>BMJ</em> <strong>369</strong>, (2020).
-</div>
-<div id="ref-knightriskstratificationpatients2020" class="csl-entry" role="doc-biblioentry">
-3. Knight, S.R., Ho, A., Pius, R., Buchan, I., Carson, G., Drake, T.M., Dunning, J., Fairfield, C.J., Gamble, C., Green, C.A., Gupta, R., Halpin, S., Hardwick, H.E., Holden, K.A., Horby, P.W., Jackson, C., Mclean, K.A., Merson, L., Nguyen-Van-Tam, J.S., Norman, L., Noursadeghi, M., Olliaro, P.L., Pritchard, M.G., Russell, C.D., Shaw, C.A., Sheikh, A., Solomon, T., Sudlow, C., Swann, O.V., Turtle, L.C., Openshaw, P.J., Baillie, J.K., Semple, M.G., Docherty, A.B. &amp; Harrison, E.M. Risk stratification of patients admitted to hospital with covid-19 using the ISARIC WHO clinical characterisation protocol: Development and validation of the 4C mortality score. <em>BMJ (Clinical research ed.)</em> <strong>370</strong>, m3339(2020).
-</div>
-<div id="ref-groupphysicalcognitivemental2021" class="csl-entry" role="doc-biblioentry">
-4. Group, P.-C.C., Evans, R.A., McAuley, H., Harrison, E.M., Shikotra, A., Singapuri, A., Sereno, M., Elneima, O., Docherty, A.B., Lone, N.I., Leavy, O.C., Daines, L., Baillie, J.K., Brown, J.S., Chalder, T., Soyza, A.D., Bakerly, N.D., Easom, N., Geddes, J.R., Greening, N.J., Hart, N., Heaney, L.G., Heller, S., Howard, L., Jacob, J., Jenkins, R.G., Jolley, C., Kerr, S., Kon, O.M., Lewis, K., Lord, J.M., McCann, G.P., Neubauer, S., Openshaw, P.J., Pfeffer, P., Rowland, M., Semple, M.G., Singh, S.J., Sheikh, A., Thomas, D., Toshner, M., Chalmers, J.D., Ho, L.-P., Horsley, A., Marks, M., Poinasamy, K., Wain, L.V. &amp; Brightling, C.E. Physical, cognitive and mental health impacts of <span>COVID</span>-19 following hospitalisation  a multi-centre prospective cohort study. <em>medRxiv</em> 2021.03.22.21254057(2021).doi:<a href="https://doi.org/10.1101/2021.03.22.21254057">10.1101/2021.03.22.21254057</a>
-</div>
-<div id="ref-thwaitesinflammatoryprofilesspectrum2021" class="csl-entry" role="doc-biblioentry">
-5. Thwaites, R.S., Uruchurtu, A.S.S., Siggins, M.K., Liew, F., Russell, C.D., Moore, S.C., Fairfield, C., Carter, E., Abrams, S., Short, C.-E., Thaventhiran, T., Bergstrom, E., Gardener, Z., Ascough, S., Chiu, C., Docherty, A.B., Hunt, D., Crow, Y.J., Solomon, T., Taylor, G.P., Turtle, L., Harrison, E.M., Dunning, J., Semple, M.G., Baillie, J.K., Openshaw, P.J. &amp; Investigators**, on behalf of the I. Inflammatory profiles across the spectrum of disease reveal a distinct role for <span>GM</span>-<span>CSF</span> in severe <span>COVID</span>-19. <em>Science Immunology</em> <strong>6</strong>, (2021).
-</div>
-<div id="ref-drakecharacterisationinhospitalcomplications2021" class="csl-entry" role="doc-biblioentry">
-6. Drake, T.M., Riad, A.M., Fairfield, C.J., Egan, C., Knight, S.R., Pius, R., Hardwick, H.E., Norman, L., Shaw, C.A., McLean, K.A., Thompson, A.A.R., Ho, A., Swann, O.V., Sullivan, M., Soares, F., Holden, K.A., Merson, L., Plotkin, D., Sigfrid, L., Silva, T.I. de, Girvan, M., Jackson, C., Russell, C.D., Dunning, J., Solomon, T., Carson, G., Olliaro, P., Nguyen-Van-Tam, J.S., Turtle, L., Docherty, A.B., Openshaw, P.J., Baillie, J.K., Harrison, E.M., Semple, M.G., Baillie, J.K., Semple, M.G., Openshaw, P.J., Carson, G., Alex, B., Bach, B., Barclay, W.S., Bogaert, D., Chand, M., Cooke, G.S., Docherty, A.B., Dunning, J., Filipe, A. da S., Fletcher, T., Green, C.A., Harrison, E.M., Hiscox, J.A., Ho, A.Y., Horby, P.W., Ijaz, S., Khoo, S., Klenerman, P., Law, A., Lim, W.S., Mentzer, A.J., Merson, L., Meynert, A.M., Noursadeghi, M., Moore, S.C., Palmarini, M., Paxton, W.A., Pollakis, G., Price, N., Rambaut, A., Robertson, D.L., Russell, C.D., Sancho-Shimizu, V., Scott, J.T., Silva, T. de, Sigfrid, L., Solomon, T., Sriskandan, S., Stuart, D., Summers, C., Tedder, R.S., Thomson, E.C., Thompson, A.R., Thwaites, R.S., Turtle, L.C., Gupta, R.K., Palmieri, C., Swann, O.V., Zambon, M., Dumas, M.-E., Griffin, J., Takats, Z., Chechi, K., Andrikopoulos, P., Osagie, A., Olanipekun, M., Liggi, S., Lewis, M., Correia, G. dos S., Sands, C., Takis, P., Maslen, L., Hardwick, H., Donohue, C., Griffiths, F., Oosthuyzen, W., Norman, L., Pius, R., Drake, T.M., Fairfield, C.J., Knight, S.R., Mclean, K.A., Murphy, D., Shaw, C.A., Dalton, J., Girvan, M., Saviciute, E., Roberts, S., Harrison, J., Marsh, L., Connor, M., Halpin, S., Jackson, C., Gamble, C., Plotkin, D., Lee, J., Leeming, G., Law, A., Wham, M., Clohisey, S., Hendry, R., Scott-Brown, J., Greenhalf, W., Shaw, V., McDonald, S.E., Keating, S., Ahmed, K.A., Armstrong, J.A., Ashworth, M., Asiimwe, I.G., Bakshi, S., Barlow, S.L., Booth, L., Brennan, B., Bullock, K., Catterall, B.W., Clark, J.J., Clarke, E.A., Cole, S., Cooper, L., Cox, H., Davis, C., Dincarslan, O., Dunn, C., Dyer, P., Elliott, A., Evans, A., Finch, L., Fisher, L.W., Foster, T., Garcia-Dorival, I., Greenhalf, W., Gunning, P., Hartley, C., Jensen, R.L., Jones, C.B., Jones, T.R., Khandaker, S., King, K., Kiy, R.T., Koukorava, C., Lake, A., Lant, S., Latawiec, D., Lavelle-Langham, L., Lefteri, D., Lett, L., Livoti, L.A., Mancini, M., McDonald, S., McEvoy, L., McLauchlan, J., Metelmann, S., Miah, N.S., Middleton, J., Mitchell, J., Moore, S.C., Murphy, E.G., Penrice-Randal, R., Pilgrim, J., Prince, T., Reynolds, W., Ridley, P.M., Sales, D., Shaw, V.E., Shears, R.K., Small, B., Subramaniam, K.S., Szemiel, A., Taggart, A., Tanianis-Hughes, J., Thomas, J., Trochu, E., Tonder, L. van, Wilcock, E., Zhang, J.E., Flaherty, L., Maziere, N., Cass, E., Carracedo, A.D., Carlucci, N., Holmes, A., Massey, H., Murphy, L., Wrobel, N., McCafferty, S., Morrice, K., MacLean, A., Adeniji, K., Agranoff, D., Agwuh, K., Ail, D., Aldera, E.L., Alegria, A., Angus, B., Ashish, A., Atkinson, D., Bari, S., Barlow, G., Barnass, S., Barrett, N., Bassford, C., Basude, S., Baxter, D., Beadsworth, M., Bernatoniene, J., Berridge, J., Best, N., Bothma, P., Chadwick, D., Brittain-Long, R., Bulteel, N., Burden, T., Burtenshaw, A., Caruth, V., Chadwick, D., Chambler, D., Chee, N., Child, J., Chukkambotla, S., Clark, T., Collini, P., Cosgrove, C., Cupitt, J., Cutino-Moguel, M.-T., Dark, P., Dawson, C., Dervisevic, S., Donnison, P., Douthwaite, S., Drummond, A., DuRand, I., Dushianthan, A., Dyer, T., Evans, C., Eziefula, C., Fegan, C., Finn, A., Fullerton, D., Garg, S., Garg, S., Garg, A., Gkrania-Klotsas, E., Godden, J., Goldsmith, A., Graham, C., Hardy, E., Hartshorn, S., Harvey, D., Havalda, P., Hawcutt, D.B., Hobrok, M., Hodgson, L., Hormis, A., Jacobs, M., Jain, S., Jennings, P., Kaliappan, A., Kasipandian, V., Kegg, S., Kelsey, M., Kendall, J., Kerrison, C., Kerslake, I., Koch, O., Koduri, G., Koshy, G., Laha, S., Laird, S., Larkin, S., Leiner, T., Lillie, P., Limb, J., Linnett, V., Little, J., Lyttle, M., MacMahon, M., MacNaughton, E., Mankregod, R., Masson, H., Matovu, E., McCullough, K., McEwen, R., Meda, M., Mills, G., Minton, J., Mirfenderesky, M., Mohandas, K., Mok, Q., Moon, J., Moore, E., Morgan, P., Morris, C., Mortimore, K., Moses, S., Mpenge, M., Mulla, R., Murphy, M., Nagel, M., Nagarajan, T., Nelson, M., Norris, L., O’Shea, M.K., Otahal, I., Ostermann, M., Pais, M., Palmieri, C., Panchatsharam, S., Papakonstantinou, D., Paraiso, H., Patel, B., Pattison, N., Pepperell, J., Peters, M., Phull, M., Pintus, S., Pooni, J.S., Post, F., Price, D., Prout, R., Rae, N., Reschreiter, H., Reynolds, T., Richardson, N., Roberts, M., Roberts, D., Rose, A., Rousseau, G., Ryan, B., Saluja, T., Shah, A., Shanmuga, P., Sharma, A., Shawcross, A., Sizer, J., Shankar-Hari, M., Smith, R., Snelson, C., Spittle, N., Staines, N., Stambach, T., Stewart, R., Subudhi, P., Szakmany, T., Tatham, K., Thomas, J., Thompson, C., Thompson, R., Tridente, A., Tupper-Carey, D., Twagira, M., Vallotton, N., Vancheeswaran, R., Vincent-Smith, L., Visuvanathan, S., Vuylsteke, A., Waddy, S., Wake, R., Walden, A., Welters, I., Whitehouse, T., Whittaker, P., Whittington, A., Papineni, P., Wijesinghe, M., Williams, M., Wilson, L., Sarah, S., Winchester, S., Wiselka, M., Wolverson, A., Wootton, D.G., Workman, A., Yates, B. &amp; Young, P. Characterisation of in-hospital complications associated with <span>COVID</span>-19 using the <span>ISARIC WHO Clinical Characterisation Protocol UK</span>: A prospective, multicentre cohort study. <em>The Lancet</em> <strong>398</strong>, 223–237(2021).
-</div>
-</div>
+<h1 id="references">References</h1>

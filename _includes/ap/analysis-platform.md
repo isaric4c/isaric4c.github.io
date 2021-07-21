@@ -55,7 +55,7 @@ Within both of these environments there are two levels of access, governed by th
 
 This design is intended to demonstrate trust in order to encourage immediate contributions of research data from academic collaborators. It makes data available immediately for discovery, whilst protecting the rights of data creators and contributors.
 
-![Structure of the Outbreak Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png){#fig:structure width=60% }
+![Structure of the Outbreak Analysis Platform](https://isaric4c.net/img/ap/i4c-analysis-platform-updated.png){#fig:structure width=90% }
 
 
 # Research outputs
@@ -72,40 +72,6 @@ The proposal builds upon an established track record of impact. By generating, i
 - provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al,  Egan et al.) 
 - observed data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)
 - described the complications of Covid-19 in hospitalised patients.[https://doi.org/10.1016/S0140-6736(21)00799-6]
-
-\newpage
-
-# Governance of the platform
-
-## National core studies
-
-The platform is funded by UKRI. 
-
-Governance of the programme will be co-ordinated by National Core Studies programme (Data and Connectivity).
-
-## Oversight committee
-
-A UK-wide oversight committee will be convened by HDR UK to solve data linkage problems in Covid research, will provide guidance on all aspects of platform management and delivery. 
-
-The membership includes representation from public health agencies in the four nations of the UK, representatives of key studies, TREs and data resources, and representatives of the public, government and industry.
-
-The Advisory Committee will report to the National Core Studies Oversight Group, chaired by Sir Patrick Vallance. 
-
-## Executive committee
-
-An executive committee, chaired by Dr Kenneth Baillie, will be charged with managing resources and delivering on the goals set by the oversight committee.
-
-# Resources 
-
-We propose to support the development until September 2022 with the following expertise:
-
-- Data curation/wrangling
-- Data science/technology support 
-- Legals and contracting 
-- Project management 
-- Communications and data visualisation 
-- Scientific driver projects 
-
 
 # Current data content
 
