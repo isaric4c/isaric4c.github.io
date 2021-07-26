@@ -30,7 +30,8 @@ imgdir = "img/ap/"
 sourcefiles = [os.path.join(imgdir, x) for x in [
         "i4c-map-source.svg",
         "i4c-map-data-source.svg",
-        "i4c-analysis-platform-source.svg"
+        "i4c-analysis-platform-source.svg",
+        "uk-data-map-source.svg"
     ]
 ]
 #-----------------------------
