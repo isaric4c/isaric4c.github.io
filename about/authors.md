@@ -103,6 +103,10 @@ Chloe Donohue,
 Fiona Griffiths,
 Wilna Oosthuyzen.
 
+*Project Administrator*:
+Cara Donegan,
+Rebecca G. Spencer.
+
 *Data Analyst*:
 Lisa Norman ,
 Riinu Pius,
@@ -250,6 +254,7 @@ David Baxter,
 Michael Beadsworth,
 Jolanta Bernatoniene,
 John Berridge,
+Colin Berry,
 Nicola Best,
 Pieter Bothma,
 David Chadwick,
