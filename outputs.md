@@ -9,7 +9,7 @@ intro_image_hide_on_mobile: false
 
 # Outputs from the ISARIC4C consortium
 
-This page is intended to provide updates for participants on the work that has been done with their samples and data. We will keep this page updated with research results, reports and plans.
+We will keep this page updated with research results, reports and outher achievements form ISARIC4C.
 
 During its first 3 months, the ISARIC4C consortium expanded from the initial 34 co-investigators to more than 150 active contributors, and provides a data and sampling infrastructure for follow-up of COVID cases in the P-HOSP consortium.
 
