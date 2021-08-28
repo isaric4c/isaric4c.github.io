@@ -58,7 +58,7 @@
        sodipodi:role="line"
        id="tspan9173-4"
        x="322.4082"
-       y="1348.3796">GenOMICC Host whole genome (14,883)</tspan></text></g><rect
+       y="1348.3796">GenOMICC Host whole genome (14,904)</tspan></text></g><rect
    style="fill:#3386c1;fill-opacity:0.331378;stroke:none;stroke-width:2.11177;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect3255"
    width="918.72192"
@@ -752,7 +752,7 @@
      sodipodi:role="line"
      id="tspan9098"
      x="313.62939"
-     y="2081.5305">ISARIC4C TIER 0 (CO-CIN) (228,676)</tspan></text><rect
+     y="2081.5305">ISARIC4C TIER 0 (CO-CIN) (229,185)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9107"
    width="921.65045"
@@ -768,7 +768,7 @@
      sodipodi:role="line"
      id="tspan9109"
      x="313.62939"
-     y="2161.5305">ISARIC4C TIER 1/2 Multi-omics (2,468)</tspan></text><text
+     y="2161.5305">ISARIC4C TIER 1/2 Multi-omics (2,469)</tspan></text><text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:931.331;clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    x="2274.7664"
@@ -816,7 +816,7 @@
      sodipodi:role="line"
      id="tspan9173"
      x="313.62939"
-     y="2491.5305">GenOMICC Host variant data (14,883)</tspan></text><rect
+     y="2491.5305">GenOMICC Host variant data (14,904)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9179"
    width="921.65045"
@@ -1249,7 +1249,7 @@
      sodipodi:role="line"
      id="tspan9109-1"
      x="315.96518"
-     y="564.19458">ISARIC4C TIER 0/1/2 hospitalised (2,468):</tspan></text><text
+     y="564.19458">ISARIC4C TIER 0/1/2 hospitalised (2,469):</tspan></text><text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    x="326.85135"
