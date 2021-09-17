@@ -192,7 +192,7 @@
      id="tspan1499"
      y="913.57849"
      x="1133.0422"
-     sodipodi:role="line">Clinical data: 236,258 (hospitalised)</tspan></text><text
+     sodipodi:role="line">Clinical data: 236,646 (hospitalised)</tspan></text><text
    transform="translate(70.90866,116.17727)"
    clip-path="url(#clipPath2302)"
    id="multiomics_count"
@@ -204,7 +204,7 @@
      id="tspan1507"
      y="1028.3647"
      x="1132.6063"
-     sodipodi:role="line">Biological data:    2,486 (hospitalised)</tspan></text><text
+     sodipodi:role="line">Biological data:    2,489 (hospitalised)</tspan></text><text
    inkscape:label="#text1509"
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -216,7 +216,7 @@
      sodipodi:role="line"
      x="1132.6063"
      y="1028.3647"
-     id="tspan1494">Host genomes:    15,341 (critically-ill)</tspan></text><text
+     id="tspan1494">Host genomes:    15,372 (critically-ill)</tspan></text><text
    inkscape:label="#text1509"
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
