@@ -20,8 +20,7 @@ Please email ccp@liverpool.ac.uk if there you spot any omission.
 The **Protocol Authors** are: J Kenneth Baillie, Malcolm (Calum) G Semple,
 Gail Carson, Peter Openshaw, Jake Dunning, Laura Merson, Clark D
 Russell, Maria Zambon, Meera Chand, Richard Tedder, Saye Khoo, Peter
-Horby, Lance CW Turtle, Tom Solomon, Samreen Ijaz, Tom Fletcher, Massimo
-Palmarini, Antonia Ho, Nicholas Price.
+Horby, Lance CW Turtle, Tom Solomon, Samreen Ijaz, Tom Fletcher, Antonia Ho, Nicholas Price.
 
 ISARIC4C Investigators
 --------
