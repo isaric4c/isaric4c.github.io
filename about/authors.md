@@ -228,10 +228,17 @@ Hannah Massey.
 
 *Edinburgh Laboratory Staff and Volunteers*:
 Lee Murphy,
-Nicola Wrobel,
 Sarah McCafferty,
+Richard Clark,
+Angie Fawkes,
 Kirstie Morrice,
-Alan MacLean.
+Alan Maclean,
+Nicola Wrobel,
+Lorna Donnelly,
+Audrey Coutts,
+Katarzyna Hafezi,
+Louise MacGillivray,
+Tammy Gilchrist.
 
 *Local Principal Investigators*:
 Kayode Adeniji,
