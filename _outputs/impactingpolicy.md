@@ -6,10 +6,12 @@ weight: 15
 
 ISARIC4C and CO-CIN (Tier 0) feed data dynamically to Public Health
 Scotland, Public Health England, SPI-M, NERVTAG and SAGE. SPI-M have
-been high productive and published several analysis that informed
+been highly productive and published several analysis that informed
 Policy.
 
-Key UK policy documents citing ISARIC4C / CO-CIN data
+ISARIC4C and CO-CIN data is used to inform the Independent Advisory Group concerning the use of neutralising monoclonal antibodies and anti-viral drugs in high-risk clinical subgroups. 
+
+Other key UK policy documents citing ISARIC4C / CO-CIN data
 
 1.  COVID-19: the green book, chapter 14a.
 
@@ -24,3 +26,5 @@ Key UK policy documents citing ISARIC4C / CO-CIN data
         <https://doi.org/10.1136/bmj.m3249>
 
 2.  Remdesivir -- national prescribing guidance
+
+
