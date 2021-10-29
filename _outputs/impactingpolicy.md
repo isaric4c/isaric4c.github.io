@@ -9,7 +9,7 @@ Scotland, Public Health England, SPI-M, NERVTAG and SAGE. SPI-M have
 been highly productive and published several analysis that informed
 Policy.
 
-ISARIC4C and CO-CIN data are used to inform the Independent Advisory Group concerning the use of neutralising monoclonal antibodies and anti-viral drugs in high-risk clinical subgroups. 
+ISARIC4C and CO-CIN data are used to inform the NHS England Independent Advisory Group concerning the use of neutralising monoclonal antibodies and anti-viral drugs in high-risk clinical subgroups. 
 
 Other key UK policy documents citing ISARIC4C / CO-CIN data
 
