@@ -1,5 +1,5 @@
 ---
-title: "Vitamin D insufficiency in COVID-19 and influenza A, and critical illness survivors: a cross-sectional study"
+title: "Vitamin D insufficiency in COVID-19 and influenza A"
 featured: false
 weight: 23
 doi: http://dx.doi.org/10.1136/bmjopen-2021-055435
