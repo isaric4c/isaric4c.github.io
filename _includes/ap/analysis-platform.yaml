@@ -12,7 +12,7 @@ link-citations: true
 linkcolor: blue
 numbersections: false
 replace:
-  num_crf: 250,593
+  num_crf: 250,651
   num_genomicc: 16,306
   num_multiomics: 2,507
   num_phosp: 1,075
