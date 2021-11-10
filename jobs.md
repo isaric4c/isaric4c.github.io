@@ -7,7 +7,7 @@ layout: 'page'
 
 ## Outbreak Analysis Platform - Data Analysts and Data Administrators 
 
-Deadline **11 November 2021**.
+Deadline **16 November 2021**.
 
 We are looking for experienced team members to join the Outbreak Data Analysis Platform (ODAP) team and curate and drive research activities using COVID-19 data from various studies and institutions across the UK - including from the ISARIC4C; PHOSP-COVID and GenOMICC studies (see: https://isaric4c.net/analysis-platform/).
 
