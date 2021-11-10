@@ -1,12 +1,11 @@
 ---
 title: 'Jobs'
-layout: 'picpage'
-intro_image: '/img/ap/i4c-analysis-platform-updated.png'
+layout: 'page'
 ---
 
 # Work with us
 
-## Data Analysts and Data Administrators 
+## Outbreak Analysis Platform - Data Analysts and Data Administrators 
 
 Deadline **11 November 2021**.
 
