@@ -85,91 +85,81 @@ purposes or statistical purposes (article 9 (2) (j), based on Article
 
 ### Participants in England and Wales:
 
-We will send your unique study number, NHS number, date of birth,
+We will send your unique study number, NHS number, date of birth, 
 postcode and gender to NHS Digital or its successor NHSx. This allows
-them to retrieve data from routine records about your hospital visits
-and care, which they will then return to us. The data that we receive
-back and analyse will be identified by a study number only, and will
-**not** be identified by name, date of birth, NHS number or address. The
-information received from NHS Digital or NHSx will be imported into an
-intermediate database held by Arden and GEM Commissioning Support Unit
-(CSU) in a secure environment called a Safe Haven. Before retrieving
-data from the Safe Haven for analysing with the study data, all personal
-identifiers will be removed. Importantly, whilst the information
-received is specific to each trial participant, no individual person
-will be identifiable in any publication arising from this work. Your
-personal data will not be shared with any 3rd parties outside of the
-CCP-UK trial team and will not be used for any automated decision making
-or profiling. If you would like to have this data withdrawn, please
-contact the study team using the details given below.
+them to retrieve data from routine records about your hospital visits 
+and care, which they will then return to us. The data that we receive 
+back and analyse will be identified by a study number only, and will 
+not be identified by name, date of birth, NHS number or address. The 
+information received from NHS Digital or NHSx will be imported into an 
+intermediate database held by Arden and GEM Commissioning Support Unit (CSU)
+in a secure environment called a Safe Haven. Before retrieving data from
+the Safe Haven for analysing with the study data, all personal identifiers
+will be removed. Importantly, whilst the information received is specific 
+to each trial participant, no individual person will be identifiable in
+any publication arising from this work. Your personal data will not be 
+shared with any 3rd parties outside of the CCP-UK trial team and will not
+be used for any automated decision making or profiling. If you would like 
+to have this data withdrawn, please contact the study team using the details given below.
 
-Consent is not needed to obtain and use this extra data as described
-above, because on 20th March 2020, the DHSC issued notice under
-Regulation 3(4) of the Health Service Control of Patient Information
-Regulations 2002 (COPI Reg 3(4) for short). This COPI Reg 3(4) notice
-requires confidential information to be processed and disseminated for
-COVID-19 purposes only, and expires on 30th September 2020.
-
-If the COPI Reg 3(4) notice is not extended past 30th September 2020,
-CCP-UK will submit an application to the Confidentiality Advisory Group
-(CAG) for a Section 251 approval. If this is approved, processing and
-dissemination of confidential information will continue. The current
-COPI covers data from participants recruited in England and Wales only.
+Consent is not needed to obtain and use this extra data as described above, 
+because on 20th March 2020, the DHSC issued notice under Regulation 3(4) of
+the Health Service Control of Patient Information Regulations 2002 
+(COPI Reg 3(4) for short).This COPI Reg 3(4) notice requires confidential 
+information to be processed and disseminated for COVID-19 purposes only. 
+The COPI notice has since been extended multiple times, most recently on 
+27th August 2021 which allows for its use until 31st March 2022 (status last 
+reviewed by ISARIC4C investigators on 18th November 2021).
 
 ### Participants in Scotland:
 
-We will send your unique study number, CHI number, date of birth,
-postcode and gender to NHS Scotland. This allows them to retrieve data
-from routine records (held by NHS Scotland, Public Health Scotland, GPs
-and National Records of Scotland) about your hospital visits and care,
-which they will then return to us. The data that we receive back and
-analyse will be identified by a study number only, and will **not** be
-identified by name, date of birth, CHI number or address. The
-information received from these data sources will be imported into an
-intermediate database held by Arden and GEM Commissioning Support Unit
-(CSU) in a secure environment called a Safe Haven. Before retrieving
-data from the Safe Haven for analysing with the study data, all personal
-identifiers will be removed. Importantly, whilst the information
-received is specific to each trial participant, no individual person
-will be identifiable in any publication arising from this work. Your
-personal data will not be shared with any 3rd parties outside of the
-CCP-UK trial team and will not be used for any automated decision making
-or profiling. If you would like to have this data withdrawn, please
-contact the study team using the details given below.
+We will send your unique study number, CHI number, date of birth, postcode 
+and gender to NHS Scotland. This allows them to retrieve data from routine 
+records (held by NHS Scotland, Public Health Scotland, GPs and National 
+Records of Scotland) about your hospital visits and care, which they will 
+then return to us. The data that we receive back and analyse will be identified
+by a study number only, and will not be identified by name, date of birth, 
+CHI number or address. The information received from these data sources will 
+be imported into an intermediate database held by Arden and 
+GEM Commissioning Support Unit (CSU) in a secure environment called a Safe Haven. 
+Before retrieving data from the Safe Haven for analysing with the study data, 
+all personal identifiers will be removed. Importantly, whilst the information 
+received is specific to each trial participant, no individual person will be
+identifiable in any publication arising from this work. Your personal data will
+not be shared with any 3rd parties outside of the CCP-UK trial team and will not 
+be used for any automated decision making or profiling. If you would like to have
+this data withdrawn, please contact the study team using the details given below.
 
-Consent is not needed to obtain and use this extra data as described
-above, because we received approval from the Public Benefit and Privacy
-Panel (PBPP) for Health and Social Care on 17th April 2020 to link
-participant identifiers to routine data held by NHS Scotland, Public
-Health Scotland, GPs and National Records of Scotland. The PBPP approval
-is in place until 31st May 2021, after which the study team will apply
-to extend the approval if data processing is ongoing.
+Consent is not needed to obtain and use this extra data as described above, 
+because we received approval from the Public Benefit and Privacy Panel (PBPP) 
+for Health and Social Care on 17th April 2020 to link participant identifiers 
+to routine data held by NHS Scotland, Public Health Scotland, GPs and National 
+Records of Scotland. 
 
 ## What to do next?
 
-If you decide you do not want your data to be linked in this way you can
-withdraw from this follow-up, without affecting your current medical
-care, by contacting the study team, who would require your identifiers
-to ensure that your data is not included in the cohort. We will not
-request data from NHS Digital for anyone who directly requests not to be
-included. If we have already received your data by the time you indicate
-that you do not want your study data linked to routine records then we
-will remove your identifiers from our dataset.
+If you decide you do not want your data to be linked in this way you can withdraw 
+from this follow-up, without affecting your current medical care, by contacting 
+the study team, who would require your identifiers to ensure that your data is 
+not included in the cohort. We will not request data from NHS Digital for anyone 
+who directly requests not to be included. If we have already received your data by 
+the time you indicate that you do not want your study data linked to routine records 
+then we will remove your identifiers from our dataset.
 
-Data protection regulation provides you with control over your personal
-data and how it is used. When your information is being used in
-research, however, some of those rights may be limited in order for the
-research to be reliable and accurate. Further information about your
-rights with respect to your personal data is available at
-<https://compliance.admin.ox.ac.uk/individual-rights> or by contacting
-the study team using the details below. The University's data protection
-officer can be reached at <data.protection@admin.ox.ac.uk>.
+Data protection regulation provides you with control over your personal data and 
+how it is used. When your information is being used in research, however, some of
+those rights may be limited in order for the research to be reliable and accurate. 
+Further information about your rights with respect to your personal data is 
+available at https://compliance.admin.ox.ac.uk/individual-rights or by contacting 
+the study team using the details below. The University’s data protection officer 
+can be reached at data.protection@admin.ox.ac.uk.
 
-If you have further questions or are not happy with the way your data
-has been handled, please contact the study team using the contact
-details below. Alternatively, you can contact the study sponsor on 01865
-616480 or <ctrg@admin.ox.ac.uk>. You have the right to lodge a complaint
-with the Information Commissioner's Office (0303 123 1113 or
-[www.ico.org.uk](http://www.ico.org.uk).
+If you have further questions or are not happy with the way your data has been handled, 
+please contact the study team using the contact details below. Alternatively, 
+you can contact the study sponsor on 01865 616480 or ctrg@admin.ox.ac.uk. 
+You have the right to lodge a complaint with the Information Commissioner’s Office 
+(0303 123 1113 or www.ico.org.uk).
+
+
 
 **Email: ccp@liverpool.ac.uk**
