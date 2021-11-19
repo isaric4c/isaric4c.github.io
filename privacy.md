@@ -134,7 +134,8 @@ Consent is not needed to obtain and use this extra data as described above,
 because we received approval from the Public Benefit and Privacy Panel (PBPP) 
 for Health and Social Care on 17th April 2020 to link participant identifiers 
 to routine data held by NHS Scotland, Public Health Scotland, GPs and National 
-Records of Scotland. 
+Records of Scotland. The PBPP approval is in place until 31st May 2022, after 
+which the study team will apply to extend the approval if data processing is ongoing.
 
 ## What to do next?
 
