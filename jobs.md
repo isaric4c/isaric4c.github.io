@@ -18,7 +18,7 @@ We will be recruiting for the following roles:
 * Data Access Project Manager 
 * Data Access Administrator(s) 
 
-Please get in touch with our [study team](/isaric4c-samples@roslin.ed.ac.uk/) for more information. 
+Please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
 
 See [previous outputs from ISARIC 4C](/outputs/)
 
