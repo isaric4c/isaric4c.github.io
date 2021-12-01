@@ -5,8 +5,6 @@ layout: 'page'
 
 # Work with us
 
-## The Outbreak Data Analysis Platform Team is expanding
-
 We are looking for experienced and creative team members to join the Outbreak Data Analysis Platform (ODAP) team. 
 
 We are curating and driving research activities using COVID-19 data from various studies and institutions across the UK - including from the ISARIC4C; PHOSP-COVID and GenOMICC studies [Analysis Platform](https://isaric4c.net/analysis-platform/).
