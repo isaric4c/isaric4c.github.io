@@ -5,7 +5,7 @@ layout: 'page'
 
 # Work with us
 
-## Outbreak Analysis Platform - Data Analysts and Data Administrators 
+## The Outbreak Data Analysis Platform Team is expanding
 
 We are looking for experienced and creative team members to join the Outbreak Data Analysis Platform (ODAP) team. 
 
