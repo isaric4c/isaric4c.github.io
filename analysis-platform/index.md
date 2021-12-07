@@ -1,5 +1,5 @@
 ---
-title: 'Outbreak analysis platform'
+title: 'Outbreak data analysis platform (ODAP)'
 layout: 'page'
 ---
 
