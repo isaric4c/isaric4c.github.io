@@ -25,7 +25,7 @@ Outbreak data analysis platform
 
 - It is not a viral sequence analysis platform. The excellent MRC CLIMB resource (a partner in this programme) provides excellent resources and infrastructure for analysis, presentation and sharing of viral sequences.
 - It is not a replacement for public health activities. The platform will work closely with public health agencies across the 4 nations and with UK HSA, providing research insights and data feeds where useful to augment surveillance capacity, and a tried-and-tested route to engage additional analytic capacity and expertise from the academic sector.
-- It is not a replacement for existing TREs. The analysis platform is a focused capability of the UKSA accredited TRE hosted by Public Health Scotland, and will provide curated data feeds to TREs across the UK to facilitate and supplement data held elsewhere as part 
+- It is not a replacement for existing TREs. The analysis platform is a focused capability of the UKSA-accredited TRE hosted by Public Health Scotland, and will provide curated data feeds to TREs across the UK to facilitate and supplement data held elsewhere as part of a UK federated network.
 
 
 # Design of the platform
