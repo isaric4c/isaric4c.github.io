@@ -1,27 +1,22 @@
 ---
 title: 'Jobs'
-layout: 'picpage'
-intro_image: '/img/ap/i4c-analysis-platform-updated.png'
+layout: 'page'
 ---
 
 # Work with us
 
-## Data analyst
+We are looking for experienced and creative team members to join the Outbreak Data Analysis Platform (ODAP) team. 
 
-Deadline 2nd July 2021. [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/1213/?keyword=Roslin&mode=location)
+We are curating and driving research activities using COVID-19 data from various studies and institutions across the UK - including from the ISARIC4C; PHOSP-COVID and GenOMICC studies [Analysis Platform](https://isaric4c.net/analysis-platform/).
 
-We need several data scientists with skills in some or all of the following areas:
+We are currently recruiting for the following roles: 
 
-- data architecture
-- high-dimensionality analysis of biological data
-- genomics
-- quantitative genetics
-- clinical epidemiology
-- data curation
+* Communications Officer [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2722/?utm_medium=jobshare)
+* Data Curation & Linkage Administrator(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2437/?utm_medium=jobshare)
+* Data Access Project Manager [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2433/?utm_medium=jobshare)
+* Data Access Administrator(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2434/?utm_medium=jobshare)
 
-The ISARIC 4C, PHOSP and CIC consortia are working together to build and maintain a world-leading, accessible [data analysis platform](/analysis-platform) to deeply characterise COVID-19 including clinical data from 210,000 patients, genetic data from 15000 patients, and deep biological data from 2000.
-
-We are putting together a data management and architecture team to curate, link and analyse this dataset, providing key insights into COVID-19 and facilitating access and analysis by highly-skilled research groups across the UK and the world.
+Please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
 
 See [previous outputs from ISARIC 4C](/outputs/)
 
