@@ -12,6 +12,7 @@ We are curating and driving research activities using COVID-19 data from various
 We are currently recruiting for the following roles: 
 
 * Communications Officer [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2722/?utm_medium=jobshare)
+* Public Engagement/Involvement Officer [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2717/?utm_medium=jobshare)
 * Data Curation & Linkage Administrator(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2437/?utm_medium=jobshare)
 * Data Access Project Manager [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2433/?utm_medium=jobshare)
 * Data Access Administrator(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2434/?utm_medium=jobshare)
