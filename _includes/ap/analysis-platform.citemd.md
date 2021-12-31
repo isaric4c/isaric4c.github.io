@@ -70,7 +70,7 @@ The proposal builds upon an established track record of impact. By generating, i
 
 This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
 
-- ISARIC4C tier 0: (unconsented) prospective clinical data from 269,152 cases
+- ISARIC4C tier 0: (unconsented) prospective clinical data from 269,218 cases
 - ISARIC4C tiers 1 and 2: serial multiomic assays from research samples of blood, respiratory secretions, urine, and stool from 2,509 cases
 - COG-UK: (unconsented) summary variant data from COG-UK viral sequencing study is already included for matched patients
 - GenOMICC study complete data: microarray and whole genome sequence data from 17,575 cases
@@ -129,7 +129,7 @@ A critical determinant of success is building sufficient trust among contributor
 
 ## Principles
 
-ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningopensourceclinical2014] and harmonised across the world.[@akhvledianiglobaloutbreakresearch2020] It is an open-access national resource: we have already shared data on 269,152 participants and 4273 samples with 26 external groups.
+ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningopensourceclinical2014] and harmonised across the world.[@akhvledianiglobaloutbreakresearch2020] It is an open-access national resource: we have already shared data on 269,218 participants and 4273 samples with 26 external groups.
 
 The success of ISARIC4C is largely due to the following foundational principles:
 
