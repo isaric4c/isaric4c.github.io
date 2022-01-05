@@ -11,10 +11,9 @@ We are curating and driving research activities using COVID-19 data from various
 
 We are currently recruiting for the following roles: 
 
-* Public Engagement/Involvement Officer [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2717/?utm_medium=jobshare)
 * Data Curation & Linkage Administrator(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2437/?utm_medium=jobshare)
 
-Please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
+We are always interested to hear from experienced and enthusiastic data analysts, administrators, and project managers, so please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
 
 See [previous outputs from ISARIC 4C](/outputs/)
 
