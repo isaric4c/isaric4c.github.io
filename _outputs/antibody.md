@@ -1,5 +1,5 @@
 ---
-title: "Detection and quantification of antibody to SARS CoV 2 receptor binding domain provides enhanced sensitivity, specificity and utility"
+title: "Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies"
 featured: false
 weight: 23
 doi: https://doi.org/10.1016/j.jviromet.2022.114475
