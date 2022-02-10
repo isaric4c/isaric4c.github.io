@@ -139,7 +139,10 @@ Andrew Law,
 Murray Wham,
 Sara Clohisey,
 Ross Hendry,
-James Scott-Brown.
+James Scott-Brown,
+Lucy Norris,
+Sarah Tait,
+Susan Knight.
 
 *Material Management*:
 Victoria Shaw,
