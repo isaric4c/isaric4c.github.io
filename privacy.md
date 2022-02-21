@@ -148,8 +148,8 @@ the time you indicate that you do not want your study data linked to routine rec
 then we will remove your identifiers from our dataset.
 
 ## How to opt out
-If after reading this you wish to opt out of this study by having your data removed please email **[ccp@liverpool.ac.uk](mailto:ccp@liverpool.ac.uk)** including your name, date of birth NHS number and post code.
-We will look for your details in our data and if we find it we will delete it. In any case we will email back to you with 14days to tell you if we found your data and if we did to confirm that your data has been removed.
+If after reading this you wish to opt out of this study by having your data removed please email **[ccp@liverpool.ac.uk](mailto:ccp@liverpool.ac.uk)** including your name, date of birth, NHS number, and post code.
+We will look for your details in our data and if we find it we will delete it. In any case we will email back to you within 14days to tell you if we found your data and if we did to confirm that your data has been removed.
 
 Data protection regulation provides you with control over your personal data and 
 how it is used. When your information is being used in research, however, some of
