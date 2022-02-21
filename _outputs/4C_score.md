@@ -13,6 +13,14 @@ The 4C Mortality Score can be found here: [isaric4c.net/risk](/risk)
 
 The 4C Mortality Score has been extensively validated in independent studies across the world. Validation of the 4C score showed similar discrimination in the following countries:
 
+* [Singapore](https://doi.org/10.1093/cid/ciac087)
+* [Japan](https://doi.org/10.3390/jcm11030821)
+* [United States](10.2196/31549)
+* [Brazil](https://doi.org/10.1016/j.ijid.2021.07.049)
+* [Brazil and Spain](https://doi.org/10.1016/j.cmi.2021.03.002)
+* [Belgium](https://doi.org/10.1080/23744235.2021.1896777)
+* [Saudi Arabia](https://www.sjmms.net/article.asp?issn=1658-631X;year=2022;volume=10;issue=1;spage=19;epage=24;aulast=Aletreby)
+* [Australia](https://search.informit.org/doi/abs/10.3316/informit.247030265377533)
 * [France](https://doi.org/10.1038/s41467-020-20657-4)
 * [The Netherlands](https://doi.org/10.1080/07853890.2021.1891453)
 * [Italy](https://doi.org/10.1111/jgs.16956)
