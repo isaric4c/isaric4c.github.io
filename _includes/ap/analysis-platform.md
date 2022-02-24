@@ -11,9 +11,6 @@ replace:
 Outbreak data analysis platform
 -->
 
-
-# Outbreak Data Analysis Platform (ODAP)
-
 The ODAP is guided and overseen by the ODAP Partnership, a collaboration among nationwide research studies, public health agencies, the NHS and clinicians and scientists.
 
 ## Scope
