@@ -13,7 +13,7 @@ layout: 'page'
 # Management
 
 - Recruitment, sample tracking and ethical approvals: Hayley Hardwick (H.E.Jelleyman@liverpool.ac.uk)
-- MTAs, IDAMAC and Consortium Management: Jane Ewins(jane.ewins@ed.ac.uk) and Wilna Oosthuyzen(Wilna.Oosthuyzen@ed.ac.uk)
+- MTAs, IDAMAC and Consortium Management: Wilna Oosthuyzen(Wilna.Oosthuyzen@ed.ac.uk)
 
 # Objectives and Resources
 
