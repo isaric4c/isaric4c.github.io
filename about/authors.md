@@ -142,7 +142,8 @@ Ross Hendry,
 James Scott-Brown,
 Lucy Norris,
 Sarah Tait,
-Susan Knight.
+Susan Knight,
+Eva Lahnsteiner.
 
 *Material Management*:
 Victoria Shaw,
