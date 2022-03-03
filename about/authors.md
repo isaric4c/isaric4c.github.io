@@ -26,236 +26,62 @@ Palmarini, Antonia Ho, Nicholas Price.
 ISARIC4C Investigators
 --------
 
-*Consortium Lead Investigator*: J Kenneth Baillie.
-
-*Chief Investigator*: Malcolm G Semple.
-
-*Co-Lead Investigator*: Peter JM Openshaw.
-
-*ISARIC Clinical Coordinator*: Gail Carson.
-
-*Co-Investigator*:
-Beatrice Alex,
-Petros Andrikopoulos,
-Benjamin Bach,
-Wendy S Barclay,
-Debby Bogaert,
-Meera Chand,
-Kanta Chechi,
-Graham S Cooke,
-Ana da Silva Filipe,
-Thushan de Silva,
-Annemarie B Docherty,
-Gonçalo dos Santos Correia,
-Marc-Emmanuel Dumas,
-Jake Dunning,
-Tom Fletcher,
-Christoper A Green,
-William Greenhalf,
-Julian L Griffin,
-Rishi K Gupta,
-Ewen M Harrison,
-Julian A Hiscox,
-Antonia Ying Wai Ho,
-Peter W Horby,
-Samreen Ijaz,
-Saye Khoo,
-Paul Klenerman,
-Andrew Law,
-Matthew R Lewis,
-Sonia Liggi,
-Wei Shen Lim,
-Lynn Maslen,
-Alexander J Mentzer,
-Laura Merson,
-Alison M Meynert,
-Shona C Moore,
-Mahdad Noursadeghi,
-Michael Olanipekun,
-Anthonia Osagie,
-Massimo Palmarini ,
-Carlo Palmieri,
-William A Paxton,
-Georgios Pollakis,
-Nicholas Price,
-Andrew Rambaut,
-David L Robertson,
-Clark D Russell,
-Vanessa Sancho-Shimizu,
-Caroline J Sands,
-Janet T Scott,
-Louise Sigfrid,
-Tom Solomon,
-Shiranee Sriskandan,
-David Stuart,
-Charlotte Summers,
-Olivia V Swann,
-Zoltan Takats,
-Panteleimon Takis,
-Richard S Tedder,
-AA Roger Thompson,
-Emma C Thomson,
-Ryan S Thwaites,
-Lance CW Turtle,
-Maria Zambon.
-
-*Project Manager*:
-Hayley Hardwick,
-Chloe Donohue,
-Fiona Griffiths,
-Wilna Oosthuyzen.
-
-*Project Administrator*:
-Cara Donegan,
-Rebecca G. Spencer.
-
-*Data Analyst*:
-Lisa Norman ,
-Riinu Pius,
-Thomas M Drake,
-Cameron J Fairfield,
-Stephen R Knight,
-Kenneth A Mclean,
-Derek Murphy,
-Catherine A Shaw.
-
-*Data and Information System Manager*:
-Jo Dalton,
-Michelle Girvan,
-Egle Saviciute,
-Stephanie Roberts,
-Janet Harrison,
-Laura Marsh,
-Marie Connor,
-Sophie Halpin,
-Clare Jackson,
-Carrol Gamble,
-Daniel Plotkin,
-James Lee.
-
-*Data Integration and Presentation*:
-Gary Leeming,
-Andrew Law,
-Murray Wham,
-Sara Clohisey,
-Ross Hendry,
-James Scott-Brown,
-Lucy Norris,
-Sarah Tait,
-Susan Knight,
-Eva Lahnsteiner.
-
-*Material Management*:
-Victoria Shaw,
-Sarah E McDonald.
-
-*Patient Engagement*:
-Seán Keating.
-
-*Outbreak Laboratory Staff and Volunteers*:
-Katie A. Ahmed,
-Jane A Armstrong,
-Milton Ashworth,
-Innocent G Asiimwe,
-Siddharth Bakshi,
-Samantha L Barlow,
-Laura Booth,
-Benjamin Brennan,
-Katie Bullock,
-Benjamin WA Catterall,
-Jordan J Clark,
-Emily A Clarke,
-Sarah Cole,
-Louise Cooper,
-Helen Cox,
-Christopher Davis,
-Oslem Dincarslan,
-Chris Dunn,
-Philip Dyer,
-Angela Elliott,
-Anthony Evans,
-Lorna Finch,
-Lewis WS Fisher,
-Terry Foster,
-Isabel Garcia-Dorival,
-Philip Gunning,
-Catherine Hartley,
-Rebecca L Jensen,
-Christopher B Jones,
-Trevor R Jones,
-Shadia Khandaker,
-Katharine King,
-Robyn T. Kiy,
-Chrysa Koukorava,
-Annette Lake,
-Suzannah Lant,
-Diane Latawiec,
-Lara Lavelle-Langham,
-Daniella Lefteri,
-Lauren Lett,
-Lucia A Livoti,
-Maria Mancini,
-Sarah McDonald,
-Laurence McEvoy,
-John McLauchlan,
-Soeren Metelmann,
-Nahida S Miah,
-Joanna Middleton,
-Joyce Mitchell,
-Shona C Moore,
-Ellen G Murphy,
-Rebekah Penrice-Randal,
-Jack Pilgrim,
-Tessa Prince,
-Will Reynolds,
-P. Matthew Ridley,
-Debby Sales,
-Victoria E Shaw,
-Rebecca K Shears,
-Benjamin Small,
-Krishanthi S Subramaniam,
-Agnieska Szemiel,
-Aislynn Taggart,
-Jolanta Tanianis-Hughes,
-Jordan Thomas,
-Erwan Trochu,
-Libby van Tonder,
-Eve Wilcock,
-J. Eunice Zhang,
-Lisa Flaherty,
-Nicole Maziere,
-Emily Cass,
-Alejandra Doce Carracedo,
-Nicola Carlucci ,
-Anthony Holmes,
-Hannah Massey.
-
-*Edinburgh Laboratory Staff and Volunteers*:
-Lee Murphy,
-Sarah McCafferty,
-Richard Clark,
-Angie Fawkes,
-Kirstie Morrice,
-Alan Maclean,
-Nicola Wrobel,
-Lorna Donnelly,
-Audrey Coutts,
-Katarzyna Hafezi,
-Louise MacGillivray,
-Tammy Gilchrist.
-
 *Local Principal Investigators*:
 Kayode Adeniji,
 Daniel Agranoff,
-Ken Agwuh,
+Ken Agwuh.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Katie A. Ahmed.
+
+*Local Principal Investigators*:
 Dhiraj Ail,
 Erin L. Aldera,
-Ana Alegria,
-Sam Allen,
-Brian Angus,
-Abdul Ashish,
-Dougal Atkinson,
-Shahedal Bari,
+Ana Alegria.
+
+*Co-Investigator*:
+Beatrice Alex.
+
+*Local Principal Investigators*:
+Sam Allen.
+
+*Co-Investigator*:
+Petros Andrikopoulos.
+
+*Local Principal Investigators*:
+Brian Angus.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Jane A Armstrong.
+
+*Local Principal Investigators*:
+Abdul Ashish.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Milton Ashworth,
+Innocent G Asiimwe.
+
+*Local Principal Investigators*:
+Dougal Atkinson.
+
+*Consortium Lead Investigator*: J Kenneth Baillie.
+
+*Co-Investigator*:
+Benjamin Bach.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Siddharth Bakshi.
+
+*Co-Investigator*:
+Wendy S Barclay.
+
+*Local Principal Investigators*:
+Shahedal Bari.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Samantha L Barlow.
+
+*Local Principal Investigators*:
 Gavin Barlow,
 Stella Barnass,
 Nicholas Barrett,
@@ -266,154 +92,805 @@ Michael Beadsworth,
 Jolanta Bernatoniene,
 John Berridge,
 Colin Berry,
-Nicola Best,
-Pieter Bothma,
-David Chadwick,
-Robin Brittain-Long,
+Nicola Best.
+
+*Co-Investigator*:
+Debby Bogaert.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Laura Booth.
+
+*Local Principal Investigators*:
+Pieter Bothma.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Benjamin Brennan.
+
+*Local Principal Investigators*:
+Robin Brittain-Long.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Katie Bullock.
+
+*Local Principal Investigators*:
 Naomi Bulteel,
 Tom Burden,
-Andrew Burtenshaw,
-Vikki Caruth,
+Andrew Burtenshaw.
+
+*ISARIC Clinical Coordinator*: Gail Carson.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Nicola Carlucci .
+
+*Local Principal Investigators*:
+Vikki Caruth.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Emily Cass,
+Benjamin WA Catterall.
+
+*Local Principal Investigators*:
 David Chadwick,
-Duncan Chambler,
+David Chadwick,
+Duncan Chambler.
+
+*Co-Investigator*:
+Meera Chand,
+Kanta Chechi.
+
+*Local Principal Investigators*:
 Nigel Chee,
 Jenny Child,
-Srikanth Chukkambotla,
-Tom Clark,
-Paul Collini,
-Catherine Cosgrove,
+Srikanth Chukkambotla.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Jordan J Clark.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Richard Clark.
+
+*Local Principal Investigators*:
+Tom Clark.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Emily A Clarke.
+
+*Data Integration and Presentation*:
+Sara Clohisey.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Sarah Cole.
+
+*Local Principal Investigators*:
+Paul Collini.
+
+*Data and Information System Manager*:
+Marie Connor.
+
+*Co-Investigator*:
+Graham S Cooke.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Louise Cooper.
+
+*Local Principal Investigators*:
+Catherine Cosgrove.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Audrey Coutts.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Helen Cox.
+
+*Local Principal Investigators*:
 Jason Cupitt,
-Maria-Teresa Cutino-Moguel,
-Paul Dark,
-Chris Dawson,
-Samir Dervisevic,
-Phil Donnison,
-Sam Douthwaite,
-Andrew Drummond,
+Maria-Teresa Cutino-Moguel.
+
+*Co-Investigator*:
+Ana da Silva Filipe.
+
+*Data and Information System Manager*:
+Jo Dalton.
+
+*Local Principal Investigators*:
+Paul Dark.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Christopher Davis.
+
+*Local Principal Investigators*:
+Chris Dawson.
+
+*Co-Investigator*:
+Thushan de Silva.
+
+*Local Principal Investigators*:
+Samir Dervisevic.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Oslem Dincarslan,
+Alejandra Doce Carracedo.
+
+*Co-Investigator*:
+Annemarie B Docherty.
+
+*Project Administrator*:
+Cara Donegan.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Lorna Donnelly.
+
+*Local Principal Investigators*:
+Phil Donnison.
+
+*Project Manager*:
+Chloe Donohue.
+
+*Co-Investigator*:
+Gonçalo dos Santos Correia.
+
+*Local Principal Investigators*:
+Sam Douthwaite.
+
+*Data Analyst*:
+Thomas M Drake.
+
+*Local Principal Investigators*:
+Andrew Drummond.
+
+*Co-Investigator*:
+Marc-Emmanuel Dumas.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Chris Dunn.
+
+*Co-Investigator*:
+Jake Dunning.
+
+*Local Principal Investigators*:
 Ingrid DuRand,
-Ahilanadan Dushianthan,
-Tristan Dyer,
+Ahilanadan Dushianthan.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Philip Dyer.
+
+*Local Principal Investigators*:
+Tristan Dyer.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Angela Elliott,
+Anthony Evans.
+
+*Local Principal Investigators*:
 Cariad Evans,
-Chi Eziefula,
-Chrisopher Fegan,
-Adam Finn,
-Duncan Fullerton,
+Chi Eziefula.
+
+*Data Analyst*:
+Cameron J Fairfield.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Angie Fawkes.
+
+*Local Principal Investigators*:
+Chrisopher Fegan.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Lorna Finch.
+
+*Local Principal Investigators*:
+Adam Finn.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Lewis WS Fisher,
+Lisa Flaherty.
+
+*Co-Investigator*:
+Tom Fletcher.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Terry Foster.
+
+*Local Principal Investigators*:
+Duncan Fullerton.
+
+*Data and Information System Manager*:
+Carrol Gamble.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Isabel Garcia-Dorival.
+
+*Local Principal Investigators*:
 Sanjeev Garg,
 Sanjeev Garg,
-Atul Garg,
+Atul Garg.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Tammy Gilchrist.
+
+*Data and Information System Manager*:
+Michelle Girvan.
+
+*Local Principal Investigators*:
 Effrossyni Gkrania-Klotsas,
 Jo Godden,
 Arthur Goldsmith,
-Clive Graham,
-Elaine Hardy,
+Clive Graham.
+
+*Co-Investigator*:
+Christoper A Green,
+William Greenhalf,
+Julian L Griffin.
+
+*Project Manager*:
+Fiona Griffiths.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Philip Gunning.
+
+*Co-Investigator*:
+Rishi K Gupta.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Katarzyna Hafezi.
+
+*Data and Information System Manager*:
+Sophie Halpin.
+
+*Project Manager*:
+Hayley Hardwick.
+
+*Local Principal Investigators*:
+Elaine Hardy.
+
+*Co-Investigator*:
+Ewen M Harrison.
+
+*Data and Information System Manager*:
+Janet Harrison.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Catherine Hartley.
+
+*Local Principal Investigators*:
 Stuart Hartshorn,
 Daniel Harvey,
 Peter Havalda,
-Daniel B Hawcutt,
+Daniel B Hawcutt.
+
+*Data Integration and Presentation*:
+Ross Hendry.
+
+*Co-Investigator*:
+Julian A Hiscox,
+Antonia Ying Wai Ho.
+
+*Local Principal Investigators*:
 Maria Hobrok,
-Luke Hodgson,
-Anil Hormis,
+Luke Hodgson.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Anthony Holmes.
+
+*Co-Investigator*:
+Peter W Horby.
+
+*Local Principal Investigators*:
+Anil Hormis.
+
+*Co-Investigator*:
+Samreen Ijaz.
+
+*Data and Information System Manager*:
+Clare Jackson.
+
+*Local Principal Investigators*:
 Michael Jacobs,
 Susan Jain,
-Paul Jennings,
+Paul Jennings.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Rebecca L Jensen,
+Christopher B Jones,
+Trevor R Jones.
+
+*Local Principal Investigators*:
 Agilan Kaliappan,
-Vidya Kasipandian,
+Vidya Kasipandian.
+
+*Patient Engagement*:
+Seán Keating.
+
+*Local Principal Investigators*:
 Stephen Kegg,
 Michael Kelsey,
 Jason Kendall,
 Caroline Kerrison,
-Ian Kerslake,
+Ian Kerslake.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Shadia Khandaker.
+
+*Co-Investigator*:
+Saye Khoo.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Katharine King,
+Robyn T. Kiy.
+
+*Co-Investigator*:
+Paul Klenerman.
+
+*Data Analyst*:
+Stephen R Knight.
+
+*Data Integration and Presentation*:
+Susan Knight.
+
+*Local Principal Investigators*:
 Oliver Koch,
 Gouri Koduri,
-George Koshy,
-Shondipon Laha,
-Steven Laird,
-Susan Larkin,
-Tamas Leiner,
-Patrick Lillie,
+George Koshy.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Chrysa Koukorava.
+
+*Local Principal Investigators*:
+Shondipon Laha.
+
+*Data Integration and Presentation*:
+Eva Lahnsteiner.
+
+*Local Principal Investigators*:
+Steven Laird.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Annette Lake,
+Suzannah Lant.
+
+*Local Principal Investigators*:
+Susan Larkin.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Diane Latawiec,
+Lara Lavelle-Langham.
+
+*Co-Investigator*:
+Andrew Law.
+
+*Data Integration and Presentation*:
+Andrew Law.
+
+*Data and Information System Manager*:
+James Lee.
+
+*Data Integration and Presentation*:
+Gary Leeming.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Daniella Lefteri.
+
+*Local Principal Investigators*:
+Tamas Leiner.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Lauren Lett.
+
+*Co-Investigator*:
+Matthew R Lewis,
+Sonia Liggi.
+
+*Local Principal Investigators*:
+Patrick Lillie.
+
+*Co-Investigator*:
+Wei Shen Lim.
+
+*Local Principal Investigators*:
 James Limb,
 Vanessa Linnett,
-Jeff Little,
-Mark Lyttle,
+Jeff Little.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Lucia A Livoti.
+
+*Local Principal Investigators*:
+Mark Lyttle.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Louise MacGillivray,
+Alan Maclean.
+
+*Local Principal Investigators*:
 Michael MacMahon,
-Emily MacNaughton,
-Ravish Mankregod,
+Emily MacNaughton.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Maria Mancini.
+
+*Local Principal Investigators*:
+Ravish Mankregod.
+
+*Data and Information System Manager*:
+Laura Marsh.
+
+*Co-Investigator*:
+Lynn Maslen.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Hannah Massey.
+
+*Local Principal Investigators*:
 Huw Masson,
-Elijah Matovu,
-Katherine McCullough,
-Ruth McEwen,
-Manjula Meda,
+Elijah Matovu.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Nicole Maziere.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Sarah McCafferty.
+
+*Local Principal Investigators*:
+Katherine McCullough.
+
+*Material Management*:
+Sarah E McDonald.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Sarah McDonald,
+Laurence McEvoy.
+
+*Local Principal Investigators*:
+Ruth McEwen.
+
+*Outbreak Laboratory Staff and Volunteers*:
+John McLauchlan.
+
+*Data Analyst*:
+Kenneth A Mclean.
+
+*Local Principal Investigators*:
+Manjula Meda.
+
+*Co-Investigator*:
+Alexander J Mentzer,
+Laura Merson.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Soeren Metelmann.
+
+*Co-Investigator*:
+Alison M Meynert.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Nahida S Miah,
+Joanna Middleton.
+
+*Local Principal Investigators*:
 Gary Mills,
 Jane Minton,
-Mariyam Mirfenderesky,
+Mariyam Mirfenderesky.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Joyce Mitchell.
+
+*Local Principal Investigators*:
 Kavya Mohandas,
 Quen Mok,
-James Moon,
+James Moon.
+
+*Co-Investigator*:
+Shona C Moore.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Shona C Moore.
+
+*Local Principal Investigators*:
 Elinoor Moore,
-Patrick Morgan,
+Patrick Morgan.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Kirstie Morrice.
+
+*Local Principal Investigators*:
 Craig Morris,
 Katherine Mortimore,
 Samuel Moses,
 Mbiye Mpenge,
-Rohinton Mulla,
+Rohinton Mulla.
+
+*Data Analyst*:
+Derek Murphy.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Ellen G Murphy.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Lee Murphy.
+
+*Local Principal Investigators*:
 Michael Murphy,
-Megan Nagel,
 Thapas Nagarajan,
-Mark Nelson,
-Lillian Norris,
-Matthew K. O'Shea,
-Igor Otahal,
+Megan Nagel,
+Mark Nelson.
+
+*Data Analyst*:
+Lisa Norman .
+
+*Data Integration and Presentation*:
+Lucy Norris.
+
+*Local Principal Investigators*:
+Lillian Norris.
+
+*Co-Investigator*:
+Mahdad Noursadeghi.
+
+*Local Principal Investigators*:
+Matthew K. O'Shea.
+
+*Co-Investigator*:
+Michael Olanipekun.
+
+*Co-Lead Investigator*: Peter JM Openshaw.
+
+*Project Manager*:
+Wilna Oosthuyzen.
+
+*Co-Investigator*:
+Anthonia Osagie.
+
+*Local Principal Investigators*:
 Marlies Ostermann,
-Mark Pais,
+Igor Otahal,
+Mark Pais.
+
+*Co-Investigator*:
+Massimo Palmarini ,
+Carlo Palmieri.
+
+*Local Principal Investigators*:
 Carlo Palmieri,
 Selva Panchatsharam,
 Danai Papakonstantinou,
+Padmasayee Papineni,
 Hassan Paraiso,
 Brij Patel,
-Natalie Pattison,
+Natalie Pattison.
+
+*Co-Investigator*:
+William A Paxton.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Rebekah Penrice-Randal.
+
+*Local Principal Investigators*:
 Justin Pepperell,
 Mark Peters,
-Mandeep Phull,
-Stefania Pintus,
-Jagtur Singh Pooni,
-Tim Planche,
-Frank Post,
-David Price,
+Mandeep Phull.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Jack Pilgrim.
+
+*Local Principal Investigators*:
+Stefania Pintus.
+
+*Data Analyst*:
+Riinu Pius.
+
+*Local Principal Investigators*:
+Tim Planche.
+
+*Data and Information System Manager*:
+Daniel Plotkin.
+
+*Co-Investigator*:
+Georgios Pollakis.
+
+*Local Principal Investigators*:
+Frank Post.
+
+*Co-Investigator*:
+Nicholas Price.
+
+*Local Principal Investigators*:
+David Price.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Tessa Prince.
+
+*Local Principal Investigators*:
 Rachel Prout,
-Nikolas Rae,
-Henrik Reschreiter,
+Nikolas Rae.
+
+*Co-Investigator*:
+Andrew Rambaut.
+
+*Local Principal Investigators*:
+Henrik Reschreiter.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Will Reynolds.
+
+*Local Principal Investigators*:
 Tim Reynolds,
-Neil Richardson,
+Neil Richardson.
+
+*Outbreak Laboratory Staff and Volunteers*:
+P. Matthew Ridley.
+
+*Data and Information System Manager*:
+Stephanie Roberts.
+
+*Local Principal Investigators*:
 Mark Roberts,
-Devender Roberts,
+Devender Roberts.
+
+*Co-Investigator*:
+David L Robertson.
+
+*Local Principal Investigators*:
 Alistair Rose,
 Guy Rousseau,
-Bobby Ruge,
-Brendan Ryan,
-Taranprit Saluja,
-Matthias L Schmid,
+Bobby Ruge.
+
+*Co-Investigator*:
+Clark D Russell.
+
+*Local Principal Investigators*:
+Brendan Ryan.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Debby Sales.
+
+*Local Principal Investigators*:
+Taranprit Saluja.
+
+*Co-Investigator*:
+Vanessa Sancho-Shimizu,
+Caroline J Sands.
+
+*Local Principal Investigators*:
+Sarah Cole.
+
+*Data and Information System Manager*:
+Egle Saviciute.
+
+*Local Principal Investigators*:
+Matthias L Schmid.
+
+*Co-Investigator*:
+Janet T Scott.
+
+*Chief Investigator*: Malcolm G Semple.
+
+*Data Integration and Presentation*:
+James Scott-Brown.
+
+*Local Principal Investigators*:
 Aarti Shah,
-Prad Shanmuga,
-Anil Sharma,
-Anna Shawcross,
-Jeremy Sizer,
 Manu Shankar-Hari,
+Prad Shanmuga,
+Anil Sharma.
+
+*Data Analyst*:
+Catherine A Shaw.
+
+*Material Management*:
+Victoria Shaw.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Victoria E Shaw.
+
+*Local Principal Investigators*:
+Anna Shawcross.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Rebecca K Shears.
+
+*Co-Investigator*:
+Louise Sigfrid.
+
+*Local Principal Investigators*:
+Jagtur Singh Pooni,
+Jeremy Sizer.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Benjamin Small.
+
+*Local Principal Investigators*:
 Richard Smith,
-Catherine Snelson,
-Nick Spittle,
+Catherine Snelson.
+
+*Co-Investigator*:
+Tom Solomon.
+
+*Project Administrator*:
+Rebecca G. Spencer.
+
+*Local Principal Investigators*:
+Nick Spittle.
+
+*Co-Investigator*:
+Shiranee Sriskandan.
+
+*Local Principal Investigators*:
 Nikki Staines,
 Tom Stambach,
-Richard Stewart,
-Pradeep Subudhi,
-Tamas Szakmany,
-Kate Tatham,
-Jo Thomas,
+Richard Stewart.
+
+*Co-Investigator*:
+David Stuart.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Krishanthi S Subramaniam.
+
+*Local Principal Investigators*:
+Pradeep Subudhi.
+
+*Co-Investigator*:
+Charlotte Summers,
+Olivia V Swann.
+
+*Local Principal Investigators*:
+Tamas Szakmany.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Agnieska Szemiel,
+Aislynn Taggart.
+
+*Data Integration and Presentation*:
+Sarah Tait.
+
+*Co-Investigator*:
+Zoltan Takats,
+Panteleimon Takis.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Jolanta Tanianis-Hughes.
+
+*Local Principal Investigators*:
+Kate Tatham.
+
+*Co-Investigator*:
+Richard S Tedder.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Jordan Thomas.
+
+*Local Principal Investigators*:
+Jo Thomas.
+
+*Co-Investigator*:
+AA Roger Thompson.
+
+*Local Principal Investigators*:
 Chris Thompson,
-Robert Thompson,
-Ascanio Tridente,
-Darell Tupper-Carey,
+Robert Thompson.
+
+*Co-Investigator*:
+Emma C Thomson,
+Ryan S Thwaites.
+
+*Local Principal Investigators*:
+Ascanio Tridente.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Erwan Trochu.
+
+*Local Principal Investigators*:
+Darell Tupper-Carey.
+
+*Co-Investigator*:
+Lance CW Turtle.
+
+*Local Principal Investigators*:
 Mary Twagira,
-Nick Vallotton,
+Nick Vallotton.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Libby van Tonder.
+
+*Local Principal Investigators*:
 Rama Vancheeswaran,
 Lisa Vincent-Smith,
 Shico Visuvanathan,
@@ -421,22 +898,41 @@ Alan Vuylsteke,
 Sam Waddy,
 Rachel Wake,
 Andrew Walden,
-Ingeborg Welters,
+Ingeborg Welters.
+
+*Data Integration and Presentation*:
+Murray Wham.
+
+*Local Principal Investigators*:
 Tony Whitehouse,
 Paul Whittaker,
 Ashley Whittington,
-Padmasayee Papineni,
-Meme Wijesinghe,
+Meme Wijesinghe.
+
+*Outbreak Laboratory Staff and Volunteers*:
+Eve Wilcock.
+
+*Local Principal Investigators*:
 Martin Williams,
 Lawrence Wilson,
-Sarah Cole,
 Stephen Winchester,
 Martin Wiselka,
 Adam Wolverson,
 Daniel G Wootton,
-Andrew Workman,
+Andrew Workman.
+
+*Edinburgh Laboratory Staff and Volunteers*:
+Nicola Wrobel.
+
+*Local Principal Investigators*:
 Bryan Yates,
 Peter Young.
+
+*Co-Investigator*:
+Maria Zambon.
+
+*Outbreak Laboratory Staff and Volunteers*:
+J. Eunice Zhang.
 
 ## Acknowledgements
 This work uses data provided by patients and collected by the NHS as part of their care and support #DataSavesLives. We are extremely grateful to the 2,648 frontline NHS clinical and research staff and volunteer medical students, who collected this data in challenging circumstances; and the generosity of the participants and their families for their individual contributions in these difficult times. We also acknowledge the support of Jeremy J Farrar and Nahoko Shindo.
