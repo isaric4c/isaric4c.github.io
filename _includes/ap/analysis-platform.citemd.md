@@ -69,7 +69,7 @@ The proposal builds upon an established track record of impact. By generating, i
 - created the global standard ISARIC4C score for prognostication [isaric4c.net/risk](isaric4c.net/risk),[@knightriskstratificationpatients2020] 
 - determined the impact of long Covid following hospitalisation[@groupphysicalcognitivemental2021]
 - identified the substantial effect of transmission of Covid-19 within hospitals [SPI-M/SAGE report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/961210/S1056_Contribution_of_nosocomial_infections_to_the_first_wave.pdf),
-- provided key evidence underlying the choice of therapeutic agents for clinical trials[@pairocastineirageneticmechanismscritical2021; @thwaitesinflammatoryprofilesspectrum2021]
+- provided key evidence underlying the choice of therapeutic agents for clinical trials[@thwaitesinflammatoryprofilesspectrum2021; @pairocastineirageneticmechanismscritical2021]
 - provided real world data on vaccine effectiveness and failure (SAGE 87 Egan et al,  Egan et al.) 
 - observed data supporting identification of high risk groups for vaccination (highlighted in No10 briefing)
 - described the complications of Covid-19 in hospitalised patients.[@drakecharacterisationinhospitalcomplications2021]
@@ -78,7 +78,7 @@ The proposal builds upon an established track record of impact. By generating, i
 
 This platform now serves as a hub for a coordinated UK national research response to COVID-19. Data are included from:
 
-- ISARIC4C tier 0: (unconsented) prospective clinical data from 305,264 cases
+- ISARIC4C tier 0: (unconsented) prospective clinical data from 305,666 cases
 - ISARIC4C tiers 1 and 2: serial multiomic assays from research samples of blood, respiratory secretions, urine, and stool from 2,914 cases
 - COG-UK: (unconsented) summary variant data from COG-UK viral sequencing study is already included for matched patients
 - GenOMICC study complete data: microarray/whole genome sequence data from 18,188 cases
@@ -137,7 +137,7 @@ A critical determinant of success is building sufficient trust among contributor
 
 ## Principles
 
-ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningopensourceclinical2014] and harmonised across the world.[@akhvledianiglobaloutbreakresearch2020] It is an open-access national resource: we have already shared data on 305,264 participants and 4273 samples with 26 external groups.
+ISARIC4C is built on top of existing pandemic preparedness infrastructure, designed, established, maintained and tested during the interpandemic period (@fig:map),[@dunningopensourceclinical2014] and harmonised across the world.[@akhvledianiglobaloutbreakresearch2020] It is an open-access national resource: we have already shared data on 305,666 participants and 4273 samples with 26 external groups.
 
 The success of ISARIC4C is largely due to the following foundational principles:
 
