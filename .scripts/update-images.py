@@ -42,9 +42,10 @@ isource=requests.get(i4c_source_url).content
 df=pd.read_csv(io.StringIO(isource.decode('utf-8')))
 
 with open(t1,"w") as o:
-    o.write("{:,d}".format(int(df["n_in_all_tiers"][0])))
+    o.write("{:,d}".format(int(303251)))
+    #o.write("{:,d}".format(int(df["n_in_all_tiers"][0])))
 with open(m,"w") as o:
-    o.write("{:,d}".format(int(df["n_tier1"][0]+df["n_tier2"][0])))
+    o.write("{:,d}".format(int(2914)))
 with open(g,"w") as o:
     o.write("{:,d}".format(int(gdic["total"])))
 with open(c,"w") as o:
