@@ -11,7 +11,12 @@ We are curating and driving research activities using COVID-19 data from various
 
 We are currently recruiting for the following roles: 
 
-* Data Analyst(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2438/?utm_medium=jobshare)
+* Data Scientist [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/3754)
+* Data Access Project Manager [Apply Here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2433/?utm_medium=jobshare)
+* Data Access Administrator [Apply Here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2434/?utm_medium=jobshare)
+* Data Curation & Driver Project Analyst(s) [Apply Here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2438/?utm_medium=jobshare)
+* Data Curation & Linkage Administrator(s) [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2437/?utm_medium=jobshare)
+* Communications Officer [Apply here](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2722/?utm_medium=jobshare)
 
 We are always interested to hear from experienced and enthusiastic data analysts, administrators, and project managers, so please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
 
