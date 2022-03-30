@@ -5,12 +5,14 @@ layout: 'page'
 
 # Work with us
 
-There has never been a more exciting time to join our dynamic and driven data team in designing, developing, and delivering the Outbreak Data Analysis Platform (ODAP).  
+There has never been a more exciting time to join our dynamic and driven data team in designing, developing, and delivering the 
+[Outbreak Data Analysis Platform](https://isaric4c.net/analysis-platform/) (ODAP).  
 
-We are curating and driving research activities using COVID-19 data from various studies and institutions across the UK - including from the ISARIC4C; PHOSP-COVID and GenOMICC studies [Analysis Platform](https://isaric4c.net/analysis-platform/).
+We are curating and driving research activities using COVID-19 data from various studies and institutions across the UK - including from the ISARIC4C; PHOSP-COVID and GenOMICC studies.
 
 We have an exciting and diverse range of opportunities covering all areas, for talented individuals at all levels. 
 
+We are currently recruiting for the following roles:
 * To ensure maximum impact, we are looking for an enthusiastic [communications manager](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2722/?utm_medium=jobshare) to design and lead a creative and high-quality communication strategy to raise awareness of the ODAP. 
 
 * We are also looking for experienced and skilled [data analysts](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2438/?utm_medium=jobshare) and [data curation administrators](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2437/?utm_medium=jobshare) to deliver a product of not just world-class research, but with exceptional curation and linkage capabilities. 
