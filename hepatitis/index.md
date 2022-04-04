@@ -3,7 +3,6 @@ title: 'Hepatitis'
 layout: 'page'
 ---
 
-
 # CCP activation for unexplained hepatitis
 
 ## Case definition
@@ -14,6 +13,4 @@ With consent, enrol all cases as per Tier 0, AND where there is site capacity, s
 
 ## Case report form
 
-Please enter data directly into RedCap or print and complet the [CRF](https://isaric4c.net/protocols/Common_across_UK/)
-
-
+Please enter data directly into RedCap or print and complete the [CRF](https://isaric4c.net/protocols/Common_across_UK/)
