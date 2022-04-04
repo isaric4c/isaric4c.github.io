@@ -14,3 +14,5 @@ With consent, enrol all cases as per Tier 0, AND where there is site capacity, s
 ## Case report form
 
 Please enter data directly into RedCap or print and complete the [CRF](https://isaric4c.net/protocols/Common_across_UK/)
+
+Please visit [this page for information about the ISARIC4C Incidence series study of elevated liver transaminases](liver)
