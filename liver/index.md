@@ -14,13 +14,20 @@ Calum Semple
 
 Louisa Pollock
 Kenneth Baillie
+
+build:
+pandoc index.md -o pdf
 -->
-Please visit [this page for information about recruiting new patients to the ISARIC CCP-UK](../hepatitis)
+
 
 
 ## Background 
 
 A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. The aetiology is unknown but an infection or co-infection is a strong possibility. It is possible that this outbreak has been more widespread. In particular, milder, self-limiting disease may not have been recognised. 
+
+This analysis is being conducted under instruction from Public Health.
+Please visit [this page for information about recruiting new patients to the ISARIC CCP-UK](https://isaric4c.net/hepatitis)
+
 
 ## Aim
 
@@ -40,6 +47,8 @@ We will count the number of *hospital inpatients* tested for blood levels of AST
 - for each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
 
 \* Please use the same reference range for all age groups: The reference range for your laboratory at the time of the test, for patients aged 5yrs. e.g. If the upper end of reference range for AST in a 5-year-old was 50 iu/ml in March 2018, count all patients with AST > 50 iu/ml for that month.
+
+Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
 Additional data will be collected from each contributing laboratory: 
 
