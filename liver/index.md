@@ -37,6 +37,17 @@ To determine if an increase in the proportion of elevated transaminases has occu
 
 A rapid, pragmatic survey of clinically-measured transaminase levels. 
 
+## Script
+
+We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines, as long as the column headers match. 
+
+The script is written in a computing language called python. Because python doesn't come pre-installed on windows computers, we've bundled our script with a python version that can be used without any installation or special permissiona.
+
+OPERATING SYSTEM | DOWNLOAD LINK
+----- | ------
+Windows | [download_windows](AST_ALT_counter_win.zip)
+Mac/Linux | [download_mac_linux](AST_ALT_counter.zip)
+
 ## Data collection
 
 In order to comply with information governance requirements, eliminate the risk of confidential disclosure, and make use of routine lab data, the following summary data will be collected in [csv](template.csv) format from hospitals:
@@ -50,12 +61,12 @@ We will count the number of *hospital inpatients* tested for blood levels of AST
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
-Additional data will be collected from each contributing laboratory ([code](AST_ALT_counter.zip)): 
+Additional data will be collected from each contributing laboratory: 
 
 - location of hospital
 - institutional email addresses of contributing scientists
 
-Please upload data on this [csv template](template.csv). If you are uploading data from multiple hospitals, please use a separate file for each one.
+If you are uploading data from multiple hospitals, please use a separate file for each one.
 
 ## Analysis plan
 
