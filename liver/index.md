@@ -50,7 +50,7 @@ We will count the number of *hospital inpatients* tested for blood levels of AST
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
-Additional data will be collected from each contributing laboratory: 
+Additional data will be collected from each contributing laboratory ([code](AST_ALT_counter.zip)): 
 
 - location of hospital
 - institutional email addresses of contributing scientists
