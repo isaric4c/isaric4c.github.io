@@ -42,13 +42,54 @@ def pre_process_data(input_filepath):
     '''
     
     # Read in data
-    df = pd.read_csv(input_filepath, 
-                     parse_dates=['DOB', 'sample_date'], 
-                     dayfirst = True)  
+    df = pd.read_csv(input_filepath, na_values = 'NA ')
+    
+    # If both AST and ALT are missing, drop the row
+    df = df.dropna(subset = ['AST', 'ALT'], how = 'all')
+    
+    # If any of sample_date, DOB or patient_id are missing, drop the row
+    df = df.dropna(subset = ['sample_date', 'DOB', 'patient_id'])
+    
+    # Keep a copy of the dates column, because entries that don't parse as dates
+    # will be coerced to NaT
+    df_dates = df[ ['patient_id', 'DOB', 'sample_date'] ]
+    
+    # Convert date columns to datetimes
+    df['sample_date'] = pd.to_datetime(df['sample_date'], infer_datetime_format=True, errors = 'coerce')
+    df['DOB'] = pd.to_datetime(df['DOB'], infer_datetime_format=True, errors = 'coerce')
   
+    
+    
+    # If DOB does not parse as a date, but is numeric between 0 and 120,
+    # assume it is their age
+    
+    # Get DOB entries that did not convert to datetimes
+    error_indices = df.loc[pd.isna(df["DOB"]), :].index
+    
+    replacements = pd.to_numeric(df_dates.loc[error_indices, 'DOB'], errors='coerce').dropna()
+    
+    are_numeric = [x&y for (x,y) in zip(replacements > 0, replacements < 120)]
+    
+    replacements = replacements[are_numeric]
+  
+    df.loc[replacements.index, 'DOB'] = df.loc[replacements.index, 'sample_date'] - pd.DateOffset(years=1)
+  
+    for i in replacements.index:
+        
+        df.loc[i, 'DOB'] = df.loc[i, 'sample_date'] - pd.DateOffset(years= replacements[i])
+      
+    # Drop any entries that are still missing in DOB
+    df = df.dropna(subset = ['DOB'])  
+    
+    
+    df = clean_numeric_cols(df, ['AST', 'ALT'])
+
     # Add age in years
     df['age'] = (df.sample_date - df.DOB).dt.days / 365.25
     
+    # Drop any values of age <0 or > 120
+    df = df[ (df['age'] > 0) & (df['age'] < 120) ]
+   
     # Add age group       
     df['age_group'] = pd.cut( df['age'], 
                               bins = [0, 21/365.25, 5, 10, 16, 30, 50, 70, 120],
@@ -66,6 +107,46 @@ def pre_process_data(input_filepath):
     df['AST_2x_normal'] = df['AST'] > 2* df['AST_upper_limit']
     df['ALT_2x_normal'] = df['ALT'] > 2* df['ALT_upper_limit']
         
+    return df
+
+
+def clean_numeric_cols(df, cols):
+    '''
+
+    Parameters
+    ----------
+    df : Semi-processed dataframe
+    cols : list of numeri columns to clean
+    
+    Returns
+    -------
+    df : Identical to df, except any numerical columns with '<', '>' 
+        have them removed
+        
+    '''
+    
+    # Keep a copy of the dates column, because entries that don't parse as dates
+    # will be coerced to NaT
+    df_numeric = df[['patient_id'] + cols ]
+
+    for col in cols:
+
+        # Coerce column to numeric
+        df[col] = pd.to_numeric(df[col], errors = 'coerce')
+            
+        # Get entries that did not convert to numeric, that weren't nan to begin with
+        error_indices = df.index[ [x&y for (x,y) in zip(pd.isna(df[col]) , ~pd.isna(df_numeric[col]) )] ]
+        
+        # Coerce to string, replace '>' and '<' with '', coerce back to numeric,
+        # and drop any that fail to coerce back to numeric
+        replacements = df_numeric.loc[error_indices, col].astype(str)
+        replacements = replacements.str.replace('>', '')
+        replacements = replacements.str.replace('<', '')
+        
+        replacements = pd.to_numeric(replacements, errors='coerce').dropna()
+            
+        df.loc[replacements.index, col] = replacements
+            
     return df
 
 

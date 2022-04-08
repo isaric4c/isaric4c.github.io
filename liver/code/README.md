@@ -21,7 +21,7 @@ And press Enter
 python-3.9.10/python.exe process_data.py
 And press Enter
 
-5. A new file should appear, titled `summary_table.csv`. Check the contents, and then email that file to us at ccp@roslin.ed.ac.uk
+5. Two file should appear, titled `summary_table.csv` and `first_AST_ALT_values`. Check the contents, and then email that file to us at ccp@roslin.ed.ac.uk
 
 
 
