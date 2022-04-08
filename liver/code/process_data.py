@@ -14,8 +14,8 @@ args = parser.parse_args()
 
 #### Lookup dataframes
 
-# Look ups for upper limit or normal range. 
-# Just now its 50 in all age groups for AST and ALT.
+# Look ups for upper limit or normal range 
+# Just now its 50 in all age groups for AST and ALT
 AST_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y', 
                                       '17-30y', '31-50y', '51-70y', '>70y'],
                         'AST_upper_limit': [50]*8  }  )
@@ -67,8 +67,6 @@ def pre_process_data(input_filepath):
     df['ALT_2x_normal'] = df['ALT'] > 2* df['ALT_upper_limit']
         
     return df
-
-
 
 
 def create_AST_ALT_counts(df, output_filepath):    
@@ -133,10 +131,7 @@ def create_AST_ALT_counts(df, output_filepath):
   
     # Sort columns
     df_out = df_out.reindex(columns=cols)
-    
-    # Sort rows
-    #df_out = df_out.sort_values( by = ['sample_date'])
-    
+        
     # Save out
     df_out.to_csv(output_filepath, index=False)  
     
@@ -181,8 +176,8 @@ def sub_process(df, measure, elevated):
     df.columns = df.columns.get_level_values('month')
     
     # Insert age group and name of variable being counted
+    # Reset index
     # Merge with lookup so all age groups are present
-    # Rest index
     df.insert(0, 'age_group', df.index)
     df = df.reset_index(drop = True)
     df = df.merge(AST_lookup['age_group'], how = 'right')   
@@ -191,21 +186,21 @@ def sub_process(df, measure, elevated):
     return df
 
 
-
 def create_first_AST_ALT_values(df, output_filepath):
     '''
 
     Parameters
     ----------
-    df : TYPE
-        DESCRIPTION.
-    output_filepath : TYPE
-        DESCRIPTION.
-
+    df : df : Semi-processed dataframe
+    output_filepath : Path of csv file output
+    
     Returns
     -------
-    df_out : TYPE
-        DESCRIPTION.
+    df_out : Dataframe with one row per person. If they have any elevated
+            AST measurement, the row contains information recorded at the date
+            of their first elevated measurement. Similarly for ALT. 
+            If they do not have an elevated AST (ALT) measurement, then the row
+            contains information recorded at their first AST (ALT measurement)
 
     '''
           
@@ -217,8 +212,7 @@ def create_first_AST_ALT_values(df, output_filepath):
     # Get first elevated AST measurement
     df_elevated = df[df[col_name] == True].groupby(['patient_id'], as_index = False).first()
     df_elevated = df_elevated.drop(['ALT', 'ALT_2x_normal', 'AST_upper_limit', 'ALT_upper_limit'], axis = 1)
-
-          
+        
     # Remove anyone who has an elevated AST measurement. Get their first AST measurement
     df_normal = df[~df['patient_id'].isin( df_elevated.patient_id.unique() )]
     
@@ -236,7 +230,6 @@ def create_first_AST_ALT_values(df, output_filepath):
     # Get first elevated ALT measurement
     df_elevated = df[df[col_name] == True].groupby(['patient_id'], as_index = False).first()
     df_elevated = df_elevated.drop(['AST', 'AST_2x_normal', 'AST_upper_limit', 'ALT_upper_limit'], axis = 1)
-
           
     # Remove anyone who has an elevated AST measurement. Get their first AST measurement
     df_normal = df[~df['patient_id'].isin( df_elevated.patient_id.unique() )]
@@ -261,30 +254,11 @@ def create_first_AST_ALT_values(df, output_filepath):
     df_out.to_csv(output_filepath, index=False)
     
     return df_out
-
-
-  
-####  
+ 
+#### Main
  
 df = pre_process_data(args.filename)
 
 AST_ALT_counts = create_AST_ALT_counts(df, 'summary_table.csv')
 first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
