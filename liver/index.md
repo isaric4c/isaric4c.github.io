@@ -19,8 +19,6 @@ build:
 pandoc index.md -o pdf
 -->
 
-
-
 ## Background 
 
 A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. The aetiology is unknown but an infection or co-infection is a strong possibility. It is possible that this outbreak has been more widespread. In particular, milder, self-limiting disease may not have been recognised. 
@@ -48,6 +46,8 @@ OPERATING SYSTEM | DOWNLOAD LINK
 Windows | [download_windows](AST_ALT_counter_win.zip)
 Mac/Linux | [download_mac_linux](AST_ALT_counter.zip)
 
+To read more about the script, please see the [README.md file](code/README.md)
+
 ## Data collection
 
 In order to comply with information governance requirements, eliminate the risk of confidential disclosure, and make use of routine lab data, the following summary data will be collected in [csv](template.csv) format from hospitals:
@@ -61,16 +61,40 @@ We will count the number of *hospital inpatients* tested for blood levels of AST
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
-Additional data will be collected from each contributing laboratory: 
+
+## Sending data
+
+If you are sending data from multiple hospitals, please use a separate file for each one.
+
+Please send your *summary data files only* to this email address: 
+
+ccp@ed.ac.uk
+
+Please also include the following details so that we can credit you appopriately with your contribution:
 
 - location of hospital
 - institutional email addresses of contributing scientists
 
-If you are uploading data from multiple hospitals, please use a separate file for each one.
 
-## Analysis plan
 
-Proportions will be summed at a regional level and examined over time to observe trends. Pre-specified comparisons between the same months in 2022 and pre-pandemic years (2019 & 2018) will be performed by region.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
