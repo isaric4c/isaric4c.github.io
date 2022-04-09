@@ -17,7 +17,7 @@ patient_id,DOB,sample_date,AST,ALT
 cd ../
 And press Enter
 
-4. The type: 
+4. Then type: 
 python-3.9.10/python.exe process_data.py
 And press Enter
 
