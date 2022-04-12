@@ -55,10 +55,14 @@ def pre_process_data(input_filepath):
     df_dates = df[ ['patient_id', 'DOB', 'sample_date'] ]
     
     # Convert date columns to datetimes
-    df['sample_date'] = pd.to_datetime(df['sample_date'], infer_datetime_format=True, errors = 'coerce')
-    df['DOB'] = pd.to_datetime(df['DOB'], infer_datetime_format=True, errors = 'coerce')
-  
-    
+    df['sample_date'] = pd.to_datetime(df['sample_date'], 
+                                       infer_datetime_format=True,
+                                       dayfirst = True,
+                                       errors = 'coerce')
+    df['DOB'] = pd.to_datetime(df['DOB'], 
+                               infer_datetime_format=True,
+                               dayfirst = True,
+                               errors = 'coerce')
     
     # If DOB does not parse as a date, but is numeric between 0 and 120,
     # assume it is their age
@@ -168,26 +172,27 @@ def create_AST_ALT_counts(df, output_filepath):
     
     # Remove any samples that are taken after the first sample that has
     # elevated AST or ALT
-    df_list = []
-        
-    for ID in df.patient_id.unique():
-        
-        df_patient = df[ (df['patient_id'] == ID)]
-        
-        elevated = df_patient[ df_patient['AST_2x_normal'] | 
-                               df_patient['ALT_2x_normal']]
-        
-        if len(elevated) > 0:
-            
-            date_first_elevated = elevated['sample_date'].min()
-            
-            df_patient = df_patient[ df_patient['sample_date'] <= date_first_elevated] 
-            
-        df_list.append( df_patient)
-        
-    df = pd.concat(df_list)    
+    df = df.sort_values(['sample_date'])
+      
+    # Select all elevated tests
+    elevated = df[ df['AST_2x_normal'] | df['ALT_2x_normal'] ]
     
-       
+    # Get first elevated test by patient
+    first_elevated = elevated[ ~elevated['patient_id'].duplicated()]
+    
+    # Add a column that is the date of first elevated test, that will 
+    # get repated for each patient when joining
+    first_elevated.loc[:, 'cutoff'] = first_elevated['sample_date']
+           
+    df = df.merge(first_elevated[ ['patient_id', 'cutoff'] ], how = 'outer')
+    
+    # Select all rows where cutoff is null (patient never had an elevated test)
+    # or sample date is less than or equal to date of first elevated test
+    df = df[ (df['cutoff'].isnull() ) | 
+                     (df['sample_date'] <= df['cutoff'] ) ] 
+    
+    
+         
     # Create dataframe that will be filled out and be the final output
     cols = ['count', 'age_group'] + pd.date_range('2018-01-01','2022-03-01', 
               freq='MS').strftime("%b-%Y").tolist()
