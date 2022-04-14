@@ -346,5 +346,6 @@ def create_first_AST_ALT_values(df, output_filepath):
 df = pre_process_data(args.filename)
 
 AST_ALT_counts = create_AST_ALT_counts(df, 'summary_table.csv')
-first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
+
+#first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
  
