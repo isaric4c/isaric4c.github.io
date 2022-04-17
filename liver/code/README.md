@@ -9,7 +9,8 @@ This code takes data consisting of AST and ALT measurements for individuals, and
 To use: 
 
 1. Replace the file `input.csv` with a new one containing your data, and these exact column headings: 
-patient_id,DOB,sample_date,AST,ALT
+patient_id, DOB, sample_date, AST, ALT
+`input.csv` must not have a header - the first row should have these column headings.
 
 2. Double-click `WinPython Command Prompt`
 
@@ -21,7 +22,7 @@ And press Enter
 python-3.9.10/python.exe process_data.py
 And press Enter
 
-5. Two file should appear, titled `summary_table.csv` and `first_AST_ALT_values`. Check the contents, and then email that file to us at ccp@roslin.ed.ac.uk
+5. A file titled `summary_table.csv` should appear. Check the contents, and then email that file to us at ccp@roslin.ed.ac.uk
 
 
 

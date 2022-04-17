@@ -8,6 +8,11 @@ Created on Wed Apr  6 09:09:01 2022
 import pandas as pd
 import argparse
 
+
+s = pd.Series(['1/1/22'])
+pd.to_datetime('1/1/22')
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--filename',    help='input filename', default="input.csv")
 args = parser.parse_args()
@@ -59,31 +64,48 @@ def pre_process_data(input_filepath):
                                        infer_datetime_format=True,
                                        dayfirst = True,
                                        errors = 'coerce')
+    
     df['DOB'] = pd.to_datetime(df['DOB'], 
                                infer_datetime_format=True,
                                dayfirst = True,
                                errors = 'coerce')
-    
-    # If DOB does not parse as a date, but is numeric between 0 and 120,
-    # assume it is their age
+
     
     # Get DOB entries that did not convert to datetimes
     error_indices = df.loc[pd.isna(df["DOB"]), :].index
     
+    
+    # First round of replacements: If dates that didn't parse when part of
+    # the entire column do parse when we isolate them, then use these as
+    # the DOB
+    replacements  = pd.to_datetime( df_dates.loc[error_indices, 'DOB'],
+                         infer_datetime_format=True,
+                         dayfirst = True,
+                         errors = 'coerce').dropna()
+    
+    for i in replacements.index:
+        
+        df.loc[i, 'DOB'] = replacements[i]
+                         
+    # Second round of replacements: If DOB does not parse as a date, but is numeric between 0 and 120,
+    # assume it is their age
     replacements = pd.to_numeric(df_dates.loc[error_indices, 'DOB'], errors='coerce').dropna()
     
     are_numeric = [x&y for (x,y) in zip(replacements > 0, replacements < 120)]
     
-    replacements = replacements[are_numeric]
-  
-    df.loc[replacements.index, 'DOB'] = df.loc[replacements.index, 'sample_date'] - pd.DateOffset(years=1)
+    replacements = replacements[are_numeric] 
   
     for i in replacements.index:
         
         df.loc[i, 'DOB'] = df.loc[i, 'sample_date'] - pd.DateOffset(years= replacements[i])
-      
+                       
     # Drop any entries that are still missing in DOB
-    df = df.dropna(subset = ['DOB'])  
+    df = df.dropna(subset = ['DOB']) 
+    
+    # If their date of birth is after March 2022, then their year of birth has
+    # likely been recorded as two numbers, and pandas interprets that as a date
+    # that is post 2000, rather than pre. In that case, subtract 100 off.
+    df.loc[ df['DOB'] >=  pd.to_datetime('1/4/2022'), 'DOB']  -= pd.DateOffset(years= 100)
     
     
     df = clean_numeric_cols(df, ['AST', 'ALT'])
