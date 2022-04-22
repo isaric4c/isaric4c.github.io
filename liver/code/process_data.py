@@ -8,11 +8,6 @@ Created on Wed Apr  6 09:09:01 2022
 import pandas as pd
 import argparse
 
-
-s = pd.Series(['1/1/22'])
-pd.to_datetime('1/1/22')
-
-
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--filename',    help='input filename', default="input.csv")
 args = parser.parse_args()
