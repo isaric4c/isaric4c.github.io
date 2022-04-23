@@ -1,5 +1,6 @@
 ---
 title: README.md
+layout: page
 ---
 
 # AST_ALT_counter
