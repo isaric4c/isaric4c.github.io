@@ -8,9 +8,15 @@ This code takes data consisting of AST and ALT measurements for individuals, and
 
 To use: 
 
-1. Replace the file `input.csv` with a new one containing your data, and these exact column headings: 
+1. Replace the file `input.csv` with a new one containing your data. This file MUST have the following column headings: 
 patient_id, DOB, sample_date, AST, ALT
-`input.csv` must not have a header - the first row should have these column headings.
+
+It also must have one of: 
+age, DOB
+
+age should be measured exactly in years, with one year equal to 365.25 days.
+
+`input.csv` must not have a header - the first row should be these column headings
 
 2. Double-click `WinPython Command Prompt`
 

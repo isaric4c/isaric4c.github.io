@@ -40,74 +40,84 @@ def pre_process_data(input_filepath):
             age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
         
     '''
+    # For testing
+    #input_filepath = 'input2.csv'
     
     # Read in data
     df = pd.read_csv(input_filepath, na_values = 'NA ')
-    
+   
     # If both AST and ALT are missing, drop the row
     df = df.dropna(subset = ['AST', 'ALT'], how = 'all')
-    
-    # If any of sample_date, DOB or patient_id are missing, drop the row
-    df = df.dropna(subset = ['sample_date', 'DOB', 'patient_id'])
-    
-    # Keep a copy of the dates column, because entries that don't parse as dates
-    # will be coerced to NaT
-    df_dates = df[ ['patient_id', 'DOB', 'sample_date'] ]
     
     # Convert date columns to datetimes
     df['sample_date'] = pd.to_datetime(df['sample_date'], 
                                        infer_datetime_format=True,
                                        dayfirst = True,
                                        errors = 'coerce')
+       
+    cols = df.columns
     
-    df['DOB'] = pd.to_datetime(df['DOB'], 
-                               infer_datetime_format=True,
-                               dayfirst = True,
-                               errors = 'coerce')
-
-    
-    # Get DOB entries that did not convert to datetimes
-    error_indices = df.loc[pd.isna(df["DOB"]), :].index
-    
-    
-    # First round of replacements: If dates that didn't parse when part of
-    # the entire column do parse when we isolate them, then use these as
-    # the DOB
-    replacements  = pd.to_datetime( df_dates.loc[error_indices, 'DOB'],
-                         infer_datetime_format=True,
-                         dayfirst = True,
-                         errors = 'coerce').dropna()
-    
-    for i in replacements.index:
+    if 'DOB' in cols:
         
-        df.loc[i, 'DOB'] = replacements[i]
-                         
-    # Second round of replacements: If DOB does not parse as a date, but is numeric between 0 and 120,
-    # assume it is their age
-    replacements = pd.to_numeric(df_dates.loc[error_indices, 'DOB'], errors='coerce').dropna()
-    
-    are_numeric = [x&y for (x,y) in zip(replacements > 0, replacements < 120)]
-    
-    replacements = replacements[are_numeric] 
-  
-    for i in replacements.index:
+        # If any of sample_date, DOB or patient_id are missing, drop the row
+        df = df.dropna(subset = ['sample_date', 'DOB', 'patient_id'])
         
-        df.loc[i, 'DOB'] = df.loc[i, 'sample_date'] - pd.DateOffset(years= replacements[i])
-                       
-    # Drop any entries that are still missing in DOB
-    df = df.dropna(subset = ['DOB']) 
+        # Keep a copy of the dates column, because entries that don't parse as dates
+        # will be coerced to NaT
+        df_dates = df[ ['patient_id', 'DOB', 'sample_date'] ]
+        
+        df['DOB'] = pd.to_datetime(df['DOB'], 
+                                   infer_datetime_format=True,
+                                   dayfirst = True,
+                                   errors = 'coerce')
     
-    # If their date of birth is after March 2022, then their year of birth has
-    # likely been recorded as two numbers, and pandas interprets that as a date
-    # that is post 2000, rather than pre. In that case, subtract 100 off.
-    df.loc[ df['DOB'] >=  pd.to_datetime('1/4/2022'), 'DOB']  -= pd.DateOffset(years= 100)
+        
+        # Get DOB entries that did not convert to datetimes
+        error_indices = df.loc[pd.isna(df["DOB"]), :].index
+        
+        
+        # First round of replacements: If dates that didn't parse when part of
+        # the entire column do parse when we isolate them, then use these as
+        # the DOB
+        replacements  = pd.to_datetime( df_dates.loc[error_indices, 'DOB'],
+                             infer_datetime_format=True,
+                             dayfirst = True,
+                             errors = 'coerce').dropna()
+        
+        for i in replacements.index:
+            
+            df.loc[i, 'DOB'] = replacements[i]
+                             
+        # Second round of replacements: If DOB does not parse as a date, but is numeric between 0 and 120,
+        # assume it is their age
+        replacements = pd.to_numeric(df_dates.loc[error_indices, 'DOB'], errors='coerce').dropna()
+        
+        are_numeric = [x&y for (x,y) in zip(replacements > 0, replacements < 120)]
+        
+        replacements = replacements[are_numeric] 
+      
+        for i in replacements.index:
+            
+            df.loc[i, 'DOB'] = df.loc[i, 'sample_date'] - pd.DateOffset(years= replacements[i])
+                           
+        # Drop any entries that are still missing in DOB
+        df = df.dropna(subset = ['DOB']) 
+        
+        # If their date of birth is after March 2022, then their year of birth has
+        # likely been recorded as two numbers, and pandas interprets that as a date
+        # that is post 2000, rather than pre. In that case, subtract 100 off.
+        df.loc[ df['DOB'] >=  pd.to_datetime('1/4/2022'), 'DOB']  -= pd.DateOffset(years= 100)
+        
+        # Add age in years
+        df['age'] = (df.sample_date - df.DOB).dt.days / 365.25
+        
+    elif 'age' in cols:
+        # If any of sample_date, DOB or patient_id are missing, drop the row
+        df = df.dropna(subset = ['sample_date', 'age', 'patient_id'])
     
-    
+   
     df = clean_numeric_cols(df, ['AST', 'ALT'])
-
-    # Add age in years
-    df['age'] = (df.sample_date - df.DOB).dt.days / 365.25
-    
+  
     # Drop any values of age <0 or > 120
     df = df[ (df['age'] > 0) & (df['age'] < 120) ]
    
@@ -324,7 +334,9 @@ def create_first_AST_ALT_values(df, output_filepath):
     
     df_AST = df_elevated.merge(df_normal, how = 'outer').rename(columns={
                                               "month": "AST_sample_month",
-                                              "age_group":"AST_age_group"}).drop(['sample_date', 'age', 'DOB'], axis = 1)
+                                              "age_group":"AST_age_group"})
+    
+    df_AST = df_AST[ ['patient_id', 'AST', 'AST_age_group', 'AST_sample_month', 'AST_2x_normal', 'cutoff']]
     
     
     # ALT
@@ -342,7 +354,9 @@ def create_first_AST_ALT_values(df, output_filepath):
 
     df_ALT = df_elevated.merge(df_normal, how = 'outer').rename(columns={
                                               "month": "ALT_sample_month",
-                                              "age_group":"ALT_age_group"}).drop(['sample_date','age', 'DOB'], axis = 1)
+                                              "age_group":"ALT_age_group"})
+    
+    df_ALT = df_ALT[ ['patient_id', 'ALT', 'ALT_age_group', 'ALT_sample_month', 'ALT_2x_normal', 'cutoff']]
        
     df_out = df_AST.merge(df_ALT, how = 'outer', on = ['patient_id'])
                
