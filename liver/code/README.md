@@ -1,5 +1,5 @@
 ---
-title: README.md
+layout: page
 ---
 
 # AST_ALT_counter
@@ -20,15 +20,15 @@ age should be measured exactly in years, with one year equal to 365.25 days.
 
 2. Double-click `WinPython Command Prompt`
 
-3. In the black box that appears, type:
-cd ../
+3. In the black box that appears, type:  
+cd ../  
 And press Enter
 
-4. Then type: 
-python-3.9.10/python.exe process_data.py
-And press Enter
+4. Then type:  
+python-3.9.10/python.exe process_data.py  
+And press Enter  
 
-5. A file titled `summary_table.csv` should appear. Check the contents, and then email that file to us at ccp@roslin.ed.ac.uk
+5. A file titled `summary_table.csv` should appear. Check the contents, and then email that file to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
 
 
 

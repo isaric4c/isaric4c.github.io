@@ -46,7 +46,7 @@ OPERATING SYSTEM | DOWNLOAD LINK
 Windows | [download_windows](AST_ALT_counter_win.zip)
 Mac/Linux | [download_mac_linux](AST_ALT_counter.zip)
 
-To read more about the script, please see the [README.md file](code/README.md)
+To read more about the script, please see the [README.md file](code/README)
 
 ## Data collection
 
