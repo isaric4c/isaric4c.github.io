@@ -4,7 +4,8 @@ layout: page
 
 # AST_ALT_counter
 
-This code takes data consisting of AST and ALT measurements for individuals, and produces a dataset consisting of monthly counts of total and elevated AST and ALT levels. The file input.csv indicates the format the input data should be in.
+This code takes data consisting of AST and ALT measurements for individuals, and produces a dataset consisting of monthly counts of total and elevated AST and ALT levels,
+as well as a dataset consisting of the monthly mean and variances of total and elevated AST and ALT measurements. The file input.csv indicates the format the input data should be in.
 
 To use: 
 
@@ -14,7 +15,7 @@ patient_id, DOB, sample_date, AST, ALT
 It also must have one of: 
 age, DOB
 
-age should be measured exactly in years, with one year equal to 365.25 days.
+If age is included, it should be measured exactly in years, with one year equal to 365.25 days.
 
 `input.csv` must not have a header - the first row should be these column headings
 
@@ -28,7 +29,7 @@ And press Enter
 python-3.9.10/python.exe process_data.py  
 And press Enter  
 
-5. A file titled `summary_table.csv` should appear. Check the contents, and then email that file to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
+5. File titled `summary_table.csv` and `stats_table` should appear. Check the contents, and then email them to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
 
 
 
