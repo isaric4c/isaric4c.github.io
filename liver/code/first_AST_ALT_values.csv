@@ -1,0 +1,8 @@
+AST_age_group,AST_sample_month,AST,AST_2x_normal,ALT_age_group,ALT_sample_month,ALT,ALT_2x_normal
+3wks-5y,Mar-2018,150.0,True,3wks-5y,Feb-2018,200.0,True
+17-30y,Jan-2018,200.0,True,17-30y,Jan-2018,210.0,True
+6-10y,Jan-2018,40.0,False,6-10y,Jan-2018,10.0,False
+11-16y,Jan-2018,20.0,False,11-16y,Jan-2018,20.0,False
+11-16y,Jan-2018,20.0,False,11-16y,Jan-2018,20.0,False
+3wks-5y,Jan-2018,10.0,False,3wks-5y,Jan-2018,10.0,False
+3wks-5y,Jan-2018,10.0,False,3wks-5y,Jan-2018,10.0,False
