@@ -8,8 +8,8 @@ layout: 'page'
 The ISARIC CCP team is working closely with PHS and UK HSA to help bring the capabilities of the academic sector to help public health agencies to tackle this new disease in the following ways:
 
 1. Recruitment and consent through the ISARIC CCP (see below)
-2. The "Summary Analysis of Lab Tests" system ([SALT](../liver))
-3. Recruiting cases and parents to the [GenOMICC Study](https://genomicc.org)
+2. The "Summary Analysis of Lab Tests" experiment ([SALT](../liver))
+3. Recruiting cases and parents to the [GenOMICC Study](https://genomicc.org/hepatitis)
 
 <!--
 
