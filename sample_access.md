@@ -54,13 +54,13 @@ Access to all data and samples collected by ISARIC4C are controlled by an **Inde
 If you are interested in requesting samples or data please *briefly* answer the questions below and send to **isaric4c-samples@roslin.ed.ac.uk**, including this statement in your email:
 > "I agree for the contents of my application to be shared publicly on the internet and other media by the ISARIC 4C consortium."
 
+- Why will this help the global response to COVID19?
+- What will you do with the samples or data?
 - What samples (type & volume) or data do you need?
-- What will you do with the samples or data ?
 - What is your previous track record of delivering similar work?
 - When will you complete the proposed work?
 - How will you fund the proposed work?
 - How do you plan to share data, results, and products from these samples?
-- Why will this help the global response to COVID19?
 - What assurance can you give with regards to your safe handling and secure storage of samples and data?
 
 ## Current Requests
