@@ -19,14 +19,14 @@ args = parser.parse_args()
 #### Lookup dataframes
 
 # Look ups for upper limit or normal range 
-# Just now its 50 in all age groups for AST and ALT
+# Just now its 100 in all age groups for AST and ALT
 AST_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y', 
                                       '17-30y', '31-50y', '51-70y', '>70y'],
-                        'AST_upper_limit': [50]*8}  )
+                        'AST_upper_limit': [100]*8}  )
 
 ALT_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y', 
                                       '17-30y', '31-50y', '51-70y', '>70y'],
-                        'ALT_upper_limit': [50] * 8  }  )
+                        'ALT_upper_limit': [100] * 8  }  )
 
 
 #### Functions

@@ -55,12 +55,14 @@ To read more about the script, please see the [README.md file](code/README)
 
 In order to comply with information governance requirements, eliminate the risk of confidential disclosure, and make use of routine lab data, the following summary data will be collected in [csv](template.csv) format from hospitals:
 
-We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >2-fold greater than the upper end of the reference range\* on at least one occasion, and the total number of patients for whom AST or ALT was measured:
+We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >2-fold greater than the upper end of the reference range\* on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of the measurements in these groups. This will be done for
 
-- for each month between Jan 2018 and March 2022 inclusive
-- for each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
+- each month between Jan 2018 and March 2022 inclusive
+- each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
 
-\* Please use the same reference range for all age groups: The reference range for your laboratory at the time of the test, for patients aged 5yrs. e.g. If the upper end of reference range for AST in a 5-year-old was 50 iu/ml in March 2018, count all patients with AST > 50 iu/ml for that month.
+<!--
+\* Please use the same reference range for all age groups: The reference range for your laboratory at the time of the test, for patients aged 5yrs. e.g. If the upper end of reference range #for AST in a 5-year-old was 50 iu/ml in March 2018, count all patients with AST > 50 iu/ml for that month.
+-->
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
