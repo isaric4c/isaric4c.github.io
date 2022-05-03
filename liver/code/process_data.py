@@ -220,18 +220,18 @@ def create_AST_ALT_counts(df, output_filepath):
     # or sample date is less than or equal to date of first elevated test
     df = df[ (df['cutoff'].isnull() ) | 
                      (df['sample_date'] <= df['cutoff'] ) ] 
-    
-    
-         
+
+    last_date_in_data = df.sample_date.max()
+           
     # Create dataframe that will be filled out and be the final output
-    cols = ['count', 'age_group'] + pd.date_range('2018-01-01','2022-03-01', 
+    cols = ['statistic', 'test', 'age_group'] + pd.date_range('2018-01-01',last_date_in_data, 
               freq='MS').strftime("%b-%Y").tolist()
     
-    df_out = pd.DataFrame(columns=cols)
+    df_template = pd.DataFrame(columns=cols)
      
     # Merge 
-    df_sub = sub_process(df, 'AST', False)    
-    df_out = df_out.merge(df_sub, how = 'outer')
+    df_sub = sub_process(df, 'AST', False)     
+    df_out = df_template.merge(df_sub, how = 'outer')
     
     df_sub = sub_process(df, 'AST', True)    
     df_out = df_out.merge(df_sub, how = 'outer')
@@ -242,12 +242,16 @@ def create_AST_ALT_counts(df, output_filepath):
     df_sub = sub_process(df, 'ALT', True)    
     df_out = df_out.merge(df_sub, how = 'outer')
     
+
     # All nan are zero counts
-    df_out = df_out.fillna(0)
+    #df_out = df_out.fillna(0)
+    df_out[ df_out['statistic'] == 'count'].fillna(0, inplace=True)
+    
+    #  ADD CODE HERE THAT SETS ALL COLUMNS NOT PRESENT IN DATA TO NAN
   
-    # Sort columns
-    df_out = df_out.reindex(columns=cols)
-        
+    # Sort columns      
+    df_out = df_out[cols]
+    
     # Save out
     df_out.to_csv(output_filepath, index=False)  
     
@@ -282,23 +286,41 @@ def sub_process(df, measure, elevated):
     else:        
         col_name = measure + '_all_tests'
     
-    # Count unique patient ids, grouped by age_group and month
-    df = df.groupby(['age_group', 'month'])['patient_id'].nunique()
+
+    # Create dataframe of counts
+    df_count = df.groupby(['age_group', 'month'])['patient_id'].nunique()
+    df_count = df_count.unstack(level=1)
+    df_count.columns = df_count.columns.get_level_values('month')  
+    df_count.insert(0, 'age_group', df_count.index)
+    df_count = df_count.reset_index(drop = True)
+    df_count = df_count.merge(AST_lookup['age_group'], how = 'right')   
+    df_count.insert(0, 'statistic', 'count')
     
-    # Turn multi-index series into a dataframe
-    df = df.unstack(level=1)
     
-    # Get rid of redundant column multi-index
-    df.columns = df.columns.get_level_values('month')
+    # Create dataframe of means
+    df_mean = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).mean()    
+    df_mean = df_mean.unstack(level=1)   
+    df_mean.columns = df_mean.columns.get_level_values('month') 
+    df_mean.insert(0, 'age_group', df_mean.index)
+    df_mean = df_mean.reset_index(drop = True)
+    df_mean = df_mean.merge(AST_lookup['age_group'], how = 'right')  
+    df_mean.insert(0, 'statistic', 'mean')
     
-    # Insert age group and name of variable being counted
-    # Reset index
-    # Merge with lookup so all age groups are present
-    df.insert(0, 'age_group', df.index)
-    df = df.reset_index(drop = True)
-    df = df.merge(AST_lookup['age_group'], how = 'right')   
-    df.insert(0, 'count', col_name)
-     
+  
+    # Create dataframe of variances
+    df_var = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).var()    
+    df_var = df_var.unstack(level=1)   
+    df_var.columns = df_var.columns.get_level_values('month')   
+    df_var.insert(0, 'age_group', df_var.index)
+    df_var = df_var.reset_index(drop = True)
+    df_var = df_var.merge(AST_lookup['age_group'], how = 'right')  
+    df_var.insert(0, 'statistic', 'var')
+    
+    # Vertically concatenate
+    df = df_count.merge(df_mean, how = 'outer')
+    df = df.merge(df_var, how = 'outer')
+    df.insert(0, 'test', col_name)
+        
     return df
 
 
@@ -375,111 +397,13 @@ def create_first_AST_ALT_values(df, output_filepath):
     
     return df_out
 
-def sub_process2(df, df_template):
-    '''
-
-    Parameters
-    ----------
-    df : Semi-processed dataframe
-    measure : 'AST' or 'ALT'
-    elevated : True or False. If True, counts unique patients who value for 
-               measure was at least 2x the upper limit
-
-    Returns
-    -------
-    df : dataframe with counts for the chosen measure, by month and age group
-
-    '''
-    
-    df = df.unstack(level=1)  
-    
-    df.columns = df.columns.get_level_values('month')
-         
-    df = df_template.set_index( df_template['age_group']).drop(['age_group'], axis=1).fillna(df).reset_index()
-       
-    return df
 
 
-def create_AST_ALT_means(df, output_filepath):
-    
-    # Create dataframe that will be filled out and be the final output
-    cols = pd.date_range('2018-01-01','2022-03-01', 
-              freq='MS').strftime("%b-%Y").tolist()
-    
-    df_template = pd.DataFrame(columns = ['age_group'] +  cols)
-    
-    df_template[cols ] = df_template[cols].astype('float64')
-  
-    df_template['age_group'] = ALT_lookup['age_group'] 
-    
-    # AST all
-    df_AST_all_mean = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).mean()       
-    df_AST_all_mean = sub_process2(df_AST_all_mean, df_template)
-    df_AST_all_mean.insert(0, 'count', 'AST_all_tests') 
-    df_AST_all_mean.insert(0, 'statistic', 'mean') 
-    
-    df_AST_all_var = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).var()     
-    df_AST_all_var = sub_process2(df_AST_all_var, df_template)
-    df_AST_all_var.insert(0, 'count', 'AST_all_tests') 
-    df_AST_all_var.insert(0, 'statistic', 'var') 
-    
-    #AST elevated
-    df_AST_elevated = df[ df['AST_2x_normal'] == True]
-   
-    df_AST_elev_mean = df_AST_elevated[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).mean()     
-    df_AST_elev_mean = sub_process2(df_AST_elev_mean, df_template)
-    df_AST_elev_mean.insert(0, 'count', 'AST_2x_normal') 
-    df_AST_elev_mean.insert(0, 'statistic', 'mean') 
-    
-    df_AST_elev_var = df_AST_elevated[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).var()     
-    df_AST_elev_var = sub_process2(df_AST_elev_var, df_template)
-    df_AST_elev_var.insert(0, 'count', 'AST_2x_normal') 
-    df_AST_elev_var.insert(0, 'statistic', 'var')  
-   
-     
-    
-    # ALT all
-    df_ALT_all_mean = df[ ['age_group', 'month', 'ALT']].groupby(['age_group', 'month']).mean()     
-    df_ALT_all_mean = sub_process2(df_ALT_all_mean, df_template)
-    df_ALT_all_mean.insert(0, 'count', 'ALT_all_tests') 
-    df_ALT_all_mean.insert(0, 'statistic', 'mean') 
-    
-    df_ALT_all_var = df[ ['age_group', 'month', 'ALT']].groupby(['age_group', 'month']).var()     
-    df_ALT_all_var = sub_process2(df_ALT_all_var, df_template)
-    df_ALT_all_var.insert(0, 'count', 'ALT_all_tests') 
-    df_ALT_all_var.insert(0, 'statistic', 'var') 
-    
-    
-    #ALT elevated
-    df_ALT_elevated = df[ df['ALT_2x_normal'] == True]
-   
-    df_ALT_elev_mean = df_ALT_elevated[ ['age_group', 'month', 'ALT']].groupby(['age_group', 'month']).mean()     
-    df_ALT_elev_mean = sub_process2(df_ALT_elev_mean, df_template)
-    df_ALT_elev_mean.insert(0, 'count', 'ALT_2x_normal') 
-    df_ALT_elev_mean.insert(0, 'statistic', 'mean') 
-    
-    df_ALT_elev_var = df_ALT_elevated[ ['age_group', 'month', 'ALT']].groupby(['age_group', 'month']).var()     
-    df_ALT_elev_var = sub_process2(df_ALT_elev_var, df_template)
-    df_ALT_elev_var.insert(0, 'count', 'ALT_2x_normal') 
-    df_ALT_elev_var.insert(0, 'statistic', 'var')  
-    
-     
-    df_out = pd.concat( [df_AST_all_mean, df_AST_all_var, df_AST_elev_mean, df_AST_elev_var,
-                     df_ALT_all_mean, df_ALT_all_var, df_ALT_elev_mean, df_ALT_elev_var])
-    
-    # Save out
-    df_out.to_csv(output_filepath, index=False)
-
-    return df_out
-
- 
 #### Main
  
 df = pre_process_data(args.filename)
 
-AST_ALT_counts = create_AST_ALT_counts(df, 'summary_table.csv')
+AST_ALT_stats = create_AST_ALT_counts(df, 'summary_table.csv')
 
-AST_ALT_stats = create_AST_ALT_means(df, 'stats_table.csv')
-
-#first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
+# first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
  
