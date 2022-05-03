@@ -35,7 +35,7 @@ patient_id, DOB, sample_date, AST, ALT
 	>	Then drag the `process_data.py` file icon from your finder/filebrowser window onto the black box. When you let go, a long file path should appear. 
 	>	Then press Enter  
 
-3. A File titled `summary_table.csv` and `stats_table` should appear. Check the contents, and then email them to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
+3. A File titled `summary_table.csv` should appear. Check the contents, and then email to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
 
 
 

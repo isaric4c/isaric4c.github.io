@@ -12,7 +12,7 @@ import pandas as pd
 scriptpath = os.path.dirname(os.path.realpath(__file__))
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-f', '--filename',    help='input filename', default=os.path.join(scriptpath, "input.csv"))
+parser.add_argument('-f', '--filename', help='input filename', default=os.path.join(scriptpath, "input.csv"))
 args = parser.parse_args()
 
 
@@ -45,8 +45,6 @@ def pre_process_data(input_filepath):
             age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
         
     '''
-    # For testing
-    #input_filepath = 'input2.csv'
     
     # Read in data
     df = pd.read_csv(input_filepath, na_values = 'NA ')
@@ -185,20 +183,18 @@ def clean_numeric_cols(df, cols):
             
     return df
 
-
-def create_AST_ALT_counts(df, output_filepath):    
+def create_AST_ALT_stats(df, output_filepath):    
     '''
 
     Parameters
     ----------
-    df : Path of csv file input. This csv should have the following column headings:
-                     patient_id, DOB, sample_date, AST, ALT, age, age_group, month
+    df : Path of csv file input.
 
     output_filepath : Path of csv file output
 
     Returns
     -------
-    df_out : dataframe with counts of unique patients by measurement, month and age group
+    df_out : dataframe with summary statistics by measurement, month and age group
 
     '''
     
@@ -215,9 +211,7 @@ def create_AST_ALT_counts(df, output_filepath):
     # Add a column that is the date of first elevated test, that will 
     # get repated for each patient when joining 
     first_elevated['cutoff'] = first_elevated['sample_date']
-      
-    #first_elevated.cutoff = first_elevated.sample_date
-           
+             
     df = df.merge(first_elevated[ ['patient_id', 'cutoff'] ], how = 'outer')
     
     # Select all rows where cutoff is null (patient never had an elevated test)
@@ -226,7 +220,7 @@ def create_AST_ALT_counts(df, output_filepath):
                      (df['sample_date'] <= df['cutoff'] ) ] 
 
     last_date_in_data = df.sample_date.max()
-           
+              
     # Create dataframe that will be filled out and be the final output
     cols = ['statistic', 'test', 'age_group'] + pd.date_range('2018-01-01',last_date_in_data, 
               freq='MS').strftime("%b-%Y").tolist()
@@ -246,13 +240,7 @@ def create_AST_ALT_counts(df, output_filepath):
     df_sub = sub_process(df, 'ALT', True)    
     df_out = df_out.merge(df_sub, how = 'outer')
     
-
-    # All nan are zero counts
-    #df_out = df_out.fillna(0)
-    df_out[ df_out['statistic'] == 'count'].fillna(0, inplace=True)
-    
-    #  ADD CODE HERE THAT SETS ALL COLUMNS NOT PRESENT IN DATA TO NAN
-  
+   
     # Sort columns      
     df_out = df_out[cols]
     
@@ -274,7 +262,7 @@ def sub_process(df, measure, elevated):
 
     Returns
     -------
-    df : dataframe with counts for the chosen measure, by month and age group
+    df : dataframe with summary statistics for the chosen test, by month and age group
 
     '''
     
@@ -402,12 +390,11 @@ def create_first_AST_ALT_values(df, output_filepath):
     return df_out
 
 
-
 #### Main
  
 df = pre_process_data(args.filename)
 
-AST_ALT_stats = create_AST_ALT_counts(df, 'summary_table.csv')
+AST_ALT_stats = create_AST_ALT_stats(df, 'summary_table.csv')
 
 # first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
  
