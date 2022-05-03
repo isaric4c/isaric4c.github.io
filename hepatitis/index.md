@@ -3,7 +3,13 @@ title: 'Hepatitis'
 layout: 'page'
 ---
 
-# CCP activation for unexplained hepatitis
+# ISARIC CCP-UK activities in response to outbreak of unexplained hepatitis in children
+
+The ISARIC CCP team is working closely with PHS and UK HSA to help bring the capabilities of the academic sector to help public health agencies to tackle this new disease in the following ways:
+
+1. Recruitment and consent through the ISARIC CCP (see below)
+2. The "Summary Analysis of Lab Tests" experiment ([SALT](../liver))
+3. Recruiting cases and parents to the [GenOMICC Study](https://genomicc.org/hepatitis)
 
 <!--
 
@@ -26,6 +32,8 @@ Please recruit cases over a broader age range, or earlier in disease, if there i
 With consent, enrol all cases as per Tier 0, AND where there is site capacity, sample for Tier 1 or Tier 2 according to the protocol schedule
 
 -->
+
+# CCP Recruiting to ISARIC CCP-UK for paediatric hepatitis
 
 ## Inclusion criteria
 

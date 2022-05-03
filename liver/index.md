@@ -1,5 +1,5 @@
 ---
-title: 'ISARIC4C Incidence series study of elevated liver transaminases'
+title: 'Summary Analysis of Laboratory Tests (SALT)'
 layout: 'page'
 ---
 
@@ -19,6 +19,9 @@ build:
 pandoc index.md -o pdf
 -->
 
+
+# ISARIC4C Incidence series study of elevated liver transaminases
+
 ## Background 
 
 A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. The aetiology is unknown but an infection or co-infection is a strong possibility. It is possible that this outbreak has been more widespread. In particular, milder, self-limiting disease may not have been recognised. 
@@ -34,7 +37,7 @@ To determine if an increase in the proportion of elevated transaminases has occu
 ## Method
 
 A rapid, pragmatic survey of clinically-measured transaminase levels. 
-
+d
 ## Script
 
 We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines, as long as the column headers match. 

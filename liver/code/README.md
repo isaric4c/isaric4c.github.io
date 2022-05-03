@@ -4,27 +4,41 @@ layout: page
 
 # AST_ALT_counter
 
-This code takes data consisting of AST and ALT measurements for individuals, and produces a dataset consisting of monthly counts of total and elevated AST and ALT levels. The file input.csv indicates the format the input data should be in.
+This code takes data consisting of AST and ALT measurements for individuals, and produces a dataset consisting of monthly counts of total and elevated AST and ALT levels, as well as a table consisting of the monthly mean and variances of total and elevated AST and ALT measurements. The file input.csv indicates the format the input data should be in.
 
-To use:
+To use: 
 
-1. Replace the file input.csv with a new one containing your data. This file MUST have the following column headings: patient_id, DOB, sample_date, AST, ALT
+1. Replace the file `input.csv` with a new one containing your data. This file MUST have the following column headings: 
+patient_id, DOB, sample_date, AST, ALT
 
-It also must have one of: age, DOB
+	It also must have at least one of: age, DOB
 
-age should be measured exactly in years, with one year equal to 365.25 days.
+	If age is included, it should be measured exactly in years, with one year equal to 365.25 days.
 
-input.csv must not have a header - the first row should be these column headings
+	Your `input.csv` file must not have any extra text at the top of the file - the first row should be these column headings
 
-2. Double-click WinPython Command Prompt
+2. 
+	> **WINDOWS**:  
+	>	double-click `WinPython Command Prompt`  
+	>	In the black box that appears, type:  
+	>	`cd ../`  
+	>	And press Enter  
+	>	Then type:  
+	>	`python-3.9.10/python.exe process_data.py`  
+	>	And press Enter  
 
-3. In the black box that appears, type:
-cd ../
-And press Enter
+ 
+	> **MAC/LINUX**:  
+	>	open a terminal window (e.g. on mac, hit CMD-SPACE and type `terminal`)
+	>	In the black box that appears, type:  
+	>	`python ` (with a space afterwards)  
+	>	Then drag the `process_data.py` file icon from your finder/filebrowser window onto the black box. When you let go, a long file path should appear. 
+	>	Then press Enter  
 
-4. Then type:
-python-3.9.10/python.exe process_data.py
-And press Enter
+3. A File titled `summary_table.csv` and `stats_table` should appear. Check the contents, and then email them to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
 
-5. A file titled summary_table.csv should appear. Check the contents, and then email that file to us at ccp@roslin.ed.ac.uk
+
+
+
+
 

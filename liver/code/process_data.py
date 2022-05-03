@@ -5,12 +5,16 @@ Created on Wed Apr  6 09:09:01 2022
 @author: Steven
 """
 
-import pandas as pd
+import os
 import argparse
+import pandas as pd
+
+scriptpath = os.path.dirname(os.path.realpath(__file__))
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-f', '--filename',    help='input filename', default="input.csv")
+parser.add_argument('-f', '--filename',    help='input filename', default=os.path.join(scriptpath, "input.csv"))
 args = parser.parse_args()
+
 
 #### Lookup dataframes
 
