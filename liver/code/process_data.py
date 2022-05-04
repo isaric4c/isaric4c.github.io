@@ -28,7 +28,7 @@ ALT_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y',
                         'ALT_upper_limit': [100] * 8  }  )
 
 # For debugging
-input_filepath = 'input2.csv'
+#input_filepath = 'input2.csv'
 
 #### Functions
 
