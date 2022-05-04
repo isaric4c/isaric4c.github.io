@@ -15,7 +15,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--filename', help='input filename', default=os.path.join(scriptpath, "input.csv"))
 args = parser.parse_args()
 
-
 #### Lookup dataframes
 
 # Look ups for upper limit or normal range 
@@ -28,6 +27,8 @@ ALT_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y',
                                       '17-30y', '31-50y', '51-70y', '>70y'],
                         'ALT_upper_limit': [100] * 8  }  )
 
+# For debugging
+input_filepath = 'input2.csv'
 
 #### Functions
 
@@ -48,7 +49,24 @@ def pre_process_data(input_filepath):
     
     # Read in data
     df = pd.read_csv(input_filepath, na_values = 'NA ')
-   
+ 
+    # Columns as a set
+    set_cols1 = set( ['patient_id', 'DOB', 'sample_date', 'AST', 'ALT'])  
+    set_cols2 = set( ['patient_id', 'age', 'sample_date', 'AST', 'ALT'])
+ 
+    # Find first row that has the column names, and cut off all rows before that
+    if not set_cols1.issubset( set(df.columns)) and not set_cols2.issubset( set(df.columns)):      
+ 
+        i = 0
+        while i <= len(df):
+        
+             if set_cols1.issubset( set(df.loc[i, :])) or set_cols2.issubset( set(df.loc[i, :])):
+                 break
+             i += 1 
+        
+        df.columns = df.loc[i, :]
+        df = df.loc[i+1:, :]
+      
     # If both AST and ALT are missing, drop the row
     df = df.dropna(subset = ['AST', 'ALT'], how = 'all')
     
@@ -68,7 +86,6 @@ def pre_process_data(input_filepath):
         # Keep a copy of the dates column, because entries that don't parse as dates
         # will be coerced to NaT
         df_dates = df[ ['patient_id', 'DOB', 'sample_date'] ]
-        
         df['DOB'] = pd.to_datetime(df['DOB'], 
                                    infer_datetime_format=True,
                                    dayfirst = True,
@@ -140,7 +157,8 @@ def pre_process_data(input_filepath):
     # Add flags for above threshold value
     df['AST_2x_normal'] = df['AST'] > 2* df['AST_upper_limit']
     df['ALT_2x_normal'] = df['ALT'] > 2* df['ALT_upper_limit']
-        
+    
+      
     return df
 
 
@@ -240,7 +258,6 @@ def create_AST_ALT_stats(df, output_filepath):
     df_sub = sub_process(df, 'ALT', True)    
     df_out = df_out.merge(df_sub, how = 'outer')
     
-   
     # Sort columns      
     df_out = df_out[cols]
     
@@ -392,9 +409,15 @@ def create_first_AST_ALT_values(df, output_filepath):
 
 #### Main
  
+print('Cleaning data')
+
 df = pre_process_data(args.filename)
 
+print('Creating summary table')
+
 AST_ALT_stats = create_AST_ALT_stats(df, 'summary_table.csv')
+
+print('Programme finished')
 
 # first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
  
