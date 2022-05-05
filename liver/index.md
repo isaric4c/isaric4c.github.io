@@ -46,8 +46,9 @@ The script is written in a computing language called python. Because python does
 
 OPERATING SYSTEM | DOWNLOAD LINK
 ----- | ------
-Windows | [download_windows](AST_ALT_counter_win.zip)
-Mac/Linux | [download_mac_linux](AST_ALT_counter.zip)
+Windows (standalone) | [download_windows](AST_ALT_counter_win.zip)
+Windows (script only) | [download_script](AST_ALT_counter.zip)
+Mac/Linux | [download_script](AST_ALT_counter.zip)
 
 To read more about the script, please see the [README.md file](code/README)
 
@@ -55,7 +56,7 @@ To read more about the script, please see the [README.md file](code/README)
 
 In order to comply with information governance requirements, eliminate the risk of confidential disclosure, and make use of routine lab data, the following summary data will be collected in [csv](template.csv) format from hospitals:
 
-We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >2-fold greater than the upper end of the reference range\* on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of these measurements. This will be done for
+We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >200iu/l on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of these measurements. This will be done for
 
 - each month from Jan 2018 and March 2022 to the present
 - each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
@@ -73,7 +74,7 @@ If you are sending data from multiple hospitals, please use a separate file for 
 
 Please send your *summary data files only* to this email address: 
 
-ccp@ed.ac.uk
+[ccp@ed.ac.uk](mailto:ccp@ed.ac.uk)
 
 Please also include the following details so that we can credit you appopriately with your contribution:
 
