@@ -28,7 +28,7 @@ patient_id, DOB, sample_date, AST, ALT
  
 	> **MAC/LINUX**:  
 	> 	Open finder and navigate to the AST_ALT_counter folder (don’t open the AST_ALT_counter folder directly, but navigate through finder!)
-	>	In the left top corner click Finder > Services > New terminal tab at folder. 
+	>	In the left top corner click Finder > Services > New Terminal Tab at Folder. 
 	> 	In the black box that appears, type:
  	> 	python process_data.py
 	> 	And press enter
