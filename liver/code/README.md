@@ -19,18 +19,15 @@ patient_id, DOB, sample_date, AST, ALT
 	> **WINDOWS**:  
 	>	double-click `WinPython Command Prompt`  
 	>	In the black box that appears, type:  
-	>	`cd ../`  
-	>	And press Enter  
-	>	Then type:  
 	>	`python-3.9.10/python.exe process_data.py`  
 	>	And press Enter  
 
  
 	> **MAC/LINUX**:  
 	> 	Open finder and navigate to the AST_ALT_counter folder (don’t open the AST_ALT_counter folder directly, but navigate through finder!)
-	>	In the left top corner click Finder > Services > New Terminal Tab at Folder. 
+	>	In the left top corner click Finder, Services, New Terminal Tab at Folder. 
 	> 	In the black box that appears, type:
- 	> 	python process_data.py
+ 	> 	`python process_data.py`
 	> 	And press enter
 
 3. A File titled `summary_table.csv` should appear. Check the contents, and then email to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
