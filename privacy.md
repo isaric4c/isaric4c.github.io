@@ -111,7 +111,7 @@ The COPI notice has since been extended multiple times, most recently on
 27th August 2021 which allowed for its use until 31st March 2022. 
 We have ceased collection COVID data and so with Health Research Authority Confidentiality Advisory Group approval, we will transition to rely on Section 251 Regulation 5 of the NHS Act 2006 from 30th June 2022, to collect and retain personal identifiers with clinical information without consent for the purpose of conducting COVID-19 research (last reviewed by ISARIC4C investigators 18 May 2022). 
 
-## CCP-UK Patient Data Notification v0.2 Documents
+### CCP-UK Patient Data Notification v0.2 Documents
 * [PDF](/files/CCP-UK Patient Data Notification v0.2 05MAY2022.pdf)
 * [Word .docx](/files/CCP-UK Patient Data Notification v0.2 05MAY2022 Clean.docx)
 
