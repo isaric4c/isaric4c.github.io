@@ -8,7 +8,7 @@ layout: 'page'
 The ISARIC CCP team is working closely with PHS and UK HSA to help bring the capabilities of the academic sector to help public health agencies to tackle this new disease in the following ways:
 
 1. Recruitment and consent through the ISARIC CCP (see below)
-2. The "Summary Analysis of Lab Tests" experiment ([SALT](../liver))
+2. The "Summary Analysis of Lab Tests" experiment ([SALT](../salt))
 3. Recruiting cases and parents to the [GenOMICC Study](https://genomicc.org/hepatitis)
 
 <!--
@@ -47,7 +47,7 @@ With consent, enrol all cases as per Tier 0, AND where there is site capacity, s
 
 Please enter data directly into RedCap or print and complete the [CRF](https://isaric4c.net/protocols/)
 
-Please visit [this page for information about the ISARIC4C Incidence series study of elevated liver transaminases](../liver)
+Please visit [this page for information about the ISARIC4C Incidence series study of elevated liver transaminases](../salt)
 
 
 
