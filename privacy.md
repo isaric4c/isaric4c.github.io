@@ -102,14 +102,18 @@ shared with any 3rd parties outside of the CCP-UK trial team and will not
 be used for any automated decision making or profiling. If you would like 
 to have this data withdrawn, please contact the study team using the details given below.
 
-Consent is not needed to obtain and use this extra data as described above, 
+**For COVID-19**, consent is not needed to obtain and use this extra data as described above, 
 because on 20th March 2020, the DHSC issued notice under Regulation 3(4) of
 the Health Service Control of Patient Information Regulations 2002 
 (COPI Reg 3(4) for short).This COPI Reg 3(4) notice requires confidential 
 information to be processed and disseminated for COVID-19 purposes only. 
 The COPI notice has since been extended multiple times, most recently on 
-27th August 2021 which allows for its use until 31st March 2022 (status last 
-reviewed by ISARIC4C investigators on 18th November 2021).
+27th August 2021 which allowed for its use until 31st March 2022. 
+We have ceased collection COVID data and so with Health Research Authority Confidentiality Advisory Group approval, we will transition to rely on Section 251 Regulation 5 of the NHS Act 2006 from 30th June 2022, to collect and retain personal identifiers with clinical information without consent for the purpose of conducting COVID-19 research (last reviewed by ISARIC4C investigators 18 May 2022). 
+
+### CCP-UK Patient Data Notification v0.2 Documents
+* [PDF](/files/CCP-UK Patient Data Notification v0.2 05MAY2022.pdf)
+* [Word .docx](/files/CCP-UK Patient Data Notification v0.2 05MAY2022 Clean.docx)
 
 ### Participants in Scotland:
 
@@ -149,7 +153,8 @@ then we will remove your identifiers from our dataset.
 
 ## How to opt out
 If after reading this you wish to opt out of this study by having your data removed please email **[ccp@liverpool.ac.uk](mailto:ccp@liverpool.ac.uk)** including your name, date of birth, NHS number, and post code.
-We will look for your details in our data and if we find it we will delete it. In any case we will email back to you within 14days to tell you if we found your data and if we did to confirm that your data has been removed.
+You can also telephone the study team to request that your data be removed by calling 07506 653560.  
+We will look for your details in our data and if we find it we will delete it. In any case we will email back to you within 14 days to tell you if we found your data and if we did to confirm that your data has been removed.
 If you have signed up to the National Data Opt-Out and you are recruited after the expiry of the COPI notice on 30th June 2022, your data will be removed from the study.
 
 Data protection regulation provides you with control over your personal data and 
@@ -166,6 +171,5 @@ you can contact the study sponsor on 01865 616480 or ctrg@admin.ox.ac.uk.
 You have the right to lodge a complaint with the Information Commissioner’s Office 
 (0303 123 1113 or www.ico.org.uk).
 
-
-
 **Email: [ccp@liverpool.ac.uk](mailto:ccp@liverpool.ac.uk)**
+
