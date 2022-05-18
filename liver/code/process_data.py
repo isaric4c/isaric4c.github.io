@@ -27,9 +27,6 @@ ALT_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y',
                                       '17-30y', '31-50y', '51-70y', '>70y'],
                         'ALT_upper_limit': [100] * 8  }  )
 
-# For debugging
-#input_filepath = 'input2.csv'
-
 #### Functions
 
 def pre_process_data(input_filepath):
@@ -38,12 +35,13 @@ def pre_process_data(input_filepath):
     Parameters
     ----------
     input_filepath : Path of csv file input. This csv should have the following column headings:
-                     patient_id, DOB, sample_date, AST, ALT
+                     patient_id, sample_date, AST, ALT and at least one of age, DOB.
     
     Returns
     -------
-    df : Identical to datframe that is read from input_filepath, but with additional columns:
-            age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
+    df : Similar to datframe that is read from input_filepath, but cleaned and
+        with additional columns:
+        age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
         
     '''
     
@@ -123,10 +121,10 @@ def pre_process_data(input_filepath):
         # Drop any entries that are still missing in DOB
         df = df.dropna(subset = ['DOB']) 
         
-        # If their date of birth is after March 2022, then their year of birth has
+        # If their date of birth is after today's date then their year of birth has
         # likely been recorded as two numbers, and pandas interprets that as a date
         # that is post 2000, rather than pre. In that case, subtract 100 off.
-        df.loc[ df['DOB'] >=  pd.to_datetime('1/4/2022'), 'DOB']  -= pd.DateOffset(years= 100)
+        df.loc[ df['DOB'] >=  pd.to_datetime("today"), 'DOB']  -= pd.DateOffset(years= 100)
         
         # Add age in years
         df['age'] = (df.sample_date - df.DOB).dt.days / 365.25
@@ -157,8 +155,7 @@ def pre_process_data(input_filepath):
     # Add flags for above threshold value
     df['AST_2x_normal'] = df['AST'] > 2* df['AST_upper_limit']
     df['ALT_2x_normal'] = df['ALT'] > 2* df['ALT_upper_limit']
-    
-      
+       
     return df
 
 
@@ -167,12 +164,12 @@ def clean_numeric_cols(df, cols):
 
     Parameters
     ----------
-    df : Semi-processed dataframe
-    cols : list of numeri columns to clean
+    df : Dataframe
+    cols : list of numeric columns to clean
     
     Returns
     -------
-    df : Identical to df, except any numerical columns with '<', '>' 
+    df : Similar to df, except any numerical columns with '<', '>' 
         have them removed
         
     '''
@@ -206,7 +203,7 @@ def create_AST_ALT_stats(df, output_filepath):
 
     Parameters
     ----------
-    df : Path of csv file input.
+    df : Dataframe
 
     output_filepath : Path of csv file output
 
@@ -272,7 +269,7 @@ def sub_process(df, measure, elevated):
 
     Parameters
     ----------
-    df : Semi-processed dataframe
+    df : Dataframe
     measure : 'AST' or 'ALT'
     elevated : True or False. If True, counts unique patients who value for 
                measure was at least 2x the upper limit
@@ -338,7 +335,7 @@ def create_first_AST_ALT_values(df, output_filepath):
 
     Parameters
     ----------
-    df : df : Semi-processed dataframe
+    df : Cleaned dataframe
     output_filepath : Path of csv file output
     
     Returns
@@ -417,7 +414,6 @@ print('Creating summary table')
 
 AST_ALT_stats = create_AST_ALT_stats(df, 'summary_table.csv')
 
-print('Programme finished')
-
 # first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
  
+print('Programme finished')

@@ -19,7 +19,7 @@ patient_id, DOB, sample_date, AST, ALT
 	> **WINDOWS**:  
 	>	double-click `WinPython Command Prompt`  
 	>	In the black box that appears, type:  
-	>	`python-3.9.10/python.exe process_data.py`  
+	>	`python process_data.py`  
 	>	And press Enter  
 
  
