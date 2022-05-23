@@ -237,7 +237,7 @@ def create_AST_ALT_stats(df, output_filepath):
     last_date_in_data = df.sample_date.max()
               
     # Create dataframe that will be filled out and be the final output
-    cols = ['statistic', 'test', 'age_group'] + pd.date_range('2018-01-01',last_date_in_data, 
+    cols = ['statistic', 'test', 'age_group'] + pd.date_range('2018-01-01', last_date_in_data, 
               freq='MS').strftime("%b-%Y").tolist()
     
     df_template = pd.DataFrame(columns=cols)
