@@ -12,7 +12,7 @@ We are curating and driving research activities using COVID-19 data from various
 
 We are always interested to hear from experienced and enthusiastic individuals, so please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
 
-See [previous outputs from ISARIC 4C](/outputs/)
+See [previous outputs from ISARIC4C](/outputs/)
 
 
 
