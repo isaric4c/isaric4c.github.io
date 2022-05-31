@@ -44,6 +44,8 @@ def pre_process_data(input_filepath):
         age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
         
     '''
+    # For testing
+    input_filepath = 'input.csv'
     
     # Read in data
     df = pd.read_csv(input_filepath, na_values = 'NA ')
@@ -73,6 +75,24 @@ def pre_process_data(input_filepath):
                                        infer_datetime_format=True,
                                        dayfirst = True,
                                        errors = 'coerce')
+    
+    today = pd.to_datetime("today")
+    
+    # Get entries that have incorrectly been interpreted with months and days
+    # switched
+    error_df = df.loc[ (df['sample_date'] > today) & \
+                      (df['sample_date'].dt.year == today.year), :] 
+    
+    
+    # Suppress annoying warnings
+    pd.options.mode.chained_assignment = None
+
+    # Switch months and days for sample_date entries that are the wrong way round
+    error_df.loc[:, ['sample_date'] ] = pd.to_datetime( error_df['sample_date'].dt.strftime('%Y-%d-%m'))
+    df.loc[error_df.index, 'sample_date'] = error_df['sample_date']
+    
+    # Drop any entries that have sample dates in the future
+    df = df[ df['sample_date'] <= today ]
        
     cols = df.columns
     
@@ -88,12 +108,10 @@ def pre_process_data(input_filepath):
                                    infer_datetime_format=True,
                                    dayfirst = True,
                                    errors = 'coerce')
-    
-        
+           
         # Get DOB entries that did not convert to datetimes
         error_indices = df.loc[pd.isna(df["DOB"]), :].index
-        
-        
+             
         # First round of replacements: If dates that didn't parse when part of
         # the entire column do parse when we isolate them, then use these as
         # the DOB
@@ -124,7 +142,7 @@ def pre_process_data(input_filepath):
         # If their date of birth is after today's date then their year of birth has
         # likely been recorded as two numbers, and pandas interprets that as a date
         # that is post 2000, rather than pre. In that case, subtract 100 off.
-        df.loc[ df['DOB'] >=  pd.to_datetime("today"), 'DOB']  -= pd.DateOffset(years= 100)
+        df.loc[ df['DOB'] >=  today, 'DOB']  -= pd.DateOffset(years= 100)
         
         # Add age in years
         df['age'] = (df.sample_date - df.DOB).dt.days / 365.25
@@ -132,8 +150,7 @@ def pre_process_data(input_filepath):
     elif 'age' in cols:
         # If any of sample_date, DOB or patient_id are missing, drop the row
         df = df.dropna(subset = ['sample_date', 'age', 'patient_id'])
-    
-   
+      
     df = clean_numeric_cols(df, ['AST', 'ALT'])
   
     # Drop any values of age <0 or > 120
@@ -145,6 +162,7 @@ def pre_process_data(input_filepath):
                               labels = ['<3wks', '3wks-5y', '6-10y', '11-16y', 
                                 '17-30y', '31-50y', '51-70y', '>70y'])
     
+   
     # Add month
     df['month'] = df['sample_date'].dt.strftime('%b-%Y')
     
@@ -237,10 +255,14 @@ def create_AST_ALT_stats(df, output_filepath):
     last_date_in_data = df.sample_date.max()
               
     # Create dataframe that will be filled out and be the final output
-    cols = ['statistic', 'test', 'age_group'] + pd.date_range('2018-01-01',last_date_in_data, 
+    month_cols = pd.date_range('2018-01-01', last_date_in_data, 
               freq='MS').strftime("%b-%Y").tolist()
     
+    other_cols = ['statistic', 'test', 'age_group'] 
+    cols = other_cols + month_cols
+    
     df_template = pd.DataFrame(columns=cols)
+    df_template[cols] = df_template[cols].astype('float64')
      
     # Merge 
     df_sub = sub_process(df, 'AST', False)     
@@ -258,6 +280,9 @@ def create_AST_ALT_stats(df, output_filepath):
     # Sort columns      
     df_out = df_out[cols]
     
+    # Set nan for counts equal to zero
+    df_out[df_out['statistic'] == 'count'] = df_out[df_out['statistic'] == 'count'].fillna(0)
+       
     # Save out
     df_out.to_csv(output_filepath, index=False)  
     
@@ -301,8 +326,8 @@ def sub_process(df, measure, elevated):
     df_count = df_count.reset_index(drop = True)
     df_count = df_count.merge(AST_lookup['age_group'], how = 'right')   
     df_count.insert(0, 'statistic', 'count')
-    
-    
+
+       
     # Create dataframe of means
     df_mean = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).mean()    
     df_mean = df_mean.unstack(level=1)   

@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect: /liver/
+redirect: /salt/
 ---
