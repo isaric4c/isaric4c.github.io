@@ -16,7 +16,7 @@ bodyClass: page-home
         {% endif %}
       </div>
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative pull-left">
         <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
@@ -26,10 +26,12 @@ bodyClass: page-home
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
+    <h3>Outputs</h3>
     <div class="row justify-content-start">
-      {% assign sortedoutputs = site.outputs | sort: "weight" %}
+      {% assign sortedoutputs = site.outputs | sort: "weight" | slice: 0,8 %}
       {% for output in sortedoutputs %}
-      <div class="col-12 col-md-4 mb-1">
+      {% if output.title | strip_html | size > 10 %}
+      <div class="col-12 col-md-4 mb-1 oop">
         <div class="output output-summary">
           <div class="output-content">
             <h2 class="output-title">
@@ -40,6 +42,7 @@ bodyClass: page-home
           </div>
         </div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
     <div class="row justify-content-center">

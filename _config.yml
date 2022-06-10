@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'ISARIC 4C consortium'
+title: 'ISARIC 4C'
 
 google_analytics_id: 'UA-177150860-1'
 homepage:
@@ -11,14 +11,14 @@ logo:
   desktop: "img/logo/logo_mini.svg"
   desktop_height: "36px"
 footer:
-  copyright_text: 'ISARIC 4C consortium'
+  copyright_text: 'ISARIC 4C'
 
 seo:
-  meta_og_title: "ISARIC 4C consortium"
+  meta_og_title: "ISARIC 4C"
   meta_og_type: "website"
   meta_og_url: "https://isaric4c.net"
   meta_og_image: "https://isaric4c.net/img/logo/isaric4c-logo.png"
-  meta_og_description: "ISARIC 4C consortium."
+  meta_og_description: "ISARIC 4C."
   meta_twitter_card: "summary"
   meta_twitter_site: "@CCPUKstudy"
   meta_twitter_creator: "@CCPUKstudy"
