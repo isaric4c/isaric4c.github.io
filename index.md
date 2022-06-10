@@ -2,21 +2,20 @@
 layout: home
 title: ISARIC4C 
 description: The UK ISARIC Comprehensive Clinical Characterisation Collaboration.
-intro_image: "img/ap/i4c-map-updated.png"
-intro_image_absolute: false
-intro_image_hide_on_mobile: false
 ---
 
 # ISARIC4C (Comprehensive Clinical Characterisation Collaboration)
 
 We are an open, inclusive UK-wide collaboration of doctors and scientists committed to answering urgent questions about emerging infections and public health threats quickly, openly, and for the benefit of all. Since 2012 we have been preparing for oubtreaks worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp). 
 
+<img class="img-fluid" src="img/ap/i4c-map-updated.png" width="80%">
+
 ## Recruitment
 
 ISARIC4C is currently actively recruiting cases in the UK with:
 
-- unexplained acute hepatitis
-- monkeypox
+	- unexplained acute hepatitis
+	- monkeypox
 
 ## Analysis Platform
 
