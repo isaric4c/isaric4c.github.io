@@ -28,7 +28,10 @@ In this study (SALT - Summary Analysis of Lab Tests) we are trying to detect cha
 
 The SALT study uses summary tables of data, of the type which are routinely published in academic journals and management reports. By using only summary data tables, we avoid the risk of disclosing any confidential clinical information about a person.
 
-![Graph of averaged elevated transaminase levels (ALT & AST, >200iu/l) in children aged 3 weeks to 5 years, in all centres included so far (UK & Netherlands).](graphs/AST_ALT_elevated_means_3wks-5y.png)
+<div style="width: 60%">
+<img src="graphs/AST_ALT_elevated_means_3wks-5y.png" >
+<caption>Graph of averaged elevated transaminase levels (ALT & AST, >200iu/l) in children aged 3 weeks to 5 years, in all centres included so far (UK & Netherlands).</caption>
+</div>
 
 # Contribute data from your centre
 
@@ -52,14 +55,10 @@ To read more about the script, please see the [README.md file](code/README)
 
 In order to comply with information governance requirements, eliminate the risk of confidential disclosure, and make use of routine lab data, the following summary data will be collected in [csv](template.csv) format from hospitals:
 
-We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >200iu/l on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of these measurements. This will be done for
+We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >200iu/l on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of these measurements. So count, mean and variance will be collected for:
 
-- each month from Jan 2018 and March 2022 to the present
+- each month from Jan 2015 and March 2022 to the present
 - each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
-
-<!--
-\* Please use the same reference range for all age groups: The reference range for your laboratory at the time of the test, for patients aged 5yrs. e.g. If the upper end of reference range #for AST in a 5-year-old was 50 iu/ml in March 2018, count all patients with AST > 50 iu/ml for that month.
--->
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
@@ -72,26 +71,15 @@ Please also include the following details so that we can credit you appopriately
 - location of hospital
 - institutional email addresses of contributing scientists
 
+## Ethical approval
 
+This work is surveillance for public health using summary data only and so does not require ethical approval. 
 
+## Summary table format
 
+The table below shows the format of the summary data to be collected from each contributing laboratory. This can be [downloaded in csv format here](table/template.csv).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% include_relative table/template.md %}
 
 
 
