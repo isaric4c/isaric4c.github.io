@@ -20,27 +20,23 @@ pandoc index.md -o pdf
 -->
 
 
-# ISARIC4C Incidence series study of elevated liver transaminases
+# Incidence series study of elevated liver transaminases
 
-## Background 
+A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. By the end of May, WHO had identified [650 cases worldwide](https://www.who.int/emergencies/disease-outbreak-news/item/DON-389), in some cases leading to liver transplant or death. The cause is unknown. It is possible that this outbreak has been  more widespread. In particular, milder, self-limiting disease may not have been recognised, but might be evident from larger numbers of children having abnormal liver function tests.
 
-A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. The aetiology is unknown but an infection or co-infection is a strong possibility. It is possible that this outbreak has been more widespread. In particular, milder, self-limiting disease may not have been recognised. 
+In this study (SALT - Summary Analysis of Lab Tests) we are trying to detect changes in the proportion of children with abnormal liver function tests (elevated AST/ALT). We are trying to determine if an increase in the proportion of elevated transaminases has occurred, where, and over what period. 
 
-This analysis is being conducted under instruction from Public Health.
-Please visit [this page for information about recruiting new patients to the ISARIC CCP-UK](https://isaric4c.net/hepatitis)
+The SALT study uses summary tables of data, of the type which are routinely published in academic journals and management reports. By using only summary data tables, we avoid the risk of disclosing any confidential clinical information about a person.
 
+![Graph of averaged elevated transaminase levels (ALT & AST, >200iu/l) in children aged 3 weeks to 5 years, in all centres included so far (UK & Netherlands).](graphs/AST_ALT_elevated_means_3wks-5y.png)
 
-## Aim
+# Contribute data from your centre
 
-To determine if an increase in the proportion of elevated transaminases has occurred, where, and over what period. 
+We urgently need clinical biochemists to contribute data from their centre to help track this outbreak.
 
-## Method
-
-A rapid, pragmatic survey of clinically-measured transaminase levels. 
-d
 ## Script
 
-We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines, as long as the column headers match. 
+We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines. It runs on your computer, doesn't communicate with the internet in any way, and creates simple summary tables (see below) which you can then share with us.
 
 The script is written in a computing language called python. Because python doesn't come pre-installed on windows computers, we've bundled our script with a python version that can be used without any installation or special permissiona.
 
@@ -67,14 +63,9 @@ We will count the number of *hospital inpatients* tested for blood levels of AST
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
 
-
 ## Sending data
 
-If you are sending data from multiple hospitals, please use a separate file for each one.
-
-Please send your *summary data files only* to this email address: 
-
-[ccp@ed.ac.uk](mailto:ccp@ed.ac.uk)
+If you are sending data from multiple hospitals, please use a separate file for each one. Please send your *summary data files only*, containing no patient identifiers, to this email address: [ccp@ed.ac.uk](mailto:ccp@ed.ac.uk)
 
 Please also include the following details so that we can credit you appopriately with your contribution:
 
