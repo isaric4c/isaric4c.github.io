@@ -4,7 +4,7 @@ Random header here,,,,
 patient_id,,False start with columns,,
 ,DOB,sample_date,,
 ,,,,
-patient_id,DOB,sample_date,AST,ALT
+patient_ids,DOB,sample_date,AST,ALT
 Alice,22/02/2016,01/01/2018,80,60
 Alice,22/02/2016,02/01/2018,20,90
 Alice,22/02/2016,01/02/2018,,200
@@ -33,7 +33,7 @@ Steven,22/02/2016,01/01/2018,10,10
 Tina,01/02/2016,01/01/2018,10,10
 Uriah,02/22/2016,01/01/2018,10,10
 Venus,01/02/2016,01/01/2018,10,10
-Will,22/02/02,01/01/2018,10,10
+Will,22/02/2002,01/01/2018,10,10
 Xander,22/02/1986,01/01/2018,10,10
 Yewande,22/02/2016,01/01/2025,10,10
 Zenyra,22/02/2016,01/12/2022,10,10

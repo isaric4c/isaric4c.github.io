@@ -8,6 +8,7 @@ Created on Wed Apr  6 09:09:01 2022
 import os
 import argparse
 import pandas as pd
+import math
 
 scriptpath = os.path.dirname(os.path.realpath(__file__))
 
@@ -29,44 +30,275 @@ ALT_lookup = pd.DataFrame( {'age_group': ['<3wks', '3wks-5y', '6-10y', '11-16y',
 
 #### Functions
 
-def pre_process_data(input_filepath):
+def read_data(input_filepath):
     '''
 
     Parameters
     ----------
-    input_filepath : Path of csv file input. This csv should have the following column headings:
-                     patient_id, sample_date, AST, ALT and at least one of age, DOB.
-    
+    input_filepath : file path of input.csv
+
     Returns
     -------
-    df : Similar to datframe that is read from input_filepath, but cleaned and
-        with additional columns:
-        age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
-        
+    found_header : Boolean, whether or not heading was succesfully found.
+        Only proceed with rest of programme is this is True
+    df : If all goes well, this will be a df with appropriate column headers.
+        Otherwise it will just be input.csv and the rest of the programme won't run'
     '''
+    
     # For testing
     input_filepath = 'input.csv'
     
     # Read in data
-    df = pd.read_csv(input_filepath, na_values = 'NA ')
+    df = pd.read_csv(input_filepath, na_values = 'NA ', header = None)
  
     # Columns as a set
     set_cols1 = set( ['patient_id', 'DOB', 'sample_date', 'AST', 'ALT'])  
     set_cols2 = set( ['patient_id', 'age', 'sample_date', 'AST', 'ALT'])
  
-    # Find first row that has the column names, and cut off all rows before that
-    if not set_cols1.issubset( set(df.columns)) and not set_cols2.issubset( set(df.columns)):      
+    # Flag for if header has been found. Initialise as false
+    found_header = False   
  
-        i = 0
-        while i <= len(df):
+    # Search first 100 rows for header
+    i = 0
+    while i <= min(100, len(df)-1):
+    
+         if set_cols1.issubset( set(df.loc[i, :])) or set_cols2.issubset( set(df.loc[i, :])):
+             
+             df.columns = df.loc[i, :]
+             df = df.loc[i+1:, :]
+             
+             found_header = True
+             break
+         i += 1
+     
+    # Move on to the next chunk of code if header is not found in the first 100 rows         
+    if not found_header:
         
-             if set_cols1.issubset( set(df.loc[i, :])) or set_cols2.issubset( set(df.loc[i, :])):
-                 break
-             i += 1 
+        print('\nIn order to proceed, input.csv must have columns with the following names: \n \
+              \npatient_id, sample_date, AST, ALT, \n \
+              \nas well as at least one of \n \
+             \nage, DOB. \n \
+             \nI have not detected these headings in the first hundred rows of input.csv')
         
-        df.columns = df.loc[i, :]
-        df = df.loc[i+1:, :]
-      
+        j = 0
+        while j <= min(10,  math.ceil( (len(df)-1))/10 ): 
+            
+            print('\nHere are lines ' + str( 10*j+1) + '-' + str( 10*(j+1)) + ' of input.csv: \n')
+            
+            print(  df.iloc[ (10*j): 10*(j+1), :]  )
+            
+            row = input("\nIf you can see the header row, please type its row number and press enter. Otherwise, press enter. \n")
+            
+            try:
+                row = int(row)
+            except:
+                pass
+
+            
+            if row in range(10*j, 10*(j+1)):
+                    
+                print("\nOf the following column headings, which corresponds to patient_id? Type its row number and press enter. \n")
+                
+                print_df = df.iloc[row, :]
+                print_df.index = range(len(print_df))
+                print(print_df)
+                print('\n')
+                
+                patient_col_num = input()
+                
+                try:
+                    patient_col_num = int(patient_col_num)
+                except:
+                    print('\nNon-numeric input. Programme aborted.')
+                    break
+                
+                if not(patient_col_num in range(len(print_df))):
+                       print('\n Input not in range. Programme aborted.')
+                       break
+                
+
+
+            
+                print("\nOf the following column headings, which corresponds to sample_date? Type its row number and press enter. \n")
+                
+                print_df = df.iloc[row, :]
+                print_df.index = range(len(print_df))
+                print(print_df)
+                print('\n')
+                
+                sample_col_num = input()
+                
+                try:
+                    sample_col_num = int(sample_col_num)
+                except:
+                    print('\nNon-numeric input. Programme aborted.')
+                    break
+                
+                if not(sample_col_num in range(len(print_df))):
+                       print('\nInput not in range. Programme aborted.')
+                       break
+                
+
+
+                    
+                print("\nOf the following column headings, which corresponds to AST? Type its row number and press enter. \n")
+                
+                print_df = df.iloc[row, :]
+                print_df.index = range(len(print_df))
+                print(print_df)
+                print('\n')
+                
+                ast_col_num = input()
+                
+                try:
+                    ast_col_num = int(ast_col_num)
+                except:
+                    print('\nNon-numeric input. Programme aborted.')
+                    break
+                
+                if not(ast_col_num in range(len(print_df))):
+                       print('\n Input not in range. Programme aborted.')
+                       break
+                
+
+
+                print("\nOf the following column headings, which corresponds to ALT? Type its row number and press enter. \n")
+                
+                print_df = df.iloc[row, :]
+                print_df.index = range(len(print_df))
+                print(print_df)  
+                print('\n')
+                
+                alt_col_num = input()
+                
+                try:
+                    alt_col_num = int(alt_col_num)
+                except:
+                    print('\nNon-numeric input. Programme aborted.')
+                    break
+                
+                if not(alt_col_num in range(len(print_df))):
+                       print('\nInput not in range. Programme aborted.')
+                       break
+                
+
+                
+                
+                print("\nOf the following column headings, which corresponds to DOB? Type its row number and press enter. \n \
+If none correpond to DOB, press enter \n")
+                
+                print_df = df.iloc[row, :]
+                print_df.index = range(len(print_df))
+                print(print_df)
+                print('\n')                
+                
+                dob_col_num = input()
+                
+                try:
+                    dob_col_num = int(dob_col_num)
+                except:
+                    pass
+                
+                if dob_col_num in range(len(print_df)):
+                    
+                    dob_flag = True
+                    
+                else:
+                    dob_flag = False
+                    
+                    print('\nDOB column header not found.\n')
+                    
+                    print("\nOf the following column headings, which corresponds to age? Type its row number and press enter." )
+                    
+                    print_df = df.iloc[row, :]
+                    print_df.index = range(len(print_df))
+                    print(print_df)
+                    print('\n')
+                    
+                    age_col_num = input()
+                    
+                    try:
+                        age_col_num = int(age_col_num)
+                    except:
+                        print('\nNon-numeric input. Programme aborted.')
+                        break
+                    
+                    if not(age_col_num in range(len(print_df))):
+                           print('\nInput not in range. Programme aborted.')
+                           break
+                    
+                    
+                                  
+                if dob_flag:    
+                    col_numbers = [patient_col_num,
+                                   dob_col_num,
+                                   sample_col_num, 
+                                   ast_col_num,
+                                   alt_col_num]
+                    
+                    if len(col_numbers) > len(set(col_numbers)):
+                        
+                        print('\nSorry, the column numbers you entered are not all distinct.\n \
+                              Please run process_data.py again. \n')
+                              
+                        break
+                              
+                    else:
+                        df = df.iloc[ (row+1):, col_numbers]
+                        df.columns = ['patient_id', 'DOB', 'sample_date', 'AST', 'ALT']
+                        
+                        found_header = True                         
+                        break
+                                              
+                else:
+                    col_numbers = [patient_col_num,
+                                   age_col_num,
+                                   sample_col_num, 
+                                   ast_col_num,
+                                   alt_col_num]
+                    
+                    if len(col_numbers) > len(set(col_numbers)):
+                        
+                        print('\nSorry, the column numbers you entered are not all distinct.\n \
+                              Please run process_data.py again. \n')
+                              
+                        break
+                    
+                    else:
+                        df = df.iloc[ (row+1):, col_numbers]
+                        df.columns = ['patient_id', 'age', 'sample_date', 'AST', 'ALT']
+                        
+                        found_header = True
+                        
+                        break               
+            j += 1
+ 
+    if found_header:
+    
+        print('\nColumn headings successfully found! \n')
+
+    else:
+
+        print('\nI have been unable to find suitable column headings. Please run process_data.py and try again, \n \
+or edit the column headings of input.csv as required. \n') 
+              
+    return found_header, df                 
+
+
+def clean_data(df):
+    '''
+
+    Parameters
+    ----------
+    df : 
+    
+    Returns
+    -------
+    df : Cleaned version of df, with additional columns:
+        age, age_group, month, AST_upper_limit, ALT_upper_limit, AST_2x_normal, ALT_2x_normal
+        
+    '''
+
     # If both AST and ALT are missing, drop the row
     df = df.dropna(subset = ['AST', 'ALT'], how = 'all')
     
@@ -83,9 +315,6 @@ def pre_process_data(input_filepath):
     error_df = df.loc[ (df['sample_date'] > today) & \
                       (df['sample_date'].dt.year == today.year), :] 
     
-    
-    # Suppress annoying warnings
-    pd.options.mode.chained_assignment = None
 
     # Switch months and days for sample_date entries that are the wrong way round
     error_df.loc[:, ['sample_date'] ] = pd.to_datetime( error_df['sample_date'].dt.strftime('%Y-%d-%m'))
@@ -255,7 +484,7 @@ def create_AST_ALT_stats(df, output_filepath):
     last_date_in_data = df.sample_date.max()
               
     # Create dataframe that will be filled out and be the final output
-    month_cols = pd.date_range('2018-01-01', last_date_in_data, 
+    month_cols = pd.date_range('2015-01-01', last_date_in_data, 
               freq='MS').strftime("%b-%Y").tolist()
     
     other_cols = ['statistic', 'test', 'age_group'] 
@@ -329,7 +558,7 @@ def sub_process(df, measure, elevated):
 
        
     # Create dataframe of means
-    df_mean = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).mean()    
+    df_mean = df[ ['age_group', 'month', measure]].groupby(['age_group', 'month']).mean()    
     df_mean = df_mean.unstack(level=1)   
     df_mean.columns = df_mean.columns.get_level_values('month') 
     df_mean.insert(0, 'age_group', df_mean.index)
@@ -339,7 +568,7 @@ def sub_process(df, measure, elevated):
     
   
     # Create dataframe of variances
-    df_var = df[ ['age_group', 'month', 'AST']].groupby(['age_group', 'month']).var()    
+    df_var = df[ ['age_group', 'month', measure]].groupby(['age_group', 'month']).var()    
     df_var = df_var.unstack(level=1)   
     df_var.columns = df_var.columns.get_level_values('month')   
     df_var.insert(0, 'age_group', df_var.index)
@@ -431,14 +660,38 @@ def create_first_AST_ALT_values(df, output_filepath):
 
 #### Main
  
-print('Cleaning data')
+# Suppress annoying warnings
+pd.options.mode.chained_assignment = None
 
-df = pre_process_data(args.filename)
+found_header, df = read_data(args.filename)
 
-print('Creating summary table')
+if found_header:
 
-AST_ALT_stats = create_AST_ALT_stats(df, 'summary_table.csv')
-
-# first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
- 
-print('Programme finished')
+    try:
+        
+        print('\n Cleaning data \n')
+        
+        df = clean_data(df)
+        
+        print('\n Creating summary table \n')
+        
+        AST_ALT_stats = create_AST_ALT_stats(df, 'summary_table.csv')
+        
+        # first_AST_ALT_values = create_first_AST_ALT_values(df, 'first_AST_ALT_values.csv')
+     
+    except:
+        print('\n An error has occurred. Please try again, and if issues persist \n\
+send an email to steven.kerr@ed.ac.uk and we will do our best to fix them! \n')
+    
+    else:
+        print('\n Programme finished. \n \
+        \n A File titled summary_table.csv has been written to the working directory. \n \
+Please check the contents, and then email to us at ccp@roslin.ed.ac.uk \n \
+\nIf you encounter any issues, please send an email to steven.kerr@ed.ac.uk \n \
+and we will do our best to fix them! \n')
+              
+          
+          
+          
+          
+          

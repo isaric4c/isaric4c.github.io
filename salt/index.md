@@ -40,7 +40,7 @@ A rapid, pragmatic survey of clinically-measured transaminase levels.
 d
 ## Script
 
-We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines, as long as the column headers match. 
+We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines. 
 
 The script is written in a computing language called python. Because python doesn't come pre-installed on windows computers, we've bundled our script with a python version that can be used without any installation or special permissiona.
 
@@ -58,7 +58,7 @@ In order to comply with information governance requirements, eliminate the risk 
 
 We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >200iu/l on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of these measurements. This will be done for
 
-- each month from Jan 2018 and March 2022 to the present
+- each month from Jan 2015 to the present
 - each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
 
 <!--
