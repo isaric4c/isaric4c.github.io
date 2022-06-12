@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    height="500.96991"
    viewBox="0 0 595.79297 500.96991"
    sodipodi:docname="logo_full.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -24,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,21 +44,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1118"
-     inkscape:window-height="703"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.46820809"
+     inkscape:zoom="0.57179998"
      inkscape:cx="487.7928"
      inkscape:cy="134.23033"
-     inkscape:window-x="314"
-     inkscape:window-y="150"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0" />
   <path
      inkscape:connector-curvature="0"
      style="clip-rule:evenodd;fill:#e10043;fill-rule:evenodd"
@@ -127,7 +126,7 @@
        sodipodi:role="line"
        id="tspan4836"><tspan
    style="font-weight:bold;font-size:64px"
-   id="tspan4876">C</tspan>oronavirus</tspan></text>
+   id="tspan4876">C</tspan>omprehensive</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e10043;fill-opacity:1;stroke:none"
@@ -163,5 +162,5 @@
        x="23.9286"
        y="500.06366"><tspan
    style="font-weight:bold;font-size:64px"
-   id="tspan4882">C</tspan>onsortium</tspan></text>
+   id="tspan4882">C</tspan>ollaboration</tspan></text>
 </svg>

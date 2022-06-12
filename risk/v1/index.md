@@ -1,7 +1,7 @@
 ---
 layout: page
 title: COVID-19 Outcomes - Version 1.0
-description: The UK ISARIC Coronavirus Clinical Characterisation Consortium.
+description: The UK ISARIC Comprehensive Clinical Characterisation Collaboration.
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
 special_command: "onload='draw_static(); setup(); calculateBMI();'"

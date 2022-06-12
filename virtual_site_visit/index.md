@@ -19,7 +19,7 @@ Welcome to the ISARIC4C study virtual site visit. Thank you very much for suppor
 1. Obtain local R&D approval
 1. Contact [ccp@liverpool.ac.uk](mailto:ccp@liverpool.ac.uk) to register site: provide contact details for *local Principal Investigator*, *lead Research Nurse* and *R&D contact*
 1. Confirm recruitment tier:
-    - Tier 0 - data only (no consent required)
+    - Tier 0 - data only (consent required)
     - Tier 1 - data + single biological sample on recruitment day (day 1)
     - Tier 2 - data + serial biological samples (days 1, 3, 9 and 3-months)
 1. *If recruiting to Tier 1 or 2*, provide contact person and postal address that sample kits can be sent to.
@@ -48,7 +48,7 @@ Further details are provided in the logistics guidance document (separate Scotti
 
 2. Generate patient study number and enter into [REDCap](https://ncov.medsci.ox.ac.uk/): 5-digit site code + 4-digit patient number
 
-3. Obtain informed or proxy consent. The copy of the consent form signed by the participant will be considered contaminated, therefore ask an independent healthcare worker to witness the signed form and then complete the witness section of a fresh copy outside the isolation area.
+3. Obtain informed or proxy consent. Depending on the condition or infection, the copy of the consent form signed by the participant might be considered contaminated, therefore ask an independent healthcare worker to witness the signed form and then complete the witness section of a fresh copy outside the isolation area.
 
 4. Label sample collection containers before entering isolation room/cohort zone:
     - patient study number
