@@ -8,12 +8,14 @@ This code takes data consisting of AST and ALT measurements for individuals, and
 
 To use: 
 
-1. Replace the file `input.csv` with a new one containing your data. This file MUST have the following column headings: 
-patient_id, DOB, sample_date, AST, ALT
+1. Replace the file `input.csv` with a new one containing your data. This file must contain columns with the following data:
+patient_id, sample_date, AST, ALT
 
-	It also must have at least one of: age, DOB
+It also must have at least one of: age, DOB
 
-	If age is included, it should be measured exactly in years, with one year equal to 365.25 days.
+If age is included, it should be measured exactly in years, with one year equal to 365.25 days.
+
+You can either rename the appropriate column headings of input.csv so that they are as above, or you can follow the command prompt messages that will direct you to choose which column headings correpond to the above.
 
 2. 
 	> **WINDOWS**:  
