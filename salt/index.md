@@ -59,7 +59,7 @@ In order to comply with information governance requirements, eliminate the risk 
 
 We will count the number of *hospital inpatients* tested for blood levels of AST or ALT for whom the result was >200iu/l on at least one occasion, and the total number of patients for whom AST or ALT was measured. We will also calculate the mean and variance of these measurements. So count, mean and variance will be collected for:
 
-- each month from Jan 2015 to the present
+- each month from Jan 2012 to the present
 - each age bracket in this list: <3wks, 3wks-5y, 6-10y, 11-16y, 17-30y, 31-50y, 51-70y, >70
 
 Where the same patient has more than one result, the first result over the threshold is counted, or the first result from that patient, if no results over the threshold are present.
