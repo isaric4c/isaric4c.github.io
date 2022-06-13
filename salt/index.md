@@ -20,13 +20,13 @@ pandoc index.md -o pdf
 -->
 
 
-# Incidence series study of elevated liver transaminases
+# Incidence series surveillance of elevated liver transaminases
 
 A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. By the end of May, WHO had identified [650 cases worldwide](https://www.who.int/emergencies/disease-outbreak-news/item/DON-389), in some cases leading to liver transplant or death. The cause is unknown. It is possible that this outbreak has been  more widespread. In particular, milder, self-limiting disease may not have been recognised, but might be evident from larger numbers of children having abnormal liver function tests.
 
-In this study (SALT - Summary Analysis of Lab Tests) we are trying to detect changes in the proportion of children with abnormal liver function tests (elevated AST/ALT). We are trying to determine if an increase in the proportion of elevated transaminases has occurred, where, and over what period. 
+In this analysis (SALT - Summary Analysis of Lab Tests) we are trying to detect changes in the proportion of children with abnormal liver function tests (elevated AST/ALT). We are trying to determine if an increase in the proportion of elevated transaminases has occurred, where, and over what period. 
 
-The SALT study uses summary tables of data, of the type which are routinely published in academic journals and management reports. By using only summary data tables, we avoid the risk of disclosing any confidential clinical information about a person.
+The SALT analysis uses summary tables of data, of the type which are routinely published in academic journals and management reports. By using only summary data tables, we avoid the risk of disclosing any confidential clinical information about a person.
 
 <div style="width: 60%">
 <img src="graphs/AST_ALT_elevated_means_3wks-5y.png" >
