@@ -24,9 +24,11 @@ pandoc index.md -o pdf
 
 A series of cases of severe hepatitis in young children was recognised in central Scotland in March 2022. By the end of May, WHO had identified [650 cases worldwide](https://www.who.int/emergencies/disease-outbreak-news/item/DON-389), in some cases leading to liver transplant or death. The cause is unknown. It is possible that this outbreak has been  more widespread. In particular, milder, self-limiting disease may not have been recognised, but might be evident from larger numbers of children having abnormal liver function tests.
 
-In this analysis (SALT - Summary Analysis of Lab Tests) we are trying to detect changes in the proportion of children with abnormal liver function tests (elevated AST/ALT). We are trying to determine if an increase in the proportion of elevated transaminases has occurred, where, and over what period. 
+In this analysis we are trying to detect changes in abnormal liver function tests (elevated AST/ALT), population wide, using non-disclosive summary data that is easily obtained and shared. Our pilot data (see below) suggests that an increase in abnormal AST/ALT values occurred in 2022, concurrently with an increase in life-threatening hepatitis of unknown cause. At larger scale this might reveal the geographical and temporal patterns in unexplained hepatitis in children.
 
-The SALT analysis uses summary tables of data, of the type which are routinely published in academic journals and management reports. By using only summary data tables, we avoid the risk of disclosing any confidential clinical information about a person.
+The SALT analysis uses summary tables of data, of the type which are routinely published in academic journals and management reports. By using only summary data tables, we avoid the risk of disclosing any confidential clinical information about a person. We have generated a simple script to make it easy to extract the necessary summary tables from a large table of lab results. There is a team of research administrators and computational scientists available to support data collection - they can be contacted through ccp@ed.ac.uk
+
+Analyses will be conducted in partnership with national public health agencies throughout the project.
 
 <div style="width: 60%">
 <img src="graphs/AST_ALT_elevated_means_3wks-5y.png" >
@@ -35,7 +37,7 @@ The SALT analysis uses summary tables of data, of the type which are routinely p
 
 # Contribute data from your centre
 
-We urgently need clinical biochemists to contribute data from their centre to help track this outbreak.
+We urgently need clinical biochemists, paediatricians and public health agencies to contribute data from their regions to help track this outbreak worldwide. 
 
 ## Script
 
