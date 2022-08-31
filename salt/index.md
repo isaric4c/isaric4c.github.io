@@ -43,7 +43,7 @@ We urgently need clinical biochemists to contribute data from their centre to he
 We have written a script to read through a table of blood results and create a summary table in the right format for this analysis. The script works even if there are tens of millions of lines. It runs on your computer, doesn't communicate with the internet in any way, and creates simple summary tables (see below) which you can then share with us.
 
 
-The script is written in a computing language called python. Because python doesn't come pre-installed on windows computers, we've bundled our script with a python version that can be used without any installation or special permissiona.
+The script is written in a computing language called python. Because python doesn't come pre-installed on windows computers, we've bundled our script with a python version that can be used without any installation or special permissions.
 
 OPERATING SYSTEM | DOWNLOAD LINK
 ----- | ------

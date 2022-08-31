@@ -686,7 +686,7 @@ send an email to steven.kerr@ed.ac.uk and we will do our best to fix them! \n')
     else:
         print('\n Programme finished. \n \
         \n A File titled summary_table.csv has been written to the working directory. \n \
-Please check the contents, and then email to us at ccp@roslin.ed.ac.uk \n \
+Please check the contents, and then email to us at ccp@ed.ac.uk \n \
 \nIf you encounter any issues, please send an email to steven.kerr@ed.ac.uk \n \
 and we will do our best to fix them! \n')
               
