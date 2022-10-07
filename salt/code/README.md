@@ -32,7 +32,7 @@ You can either rename the appropriate column headings of input.csv so that they 
 	>   `python process_data.py`
 	> 	And press enter
 
-3. A File titled `summary_table.csv` should appear. Check the contents, and then email to us at [ccp@roslin.ed.ac.uk](mailto:ccp@roslin.ed.ac.uk)
+3. A File titled `summary_table.csv` should appear. Check the contents, and then email to us at [ccp@ed.ac.uk](mailto:ccp@ed.ac.uk)
 
 
 
