@@ -4,4 +4,5 @@ _site*
 _outputs/Icon*
 .DS*
 *.DS*
+*.DS_Store
 .DS_Store
