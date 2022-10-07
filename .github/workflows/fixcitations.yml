@@ -35,7 +35,8 @@ jobs:
           pip install biopython
           pip install pandas
           pip install tabulate
-          pip install pyyaml
+          pip install oyaml
+          pip install lxml
 
       - name: fix citations
         run: |
