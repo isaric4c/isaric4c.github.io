@@ -14,7 +14,13 @@ def get_document_urls_from_url(folder_url):
 
     json_data = line.split("responseReceived(")[1].replace(")});", "").replace('\\', '"').replace('""', '"')[1:-1]
 
-    data = json.loads(json_data)
+    try:
+        data = json.loads(json_data)
+    except:
+        with open("error_log.json","w") as o:
+            o.write(line+"\n\n=====\n\n"+json_data)
+        print ("error with json from {}".format(folder_url))
+        sys.exit()
     return [link["url"] for link in data["shared_link_infos"]]
 
 
@@ -50,4 +56,5 @@ for subdir in config["sources"]:
     dir = os.path.join(scriptpath, config['download_dir'], subdir[0])
     if os.path.exists(dir):
         shutil.rmtree(dir)
+    print (dir, subdir[1])
     download_files_from_dir(dir, subdir[1])
