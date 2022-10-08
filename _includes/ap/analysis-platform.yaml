@@ -11,14 +11,8 @@ header-includes:
 link-citations: true
 linkcolor: blue
 numbersections: false
-replace:
-  num_crf: 303,251
-  num_genomicc: 18,727
-  num_multiomics: 2,914
-  num_phosp: 1,075
 tableTitle: Table
 tblPrefix: Table
-title: Outbreak data analysis platform
 toc: false
 urlcolor: blue
 ---
