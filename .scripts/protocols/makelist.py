@@ -134,7 +134,6 @@ def sort_by_version(thislist, rev=True):
     if len(thislist) < 2:
         return thislist
     d = {x: getversion(x) for x in thislist}
-    print(d)
     maxlen = max([len(d[x]) for x in d])
     for x in d:
         while len(d[x]) < maxlen:
@@ -149,7 +148,7 @@ def formatdir(thisdir, depth=0):
     text = ''
     num_added = 0
     for entry in sort_by_version(os.listdir(thisdir), rev=True):
-        if os.path.isdir(os.path.join(thisdir, entry)):
+        if os.path.isdir(os.path.join(thisdir, entry)) and accept(thisdir) and accept(entry):
             num_added += 1
             # text+=("<h5 style='margin-left:{}em;'>{}:</h5><ul class='list-group'>\n{}\n</ul>\n".format(depth+1, fixname(entry), formatdir(os.path.join(thisdir, entry), depth+1)))
             text += ('''
@@ -252,12 +251,9 @@ uncategorised_text = ""
 for i, item in enumerate(uncategorised):
     for pinthis in settings[args.location]['choices']['pin_to_top']:
         if item.startswith(pinthis):
-            print(uncategorised)
             uncategorised.insert(0, uncategorised.pop(i))
-            print(uncategorised)
 
 if len(uncategorised) > 0:
-    print(uncategorised)
     uncategorised_text += ("<div class='panel panel-default' style='margin-top:1em;'><ul class='list-group'>\n")
     for entry in uncategorised:
         if accept(entry):
@@ -276,6 +272,7 @@ if len(uncategorised) > 0:
 # prepend for this
 outfiletext = uncategorised_text + outfiletext
 
+print (settings[args.location]['outputfile'])
 with open(settings[args.location]['outputfile'], 'w') as o:
     o.write(outfiletext)
 
