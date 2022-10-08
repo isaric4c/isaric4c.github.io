@@ -4,60 +4,26 @@ import requests
 import shutil
 import sys
 import urllib.parse
+from zipfile import ZipFile
 
-def get_document_urls_from_url(folder_url):
-    r = requests.get(folder_url)
-    html = r.content.decode('utf8')
+def fix_dropbox(url):
+    if url.startswith("https://www.dropbox.com/"):
+        url = url.replace("?dl=0","?dl=1")
+        if not url.endswith("?dl=1"):
+            url = url.split("?")[0]+"?dl=1"
+    return url
 
-    json_data = [l for l in html.split("\n") if "prefetch-shared_link_folder_entries-ShmodelFolderEntriesPrefetch-1" in l][0]
-    json_data = json_data.split("responseReceived(")[1][1:-1]
-    for marker in [
-        "share_permissions",
-        "takedown_request_type",
-        "next_request_voucher",
-        "total_num_entries",
-        "has_more_entries",
-        ]:
-        json_data = json_data.split(marker)[0]
-    json_data = json_data.replace('\\\\\\\\\\\\\\', '')
-    json_data = json_data.replace('\\\"','"')
-    json_data = json_data.replace('\\"{', '{').replace('\\"}', '}')
-    json_data = json_data.replace("\\", '').strip()
-
-    chars_to_prune = [" ","\t","\n",",",'"',"'"]
-    prune_count = 0
-    while json_data[-1] in chars_to_prune:
-        json_data = json_data[:-1]
-        prune_count += 1
-        if prune_count > 100:
-            break
-    if prune_count>0:
-        json_data = json_data + "}"
-    
-    data = json.loads(json_data)
-
-    return [link["url"] for link in data["shared_link_infos"]]
-
-
-def download_files_from_dir(dir_name, folder_url):
-    urls = get_document_urls_from_url(folder_url)
-
-    for url in urls:
-        base_url = url.split('?')[0]
-
-        filename = urllib.parse.unquote(base_url).split('/')[-1]
-        file_url = base_url + '?dl=1'
-
-        print("Downloading file:", file_url)
-
-        r = requests.get(file_url)
-
-        if not os.path.exists(dir_name):
-            os.makedirs(dir_name, exist_ok=True)
-
-        with open(os.path.join(dir_name, filename), 'wb') as f:
-            f.write(r.content)
-
+def download_zipped_folder(folder_url, dest):
+    # download whole dropbox folder as zip file
+    folder_url = fix_dropbox(folder_url)
+    r = requests.get(folder_url, stream=True)
+    zf = os.path.join(dest,"temp.zip")
+    with open(zf, 'wb') as f:
+        for chunk in r.iter_content(chunk_size=1024): 
+            if chunk:
+                f.write(chunk)
+    with ZipFile(zf, 'r') as zipObj:
+        zipObj.extractall(dest)
 
 with open("settings.json") as fp:
     config = json.load(fp)
@@ -71,5 +37,6 @@ for subdir in config["sources"]:
     dir = os.path.join(scriptpath, config['download_dir'], subdir[0])
     if os.path.exists(dir):
         shutil.rmtree(dir)
+    os.mkdir(dir)
     print (dir, subdir[1])
-    download_files_from_dir(dir, subdir[1])
+    download_zipped_folder(subdir[1], os.path.abspath(dir))
