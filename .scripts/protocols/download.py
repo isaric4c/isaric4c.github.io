@@ -5,22 +5,37 @@ import shutil
 import sys
 import urllib.parse
 
-
 def get_document_urls_from_url(folder_url):
     r = requests.get(folder_url)
-
     html = r.content.decode('utf8')
-    line = [l for l in html.split("\n") if "prefetch-shared_link_folder_entries-ShmodelFolderEntriesPrefetch-1" in l][0]
 
-    json_data = line.split("responseReceived(")[1].replace(")});", "").replace('\\', '"').replace('""', '"')[1:-1]
+    json_data = [l for l in html.split("\n") if "prefetch-shared_link_folder_entries-ShmodelFolderEntriesPrefetch-1" in l][0]
+    json_data = json_data.split("responseReceived(")[1][1:-1]
+    for marker in [
+        "share_permissions",
+        "takedown_request_type",
+        "next_request_voucher",
+        "total_num_entries",
+        "has_more_entries",
+        ]:
+        json_data = json_data.split(marker)[0]
+    json_data = json_data.replace('\\\\\\\\\\\\\\', '')
+    json_data = json_data.replace('\\\"','"')
+    json_data = json_data.replace('\\"{', '{').replace('\\"}', '}')
+    json_data = json_data.replace("\\", '').strip()
 
-    try:
-        data = json.loads(json_data)
-    except:
-        with open("error_log.json","w") as o:
-            o.write(line+"\n\n=====\n\n"+json_data)
-        print ("error with json from {}".format(folder_url))
-        sys.exit()
+    chars_to_prune = [" ","\t","\n",",",'"',"'"]
+    prune_count = 0
+    while json_data[-1] in chars_to_prune:
+        json_data = json_data[:-1]
+        prune_count += 1
+        if prune_count > 100:
+            break
+    if prune_count>0:
+        json_data = json_data + "}"
+    
+    data = json.loads(json_data)
+
     return [link["url"] for link in data["shared_link_infos"]]
 
 
