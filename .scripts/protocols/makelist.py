@@ -91,7 +91,7 @@ def add_pdf_to_search(thisfile):
 
 
 def accept(filename):
-    if filename.startswith('.') or filename.startswith('offline'):
+    if filename.startswith('.') or filename.startswith('_') or filename.startswith('offline'):
         return False
     if filename.strip() in settings[args.location]['choices']['excluded']:
         return False

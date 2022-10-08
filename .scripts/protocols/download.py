@@ -17,7 +17,7 @@ def download_zipped_folder(folder_url, dest):
     # download whole dropbox folder as zip file
     folder_url = fix_dropbox(folder_url)
     r = requests.get(folder_url, stream=True)
-    zf = os.path.join(dest,"temp.zip")
+    zf = os.path.join(dest,"all.zip")
     with open(zf, 'wb') as f:
         for chunk in r.iter_content(chunk_size=1024): 
             if chunk:
