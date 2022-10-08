@@ -216,7 +216,7 @@ outfiletext += ('<div class="panel-group" id="accordion" role="tablist" aria-mul
 i = 0
 uncategorised = []
 for d in sort_by_version(os.listdir(settings[args.location]['sourcedir'])):
-    if os.path.isdir(os.path.join(settings[args.location]['sourcedir'], d)):
+    if os.path.isdir(os.path.join(settings[args.location]['sourcedir'], d)) and accept(d):
         outfiletext += ('''
             <div class="panel panel-default">
                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{}" aria-expanded="true" aria-controls="collapse{}">
