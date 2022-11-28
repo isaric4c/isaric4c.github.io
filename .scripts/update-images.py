@@ -66,6 +66,7 @@ replacedict = {
     "1,077": "{}".format(get_text(p)),
     "253": "{}".format(get_text(h0)),
     "53": "{}".format(get_text(h2)),
+    "500,000": "{}".format("2.4M"),
 }
 
 for sourcefile in sourcefiles:
