@@ -1,10 +1,10 @@
 main:
+  - name: "About"
+    url: "/about/authors/"
+    weight: 1
   - name: "Hepatitis"
     url: "/hepatitis"
     weight: 1
-  - name: "SALT"
-    url: "/salt"
-    weight: 2
   - name: "Outputs"
     url: "/outputs/"
     weight: 2
