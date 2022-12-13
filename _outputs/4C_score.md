@@ -28,5 +28,6 @@ The 4C Mortality Score has been extensively validated in independent studies acr
 * [Turkey](https://doi.org/10.1016/j.hrtlng.2021.01.006)
 * [Canada, Toronto](https://doi.org/10.1503/cmaj.202795)
 * [Canada, Ontario](https://doi.org/10.21203/rs.3.rs-268410/v1)
+* [Romania](https://doi.org/10.3390/medicina58070848)
 
 Using data from the second wave of the COVID-19 pandemic in the UK, a [prospective validation study](https://thorax.bmj.com/content/early/2021/11/21/thoraxjnl-2021-217629) showed that both the 4C Mortality Score and 4C Deterioration Score demonstrated consistent performance to predict clinical deterioration and mortality. Despite recent advances in the treatment and management of adults hospitalised with COVID-19, both scores can continue to inform clinical decision making. 
