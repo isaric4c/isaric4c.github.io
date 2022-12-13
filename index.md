@@ -6,7 +6,9 @@ description: The UK ISARIC Comprehensive Clinical Characterisation Collaboration
 
 # ISARIC4C (Comprehensive Clinical Characterisation Collaboration)
 
-We are an open, inclusive UK-wide collaboration of doctors and scientists committed to answering urgent questions about emerging infections and public health threats quickly, openly, and for the benefit of all. Since 2012 we have been preparing for oubtreaks worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp). 
+We are an open, inclusive UK-wide collaboration of doctors and scientists committed to answering urgent questions about emerging infections and public health threats quickly, openly, and for the benefit of all. 
+
+Since 2012 we have been preparing for outbreaks worldwide [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp). 
 
 <img class="img-fluid" src="img/ap/i4c-map-updated.png" width="80%">
 
