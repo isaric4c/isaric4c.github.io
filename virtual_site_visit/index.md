@@ -80,10 +80,10 @@ Further details are provided in the logistics guidance document (separate Scotti
 
 | Sample | Processing & storage | 
 | -------- | -------- | 
-| **Clotted blood** | Centrifuge 1500g for 10 mins (ideally +4C). <br> &rightarrow; **serum** (3x 1mL aliquots; store -80C)|
-| **EDTA blood** | Centrifuge 1500g for 10 mins (ideally +4C). <br> &rightarrow; **plasma** (3x 1mL aliquots; store -80C) <br> &rightarrow; **cell pellet** (leave in tube, store -80C) |
+| **Clotted blood** | Centrifuge 1500g for 10 mins (ideally +4C). <br> **serum** (3x 1mL aliquots; store -80C)|
+| **EDTA blood** | Centrifuge 1500g for 10 mins (ideally +4C). <br> **plasma** (3x 1mL aliquots; store -80C) <br> **cell pellet** (leave in tube, store -80C) |
 | Blood in RNA tube | *No processing required*. <br> Freeze -20C for 24h then transfer to -80C.|
-| Viral throat swab <br> Urine & stool <br> SAM strip <br> Oracol swab  | *No processing required*. Do not open bag. <br> Freezr at -80C.     | 
+| Viral throat swab <br> Urine & stool <br> SAM strip <br> Oracol swab  | *No processing required*. Do not open bag. <br> Freeze at -80C.     | 
 
    * The *serum* ('S'), *plasma* ('P') and *cell pellet* ('C') should  be labelled with the patient study number, "ISARIC research", a unique barcode (one per aliquot) and **S/P/C** (to identify the sample type).
 
