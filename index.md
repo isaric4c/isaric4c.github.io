@@ -26,4 +26,4 @@ The ISARIC4C study has created an open-access [integrated analysis platform](ana
 
 ## Funding
 
-ISARIC4C is funded by UK Reasearch and Inovation (UKRI) and The National Institute For Health Research (NIHR). We share data and samples to get answers as fast as possible. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC4C study provides a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
+ISARIC4C is funded by UK Research and Inovation (UKRI) and The National Institute For Health Research (NIHR). We share data and samples to get answers as fast as possible. Any investigators with the ability to contribute can [access our data and samples](sample_access). The ISARIC4C study provides a foundation for other studies, such as clinical trials of new treatments, to help better understand the best way to use interventions.
