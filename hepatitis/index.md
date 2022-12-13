@@ -37,7 +37,7 @@ With consent, enrol all cases as per Tier 0, AND where there is site capacity, s
 
 ## Inclusion criteria
 
-Elevated liver transaminases in child <16yrs, and not due to other diagnoses such as hepatitis viruses A-E, autoimmune hepatitis, or poisoning. Elevated transaminases defined as ALT >500 iU/L and/or AST >500 iU/L. These criteria may be refined as knowledge is gained.
+Elevated liver transaminases in child <16 yrs, and not due to other diagnoses such as hepatitis viruses A-E, autoimmune hepatitis, or poisoning. Elevated transaminases defined as ALT >500 iU/L and/or AST >500 iU/L. These criteria may be refined as knowledge is gained.
 
 These criteria are deliberately broader than the public health case definition.
 
@@ -47,7 +47,7 @@ With consent, enrol all cases as per Tier 0, AND where there is site capacity, s
 
 Please enter data directly into RedCap or print and complete the [CRF](https://isaric4c.net/protocols/)
 
-Please visit [this page for information about the ISARIC4C Incidence series study of elevated liver transaminases](../salt)
+[Please visit this page for information about the ISARIC4C Incidence series study of elevated liver transaminases](../salt)
 
 
 
