@@ -10,7 +10,7 @@ There has never been a more exciting time to join our dynamic and driven data te
 
 We are curating and driving research activities using COVID-19 data from various studies and institutions across the UK - including from the ISARIC4C; PHOSP-COVID and GenOMICC studies.
 
-We are always interested to hear from experienced and enthusiastic individuals, so please get in touch with our [study team](mailto:isaric4c-samples@roslin.ed.ac.uk) for more information. 
+We are always interested to hear from experienced and enthusiastic individuals, so please [get in touch](mailto:isaric4c-samples@roslin.ed.ac.uk) with our study team for more information. 
 
 See [previous outputs from ISARIC4C](/outputs/)
 
