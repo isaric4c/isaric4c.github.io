@@ -28,9 +28,9 @@ ISARIC4C Investigators
 
 **Co-Lead Investigator (Consorium Lead)*: J Kenneth Baillie.
 
-**Co-Lead Investigator (Imperial College)*: Peter JM Openshaw.
+**Co-Lead Investigator (Imperial Colllege)*: Peter JM Openshaw.
 
-**Co-Lead Investigator (Sponsor & Protocol CI)*: Malcolm G Semple.
+**Co-Lead Investigator (Sponosr & Protocol CI)*: Malcolm G Semple.
 
 *Co-Investigator*:
 Beatrice Alex,
