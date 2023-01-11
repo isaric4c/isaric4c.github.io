@@ -485,7 +485,7 @@ def create_AST_ALT_stats(df, output_filepath):
               
     # Create dataframe that will be filled out and be the final output
     month_cols = pd.date_range(first_date_in_data, last_date_in_data, 
-              freq='MS').strftime("%b-%Y").tolist()
+              freq='M').strftime("%b-%Y").tolist() + [last_date_in_data.strftime("%b-%Y")]
     
     other_cols = ['statistic', 'test', 'age_group'] 
     cols = other_cols + month_cols
