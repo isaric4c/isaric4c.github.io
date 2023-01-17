@@ -98,7 +98,7 @@ the Safe Haven for analysing with the study data, all personal identifiers
 will be removed. Importantly, whilst the information received is specific 
 to each trial participant, no individual person will be identifiable in
 any publication arising from this work. Your personal data will not be 
-shared with any 3rd parties outside of the CCP-UK trial team and will not
+shared with any commercial 3rd parties outside of the CCP-UK trial team and will not
 be used for any automated decision making or profiling. If you would like 
 to have this data withdrawn, please contact the study team using the details given below.
 
@@ -130,7 +130,7 @@ Before retrieving data from the Safe Haven for analysing with the study data,
 all personal identifiers will be removed. Importantly, whilst the information 
 received is specific to each trial participant, no individual person will be
 identifiable in any publication arising from this work. Your personal data will
-not be shared with any 3rd parties outside of the CCP-UK trial team and will not 
+not be shared with any commercial 3rd parties outside of the CCP-UK trial team and will not 
 be used for any automated decision making or profiling. If you would like to have
 this data withdrawn, please contact the study team using the details given below.
 
