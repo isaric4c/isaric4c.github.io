@@ -474,18 +474,23 @@ def create_AST_ALT_stats(df, output_filepath):
     first_elevated['cutoff'] = first_elevated['sample_date']
              
     df = df.merge(first_elevated[ ['patient_id', 'cutoff'] ], how = 'outer')
-    
+      
     # Select all rows where cutoff is null (patient never had an elevated test)
     # or sample date is less than or equal to date of first elevated test
     df = df[ (df['cutoff'].isnull() ) | 
                      (df['sample_date'] <= df['cutoff'] ) ] 
+    
+    print("Dataframe of first elevated tests constructed")
     
     first_date_in_data = df.sample_date.min()
     last_date_in_data = df.sample_date.max()
               
     # Create dataframe that will be filled out and be the final output
     month_cols = pd.date_range(first_date_in_data, last_date_in_data, 
-              freq='M').strftime("%b-%Y").tolist() + [last_date_in_data.strftime("%b-%Y")]
+              freq='M').strftime("%b-%Y").tolist()
+    
+    if first_date_in_data.month != last_date_in_data.month:
+        month_cols = month_cols + [last_date_in_data.strftime("%b-%Y")]
     
     other_cols = ['statistic', 'test', 'age_group'] 
     cols = other_cols + month_cols
@@ -493,18 +498,28 @@ def create_AST_ALT_stats(df, output_filepath):
     df_template = pd.DataFrame(columns=cols)
     df_template[cols] = df_template[cols].astype('float64')
      
+    print("Output dataframe template constructed")
+    
     # Merge 
     df_sub = sub_process(df, 'AST', False)     
     df_out = df_template.merge(df_sub, how = 'outer')
     
+    print("Statistics for all AST tests added")
+    
     df_sub = sub_process(df, 'AST', True)    
     df_out = df_out.merge(df_sub, how = 'outer')
+    
+    print("Statistics for elevated AST tests added")
     
     df_sub = sub_process(df, 'ALT', False)    
     df_out = df_out.merge(df_sub, how = 'outer')
     
+    print("Statistics for all ALT tests added")
+    
     df_sub = sub_process(df, 'ALT', True)    
     df_out = df_out.merge(df_sub, how = 'outer')
+    
+    print("Statistics for elevated ALT tests added")
     
     # Sort columns      
     df_out = df_out[cols]
