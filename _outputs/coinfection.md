@@ -1,8 +1,11 @@
 ---
-title: "Co-Infections, Secondary Infections, and Antimicrobial Usage"
+title: Co-Infections, Secondary Infections, and Antimicrobial Usage
 featured: false
 weight: 100
 doi: https://doi.org/10.1016/S2666-5247(21)00090-2
+projects:
+- isaric4c
+- odap
 ---
 
 [Lancet Microbe 2 June 2021]({{page.doi}})

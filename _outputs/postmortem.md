@@ -1,8 +1,11 @@
 ---
-title: "ICECAP autopsy study"
+title: ICECAP autopsy study
 featured: true
 weight: 80
 doi: https://doi.org/10.1164/rccm.202008-3265OC
+projects:
+- isaric4c
+- odap
 ---
 
 [American Journal of Respiratory and Critical Care Medicine 2021]({{page.doi}})

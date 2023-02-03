@@ -1,8 +1,11 @@
 ---
-title: "Testing the tests"
+title: Testing the tests
 featured: true
 weight: 100
 doi: https://doi.org/10.12688/wellcomeopenres.15927.1
+projects:
+- isaric4c
+- odap
 ---
 
 [MedRxiv May 2020]({{page.doi}})

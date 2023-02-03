@@ -1,8 +1,11 @@
 ---
-title: "Detection of antibodies to determine population exposure"
+title: Detection of antibodies to determine population exposure
 featured: false
 weight: 100
 doi: https://doi.org/10.2807/1560-7917.ES.2020.25.42.2000685
+projects:
+- isaric4c
+- odap
 ---
 
 [Eurosurveillance 22 Oct 2020]({{page.doi}})

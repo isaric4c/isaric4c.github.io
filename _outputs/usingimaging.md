@@ -1,8 +1,11 @@
 ---
-title: "Using imaging in COVID-19 -- UK National COVID-19 Chest Imaging Database"
+title: Using imaging in COVID-19 -- UK National COVID-19 Chest Imaging Database
 featured: false
 weight: 100
 doi: http://doi.org/10.1183/13993003.01809-2020
+projects:
+- isaric4c
+- odap
 ---
 
 [European Respiratory Journal 13 Aug 2020]({{page.doi}})

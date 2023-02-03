@@ -1,8 +1,11 @@
 ---
-title: "WHO guidelines on the use of chest imaging in COVID-19"
+title: WHO guidelines on the use of chest imaging in COVID-19
 featured: false
 weight: 23
 doi: https://apps.who.int/iris/handle/10665/361833
+projects:
+- isaric4c
+- odap
 ---
 
 [WHO Guidelines 2022]({{page.doi}})

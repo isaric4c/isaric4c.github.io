@@ -1,8 +1,11 @@
 ---
-title: "Vulnerability of Down's syndrome (DS) patients to severe COVID-19"
+title: Vulnerability of Down's syndrome (DS) patients to severe COVID-19
 featured: false
 weight: 100
 doi: https://doi.org/10.1016/j.eclinm.2021.100769
+projects:
+- isaric4c
+- odap
 ---
 
 [EClinical Medicine 22 Feb 2021]({{page.doi}}))

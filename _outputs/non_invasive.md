@@ -1,8 +1,11 @@
 ---
-title: "Detecting SARS-CoV-2 by non-invasive means"
+title: Detecting SARS-CoV-2 by non-invasive means
 featured: false
 weight: 23
 doi: https://doi.org/10.1016/j.jinf.2022.05.033
+projects:
+- isaric4c
+- odap
 ---
 
 [Journal of Infection August 2022]({{page.doi}})

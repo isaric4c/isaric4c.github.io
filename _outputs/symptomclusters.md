@@ -1,8 +1,11 @@
 ---
-title: "Symptom clusters"
+title: Symptom clusters
 featured: true
 weight: 100
 doi: https://doi.org/10.1101/2020.08.14.20168088
+projects:
+- isaric4c
+- odap
 ---
 
 [MedRxiv August 16th 2020.]({{page.doi}})

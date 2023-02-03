@@ -1,8 +1,11 @@
 ---
-title: "Characterisation of hospitalised cases of COVID-19"
+title: Characterisation of hospitalised cases of COVID-19
 featured: true
 weight: 21
 doi: https://doi.org/10.1136/bmj.m1985
+projects:
+- isaric4c
+- odap
 ---
 
 [BMJ: 2020; 369]({{page.doi}})

@@ -1,8 +1,11 @@
 ---
-title: "Outcomes of hospitalised COVID-19 patients with interstitial lung disease"
+title: Outcomes of hospitalised COVID-19 patients with interstitial lung disease
 featured: false
 weight: 100
 doi: https://doi.org/10.1164/rccm.202007-2794oc
+projects:
+- isaric4c
+- odap
 ---
 
 [American Journal of Respiratory and Critical Care 15 Dec 2020]({{page.doi}})

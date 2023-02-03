@@ -1,8 +1,11 @@
 ---
-title: "T cells target many different parts of the virus"
+title: T cells target many different parts of the virus
 featured: true
 weight: 25
 doi: https://doi.org/10.1038/s41590-020-0782-6
+projects:
+- isaric4c
+- odap
 ---
 
 [Nature Immunology (4th September 2020)]({{page.doi}}))

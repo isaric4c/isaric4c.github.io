@@ -1,8 +1,11 @@
 ---
-title: "Hospital acquired COVID-19 in England during the first wave of the pandemic"
+title: Hospital acquired COVID-19 in England during the first wave of the pandemic
 featured: false
 weight: 23
 doi: https://doi.org/10.1186/s12879-022-07490-4
+projects:
+- isaric4c
+- odap
 ---
 
 [BMC Infectious Diseases June 2022]({{page.doi}})

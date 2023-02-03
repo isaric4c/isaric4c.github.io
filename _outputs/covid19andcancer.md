@@ -1,8 +1,11 @@
 ---
-title: "COVID-19 and Cancer"
+title: COVID-19 and Cancer
 featured: false
 weight: 100
 doi: http://doi.org/10.1136/esmoopen-2020-000825
+projects:
+- isaric4c
+- odap
 ---
 
 [Esmo Open 1 May 2020]({{page.doi}})

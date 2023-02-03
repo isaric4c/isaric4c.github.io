@@ -1,8 +1,11 @@
 ---
-title: "Genetic mechanisms of severe Covid-19"
+title: Genetic mechanisms of severe Covid-19
 featured: true
 weight: 21
 doi: https://doi.org/10.1038/s41586-020-03065-y
+projects:
+- isaric4c
+- odap
 ---
 
 [MedRxiv September 2020; Nature online December 2020]({{page.doi}})

@@ -1,8 +1,11 @@
 ---
-title: "Clinical characterisation of Covid-19 in children"
+title: Clinical characterisation of Covid-19 in children
 featured: true
 weight: 22
-doi: https://doi.org/10.1136/bmj.m3249 
+doi: https://doi.org/10.1136/bmj.m3249
+projects:
+- isaric4c
+- odap
 ---
 
 [BMJ 2020;370:m3249]({{page.doi}})

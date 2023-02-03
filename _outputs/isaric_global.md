@@ -1,7 +1,10 @@
 ---
-title: "ISARIC4C within the global ISARIC-network"
+title: ISARIC4C within the global ISARIC-network
 featured: false
 weight: 100
+projects:
+- isaric4c
+- odap
 ---
 
 An alternate weekly data share is made with global ISARIC CCP partners

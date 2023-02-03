@@ -1,8 +1,11 @@
 ---
-title: "Distinct clinical symptom patterns in patients hospitalised with COVID-19"
+title: Distinct clinical symptom patterns in patients hospitalised with COVID-19
 featured: false
 weight: 23
 doi: https://doi.org/10.1038/s41598-022-08032-3
+projects:
+- isaric4c
+- odap
 ---
 
 [Scientific reports April 2022]({{page.doi}})

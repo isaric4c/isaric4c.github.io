@@ -1,8 +1,11 @@
 ---
-title: "Adverse outcomes in COVID-19 patients with underlying respiratory conditions"
+title: Adverse outcomes in COVID-19 patients with underlying respiratory conditions
 featured: false
 weight: 100
 doi: https://doi.org/10.1016/s2213-2600(21)00013-8
+projects:
+- isaric4c
+- odap
 ---
 
 [Lancet Respiratory Medicine 4 March 2021]({{page.doi}})

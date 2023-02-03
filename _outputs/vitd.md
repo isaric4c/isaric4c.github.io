@@ -1,8 +1,11 @@
 ---
-title: "Vitamin D insufficiency in COVID-19 and influenza A"
+title: Vitamin D insufficiency in COVID-19 and influenza A
 featured: false
 weight: 23
 doi: http://dx.doi.org/10.1136/bmjopen-2021-055435
+projects:
+- isaric4c
+- odap
 ---
 
 [BMJ Open 30 Sept 2021]({{page.doi}})

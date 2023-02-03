@@ -1,8 +1,11 @@
 ---
-title: "Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies"
+title: Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies
 featured: false
 weight: 23
 doi: https://doi.org/10.1016/j.jviromet.2022.114475
+projects:
+- isaric4c
+- odap
 ---
 
 [Journal of Virological Methods, April 2022]({{page.doi}})

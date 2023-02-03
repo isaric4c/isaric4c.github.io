@@ -1,8 +1,12 @@
 ---
-title: "Tissue proteomic analysis identifies mechanisms and stages of immunopathology in fatal COVID-19"
+title: Tissue proteomic analysis identifies mechanisms and stages of immunopathology
+  in fatal COVID-19
 featured: false
 weight: 23
 doi: https://doi.org/10.1165/rcmb.2021-0358OC
+projects:
+- isaric4c
+- odap
 ---
 
 [American Journal of Respiratory Cell and Molecular Biology 26 October 2021]({{page.doi}})

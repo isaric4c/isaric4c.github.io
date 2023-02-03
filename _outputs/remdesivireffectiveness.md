@@ -1,8 +1,11 @@
 ---
-title: "Evaluation of effectiveness of remdesivir in treating severe COVID-19"
+title: Evaluation of effectiveness of remdesivir in treating severe COVID-19
 featured: false
 weight: 23
 doi: https://doi.org/10.1101/2021.06.18.21259072
+projects:
+- isaric4c
+- odap
 ---
 
 [MedRxiv pre-prints 21 June 2021]({{page.doi}})

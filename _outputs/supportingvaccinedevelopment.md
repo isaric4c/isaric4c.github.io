@@ -1,8 +1,11 @@
 ---
-title: "Supporting vaccine development"
+title: Supporting vaccine development
 featured: false
 weight: 60
 doi: https://doi.org/10.1016/S0140-6736(20)31604-4
+projects:
+- isaric4c
+- odap
 ---
 
 [The Lancet, 15 August 2020]({{page.doi}})

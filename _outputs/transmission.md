@@ -1,8 +1,11 @@
 ---
-title: "SARS-CoV-2 surface and air contamination in a healthcare setting"
+title: SARS-CoV-2 surface and air contamination in a healthcare setting
 featured: false
 weight: 50
 doi: https://doi.org/10.1093/cid/ciaa905
+projects:
+- isaric4c
+- odap
 ---
 
 [Clinical Infectious Diseases 8 Jul 2020]({{page.doi}})

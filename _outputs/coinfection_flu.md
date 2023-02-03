@@ -1,8 +1,12 @@
 ---
-title: "Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients"
+title: Co-Infection with influenza virus is associated with worse outcomes in hospitalised
+  Covid patients
 featured: false
 weight: 1
 doi: https://doi.org/10.1016/S0140-6736(22)00383-X
+projects:
+- isaric4c
+- odap
 ---
 
 [Lancet 2022]({{page.doi}})

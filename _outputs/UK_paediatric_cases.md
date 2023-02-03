@@ -1,8 +1,11 @@
 ---
-title: "UK Paediatric COVID-19 cases in the first and second pandemic wave"
+title: UK Paediatric COVID-19 cases in the first and second pandemic wave
 featured: false
 weight: 23
 doi: https://doi.org/10.1038/s41390-022-02052-5
+projects:
+- isaric4c
+- odap
 ---
 
 [Pediatric Research April 2022]({{page.doi}})

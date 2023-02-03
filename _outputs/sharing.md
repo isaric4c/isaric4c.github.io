@@ -1,7 +1,10 @@
 ---
-title: "Sharing samples and data"
+title: Sharing samples and data
 featured: true
 weight: 14
+projects:
+- isaric4c
+- odap
 ---
 
 ISARIC4C was designed from the outset as a foundation for the UK outbreak response, supporting researchers across the country.

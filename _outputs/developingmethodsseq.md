@@ -1,8 +1,11 @@
 ---
-title: "Developing methods of sequencing the virus"
+title: Developing methods of sequencing the virus
 featured: false
 weight: 100
 doi: http://doi.org/10.3390/v12101164
+projects:
+- isaric4c
+- odap
 ---
 
 [Viruses 14 Oct 2020]({{page.doi}})

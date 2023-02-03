@@ -1,8 +1,11 @@
 ---
-title: "Viral spike variants evading antibody-mediated immunity"
+title: Viral spike variants evading antibody-mediated immunity
 featured: false
 weight: 27
 doi: https://doi.org/10.1016/j.cell.2021.01.037
+projects:
+- isaric4c
+- odap
 ---
 
 [Cell 4 Mar 2021]({{page.doi}})

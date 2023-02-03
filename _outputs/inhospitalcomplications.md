@@ -1,8 +1,11 @@
 ---
-title: "Characterisation of in-hospital complications associated with COVID-19"
+title: Characterisation of in-hospital complications associated with COVID-19
 featured: true
 weight: 22
 doi: https://doi.org/10.1016/S0140-6736(21)00799-6
+projects:
+- isaric4c
+- odap
 ---
 
 [The Lancet, 17 July 2021]({{page.doi}})

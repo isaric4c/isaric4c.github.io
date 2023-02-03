@@ -1,8 +1,12 @@
 ---
-title: "Circulating histones play a central role in COVID-19-associated coagulopathy and mortality"
+title: Circulating histones play a central role in COVID-19-associated coagulopathy
+  and mortality
 featured: false
 weight: 23
 doi: https://doi.org/10.3324/haematol.2021.278492
+projects:
+- isaric4c
+- odap
 ---
 
 [Haematologica Early View 8 April 2021]({{page.doi}})

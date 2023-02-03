@@ -1,8 +1,12 @@
 ---
-title: "Pulmonary Microthrombosis and Vasculitis in Life-Threatening Respiratory Virus Diseases"
+title: Pulmonary Microthrombosis and Vasculitis in Life-Threatening Respiratory Virus
+  Diseases
 featured: false
 weight: 100
 doi: http://doi.org/10.1093/ofid/ofaa640
+projects:
+- isaric4c
+- odap
 ---
 
 [Open Forum Infectious Diseases 28 Dec 2020]({{page.doi}})

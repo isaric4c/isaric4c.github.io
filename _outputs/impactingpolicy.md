@@ -1,7 +1,10 @@
 ---
-title: "Impacting Policy"
+title: Impacting Policy
 featured: false
 weight: 15
+projects:
+- isaric4c
+- odap
 ---
 
 ISARIC4C and CO-CIN (Tier 0) feed data dynamically to Public Health

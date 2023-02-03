@@ -1,8 +1,11 @@
 ---
-title: "Long Covid in adults discharged from UK hospitals after Covid-19"
+title: Long Covid in adults discharged from UK hospitals after Covid-19
 featured: false
 weight: 23
 doi: https://doi.org/10.1101/2021.03.18.21253888
+projects:
+- isaric4c
+- odap
 ---
 
 [MedRxiv pre-prints 25 March 2021]({{page.doi}})

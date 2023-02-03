@@ -1,8 +1,11 @@
 ---
-title: "New immune biomarkers for COVID-19"
+title: New immune biomarkers for COVID-19
 featured: false
 weight: 100
 doi: https://doi.org/10.1111/imm.13585
+projects:
+- isaric4c
+- odap
 ---
 
 [Immunology September 2022]({{page.doi}})

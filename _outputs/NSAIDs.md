@@ -1,8 +1,11 @@
 ---
-title: "Non-steroidal anti-inflammatory drug use and outcomes of COVID-19"
+title: Non-steroidal anti-inflammatory drug use and outcomes of COVID-19
 featured: true
 weight: 24
 doi: https://doi.org/10.1016/S2665-9913(21)00104-1
+projects:
+- isaric4c
+- odap
 ---
 
 [The Lancet: Rheumatology May 07, 2021]({{page.doi}})

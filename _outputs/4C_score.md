@@ -1,8 +1,11 @@
 ---
-title: "Risk prediction: the 4C Mortality Score"
+title: 'Risk prediction: the 4C Mortality Score'
 featured: true
 weight: 20
 doi: https://doi.org/10.1136/bmj.m3339
+projects:
+- isaric4c
+- odap
 ---
 
 [BMJ 9 Mar 2020]({{page.doi}})

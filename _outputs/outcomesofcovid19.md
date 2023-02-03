@@ -1,8 +1,11 @@
 ---
-title: "Outcomes of COVID-19 hospitalisation among patients with HIV"
+title: Outcomes of COVID-19 hospitalisation among patients with HIV
 featured: false
 weight: 100
 doi: https://doi.org/10.1093/cid/ciaa1605
+projects:
+- isaric4c
+- odap
 ---
 
 [Clinical Infectious Diseases 23 Oct 2020]({{page.doi}})

@@ -1,8 +1,11 @@
 ---
-title: "Understanding the Omicron variant and how it responds to vaccination"
+title: Understanding the Omicron variant and how it responds to vaccination
 featured: false
 weight: 23
-doi: https://doi.org/10.1016/j.cell.2022.06.005 
+doi: https://doi.org/10.1016/j.cell.2022.06.005
+projects:
+- isaric4c
+- odap
 ---
 
 [Cell July 2022]({{page.doi}})

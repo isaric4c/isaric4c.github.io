@@ -1,8 +1,12 @@
 ---
-title: "Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological complications"
+title: Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological
+  complications
 featured: false
 weight: 23
 doi: https://doi.org/10.1002/ana.26536
+projects:
+- isaric4c
+- odap
 ---
 
 [Annals of Neurology October 2022]({{page.doi}})

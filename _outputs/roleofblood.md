@@ -1,8 +1,11 @@
 ---
-title: "Role of blood cytokines IL-6 and GM-CSF in severe COVID-19"
+title: Role of blood cytokines IL-6 and GM-CSF in severe COVID-19
 featured: false
 weight: 24
 doi: https://doi.org/10.1126/sciimmunol.abg9873
+projects:
+- isaric4c
+- odap
 ---
 
 [Science Immunology 10 Mar 2021]({{page.doi}})

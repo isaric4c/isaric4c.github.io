@@ -1,7 +1,10 @@
 ---
-title: "Setting Serology Standards"
+title: Setting Serology Standards
 featured: true
 weight: 26
+projects:
+- isaric4c
+- odap
 ---
 
 # Setting the standard
