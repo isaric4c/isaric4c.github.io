@@ -3,6 +3,8 @@ title: The ACE2 coronavirus receptor
 doi: https://doi.org/10.1161/CIRCULATIONAHA.121.057888
 projects:
 - genomicc
+weight: 50
+featured: false
 ---
 
 [Circulation May 2022]({{page.doi}})

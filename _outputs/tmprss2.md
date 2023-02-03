@@ -3,6 +3,8 @@ title: Identification of a novel protective genetic variant against severe COVID
 doi: https://doi.org/10.1016/j.retram.2022.103333
 projects:
 - genomicc
+weight: 50
+featured: false
 ---
 
 [Current Research in Translational Medicine May 2022]({{page.doi}})

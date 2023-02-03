@@ -3,6 +3,8 @@ title: Rare genetic variants influencing COVID-19 outcomes
 doi: https://doi.org/10.1371/journal.pgen.1010367
 projects:
 - genomicc
+weight: 50
+featured: false
 ---
 
 [PLoS Genetics November 2022]({{page.doi}})

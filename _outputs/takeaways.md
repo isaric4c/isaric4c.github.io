@@ -3,6 +3,8 @@ title: Two key takeaways from a year of pandemic research
 doi: 10.1097/CCM.0000000000005078
 projects:
 - genomicc
+weight: 50
+featured: false
 ---
 
 [Critical Care Medicine August 2021]({{page.doi}})

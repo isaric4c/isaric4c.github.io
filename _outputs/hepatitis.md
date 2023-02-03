@@ -1,6 +1,8 @@
 ---
 title: Adeno-associated virus 2 infection in children with non-A-E hepatitis
 doi: https://doi.org/10.1101/2022.07.19.22277425
+weight: 50
+featured: false
 ---
 
 [MedRxiv (pre-print) July 2022]({{page.doi}})

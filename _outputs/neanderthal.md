@@ -3,6 +3,8 @@ title: Neandertal DNA associated with severe illness with COVID-19
 doi: https://doi.org/10.1073/pnas.2026309118
 projects:
 - genomicc
+weight: 50
+featured: false
 ---
 
 [Proceedings of the National Academy of Sciences of the United States of America March 2021]({{page.doi}})
