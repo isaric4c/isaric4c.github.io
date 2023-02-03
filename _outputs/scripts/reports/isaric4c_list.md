@@ -24,6 +24,7 @@
 - T cells target many different parts of the virus [https://doi.org/10.1038/s41590-020-0782-6]
 - Setting Serology Standards
 - Viral spike variants evading antibody-mediated immunity [https://doi.org/10.1016/j.cell.2021.01.037]
+- Adeno-associated virus 2 infection in children with non-A-E hepatitis [https://doi.org/10.1101/2022.07.19.22277425]
 - SARS-CoV-2 surface and air contamination in a healthcare setting [https://doi.org/10.1093/cid/ciaa905]
 - Impact of ethnicity [http://dx.doi.org/10.2139/ssrn.3618215]
 - Supporting vaccine development [https://doi.org/10.1016/S0140-6736(20)31604-4]

@@ -1,0 +1,7 @@
+- Whole-genome sequencing reveals host factors underlying critical COVID-19 [https://doi.org/10.1038/s41586-022-04576-6]
+- Two key takeaways from a year of pandemic research [10.1097/CCM.0000000000005078]
+- Neandertal DNA associated with severe illness with COVID-19 [https://doi.org/10.1073/pnas.2026309118]
+- Identification of a novel protective genetic variant against severe COVID-19 [https://doi.org/10.1016/j.retram.2022.103333]
+- Rare genetic variants influencing COVID-19 outcomes [https://doi.org/10.1371/journal.pgen.1010367]
+- Biomarkers of COVID-19 and technologies to combat SARS-CoV-2 [https://doi.org/10.1016/j.abst.2020.08.001]
+- The ACE2 coronavirus receptor [https://doi.org/10.1161/CIRCULATIONAHA.121.057888]

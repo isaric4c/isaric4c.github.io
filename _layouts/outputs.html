@@ -24,6 +24,7 @@ bodyClass: page-outputs-list
   <div class="row">
     {% assign sortedoutputs = site.outputs | sort: "weight" %}
     {% for output in sortedoutputs %}
+    {% if output.projects contains page.project %}
     <div class="col-12 col-md-6 mb-3">
       <div class="output output-summary">
         <div class="output-content">
@@ -35,6 +36,7 @@ bodyClass: page-outputs-list
         </div>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </div>

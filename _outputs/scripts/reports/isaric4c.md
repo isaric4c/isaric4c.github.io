@@ -1,4 +1,4 @@
-**ISARIC4C has produced 41 papers with an average altmetric score of 987.**
+**ISARIC4C has produced 48 papers with an average altmetric score of 974.**
 
 # Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients
 
@@ -110,7 +110,7 @@ In 2244 Covid cases, we compared severely ill patients with matched members of t
 
 Although we know the DNA associations are real, we can't always be sure exactly how these variants lead to disease. The most likely genes underlying each of the four new discoveries are IFNAR2, TYK2, OAS1, DPP9.
 
-The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has already influenced the inclusion of new therapies in the RECOVERY trial.
+The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has influenced the inclusion of baricitinib in the RECOVERY trial.
 
 Altmetric score: 2827[https://doi.org/10.1038/s41586-020-03065-y]
 
@@ -121,7 +121,7 @@ Altmetric score: 2827[https://doi.org/10.1038/s41586-020-03065-y]
 
 We have comprehensively characterised the burden and patterns of disease in children in the UK, demonstrating that life-threatening disease in otherwise healthy children is extremely rare. This had direct impact on public health policy in the UK and abroad.
 
-Altmetric score: 2857[https://doi.org/10.1136/bmj.m3249]
+Altmetric score: 2858[https://doi.org/10.1136/bmj.m3249]
 
 
 # Characterisation of in-hospital complications associated with COVID-19
@@ -322,6 +322,15 @@ virus can mutate and the need for ongoing molecular surveillance to
 guide development and usage of vaccines and therapeutics.
 
 Altmetric score: 447[https://doi.org/10.1016/j.cell.2021.01.037]
+
+
+# Adeno-associated virus 2 infection in children with non-A-E hepatitis
+
+[MedRxiv (pre-print) July 2022](https://doi.org/10.1101/2022.07.19.22277425)
+
+An outbreak of acute hepatitis of unknown aetiology in children was first reported in Scotland in April 2022. We carried out a detailed investigation of nine cases and 58 control subjects. Using next-generation sequencing and real-time polymerase chain reaction, our team compared samples and were able to **confirm the presence of AAV2 in the plasma and liver of all nine cases**. There was no AAV2 in any of the subjects in the control groups, which were made up of: age-matched healthy controls; children with adenovirus but normal liver function; and children admitted to hospital with known causes of hepatitis. AAV2 is not known to normally cause disease and often accompanies infection with adenoviruse, but we have now shown presence of the AAV2 virus associated with unexplained hepatitis in children. Larger studies are urgently needed to investigate the unanswered questions about the role of AAV2 in paediatric hepatitis cases.
+
+Altmetric score: 2109[https://doi.org/10.1101/2022.07.19.22277425]
 
 
 # SARS-CoV-2 surface and air contamination in a healthcare setting
