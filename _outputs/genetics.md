@@ -16,6 +16,5 @@ In 2244 Covid cases, we compared severely ill patients with matched members of t
 
 Although we know the DNA associations are real, we can't always be sure exactly how these variants lead to disease. The most likely genes underlying each of the four new discoveries are IFNAR2, TYK2, OAS1, DPP9.
 
-The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has already influenced the inclusion of new therapies in the RECOVERY trial.
-
+The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has influenced the inclusion of baricitinib in the RECOVERY trial.
 

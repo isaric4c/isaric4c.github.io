@@ -1,4 +1,18 @@
-**ISARIC4C has produced 30 papers with an average altmetric score of 1159.**
+**ISARIC4C has produced 41 papers with an average altmetric score of 987.**
+
+# Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients
+
+[Lancet 2022](https://doi.org/10.1016/S0140-6736(22)00383-X)
+[SAGE minutes](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1055478/S1517_Influenza_virus_coinfection_is_associated_with_worse_COVID-19_outcomes_COCIN.pdf)
+
+This analysis provides a clear answer to a simple question: what is the effect of co-infection with common viruses on top of Covid? We compared outcomes across people who tested positive for three different viruses (influenza (flu) virus, adenovirus, and RSV) and found that co-infection with the flu virus was associated a higher chance of critical illness and death. 
+
+This has direct implications for the NHS, suggesting that we should test patients more often for flu. It also provides another reason to vaccinate people more widely against both flu and Covid, particularly as flu is expected to make a comeback in 2022. 
+
+As with much of our work, this was discussed immediately at the UK government advisory group, SAGE, and has already influenced the thinking around policy.
+
+Altmetric score: 3834[https://doi.org/10.1016/S0140-6736(22)00383-X]
+
 
 # Sharing samples and data
 
@@ -21,10 +35,12 @@ Dynamic data feeds from the [data analysis platform](/ap) are provided via API t
 
 ISARIC4C and CO-CIN (Tier 0) feed data dynamically to Public Health
 Scotland, Public Health England, SPI-M, NERVTAG and SAGE. SPI-M have
-been high productive and published several analysis that informed
+been highly productive and published several analysis that informed
 Policy.
 
-Key UK policy documents citing ISARIC4C / CO-CIN data
+ISARIC4C and CO-CIN data are used to inform the NHS England Independent Advisory Group concerning the use of neutralising monoclonal antibodies and anti-viral drugs in high-risk clinical subgroups. 
+
+Other key UK policy documents citing ISARIC4C / CO-CIN data
 
 1.  COVID-19: the green book, chapter 14a.
 
@@ -53,6 +69,14 @@ The 4C Mortality Score can be found here: [isaric4c.net/risk](/risk)
 
 The 4C Mortality Score has been extensively validated in independent studies across the world. Validation of the 4C score showed similar discrimination in the following countries:
 
+* [Singapore](https://doi.org/10.1093/cid/ciac087)
+* [Japan](https://doi.org/10.3390/jcm11030821)
+* [United States](10.2196/31549)
+* [Brazil](https://doi.org/10.1016/j.ijid.2021.07.049)
+* [Brazil and Spain](https://doi.org/10.1016/j.cmi.2021.03.002)
+* [Belgium](https://doi.org/10.1080/23744235.2021.1896777)
+* [Saudi Arabia](https://www.sjmms.net/article.asp?issn=1658-631X;year=2022;volume=10;issue=1;spage=19;epage=24;aulast=Aletreby)
+* [Australia](https://search.informit.org/doi/abs/10.3316/informit.247030265377533)
 * [France](https://doi.org/10.1038/s41467-020-20657-4)
 * [The Netherlands](https://doi.org/10.1080/07853890.2021.1891453)
 * [Italy](https://doi.org/10.1111/jgs.16956)
@@ -60,8 +84,11 @@ The 4C Mortality Score has been extensively validated in independent studies acr
 * [Turkey](https://doi.org/10.1016/j.hrtlng.2021.01.006)
 * [Canada, Toronto](https://doi.org/10.1503/cmaj.202795)
 * [Canada, Ontario](https://doi.org/10.21203/rs.3.rs-268410/v1)
+* [Romania](https://doi.org/10.3390/medicina58070848)
 
-Altmetric score: 752[https://doi.org/10.1136/bmj.m3339]
+Using data from the second wave of the COVID-19 pandemic in the UK, a [prospective validation study](https://thorax.bmj.com/content/early/2021/11/21/thoraxjnl-2021-217629) showed that both the 4C Mortality Score and 4C Deterioration Score demonstrated consistent performance to predict clinical deterioration and mortality. Despite recent advances in the treatment and management of adults hospitalised with COVID-19, both scores can continue to inform clinical decision making.
+
+Altmetric score: 743[https://doi.org/10.1136/bmj.m3339]
 
 
 # Characterisation of hospitalised cases of COVID-19
@@ -70,7 +97,7 @@ Altmetric score: 752[https://doi.org/10.1136/bmj.m3339]
 
 Within weeks of being funded, we produced the largest study anywhere in the world of COVID-19 cases, enabling us to produce the most accurate risk prediction models for the UK population. These will continue to improve. The first one shows that obesity is an important risk factor amongst many. This finding will help to protect people at high risk of death from COVID-19. Our preprint is now online **Features of 16,749 hospitalised UK patients with COVID-19 using the ISARIC WHO Clinical Characterisation Protocol**. We have also produced an [interactive infographic](/risk/v1) to help communicate these findings.
 
-Altmetric score: 2027[https://doi.org/10.1136/bmj.m1985]
+Altmetric score: 2203[https://doi.org/10.1136/bmj.m1985]
 
 
 # Genetic mechanisms of severe Covid-19
@@ -85,7 +112,7 @@ Although we know the DNA associations are real, we can't always be sure exactly 
 
 The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has already influenced the inclusion of new therapies in the RECOVERY trial.
 
-Altmetric score: 2799[https://doi.org/10.1038/s41586-020-03065-y]
+Altmetric score: 2827[https://doi.org/10.1038/s41586-020-03065-y]
 
 
 # Clinical characterisation of Covid-19 in children
@@ -94,7 +121,7 @@ Altmetric score: 2799[https://doi.org/10.1038/s41586-020-03065-y]
 
 We have comprehensively characterised the burden and patterns of disease in children in the UK, demonstrating that life-threatening disease in otherwise healthy children is extremely rare. This had direct impact on public health policy in the UK and abroad.
 
-Altmetric score: 2858[https://doi.org/10.1136/bmj.m3249]
+Altmetric score: 2857[https://doi.org/10.1136/bmj.m3249]
 
 
 # Characterisation of in-hospital complications associated with COVID-19
@@ -103,7 +130,9 @@ Altmetric score: 2858[https://doi.org/10.1136/bmj.m3249]
 
 As well as death, severe COVID-19 disease has effects on many different organ systems. In this study, published in The Lancet, we characterised the burden of complications and organ injury in 73,197 patients admitted to hospital between January and August 2020. We found that nearly 1 in 2 people had at least one complication. Having a complication was associated with higher rates of critical care admission and mortality. When we studied predictors of complications, we identified that unlike in the case of mortality, where older, more frail people had a higher chance of death, younger people were also at risk of developing complications. This study received international media attention and coverage from the BBC, ABC, Sky news, ITV, STV and most major UK newspapers.
 
-Altmetric score: 2778[https://doi.org/10.1016/S0140-6736(21)00799-6]
+This work was also the subject of a system-wide [NIHR update](https://evidence.nihr.ac.uk/alert/one-in-two-people-hospitalised-with-covid-19-develop-complications-may-need-support/).
+
+Altmetric score: 2667[https://doi.org/10.1016/S0140-6736(21)00799-6]
 
 
 # Circulating histones play a central role in COVID-19-associated coagulopathy and mortality
@@ -114,6 +143,24 @@ COVID-19 has highlighted the lethal consequences of immunothrombosis; i.e. the c
 significant immune cell death, which can release pro-coagulant and cytotoxic histones. In this translational study, we showed that circulating histones play a central role in critically ill COVID-19 patients with admission histone levels significantly elevated with increasing severity of COVID-19 infection.
 
 Altmetric score: 3[https://doi.org/10.3324/haematol.2021.278492]
+
+
+# Tissue proteomic analysis identifies mechanisms and stages of immunopathology in fatal COVID-19
+
+[American Journal of Respiratory Cell and Molecular Biology 26 October 2021](https://doi.org/10.1165/rcmb.2021-0358OC)
+
+Peripheral blood inflammatory profiles are increasingly well characterised in Covid-19 but knowledge of the host response within inflamed tissues is lacking. Post-mortem lung and spleen whole-tissue proteomics identified differentially abundant proteins of mechanistic and translational interest (including MCP-3, TYMP, EN-RAGE and CSF-1). Lung proteomic clusters identified distinct disease stages that differed in pulmonary viral presence, inflammation severity, illness duration, and abundance of proteins of interest including IL-6 and IRAK1
+
+Altmetric score: 7[https://doi.org/10.1165/rcmb.2021-0358OC]
+
+
+# Hospital acquired COVID-19 in England during the first wave of the pandemic
+
+[BMC Infectious Diseases June 2022](https://doi.org/10.1186/s12879-022-07490-4)
+
+Using data from the ISARIC4C UK COVID-19 Clinical Information Network study, this study identified that 1 in 5 hospitalised patients in England during the first wave of the pandemic caught the virus while hospitalised for other causes. However, this accounted for less than 1% of all COVID-19 cases in England, both hospitalised and not.
+
+Altmetric score: 13[https://doi.org/10.1186/s12879-022-07490-4]
 
 
 # Long Covid in adults discharged from UK hospitals after Covid-19
@@ -127,7 +174,63 @@ Covid-19 symptoms. The symptoms reported include fatigue, followed by
 breathlessness. These findings were present in young, previously healthy
 working age adults, and were most common in younger females.
 
-Altmetric score: 907[https://doi.org/10.1101/2021.03.18.21253888]
+Altmetric score: 852[https://doi.org/10.1101/2021.03.18.21253888]
+
+
+# Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological complications
+
+[Annals of Neurology October 2022](https://doi.org/10.1002/ana.26536)
+
+Preventing the development of neurological complications after severe COVID-19 infections remains an important aim for doctors. Data from the ISARIC4C study group showed that individuals who go on to have neurological issues after being hospitalised with COVID-19 do not recover as well and have an increased risk of death. This study showed that patients treated with dexamethasone, a commonly used steroid, or remdesivir, an antiviral drug first used in hepatitis C, were less likely to have neurological issues than those who were not treated. The use of both of these drugs together further reduced the risk of complications.
+
+Altmetric score: 37[https://doi.org/10.1002/ana.26536]
+
+
+# UK Paediatric COVID-19 cases in the first and second pandemic wave
+
+[Pediatric Research April 2022](https://doi.org/10.1038/s41390-022-02052-5)
+
+Data from paediatric patients in the ISARIC4C study were used to help inform SAGE for the vaccination policy in children and young people earlier in 2022. Even though there was a change in the viral variant, a relaxation of shielding, and a return to face-to-face schooling, no evidence of increased severity in paediatric COVID-19 hospital admissions was found between the second and first waves of the COVID-19 pandemic.
+
+Altmetric score: 40[https://doi.org/10.1038/s41390-022-02052-5]
+
+
+# Vitamin D insufficiency in COVID-19 and influenza A
+
+[BMJ Open 30 Sept 2021](http://dx.doi.org/10.1136/bmjopen-2021-055435)
+
+Vitamin D deficiency/insufficiency was present in the majority of hospitalised patients with Covid-19 (ISARIC4C study) and influenza A (MOSAIC study, 2009-10 H1N1 pandemic), correlated with severity and persisted in non-selected critical illness survivors (prior to Covid-19 pandemic) at concentrations expected to disrupt bone metabolism. These findings support early supplementation trials to determine if insufficiency is causal in progression to severe disease, and investigation of longer-term bone health outcomes.
+
+Altmetric score: 65[http://dx.doi.org/10.1136/bmjopen-2021-055435]
+
+
+# Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies
+
+[Journal of Virological Methods, April 2022](https://doi.org/10.1016/j.jviromet.2022.114475)
+
+Accurate and sensitive detection of antibody to SARS-CoV-2 remains an essential component of the pandemic response. 
+Measuring antibody that predicts neutralising activity and the vaccine response is an absolute requirement for laboratory-based confirmatory and reference activity.
+The viral receptor binding domain (RBD) constitutes the prime target antigen for neutralising antibody. A hybrid double antigen binding assay (DABA) for anti-RBD showed a specificity of 100 % on 825 pre COVID-19 samples and a potential sensitivity of 99.6 % on 276 recovery samples, predicting quantitatively the presence of neutralising antibody determined by pseudo-type neutralization and by plaque reduction.
+
+Altmetric score: 1[https://doi.org/10.1016/j.jviromet.2022.114475]
+
+
+# Detecting SARS-CoV-2 by non-invasive means
+
+[Journal of Infection August 2022](https://doi.org/10.1016/j.jinf.2022.05.033)
+
+Finding non-invasive methods to detect the SARS-CoV-2 virus has been essential for rapid self-testing during the pandemic. This study compared gingival crevicular fluid (GCF), taken by swabbing the gums, to blood samples from patients in the ISARIC4C UK study. It was shown that GCF taken from the gums can detect the virus, and higher levels of SARS-CoV-2 antibodies in the GCF in the early acute phase of the illness are linked to more severe COVID-19 infections.
+
+Altmetric score: 4[https://doi.org/10.1016/j.jinf.2022.05.033]
+
+
+# Understanding the Omicron variant and how it responds to vaccination
+
+[Cell July 2022](https://doi.org/10.1016/j.cell.2022.06.005)
+
+The Omicron variant of the SARS-CoV-2 virus spread rapidly, even in those who had been vaccinated against it. This study examined the different DNA sequence of this viral variant to determine mutations in the virus from patient blood samples from the ISARIC4C study and the effect these mutations have on the ability for the vaccination to prevent infection or illness. Understanding these alterations can help with future vaccine strategies and prevent more rapidly spreading SARS-CoV-2 variants in the future.
+
+Altmetric score: 1660[https://doi.org/10.1016/j.cell.2022.06.005]
 
 
 # Evaluation of effectiveness of remdesivir in treating severe COVID-19
@@ -139,6 +242,24 @@ Adults with severe COVID-19 treated with remdesivir were compared with propensit
 Altmetric score: 22[https://doi.org/10.1101/2021.06.18.21259072]
 
 
+# WHO guidelines on the use of chest imaging in COVID-19
+
+[WHO Guidelines 2022](https://apps.who.int/iris/handle/10665/361833)
+
+The ISARIC-CCP UK study has aided in the creation of the 2022 World Health Organisation (WHO) guidelines for the use of chest imaging in COVID-19. These guidelines state that “for patients with suspected or confirmed COVID-19, not currently hospitalized but with mild symptoms, WHO suggests using chest imaging to in addition to clinical and laboratory assessment to decide on hospital admission versus home discharge”. This guideline is based on patients first undergoing the validated risk stratification tool outlined in ISARIC-CCP.
+
+[https://apps.who.int/iris/handle/10665/361833]
+
+
+# Distinct clinical symptom patterns in patients hospitalised with COVID-19
+
+[Scientific reports April 2022](https://doi.org/10.1038/s41598-022-08032-3)
+
+Although the most common symptoms of COVID-19 tend to be fever, cough, and difficulty breathing, many other symptoms have been reported, including fatigue, confusion, diarrhoea, and vomiting. Using the data from 59,011 patients in the ISARI4C study. Patients presenting with gastrointestinal symptoms were more commonly female, had a longer duration of symptoms before presentation, and had lower 30-day mortality. On the other hand, patients presenting with confusion were older and had a higher unadjusted mortality. This study suggests four different groups of patients with differing symptoms, with or without the core three symptoms, that should be treated differently if hospitalised to prevent mortality.
+
+Altmetric score: 1[https://doi.org/10.1038/s41598-022-08032-3]
+
+
 # Non-steroidal anti-inflammatory drug use and outcomes of COVID-19
 
 [The Lancet: Rheumatology May 07, 2021](https://doi.org/10.1016/S2665-9913(21)00104-1)
@@ -147,7 +268,7 @@ Early in the pandemic it was suggested that pre-existing use of non-steroidal an
 
 Using data from 78,674 patients in ISARIC4C, we showed that NSAID use is not associated with higher mortality or increased severity of COVID-19. To our knowledge, our prospective study includes the largest number of patients admitted to hospital with COVID-19 to date, and adds to the literature on the safety of NSAIDs and in-hospital outcomes. NSAIDs do not appear to increase the risk of worse in-hospital outcomes. NSAIDs are an important analgesic modality and have a vital opioid-sparing role in pain management. Patients and clinicians should be reassured by these findings that NSAIDs are safe in the context of the pandemic.
 
-Altmetric score: 2643[https://doi.org/10.1016/S2665-9913(21)00104-1]
+Altmetric score: 2621[https://doi.org/10.1016/S2665-9913(21)00104-1]
 
 
 # Role of blood cytokines IL-6 and GM-CSF in severe COVID-19
@@ -165,7 +286,7 @@ roles. With more research, we can see if GM-CSF could be used as a
 marker in early disease to identify those at risk of going on to develop
 more severe symptoms.
 
-Altmetric score: 1265[https://doi.org/10.1126/sciimmunol.abg9873]
+Altmetric score: 1363[https://doi.org/10.1126/sciimmunol.abg9873]
 
 
 # T cells target many different parts of the virus
@@ -176,7 +297,7 @@ Altmetric score: 1265[https://doi.org/10.1126/sciimmunol.abg9873]
 
 This study by Yanchung Peng, Alex Mentzer, Tao Dong and colleagues reveals that the immune system responds to many different parts of the SARS-CoV-2 virus. This will influence vaccine design, which often focuses only on the most prominent parts of the virus. It also reveals key differences in the way immune cells fight the virus in patients who have mild disease, helping us to better understand how some people are able to fight it off without becoming very sick.
 
-Altmetric score: 632[https://doi.org/10.1038/s41590-020-0782-6]
+Altmetric score: 777[https://doi.org/10.1038/s41590-020-0782-6]
 
 
 # Setting Serology Standards
@@ -200,7 +321,7 @@ persons recovered from infection. Our findings have highlighted how this
 virus can mutate and the need for ongoing molecular surveillance to
 guide development and usage of vaccines and therapeutics.
 
-Altmetric score: 450[https://doi.org/10.1016/j.cell.2021.01.037]
+Altmetric score: 447[https://doi.org/10.1016/j.cell.2021.01.037]
 
 
 # SARS-CoV-2 surface and air contamination in a healthcare setting
@@ -214,7 +335,7 @@ the potential risk from surface and air contamination in managing
 COVID-19, and the need for effective use of PPE, social distancing, and
 hand/surface hygiene.
 
-Altmetric score: 42[https://doi.org/10.1093/cid/ciaa905]
+Altmetric score: 157[https://doi.org/10.1093/cid/ciaa905]
 
 
 # Impact of ethnicity
@@ -224,17 +345,6 @@ Altmetric score: 42[https://doi.org/10.1093/cid/ciaa905]
 We have carefully studied the effect of ethnicity on outcomes in hospitalised patients, revealing the effect of comorbidities in mediating part of the increased susceptibility in some ethic groups.
 
 Altmetric score: 15[http://dx.doi.org/10.2139/ssrn.3618215]
-
-
-# Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies
-
-[Lancet Pre-Prints 5 Jan 2021](https://doi.org/10.2139/ssrn.3739821)
-
-Hybrid DABA displayed attributes necessary for accurate and sensitive
-detection of antibody to SARS-CoV-2 to predict neutralising activity and
-the vaccine response.
-
-[https://doi.org/10.2139/ssrn.3739821]
 
 
 # Supporting vaccine development
@@ -247,7 +357,7 @@ characterise the immunological properties of COVID-19. This was
 essential to the development of the viral vectored coronavirus vaccine
 developed by the Oxford COVID Vaccine Trial Group.
 
-Altmetric score: 15533[https://doi.org/10.1016/S0140-6736(20)31604-4]
+Altmetric score: 15125[https://doi.org/10.1016/S0140-6736(20)31604-4]
 
 
 # ICECAP autopsy study
@@ -256,7 +366,7 @@ Altmetric score: 15533[https://doi.org/10.1016/S0140-6736(20)31604-4]
 
 ISARIC 4C resources and consortium partners supported the COVID-19 post-mortem case series. This is one of several pieces of evidence that changes the model of COVID pathogenesis, supporting a primary role for the host immune system in causing fatal disease.
 
-Altmetric score: 67[https://doi.org/10.1164/rccm.202008-3265OC]
+Altmetric score: 74[https://doi.org/10.1164/rccm.202008-3265OC]
 
 
 # Viral RNA found in blood is not infectious
@@ -290,7 +400,7 @@ amplicon-based detection and subsequent sequencing are feasible for
 identifying the SARS-CoV-2 genome or nucleic acid in samples from
 patients with COVID-19.
 
-Altmetric score: 11[http://doi.org/10.3390/v12101164]
+Altmetric score: 10[http://doi.org/10.3390/v12101164]
 
 
 # Adverse outcomes in COVID-19 patients with underlying respiratory conditions
@@ -303,7 +413,7 @@ symptoms is common and patients with asthma were more likely, and those
 with chronic pulmonary disease less likely, to receive critical care
 than patients without an underlying respiratory condition**.**
 
-Altmetric score: 219[https://doi.org/10.1016/s2213-2600(21)00013-8]
+Altmetric score: 207[https://doi.org/10.1016/s2213-2600(21)00013-8]
 
 
 # Pulmonary Microthrombosis and Vasculitis in Life-Threatening Respiratory Virus Diseases
@@ -334,7 +444,7 @@ while ICNARC collates detailed data from adults in the intensive care
 setting. The study has also been supported by Health Data Research UK as
 part of its UK response to COVID-19.
 
-Altmetric score: 45[http://doi.org/10.1183/13993003.01809-2020]
+Altmetric score: 42[http://doi.org/10.1183/13993003.01809-2020]
 
 
 # Outcomes of hospitalised COVID-19 patients with interstitial lung disease
@@ -349,7 +459,7 @@ study showed that patients with ILD should follow self-isolation
 guidelines for vulnerable individuals and be prioritised for
 vaccinations.
 
-Altmetric score: 103[https://doi.org/10.1164/rccm.202007-2794oc]
+Altmetric score: 101[https://doi.org/10.1164/rccm.202007-2794oc]
 
 
 # Outcomes of COVID-19 hospitalisation among patients with HIV
@@ -362,7 +472,7 @@ hospitalized with COVID-19 at 207 centers across the UK, were compared.
 HIV-positive status was associated with an increased risk of day-28
 mortality among patients hospitalised for COVID-19.
 
-Altmetric score: 31[https://doi.org/10.1093/cid/ciaa1605]
+Altmetric score: 30[https://doi.org/10.1093/cid/ciaa1605]
 
 
 # Co-Infections, Secondary Infections, and Antimicrobial Usage
@@ -382,7 +492,7 @@ Altmetric score: 622[https://doi.org/10.1016/S2666-5247(21)00090-2]
 
 We proposed and established a Diagnostic Evaluation Platform at the University of Oxford (led by Dr Alex Mentzer) which is already being used to provide evidence to the UK government about the performance of new diagnostic and antibody tests. This work is essential because if tests work well they can save lives; if they don't, they can cause enormous damage.
 
-Altmetric score: 29[https://doi.org/10.12688/wellcomeopenres.15927.1]
+Altmetric score: 26[https://doi.org/10.12688/wellcomeopenres.15927.1]
 
 
 # COVID-19 and Cancer
@@ -430,7 +540,16 @@ Because of the large scale of the ISARIC-4C study, we were able to detect robust
 
 These observations deepen our understanding of COVID-19 and will influence clinical diagnosis, risk prediction, and future mechanistic and clinical studies.
 
-Altmetric score: 10[https://doi.org/10.1101/2020.08.14.20168088]
+Altmetric score: 9[https://doi.org/10.1101/2020.08.14.20168088]
+
+
+# New immune biomarkers for COVID-19
+
+[Immunology September 2022](https://doi.org/10.1111/imm.13585)
+
+This study looked at a specific immune process in the body, known as the complement system. This mechanism allows microbes and damaged cells to be removed from the body, attacks pathogens, and promotes inflammation. This system is more active in patients with COVID-19 and blocking the system has been considered as a potential treatment. Blood samples from 682 hospitalised patients, including those from the ISARIC4C study, were compared to healthy individuals and multiple components of the complement system were shown to be altered. The levels of some of these markers, known as Ba, iC3b, and properdin, were shown to be associated with disease severity and death. Identifying these new biomarkers helps us to understand how the body responds to COVID-19 and allows new targets for treatment strategies.
+
+Altmetric score: 77[https://doi.org/10.1111/imm.13585]
 
 
 # Vulnerability of Down's syndrome (DS) patients to severe COVID-19
@@ -445,7 +564,7 @@ COVID-19 and risk factors for severe disease course are similar to the
 general population, individuals with DS present significantly higher
 rates of medical complications and mortality, especially from age 40.
 
-Altmetric score: 607[https://doi.org/10.1016/j.eclinm.2021.100769]
+Altmetric score: 623[https://doi.org/10.1016/j.eclinm.2021.100769]
 
 
 # Modelling the association of tiered restrictions with COVID-19 deaths and hospital admissions
@@ -457,7 +576,7 @@ mathematical model of transmission to data on hospital admissions.
 Results showed that lockdown measures outperformed less stringent
 restrictions in reducing cumulative deaths.
 
-Altmetric score: 240[https://doi.org/10.1016/s1473-3099(20)30984-1]
+Altmetric score: 247[https://doi.org/10.1016/s1473-3099(20)30984-1]
 
 
 # ISARIC4C within the global ISARIC-network
@@ -486,7 +605,7 @@ Groups of multi-model forecasts can inform the policy response to the
 Covid-19 pandemic by assessing future resource needs and expected
 population impact of morbidity and mortality.
 
-Altmetric score: 20[https://doi.org/10.1101/2020.11.11.20220962]
+Altmetric score: 28[https://doi.org/10.1101/2020.11.11.20220962]
 
 
 # Remdesivir Statistical Analysis Plan

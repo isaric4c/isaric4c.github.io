@@ -3,12 +3,13 @@
 
 import os
 import re
-import yaml
+import oyaml as yaml
 from numpy import mean
 from pyaltmetric import Altmetric
 
-outputdir = "../"
-outfile = "out.md"
+scriptpath = os.path.dirname(os.path.realpath(__file__))
+os.chdir(scriptpath)
+sourcedirectory = "../"
 
 def readheader(filecontents):
     '''
@@ -39,7 +40,6 @@ def readheader(filecontents):
         remainder = filecontents.replace(h,'')
     return h, remainder
 
-
 def replace_liquid(thistext, ymldic):
     '''
         Replace liquid-style {{page.doi}} tags with the relevant bit from yaml header
@@ -59,6 +59,11 @@ def get_altmetric(thisdoi):
     alt = a.doi(thisdoi.split("doi.org/")[1])
     return int(alt["score"])
 
+def slugify(value, allow_unicode=False):
+    value = str(value)
+    value = re.sub(r'[^\w\s-]', '', value.lower())
+    return re.sub(r'[-\s]+', '-', value).strip('-_')
+
 def replace_imagepath(thistext, root="../../"):
     figureformat = '!\[.*?\]\(.*?\).*?\n'
     figures_found = re.findall(figureformat, thistext)
@@ -72,16 +77,17 @@ def replace_imagepath(thistext, root="../../"):
         thistext = thistext.replace(f, g)
     return thistext
 
-
-outputfiles = [x for x in os.listdir(outputdir) if not x.startswith(".") and not x.startswith("Icon") and x.endswith(".md") and not x.startswith("_")]
+outputfiles = [x for x in os.listdir(sourcedirectory) if not x.startswith(".") and not x.startswith("Icon") and x.endswith(".md") and not x.startswith("_")]
 
 weightdict = {}
 outdict = {}
 filedict = {}
 altdict = {}
+projectdict = {}
+listdict = {}
 for filename in outputfiles:
     print (filename)
-    thispath = os.path.join(outputdir, filename)
+    thispath = os.path.join(sourcedirectory, filename)
     with open(thispath) as f:
         text = f.read()
         y, r = readheader(text)
@@ -109,6 +115,13 @@ for filename in outputfiles:
             except:
                 pass
             filedict[yml["doi"]] = filename
+        if "projects" in yml:
+            for project in yml["projects"]:
+                try:
+                    projectdict[project]
+                except:
+                    projectdict[project]=[]
+                projectdict[project].append(filename)
         r = replace_liquid(r, yml)
         r = replace_imagepath(r)
         weightdict[filename] = yml["weight"]
@@ -118,11 +131,24 @@ for filename in outputfiles:
                 str(altscore) + ref,
                 ])
             )
+        listdict[filename] = "- {}".format(yml["title"].strip())
+        if "doi" in yml:
+            listdict[filename] += (" [{}]".format(yml["doi"]))
 
-with open(outfile,"w") as o:
-    o.write("**ISARIC4C has produced {} papers with an average altmetric score of {:.0f}.**\n\n".format(len(altdict), mean(list(altdict.values()))))
-    for k,v, in [(k, weightdict[k]) for k in sorted(weightdict, key=weightdict.get, reverse=False)]:
-        o.write("{}\n".format(outdict[k]))
+
+print (projectdict)
+
+for project in projectdict:
+    textfile = os.path.join("reports", "{}.md".format(slugify(project)))
+    listfile = os.path.join("reports", "{}_list.md".format(slugify(project)))
+    with open(textfile,"w") as o:
+        with open(listfile,"w") as p:
+            o.write("**ISARIC4C has produced {} papers with an average altmetric score of {:.0f}.**\n\n".format(len(altdict), mean(list(altdict.values()))))
+            for k,v, in [(k, weightdict[k]) for k in sorted(weightdict, key=weightdict.get, reverse=False)]:
+                if k in projectdict[project]:
+                    o.write("{}\n".format(outdict[k]))
+                    p.write("{}\n".format(listdict[k]))
+
 
 
 

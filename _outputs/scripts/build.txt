@@ -1,2 +1,0 @@
-python collate_outputs.py
-fix -f out.md -p pdf -p docx -l -x
