@@ -1,8 +1,11 @@
 ---
-title: "Viral RNA found in blood is not infectious"
+title: Viral RNA found in blood is not infectious
 featured: false
 weight: 100
 doi: https://doi.org/10.12688/wellcomeopenres.16002.1
+projects:
+- isaric4c
+- odap
 ---
 
 [Wellcome Open Research 29 Jul 2020]({{page.doi}})
