@@ -380,6 +380,10 @@ def clean_data(df):
         df = df.dropna(subset = ['sample_date', 'age', 'patient_id'])
       
     df = clean_numeric_cols(df, ['AST', 'ALT'])
+    
+    # If both AST and ALT are missing, drop the row
+    # Repeat after cleaning numeric cols
+    df = df.dropna(subset = ['AST', 'ALT'], how = 'all')
   
     # Drop any values of age <0 or > 120
     df = df[ (df['age'] > 0) & (df['age'] < 120) ]
