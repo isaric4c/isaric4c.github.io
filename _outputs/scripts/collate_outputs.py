@@ -135,9 +135,6 @@ for filename in outputfiles:
         if "doi" in yml:
             listdict[filename] += (" [{}]".format(yml["doi"]))
 
-
-print (projectdict)
-
 for project in projectdict:
     textfile = os.path.join("reports", "{}.md".format(slugify(project)))
     listfile = os.path.join("reports", "{}_list.md".format(slugify(project)))

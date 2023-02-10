@@ -1,6 +1,4 @@
 ---
-title: 'Outbreak data analysis platform (ODAP)'
-layout: 'page'
+layout: redirect
+redirect: https://odap.ac.uk/
 ---
-
-{% include ap/analysis-platform.citemd.html %}

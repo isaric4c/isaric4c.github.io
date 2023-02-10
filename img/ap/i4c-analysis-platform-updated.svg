@@ -58,7 +58,7 @@
        sodipodi:role="line"
        id="tspan9173-4"
        x="322.4082"
-       y="1348.3796">GenOMICC Host whole genome (21,801)</tspan></text></g><rect
+       y="1348.3796">GenOMICC Host whole genome (8,213)</tspan></text></g><rect
    style="fill:#3386c1;fill-opacity:0.331378;stroke:none;stroke-width:2.11177;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect3255"
    width="918.72192"
@@ -752,7 +752,7 @@
      sodipodi:role="line"
      id="tspan9098"
      x="313.62939"
-     y="2081.5305">ISARIC4C TIER 0 (CO-CIN) (303,251)</tspan></text><rect
+     y="2081.5305">ISARIC4C TIER 0 (CO-CIN) (151,123)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9107"
    width="921.65045"
@@ -768,7 +768,7 @@
      sodipodi:role="line"
      id="tspan9109"
      x="313.62939"
-     y="2161.5305">ISARIC4C TIER 1/2 Multi-omics (2,914)</tspan></text><text
+     y="2161.5305">ISARIC4C TIER 1/2 Multi-omics (2,526)</tspan></text><text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:931.331;clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    x="2274.7664"
@@ -800,7 +800,7 @@
      sodipodi:role="line"
      id="tspan9165"
      x="313.62939"
-     y="2409.5305">COG-UK Viral variant data (21,230)</tspan></text><rect
+     y="2409.5305">COG-UK Viral variant data (21,234)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9171"
    width="921.65045"
@@ -816,7 +816,7 @@
      sodipodi:role="line"
      id="tspan9173"
      x="313.62939"
-     y="2491.5305">GenOMICC Host variant data (21,801)</tspan></text><rect
+     y="2491.5305">GenOMICC Host variant data (8,213)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9179"
    width="921.65045"
@@ -832,7 +832,7 @@
      sodipodi:role="line"
      id="tspan9181"
      x="313.6293"
-     y="2244.946">PHOSP clinical follow-up (1,075)</tspan></text><rect
+     y="2244.946">PHOSP clinical follow-up (1,077)</tspan></text><rect
    style="fill:#e10043;fill-opacity:0.184751;stroke:none;stroke-width:2.11513;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-opacity:1"
    id="rect9187"
    width="921.65045"
@@ -1247,7 +1247,7 @@
      sodipodi:role="line"
      id="tspan9109-1"
      x="315.96518"
-     y="564.19458">ISARIC4C TIER 0/1/2 hospitalised (2,914):</tspan></text><text
+     y="564.19458">ISARIC4C TIER 0/1/2 hospitalised (2,526):</tspan></text><text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    x="326.85135"
@@ -1329,7 +1329,7 @@
      sodipodi:role="line"
      id="tspan9181-3"
      x="316.99698"
-     y="974.51111">PHOSP clinical follow-up: (1,075) </tspan></text><text
+     y="974.51111">PHOSP clinical follow-up: (1,077) </tspan></text><text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;clip-rule:evenodd;fill:#3186c2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    x="292.97672"
