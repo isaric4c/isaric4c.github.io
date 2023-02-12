@@ -14,6 +14,18 @@ bodyClass: page-outputs-list
         <h2>{{ output.title }}</h2>
         <div class="altmetric-embed" data-badge-type="donut" data-doi="{{output.doi}}"></div>
         <div class="output-content">
+            {% if output.doi %}
+            {% if output.journal %}
+              <a href="{{output.doi}}">{{output.journal}} 
+              {% if output.month %}
+                {{output.month}} 
+                {% if output.year %}
+                  {{output.year}} 
+                {% endif %}
+              {% endif %}
+              </a>
+            {% endif %}
+          {% endif %}
           <p>{{ output.content }}</p>
         </div>
       </div>

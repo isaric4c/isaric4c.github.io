@@ -31,8 +31,22 @@ bodyClass: page-outputs-list
           <h2 class="output-title">
             <a href="{{site.baseurl}}{{ output.url }}">{{ output.title }}</a>
           </h2>
+          {% if output.doi %}
+            {% if output.journal %}
+              <a href="{{output.doi}}">{{output.journal}} 
+              {% if output.month %}
+                {{output.month}} 
+                {% if output.year %}
+                  {{output.year}} 
+                {% endif %}
+              {% endif %}
+              </a>
+            {% endif %}
+          {% endif %}
           <p>{{ output.content | markdownify | strip_html | truncate: 250 }}</p>
+        {% if output.doi %}
           <div class="altmetric-embed" data-badge-type="donut" data-doi="{{output.doi}}"></div>
+        {% endif %}
         </div>
       </div>
     </div>
@@ -40,3 +54,17 @@ bodyClass: page-outputs-list
     {% endfor %}
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

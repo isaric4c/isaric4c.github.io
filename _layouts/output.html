@@ -9,7 +9,19 @@ layout: default
     <div class="col-12 col-md-8">
       <div class="output output-single">
         <h1 class="title">{{page.title}}</h1>
-        <div class="altmetric-embed" data-badge-type="donut" data-doi="{{page.doi}}"></div>
+        {% if page.doi %}
+          <div class="altmetric-embed" data-badge-type="donut" data-doi="{{page.doi}}"></div>
+          {% if page.journal %}
+            <a href="{{page.doi}}">{{page.journal}} 
+            {% if page.month %}
+              {{page.month}} 
+              {% if page.year %}
+                {{page.year}} 
+              {% endif %}
+            {% endif %}
+            </a>
+          {% endif %}
+        {% endif %}
         <div class="content">{{content}}</div>
       </div>
     </div>
