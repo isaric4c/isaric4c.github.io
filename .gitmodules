@@ -1,0 +1,3 @@
+[submodule "_outputs"]
+	path = _outputs
+	url = https://github.com/ed-psh/_outputs
