@@ -26,11 +26,12 @@ Palmarini, Antonia Ho, Nicholas Price.
 ISARIC4C Investigators
 --------
 
-**Co-Lead Investigator (Consorium Lead)*: J Kenneth Baillie.
+**Co-Lead Investigator (Consorium Lead & joint CI)*: J Kenneth Baillie.
+
+**Co-Lead Investigator (Co-lead and protocol CI)*: Malcolm G Semple.
 
 **Co-Lead Investigator (Imperial Colllege)*: Peter JM Openshaw.
 
-**Co-Lead Investigator (Sponosr & Protocol CI)*: Malcolm G Semple.
 
 *Co-Investigator*:
 Beatrice Alex,
