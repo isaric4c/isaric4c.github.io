@@ -431,7 +431,8 @@ Seán Keating.
 
 *Project Administrator*:
 Cara Donegan,
-Rebecca G. Spencer.
+Rebecca G. Spencer,
+Primrose Chikowore.
 
 *Project Manager*:
 Chloe Donohue,
