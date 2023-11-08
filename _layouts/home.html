@@ -28,9 +28,10 @@ bodyClass: page-home
   <div class="container pt-6 pb-6 pb-md-10">
     <h3>Outputs</h3>
     <div class="row justify-content-start">
-      {% assign sortedoutputs = site.outputs | sort: "weight" | slice: 0,8 %}
-      {% for output in sortedoutputs %}
-      {% if output.title | strip_html | size > 10 %}
+    {% assign sortedoutputs = site.outputs | sort: "weight" | slice: 0,8 %}
+    {% for output in sortedoutputs %}
+      {% assign title_length = output.title | strip_html | size %}
+      {% if title_length > 10 %}
       <div class="col-12 col-md-4 mb-1 oop">
         <div class="output output-summary">
           <div class="output-content">
@@ -43,7 +44,7 @@ bodyClass: page-home
         </div>
       </div>
       {% endif %}
-      {% endfor %}
+    {% endfor %}
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
