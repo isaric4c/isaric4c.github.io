@@ -18,7 +18,7 @@ Since 2012 we have been preparing for outbreaks worldwide.
 *“…it has captured a large proportion of UK hospital cases and it has proven extremely useful to both SAGE and SPI-M. It has, for example, been vital in identifying risk factors associated with poor outcomes as well as well as early signs of the prevalence of hospital-acquired infection.”*
 
 Sir Patrick Vallance, UK Government Chief Scientific Adviser and Head of the Government Science and Engineering Profession, written evidence to Parliament
-24 July 2020
+(24 July 2020)
 
 <img class="img-fluid" src="img/ap/i4c-map-updated.png" width="80%">
 
