@@ -4,12 +4,21 @@ title: ISARIC4C
 description: The UK ISARIC Comprehensive Clinical Characterisation Collaboration.
 ---
 
-# ISARIC4C (Comprehensive Clinical Characterisation Collaboration)
+# ISARIC4C Comprehensive Clinical Characterisation Collaboration
 
-We are an open, inclusive UK-wide collaboration of doctors and scientists committed to answering urgent questions about emerging infections and public health threats quickly, openly, and for the benefit of all. 
+ISARIC4C is an open, inclusive UK-wide collaboration of doctors and scientists committed to answering urgent questions about emerging infections and public health threats quickly, openly, and for the benefit of all.
+
+ISARIC4C is the link between scientists, public health agencies, and NHS teams across the UK. 
 
 Since 2012 we have been preparing for outbreaks worldwide. 
 [International Severe Acute Respiratory Infection Consortium Clinical Characterisation Protocol](https://isaric.net/ccp). 
+
+## ISARIC4C was at the core of the UK's response to COVID-19
+
+*“…it has captured a large proportion of UK hospital cases and it has proven extremely useful to both SAGE and SPI-M. It has, for example, been vital in identifying risk factors associated with poor outcomes as well as well as early signs of the prevalence of hospital-acquired infection.”*
+
+Sir Patrick Vallance, UK Government Chief Scientific Adviser and Head of the Government Science and Engineering Profession, written evidence to Parliament
+24 July 2020
 
 <img class="img-fluid" src="img/ap/i4c-map-updated.png" width="80%">
 
