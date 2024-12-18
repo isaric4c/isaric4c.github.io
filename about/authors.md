@@ -28,9 +28,6 @@ ISARIC4C Investigators
 
 **Co-Lead Investigator (Consorium Lead & joint CI)*: J Kenneth Baillie.
 
-**Co-Lead Investigator (Imperial Colllege)*: 
-
-
 **Co-Lead Investigator (Protocol CI)*: Malcolm G Semple.
 
 *Co-Investigator*:
