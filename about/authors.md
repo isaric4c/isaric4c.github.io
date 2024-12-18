@@ -28,7 +28,8 @@ ISARIC4C Investigators
 
 **Co-Lead Investigator (Consorium Lead & joint CI)*: J Kenneth Baillie.
 
-**Co-Lead Investigator (Imperial Colllege)*: Peter JM Openshaw.
+**Co-Lead Investigator (Imperial Colllege)*: 
+
 
 **Co-Lead Investigator (Protocol CI)*: Malcolm G Semple.
 
@@ -70,6 +71,7 @@ Alison M Meynert,
 Shona C Moore,
 Mahdad Noursadeghi,
 Michael Olanipekun,
+Peter JM Openshaw,
 Anthonia Osagie,
 Massimo Palmarini ,
 Carlo Palmieri,
@@ -440,5 +442,10 @@ Fiona Griffiths,
 Hayley Hardwick,
 Wilna Oosthuyzen.
 
-## Acknowledgements
+## Acknowledgement statement for publications
+
 This work uses data provided by patients and collected by the NHS as part of their care and support #DataSavesLives. We are extremely grateful to the 2,648 frontline NHS clinical and research staff and volunteer medical students, who collected this data in challenging circumstances; and the generosity of the participants and their families for their individual contributions in these difficult times. We also acknowledge the support of Jeremy J Farrar and Nahoko Shindo.
+
+ISARIC4C is funded by UKRI grants MR/Y030877/1, MC_PC_20004, MC_PC_19025, MC_PC_1905, MRNO2995X/1, and MC_PC_20029. For the purpose of open access, the author has applied a CC BY public copyright licence to any Author Accepted Manuscript version arising from this submission.
+
+
