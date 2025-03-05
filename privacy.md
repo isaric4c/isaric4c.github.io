@@ -102,14 +102,9 @@ shared with any commercial 3rd parties outside of the CCP-UK trial team and will
 be used for any automated decision making or profiling. If you would like 
 to have this data withdrawn, please contact the study team using the details given below.
 
-**For COVID-19**, consent is not needed to obtain and use this extra data as described above, 
-because on 20th March 2020, the DHSC issued notice under Regulation 3(4) of
-the Health Service Control of Patient Information Regulations 2002 
-(COPI Reg 3(4) for short).This COPI Reg 3(4) notice requires confidential 
-information to be processed and disseminated for COVID-19 purposes only. 
-The COPI notice has since been extended multiple times, most recently on 
-27th August 2021 which allowed for its use until 31st March 2022. 
-We have ceased collection COVID data and so with Health Research Authority Confidentiality Advisory Group approval, we will transition to rely on Section 251 Regulation 5 of the NHS Act 2006 from 30th June 2022, to collect and retain personal identifiers with clinical information without consent for the purpose of conducting COVID-19 research (last reviewed by ISARIC4C investigators 18 May 2022). 
+**For COVID-19**, consent is not needed to obtain and use this extra data as described above, because on 20th March 2020, the DHSC issued notice under Regulation 3(4) of the Health Service Control of Patient Information Regulations 2002 (COPI Reg 3(4) for short).This COPI Reg 3(4) notice requires confidential information to be processed and disseminated for COVID-19 purposes only. The COPI notice has since been extended multiple times, most recently on 27th August 2021 which allowed for its use until 31st March 2022. We have ceased collection COVID data and so with Health Research Authority Confidentiality Advisory Group approval, we will transition to rely on Section 251 Regulation 5 of the NHS Act 2006 from 30th June 2022 to July 2025, to collect and retain personal identifiers with clinical information without consent for the purpose of conducting COVID-19 research (last reviewed by ISARIC4C investigators 18 May 2022). We confirmed that from February 2023 onwards, we are in full compliance with Regulation 3 of the Health Service (Control of Patient Information Regulations 2002) (COPI). This regulation will govern sharing of updated information from NHS England (former NHS Digital) following the COVID 19 pandemic.
+
+For other infectious diseases outbreaks and threats of public health interest, consented data is collected and compliance with Regulation 3 will apply for data sharing with NHS England (former NHS Digital). NHS England will use direct identifiers from this data to prepare a medical dataset as part of the response escalation.
 
 ### CCP-UK Patient Data Notification v0.2 Documents
 * [PDF](/files/CCP-UK Patient Data Notification v0.2 05MAY2022.pdf)
