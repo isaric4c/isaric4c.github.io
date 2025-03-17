@@ -106,10 +106,6 @@ to have this data withdrawn, please contact the study team using the details giv
 
 For other infectious diseases outbreaks and threats of public health interest, consented data is collected and compliance with Regulation 3 will apply for data sharing with NHS England (former NHS Digital). NHS England will use direct identifiers from this data to prepare a medical dataset as part of the response escalation.
 
-### CCP-UK Patient Data Notification v0.2 Documents
-* [PDF](/files/CCP-UK Patient Data Notification v0.2 05MAY2022.pdf)
-* [Word .docx](/files/CCP-UK Patient Data Notification v0.2 05MAY2022 Clean.docx)
-
 ### Participants in Scotland:
 
 We will send your unique study number, CHI number, date of birth, postcode 
