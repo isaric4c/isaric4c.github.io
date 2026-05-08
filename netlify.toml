@@ -4,4 +4,3 @@
 
 [build.environment]
   JEKYLL_ENV = "production"
-  RUBY_VERSION = "3.4.1"
