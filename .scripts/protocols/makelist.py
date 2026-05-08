@@ -14,7 +14,6 @@ import os
 import re
 from io import StringIO
 
-import pandas as pd
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
@@ -133,15 +132,18 @@ def getversion(thisstring):
 def sort_by_version(thislist, rev=True):
     if len(thislist) < 2:
         return thislist
-    d = {x: getversion(x) for x in thislist}
-    maxlen = max([len(d[x]) for x in d])
-    for x in d:
-        while len(d[x]) < maxlen:
-            d[x].append(0)
-    df = pd.DataFrame.from_dict(d, orient="index")
-    df['name'] = df.index
-    df.sort_values(by=list(df.columns), inplace=True, ascending=[False for x in df.columns][:-1] + [True])
-    return (list(df.index))
+    versions = {name: getversion(name) for name in thislist}
+    maxlen = max(len(v) for v in versions.values())
+    padded_versions = {
+        name: tuple(v + [0] * (maxlen - len(v)))
+        for name, v in versions.items()
+    }
+
+    def sort_key(name):
+        version_key = tuple(-n for n in padded_versions[name])
+        return version_key, name.lower()
+
+    return sorted(thislist, key=sort_key)
 
 
 def formatdir(thisdir, depth=0):
