@@ -26,12 +26,9 @@ Palmarini, Antonia Ho, Nicholas Price.
 ISARIC4C Investigators
 --------
 
-**Co-Lead Investigator (Consorium Lead & joint CI)*: J Kenneth Baillie.
+**Co-Lead Investigator*: Lance Turtle, Kenneth Baillie, and Malcolm G Semple.
 
-**Co-Lead Investigator (Protocol CI)*: Malcolm G Semple.
-
-*Co-Investigator*:
-Beatrice Alex,
+*Co-Investigators*:
 Petros Andrikopoulos,
 Benjamin Bach,
 Wendy S Barclay,

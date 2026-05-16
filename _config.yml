@@ -47,6 +47,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-redirect-from
 
 destination: _site
 
