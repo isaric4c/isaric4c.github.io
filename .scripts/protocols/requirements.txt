@@ -1,2 +1,2 @@
 pdfminer.six==20201018
-requests==2.25.1
+requests==2.31.0
